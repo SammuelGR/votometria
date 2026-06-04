@@ -48,7 +48,9 @@ This section tracks present-day expectation, interest, and their correlations:
 
 ### B. Past Results ("Resultados Passados")
 
-This section serves as a historical reference (e.g., 2018 and 2022 elections): 5. **Total per Candidate**:
+This section serves as a historical reference (e.g., 2018 and 2022 elections):
+
+5. **Total per Candidate**:
 
 - _Source_: Tribunal Superior Eleitoral (TSE) official CSV data.
 - _Visualization_: Vertical bar chart of valid votes per candidate for a selected election year.
