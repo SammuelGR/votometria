@@ -19,7 +19,7 @@ The application helps users answer two main focus questions:
 
 This project is structured as a monorepo containing isolated modules:
 
-- **/scripts**: Contains the data ingestion backend (Python, virtual environment, and ETL scripts).
+- **/scripts**: Contains Python ETL pipelines organized by shared core utilities, extractors, transformers, loaders, pipelines, and database models.
 - **/frontend**: Reserved for the web-based visualization frontend application (dashboard).
 - **/docs**: Contains documentation schemas, specifications, and guidelines.
 

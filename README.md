@@ -4,7 +4,7 @@ Projeto da disciplina de Análise de Dados. O objetivo deste projeto é construi
 
 A arquitetura do projeto segue um modelo de monorepo estruturado para processamento e visualização:
 
-- `/scripts`: Scripts de extração (ETL) e ingestão de dados em Python.
+- `/scripts`: Pipelines de extração, transformação e carga (ETL) em Python.
 - `/backend` (Futuro): Camada de servidor API Python.
 - `/frontend` (Futuro): Visualização interativa desenvolvida em React + TypeScript.
 
@@ -37,7 +37,7 @@ Esta etapa conecta à API pública da Polymarket para coletar as probabilidades 
 2. **Instalar as dependências**:
 
    ```bash
-   pip install -r requirements.txt
+   python -m pip install -r requirements.txt
    ```
 
 3. **Configurar as credenciais do banco**:
@@ -49,5 +49,5 @@ Esta etapa conecta à API pública da Polymarket para coletar as probabilidades 
 Com o ambiente virtual ativo e dentro da pasta `scripts`, execute:
 
 ```bash
-python fetch_polymarket.py
+python main.py
 ```

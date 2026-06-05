@@ -17,7 +17,7 @@ class PolymarketProbability(Base):
     market_id = Column(String(255), nullable=False)   # Unique identifier of the token/market in Polymarket
 
     __table_args__ = (
-        Index('idx_candidate_timestamp', 'candidate_name', 'timestamp'),
+        Index('idx_market_timestamp', 'market_id', 'timestamp'),
     )
 
     def __repr__(self):

@@ -15,34 +15,31 @@ The application uses SQLAlchemy to map historical probability snapshots to a Pos
 | `id`             | `Integer` (PK, autoincrement) | No       | Database primary key.                                                 |
 | `candidate_name` | `String(100)`                 | No       | Name of the candidate (extracted from `groupItemTitle`).              |
 | `probability`    | `Float`                       | No       | Victory probability (from outcome price `'p'`, range: `0.0` - `1.0`). |
-| `timestamp`      | `DateTime`                    | No       | UTC timestamp of the snapshot (converted from Unix epoch `'t'`).      |
+| `timestamp`      | `DateTime`                    | No       | UTC timestamp of the hourly snapshot (converted from Unix epoch `'t'`). |
 | `market_id`      | `String(255)`                 | No       | Unique identifier of the specific binary market in Polymarket.        |
 
 ### Performance Indexing
 
-To support fast line-chart queries on the frontend, the database schema includes:
+To support incremental ingestion and fast time-series queries, the database schema includes:
 
-- **Composite Index**: `(candidate_name, timestamp)` (named `idx_candidate_timestamp`) to optimize temporal queries filtering by candidate.
+- **Composite Index**: `(market_id, timestamp)` (named `idx_market_timestamp`) to optimize timestamp lookups for each Polymarket market.
 
 ---
 
-## 2. In-Memory Deduplication Logic
+## 2. Incremental Ingestion & Deduplication
 
-To prevent writing duplicate records of the same daily price snapshots, `fetch_polymarket.py` implements an optimized in-memory validation step:
+To avoid fetching the full Polymarket history on every run, the ETL pipeline derives the latest persisted timestamp per market before calling the CLOB history endpoint:
 
-1. **Pre-fetch Existing Pairs**: Before iterating over the candidates' histories, the pipeline queries all existing `(market_id, timestamp)` pairs from the database:
+1. **Latest Timestamp Lookup**: The loader queries the latest known timestamp for each market:
    ```python
-   existing_records = set(
-       session.query(PolymarketProbability.market_id, PolymarketProbability.timestamp).all()
-   )
+   session.query(
+       PolymarketProbability.market_id,
+       func.max(PolymarketProbability.timestamp),
+   ).group_by(PolymarketProbability.market_id)
    ```
-2. **Batch Checking**: For each daily history point, it constructs `db_timestamp = datetime.utcfromtimestamp(t_sec)` and performs an $O(1)$ set lookup:
-   ```python
-   if (market_id, db_timestamp) in existing_records:
-       continue  # Skip already saved data points
-   ```
-3. **Session Append & Set Cache Update**: If the point is new, it instantiates the record, adds it to the SQLAlchemy session, and adds the tuple to the `existing_records` set to prevent double-inserting if the API payload contains duplicate items.
-4. **Transaction Commit**: Once all candidate histories are parsed, a single transaction commit persists the batch to PostgreSQL.
+2. **Windowed API Request**: The pipeline converts that value into a CLOB `startTs` parameter, applies a 24-hour overlap to avoid missing late or boundary records, and requests hourly points with `fidelity=60`.
+3. **Targeted Duplicate Check**: Before inserting transformed records, the loader queries only the `(market_id, timestamp)` pairs present in the current batch.
+4. **Transaction Commit**: Once all candidate histories are parsed and queued, a single transaction commit persists the batch to PostgreSQL.
 
 ---
 

@@ -28,7 +28,10 @@ This document explains the configuration, endpoints, and logic used to fetch ele
 - **CLOB History Endpoint**: `https://clob.polymarket.com/prices-history`
 - **Query Parameters**:
   - `market`: The `"Yes"` token ID (resolved from `clobTokenIds[0]`).
-  - `interval`: `"max"` (gets the full daily historical series from the token's creation date).
+  - `fidelity`: `60` minutes. The project stores hourly Polymarket snapshots.
+  - `startTs`: Unix timestamp used for incremental updates when previous data exists.
+  - `endTs`: Current Unix timestamp at execution time.
+  - `interval`: `"max"` is used only when no previous timestamp exists for that market.
 - **Response Format**:
   - The API returns a list of data point dictionaries:
     ```json
@@ -48,4 +51,17 @@ This document explains the configuration, endpoints, and logic used to fetch ele
 ## 4. Ingestion & Execution Strategy
 
 - **Update Frequency**: Polymarket data changes rapidly. The pipeline is designed to be executed on a scheduled trigger **daily** or **every 4 hours** to capture fresh snapshots.
-- **Incremental Runs**: The ETL script supports incremental runs. Since it queries existing database timestamps, re-running the script will only append the latest daily snapshots generated since the last execution.
+- **Incremental Runs**: The ETL pipeline queries the latest persisted timestamp per `market_id`, applies a 24-hour safety overlap, and requests only the needed CLOB history window using `startTs`, `endTs`, and `fidelity=60`.
+- **Deduplication**: The loader checks only the `(market_id, timestamp)` pairs from the current batch before inserting records.
+
+---
+
+## 5. Scripts Architecture
+
+The Polymarket integration follows a modular ETL layout:
+
+- `scripts/extractors/polymarket.py`: Calls Polymarket APIs and returns raw payloads.
+- `scripts/transformers/polymarket.py`: Parses markets, resolves `"Yes"` token IDs, filters placeholders, and converts price history points into internal records.
+- `scripts/loaders/polymarket.py`: Reads existing database state and persists new probability records.
+- `scripts/pipelines/polymarket.py`: Orchestrates the full extraction, transformation, incremental window calculation, and loading flow.
+- `scripts/main.py`: Entry point for running the current ETL pipeline.
