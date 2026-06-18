@@ -35,6 +35,12 @@ dist-ssr/
 *.sln
 *.swp
 
+# Generated Google Trends timestamped snapshots (keep only canonical files).
+# Matches the _YYYYMMDD_HHMMSS suffix (8 digits _ 6 digits) so canonical files
+# such as google_trends_2018_batch_01.csv stay tracked.
+dados-brutos/*_[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]_[0-9][0-9][0-9][0-9][0-9][0-9].csv
+dados-processados/*_[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]_[0-9][0-9][0-9][0-9][0-9][0-9].csv
+
 # OS Files
 .DS_Store
 Thumbs.db

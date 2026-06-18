@@ -1,0 +1,690 @@
+date,election_year,term,interest_raw,interest_scaled,geo,timeframe,source,batch_id,anchor_term,is_anchor,is_partial,collected_at
+2017-12-31,2018,Jair Bolsonaro,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-01-07,2018,Jair Bolsonaro,4,4.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-01-14,2018,Jair Bolsonaro,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-01-21,2018,Jair Bolsonaro,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-01-28,2018,Jair Bolsonaro,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-02-04,2018,Jair Bolsonaro,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-02-11,2018,Jair Bolsonaro,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-02-18,2018,Jair Bolsonaro,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-02-25,2018,Jair Bolsonaro,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-03-04,2018,Jair Bolsonaro,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-03-11,2018,Jair Bolsonaro,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-03-18,2018,Jair Bolsonaro,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-03-25,2018,Jair Bolsonaro,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-04-01,2018,Jair Bolsonaro,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-04-08,2018,Jair Bolsonaro,5,5.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-04-15,2018,Jair Bolsonaro,4,4.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-04-22,2018,Jair Bolsonaro,4,4.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-04-29,2018,Jair Bolsonaro,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-05-06,2018,Jair Bolsonaro,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-05-13,2018,Jair Bolsonaro,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-05-20,2018,Jair Bolsonaro,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-05-27,2018,Jair Bolsonaro,4,4.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-06-03,2018,Jair Bolsonaro,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-06-10,2018,Jair Bolsonaro,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-06-17,2018,Jair Bolsonaro,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-06-24,2018,Jair Bolsonaro,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-07-01,2018,Jair Bolsonaro,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-07-08,2018,Jair Bolsonaro,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-07-15,2018,Jair Bolsonaro,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-07-22,2018,Jair Bolsonaro,6,6.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-07-29,2018,Jair Bolsonaro,15,15.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-08-05,2018,Jair Bolsonaro,14,14.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-08-12,2018,Jair Bolsonaro,13,13.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-08-19,2018,Jair Bolsonaro,12,12.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-08-26,2018,Jair Bolsonaro,30,30.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-09-02,2018,Jair Bolsonaro,74,74.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-09-09,2018,Jair Bolsonaro,58,58.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-09-16,2018,Jair Bolsonaro,43,43.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-09-23,2018,Jair Bolsonaro,43,43.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-09-30,2018,Jair Bolsonaro,74,74.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-10-07,2018,Jair Bolsonaro,95,95.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-10-14,2018,Jair Bolsonaro,49,49.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-10-21,2018,Jair Bolsonaro,46,46.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-10-28,2018,Jair Bolsonaro,100,100.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-11-04,2018,Jair Bolsonaro,28,28.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-11-11,2018,Jair Bolsonaro,22,22.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-11-18,2018,Jair Bolsonaro,18,18.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-11-25,2018,Jair Bolsonaro,18,18.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-12-02,2018,Jair Bolsonaro,19,19.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-12-09,2018,Jair Bolsonaro,20,20.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-12-16,2018,Jair Bolsonaro,18,18.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-12-23,2018,Jair Bolsonaro,21,21.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2018-12-30,2018,Jair Bolsonaro,61,61.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,True,False,2026-06-18T18:37:07
+2017-12-31,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-07,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-14,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-21,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-28,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-04,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-11,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-18,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-25,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-04,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-11,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-18,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-25,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-01,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-08,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-15,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-22,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-29,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-06,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-13,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-20,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-27,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-03,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-10,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-17,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-24,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-01,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-08,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-15,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-22,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-29,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-05,2018,Fernando Haddad,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-12,2018,Fernando Haddad,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-19,2018,Fernando Haddad,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-26,2018,Fernando Haddad,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-02,2018,Fernando Haddad,4,4.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-09,2018,Fernando Haddad,9,9.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-16,2018,Fernando Haddad,12,12.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-23,2018,Fernando Haddad,11,11.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-30,2018,Fernando Haddad,15,15.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-07,2018,Fernando Haddad,40,40.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-14,2018,Fernando Haddad,26,26.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-21,2018,Fernando Haddad,19,19.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-28,2018,Fernando Haddad,18,18.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-04,2018,Fernando Haddad,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-11,2018,Fernando Haddad,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-18,2018,Fernando Haddad,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-25,2018,Fernando Haddad,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-02,2018,Fernando Haddad,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-09,2018,Fernando Haddad,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-16,2018,Fernando Haddad,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-23,2018,Fernando Haddad,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-30,2018,Fernando Haddad,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2017-12-31,2018,Ciro Gomes,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-07,2018,Ciro Gomes,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-14,2018,Ciro Gomes,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-21,2018,Ciro Gomes,4,4.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-28,2018,Ciro Gomes,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-04,2018,Ciro Gomes,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-11,2018,Ciro Gomes,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-18,2018,Ciro Gomes,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-25,2018,Ciro Gomes,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-04,2018,Ciro Gomes,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-11,2018,Ciro Gomes,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-18,2018,Ciro Gomes,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-25,2018,Ciro Gomes,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-01,2018,Ciro Gomes,4,4.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-08,2018,Ciro Gomes,11,11.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-15,2018,Ciro Gomes,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-22,2018,Ciro Gomes,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-29,2018,Ciro Gomes,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-06,2018,Ciro Gomes,4,4.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-13,2018,Ciro Gomes,4,4.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-20,2018,Ciro Gomes,5,5.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-27,2018,Ciro Gomes,8,8.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-03,2018,Ciro Gomes,5,5.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-10,2018,Ciro Gomes,5,5.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-17,2018,Ciro Gomes,5,5.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-24,2018,Ciro Gomes,4,4.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-01,2018,Ciro Gomes,4,4.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-08,2018,Ciro Gomes,4,4.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-15,2018,Ciro Gomes,7,7.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-22,2018,Ciro Gomes,6,6.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-29,2018,Ciro Gomes,14,14.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-05,2018,Ciro Gomes,18,18.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-12,2018,Ciro Gomes,11,11.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-19,2018,Ciro Gomes,11,11.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-26,2018,Ciro Gomes,33,33.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-02,2018,Ciro Gomes,29,29.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-09,2018,Ciro Gomes,48,48.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-16,2018,Ciro Gomes,52,52.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-23,2018,Ciro Gomes,35,35.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-30,2018,Ciro Gomes,88,88.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-07,2018,Ciro Gomes,78,78.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-14,2018,Ciro Gomes,13,13.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-21,2018,Ciro Gomes,11,11.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-28,2018,Ciro Gomes,11,11.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-04,2018,Ciro Gomes,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-11,2018,Ciro Gomes,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-18,2018,Ciro Gomes,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-25,2018,Ciro Gomes,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-02,2018,Ciro Gomes,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-09,2018,Ciro Gomes,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-16,2018,Ciro Gomes,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-23,2018,Ciro Gomes,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-30,2018,Ciro Gomes,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2017-12-31,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-07,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-14,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-21,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-28,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-04,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-11,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-18,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-25,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-04,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-11,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-18,2018,Geraldo Alckmin,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-25,2018,Geraldo Alckmin,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-01,2018,Geraldo Alckmin,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-08,2018,Geraldo Alckmin,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-15,2018,Geraldo Alckmin,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-22,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-29,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-06,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-13,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-20,2018,Geraldo Alckmin,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-27,2018,Geraldo Alckmin,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-03,2018,Geraldo Alckmin,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-10,2018,Geraldo Alckmin,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-17,2018,Geraldo Alckmin,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-24,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-01,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-08,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-15,2018,Geraldo Alckmin,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-22,2018,Geraldo Alckmin,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-29,2018,Geraldo Alckmin,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-05,2018,Geraldo Alckmin,4,4.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-12,2018,Geraldo Alckmin,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-19,2018,Geraldo Alckmin,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-26,2018,Geraldo Alckmin,6,6.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-02,2018,Geraldo Alckmin,6,6.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-09,2018,Geraldo Alckmin,5,5.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-16,2018,Geraldo Alckmin,5,5.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-23,2018,Geraldo Alckmin,6,6.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-30,2018,Geraldo Alckmin,10,10.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-07,2018,Geraldo Alckmin,10,10.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-14,2018,Geraldo Alckmin,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-21,2018,Geraldo Alckmin,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-28,2018,Geraldo Alckmin,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-04,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-11,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-18,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-25,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-02,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-09,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-16,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-23,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-30,2018,Geraldo Alckmin,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2017-12-31,2018,Marina Silva,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-07,2018,Marina Silva,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-14,2018,Marina Silva,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-21,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-28,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-04,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-11,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-18,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-25,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-04,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-11,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-18,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-25,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-01,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-08,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-15,2018,Marina Silva,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-22,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-29,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-06,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-13,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-20,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-27,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-03,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-10,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-17,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-24,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-01,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-08,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-15,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-22,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-29,2018,Marina Silva,4,4.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-05,2018,Marina Silva,5,5.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-12,2018,Marina Silva,4,4.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-19,2018,Marina Silva,6,6.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-26,2018,Marina Silva,16,16.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-02,2018,Marina Silva,10,10.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-09,2018,Marina Silva,10,10.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-16,2018,Marina Silva,10,10.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-23,2018,Marina Silva,10,10.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-30,2018,Marina Silva,19,19.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-07,2018,Marina Silva,21,21.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-14,2018,Marina Silva,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-21,2018,Marina Silva,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-28,2018,Marina Silva,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-04,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-11,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-18,2018,Marina Silva,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-25,2018,Marina Silva,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-02,2018,Marina Silva,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-09,2018,Marina Silva,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-16,2018,Marina Silva,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-23,2018,Marina Silva,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-30,2018,Marina Silva,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_01,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2017-12-31,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-07,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-14,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-21,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-28,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-04,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-11,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-18,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-25,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-04,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-11,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-18,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-25,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-01,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-08,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-15,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-22,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-29,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-06,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-13,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-20,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-27,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-03,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-10,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-17,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-24,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-01,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-08,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-15,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-22,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-29,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-05,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-12,2018,João Amoêdo,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-19,2018,João Amoêdo,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-26,2018,João Amoêdo,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-02,2018,João Amoêdo,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-09,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-16,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-23,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-30,2018,João Amoêdo,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-07,2018,João Amoêdo,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-14,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-21,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-28,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-04,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-11,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-18,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-25,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-02,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-09,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-16,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-23,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-30,2018,João Amoêdo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2017-12-31,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-07,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-14,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-21,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-28,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-04,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-11,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-18,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-25,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-04,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-11,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-18,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-25,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-01,2018,Henrique Meirelles,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-08,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-15,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-22,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-29,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-06,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-13,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-20,2018,Henrique Meirelles,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-27,2018,Henrique Meirelles,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-03,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-10,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-17,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-24,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-01,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-08,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-15,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-22,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-29,2018,Henrique Meirelles,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-05,2018,Henrique Meirelles,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-12,2018,Henrique Meirelles,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-19,2018,Henrique Meirelles,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-26,2018,Henrique Meirelles,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-02,2018,Henrique Meirelles,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-09,2018,Henrique Meirelles,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-16,2018,Henrique Meirelles,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-23,2018,Henrique Meirelles,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-30,2018,Henrique Meirelles,5,5.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-07,2018,Henrique Meirelles,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-14,2018,Henrique Meirelles,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-21,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-28,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-04,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-11,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-18,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-25,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-02,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-09,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-16,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-23,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-30,2018,Henrique Meirelles,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2017-12-31,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-07,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-14,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-21,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-28,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-04,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-11,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-18,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-25,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-04,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-11,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-18,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-25,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-01,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-08,2018,Alvaro Dias,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-15,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-22,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-29,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-06,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-13,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-20,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-27,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-03,2018,Alvaro Dias,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-10,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-17,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-24,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-01,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-08,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-15,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-22,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-29,2018,Alvaro Dias,5,5.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-05,2018,Alvaro Dias,10,10.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-12,2018,Alvaro Dias,4,4.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-19,2018,Alvaro Dias,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-26,2018,Alvaro Dias,4,4.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-02,2018,Alvaro Dias,5,5.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-09,2018,Alvaro Dias,5,5.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-16,2018,Alvaro Dias,6,6.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-23,2018,Alvaro Dias,6,6.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-30,2018,Alvaro Dias,18,18.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-07,2018,Alvaro Dias,11,11.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-14,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-21,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-28,2018,Alvaro Dias,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-04,2018,Alvaro Dias,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-11,2018,Alvaro Dias,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-18,2018,Alvaro Dias,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-25,2018,Alvaro Dias,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-02,2018,Alvaro Dias,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-09,2018,Alvaro Dias,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-16,2018,Alvaro Dias,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-23,2018,Alvaro Dias,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-30,2018,Alvaro Dias,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2017-12-31,2018,Guilherme Boulos,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-07,2018,Guilherme Boulos,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-14,2018,Guilherme Boulos,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-21,2018,Guilherme Boulos,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-28,2018,Guilherme Boulos,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-04,2018,Guilherme Boulos,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-11,2018,Guilherme Boulos,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-18,2018,Guilherme Boulos,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-25,2018,Guilherme Boulos,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-04,2018,Guilherme Boulos,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-11,2018,Guilherme Boulos,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-18,2018,Guilherme Boulos,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-25,2018,Guilherme Boulos,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-01,2018,Guilherme Boulos,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-08,2018,Guilherme Boulos,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-15,2018,Guilherme Boulos,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-22,2018,Guilherme Boulos,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-29,2018,Guilherme Boulos,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-06,2018,Guilherme Boulos,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-13,2018,Guilherme Boulos,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-20,2018,Guilherme Boulos,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-27,2018,Guilherme Boulos,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-03,2018,Guilherme Boulos,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-10,2018,Guilherme Boulos,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-17,2018,Guilherme Boulos,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-24,2018,Guilherme Boulos,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-01,2018,Guilherme Boulos,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-08,2018,Guilherme Boulos,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-15,2018,Guilherme Boulos,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-22,2018,Guilherme Boulos,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-29,2018,Guilherme Boulos,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-05,2018,Guilherme Boulos,4,4.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-12,2018,Guilherme Boulos,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-19,2018,Guilherme Boulos,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-26,2018,Guilherme Boulos,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-02,2018,Guilherme Boulos,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-09,2018,Guilherme Boulos,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-16,2018,Guilherme Boulos,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-23,2018,Guilherme Boulos,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-30,2018,Guilherme Boulos,8,8.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-07,2018,Guilherme Boulos,4,4.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-14,2018,Guilherme Boulos,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-21,2018,Guilherme Boulos,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-28,2018,Guilherme Boulos,4,4.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-04,2018,Guilherme Boulos,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-11,2018,Guilherme Boulos,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-18,2018,Guilherme Boulos,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-25,2018,Guilherme Boulos,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-02,2018,Guilherme Boulos,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-09,2018,Guilherme Boulos,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-16,2018,Guilherme Boulos,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-23,2018,Guilherme Boulos,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-30,2018,Guilherme Boulos,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_02,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2017-12-31,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-07,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-14,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-21,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-28,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-04,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-11,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-18,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-25,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-04,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-11,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-18,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-25,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-01,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-08,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-15,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-22,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-29,2018,Cabo Daciolo,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-06,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-13,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-20,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-27,2018,Cabo Daciolo,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-03,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-10,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-17,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-24,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-01,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-08,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-15,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-22,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-29,2018,Cabo Daciolo,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-05,2018,Cabo Daciolo,13,13.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-12,2018,Cabo Daciolo,9,9.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-19,2018,Cabo Daciolo,4,4.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-26,2018,Cabo Daciolo,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-02,2018,Cabo Daciolo,4,4.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-09,2018,Cabo Daciolo,6,6.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-16,2018,Cabo Daciolo,7,7.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-23,2018,Cabo Daciolo,18,18.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-30,2018,Cabo Daciolo,44,44.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-07,2018,Cabo Daciolo,23,23.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-14,2018,Cabo Daciolo,5,5.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-21,2018,Cabo Daciolo,3,3.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-28,2018,Cabo Daciolo,6,6.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-04,2018,Cabo Daciolo,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-11,2018,Cabo Daciolo,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-18,2018,Cabo Daciolo,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-25,2018,Cabo Daciolo,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-02,2018,Cabo Daciolo,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-09,2018,Cabo Daciolo,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-16,2018,Cabo Daciolo,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-23,2018,Cabo Daciolo,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-30,2018,Cabo Daciolo,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2017-12-31,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-07,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-14,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-21,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-28,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-04,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-11,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-18,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-25,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-04,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-11,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-18,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-25,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-01,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-08,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-15,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-22,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-29,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-06,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-13,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-20,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-27,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-03,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-10,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-17,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-24,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-01,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-08,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-15,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-22,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-29,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-05,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-12,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-19,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-26,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-02,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-09,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-16,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-23,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-30,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-07,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-14,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-21,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-28,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-04,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-11,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-18,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-25,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-02,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-09,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-16,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-23,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-30,2018,Vera Lúcia,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2017-12-31,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-07,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-14,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-21,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-28,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-04,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-11,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-18,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-25,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-04,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-11,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-18,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-25,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-01,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-08,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-15,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-22,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-29,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-06,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-13,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-20,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-27,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-03,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-10,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-17,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-24,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-01,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-08,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-15,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-22,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-29,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-05,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-12,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-19,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-26,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-02,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-09,2018,João Goulart Filho,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-16,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-23,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-30,2018,João Goulart Filho,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-07,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-14,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-21,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-28,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-04,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-11,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-18,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-25,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-02,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-09,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-16,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-23,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-30,2018,João Goulart Filho,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2017-12-31,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-07,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-14,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-21,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-01-28,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-04,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-11,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-18,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-02-25,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-04,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-11,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-18,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-03-25,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-01,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-08,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-15,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-22,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-04-29,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-06,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-13,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-20,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-05-27,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-03,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-10,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-17,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-06-24,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-01,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-08,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-15,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-22,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-07-29,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-05,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-12,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-19,2018,Eymael,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-08-26,2018,Eymael,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-02,2018,Eymael,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-09,2018,Eymael,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-16,2018,Eymael,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-23,2018,Eymael,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-09-30,2018,Eymael,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-07,2018,Eymael,2,2.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-14,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-21,2018,Eymael,1,1.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-10-28,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-04,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-11,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-18,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-11-25,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-02,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-09,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-16,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-23,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07
+2018-12-30,2018,Eymael,0,0.0,BR,2018-01-01 2018-12-31,google_trends,batch_03,Jair Bolsonaro,False,False,2026-06-18T18:37:07

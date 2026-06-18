@@ -1,0 +1,637 @@
+date,election_year,term,interest_raw,interest_scaled,geo,timeframe,source,batch_id,anchor_term,is_anchor,is_partial,collected_at
+2025-06-15,current,Lula,43,43.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-06-22,current,Lula,36,36.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-06-29,current,Lula,29,29.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-07-06,current,Lula,54,54.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-07-13,current,Lula,61,61.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-07-20,current,Lula,60,60.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-07-27,current,Lula,52,52.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-08-03,current,Lula,49,49.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-08-10,current,Lula,35,35.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-08-17,current,Lula,37,37.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-08-24,current,Lula,42,42.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-08-31,current,Lula,35,35.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-09-07,current,Lula,61,61.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-09-14,current,Lula,47,47.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-09-21,current,Lula,61,61.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-09-28,current,Lula,36,36.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-10-05,current,Lula,38,38.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-10-12,current,Lula,35,35.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-10-19,current,Lula,39,39.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-10-26,current,Lula,63,63.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-11-02,current,Lula,38,38.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-11-09,current,Lula,37,37.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-11-16,current,Lula,38,38.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-11-23,current,Lula,38,38.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-11-30,current,Lula,37,37.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-12-07,current,Lula,35,35.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-12-14,current,Lula,44,44.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-12-21,current,Lula,44,44.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2025-12-28,current,Lula,56,56.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2026-01-04,current,Lula,61,61.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2026-01-11,current,Lula,53,53.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2026-01-18,current,Lula,50,50.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2026-01-25,current,Lula,48,48.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2026-02-01,current,Lula,37,37.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2026-02-08,current,Lula,41,41.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2026-02-15,current,Lula,100,100.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2026-02-22,current,Lula,48,48.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2026-03-01,current,Lula,55,55.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2026-03-08,current,Lula,42,42.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2026-03-15,current,Lula,40,40.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2026-03-22,current,Lula,43,43.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2026-03-29,current,Lula,41,41.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2026-04-05,current,Lula,40,40.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2026-04-12,current,Lula,39,39.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2026-04-19,current,Lula,42,42.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2026-04-26,current,Lula,53,53.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2026-05-03,current,Lula,53,53.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2026-05-10,current,Lula,52,52.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2026-05-17,current,Lula,43,43.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2026-05-24,current,Lula,43,43.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2026-05-31,current,Lula,46,46.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2026-06-07,current,Lula,44,44.0,BR,today 12-m,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2026-06-14,current,Lula,40,40.0,BR,today 12-m,google_trends,batch_01,Lula,True,True,2026-06-18T18:37:07
+2025-06-15,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-06-22,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-06-29,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-07-06,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-07-13,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-07-20,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-07-27,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-08-03,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-08-10,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-08-17,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-08-24,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-08-31,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-09-07,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-09-14,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-09-21,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-09-28,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-10-05,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-10-12,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-10-19,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-10-26,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-11-02,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-11-09,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-11-16,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-11-23,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-11-30,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-12-07,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-12-14,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-12-21,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-12-28,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-01-04,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-01-11,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-01-18,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-01-25,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-02-01,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-02-08,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-02-15,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-02-22,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-03-01,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-03-08,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-03-15,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-03-22,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-03-29,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-04-05,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-04-12,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-04-19,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-04-26,current,Aldo Rebelo,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-05-03,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-05-10,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-05-17,current,Aldo Rebelo,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-05-24,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-05-31,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-06-07,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-06-14,current,Aldo Rebelo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,True,2026-06-18T18:37:07
+2025-06-15,current,Augusto Cury,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-06-22,current,Augusto Cury,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-06-29,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-07-06,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-07-13,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-07-20,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-07-27,current,Augusto Cury,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-08-03,current,Augusto Cury,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-08-10,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-08-17,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-08-24,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-08-31,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-09-07,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-09-14,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-09-21,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-09-28,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-10-05,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-10-12,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-10-19,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-10-26,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-11-02,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-11-09,current,Augusto Cury,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-11-16,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-11-23,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-11-30,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-12-07,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-12-14,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-12-21,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-12-28,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-01-04,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-01-11,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-01-18,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-01-25,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-02-01,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-02-08,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-02-15,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-02-22,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-03-01,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-03-08,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-03-15,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-03-22,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-03-29,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-04-05,current,Augusto Cury,5,5.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-04-12,current,Augusto Cury,2,2.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-04-19,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-04-26,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-05-03,current,Augusto Cury,3,3.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-05-10,current,Augusto Cury,2,2.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-05-17,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-05-24,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-05-31,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-06-07,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-06-14,current,Augusto Cury,1,1.0,BR,today 12-m,google_trends,batch_01,Lula,False,True,2026-06-18T18:37:07
+2025-06-15,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-06-22,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-06-29,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-07-06,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-07-13,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-07-20,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-07-27,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-08-03,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-08-10,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-08-17,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-08-24,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-08-31,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-09-07,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-09-14,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-09-21,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-09-28,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-10-05,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-10-12,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-10-19,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-10-26,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-11-02,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-11-09,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-11-16,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-11-23,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-11-30,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-12-07,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-12-14,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-12-21,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-12-28,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-01-04,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-01-11,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-01-18,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-01-25,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-02-01,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-02-08,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-02-15,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-02-22,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-03-01,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-03-08,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-03-15,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-03-22,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-03-29,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-04-05,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-04-12,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-04-19,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-04-26,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-05-03,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-05-10,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-05-17,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-05-24,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-05-31,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-06-07,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-06-14,current,Cabo Daciolo,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,True,2026-06-18T18:37:07
+2025-06-15,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-06-22,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-06-29,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-07-06,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-07-13,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-07-20,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-07-27,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-08-03,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-08-10,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-08-17,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-08-24,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-08-31,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-09-07,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-09-14,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-09-21,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-09-28,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-10-05,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-10-12,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-10-19,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-10-26,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-11-02,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-11-09,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-11-16,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-11-23,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-11-30,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-12-07,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-12-14,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-12-21,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2025-12-28,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-01-04,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-01-11,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-01-18,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-01-25,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-02-01,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-02-08,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-02-15,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-02-22,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-03-01,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-03-08,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-03-15,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-03-22,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-03-29,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-04-05,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-04-12,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-04-19,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-04-26,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-05-03,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-05-10,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-05-17,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-05-24,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-05-31,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-06-07,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2026-06-14,current,Edmilson Costa,0,0.0,BR,today 12-m,google_trends,batch_01,Lula,False,True,2026-06-18T18:37:07
+2025-06-15,current,Flávio Bolsonaro,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-06-22,current,Flávio Bolsonaro,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-06-29,current,Flávio Bolsonaro,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-07-06,current,Flávio Bolsonaro,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-07-13,current,Flávio Bolsonaro,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-07-20,current,Flávio Bolsonaro,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-07-27,current,Flávio Bolsonaro,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-08-03,current,Flávio Bolsonaro,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-08-10,current,Flávio Bolsonaro,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-08-17,current,Flávio Bolsonaro,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-08-24,current,Flávio Bolsonaro,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-08-31,current,Flávio Bolsonaro,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-09-07,current,Flávio Bolsonaro,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-09-14,current,Flávio Bolsonaro,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-09-21,current,Flávio Bolsonaro,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-09-28,current,Flávio Bolsonaro,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-10-05,current,Flávio Bolsonaro,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-10-12,current,Flávio Bolsonaro,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-10-19,current,Flávio Bolsonaro,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-10-26,current,Flávio Bolsonaro,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-11-02,current,Flávio Bolsonaro,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-11-09,current,Flávio Bolsonaro,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-11-16,current,Flávio Bolsonaro,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-11-23,current,Flávio Bolsonaro,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-11-30,current,Flávio Bolsonaro,2,2.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-12-07,current,Flávio Bolsonaro,4,4.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-12-14,current,Flávio Bolsonaro,3,3.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-12-21,current,Flávio Bolsonaro,2,2.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-12-28,current,Flávio Bolsonaro,2,2.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-01-04,current,Flávio Bolsonaro,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-01-11,current,Flávio Bolsonaro,2,2.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-01-18,current,Flávio Bolsonaro,2,2.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-01-25,current,Flávio Bolsonaro,2,2.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-02-01,current,Flávio Bolsonaro,4,4.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-02-08,current,Flávio Bolsonaro,3,3.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-02-15,current,Flávio Bolsonaro,2,2.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-02-22,current,Flávio Bolsonaro,3,3.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-03-01,current,Flávio Bolsonaro,2,2.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-03-08,current,Flávio Bolsonaro,3,3.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-03-15,current,Flávio Bolsonaro,3,3.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-03-22,current,Flávio Bolsonaro,5,5.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-03-29,current,Flávio Bolsonaro,4,4.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-04-05,current,Flávio Bolsonaro,8,8.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-04-12,current,Flávio Bolsonaro,11,11.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-04-19,current,Flávio Bolsonaro,8,8.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-04-26,current,Flávio Bolsonaro,10,10.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-05-03,current,Flávio Bolsonaro,7,7.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-05-10,current,Flávio Bolsonaro,16,16.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-05-17,current,Flávio Bolsonaro,18,18.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-05-24,current,Flávio Bolsonaro,20,20.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-05-31,current,Flávio Bolsonaro,25,25.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-06-07,current,Flávio Bolsonaro,22,22.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-06-14,current,Flávio Bolsonaro,12,12.0,BR,today 12-m,google_trends,batch_02,Lula,False,True,2026-06-18T18:37:07
+2025-06-15,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-06-22,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-06-29,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-07-06,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-07-13,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-07-20,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-07-27,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-08-03,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-08-10,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-08-17,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-08-24,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-08-31,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-09-07,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-09-14,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-09-21,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-09-28,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-10-05,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-10-12,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-10-19,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-10-26,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-11-02,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-11-09,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-11-16,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-11-23,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-11-30,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-12-07,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-12-14,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-12-21,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-12-28,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-01-04,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-01-11,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-01-18,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-01-25,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-02-01,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-02-08,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-02-15,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-02-22,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-03-01,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-03-08,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-03-15,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-03-22,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-03-29,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-04-05,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-04-12,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-04-19,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-04-26,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-05-03,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-05-10,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-05-17,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-05-24,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-05-31,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-06-07,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-06-14,current,Hertz Dias,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,True,2026-06-18T18:37:07
+2025-06-15,current,Renan Santos,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-06-22,current,Renan Santos,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-06-29,current,Renan Santos,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-07-06,current,Renan Santos,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-07-13,current,Renan Santos,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-07-20,current,Renan Santos,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-07-27,current,Renan Santos,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-08-03,current,Renan Santos,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-08-10,current,Renan Santos,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-08-17,current,Renan Santos,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-08-24,current,Renan Santos,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-08-31,current,Renan Santos,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-09-07,current,Renan Santos,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-09-14,current,Renan Santos,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-09-21,current,Renan Santos,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-09-28,current,Renan Santos,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-10-05,current,Renan Santos,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-10-12,current,Renan Santos,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-10-19,current,Renan Santos,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-10-26,current,Renan Santos,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-11-02,current,Renan Santos,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-11-09,current,Renan Santos,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-11-16,current,Renan Santos,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-11-23,current,Renan Santos,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-11-30,current,Renan Santos,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-12-07,current,Renan Santos,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-12-14,current,Renan Santos,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-12-21,current,Renan Santos,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-12-28,current,Renan Santos,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-01-04,current,Renan Santos,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-01-11,current,Renan Santos,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-01-18,current,Renan Santos,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-01-25,current,Renan Santos,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-02-01,current,Renan Santos,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-02-08,current,Renan Santos,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-02-15,current,Renan Santos,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-02-22,current,Renan Santos,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-03-01,current,Renan Santos,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-03-08,current,Renan Santos,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-03-15,current,Renan Santos,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-03-22,current,Renan Santos,2,2.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-03-29,current,Renan Santos,3,3.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-04-05,current,Renan Santos,2,2.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-04-12,current,Renan Santos,2,2.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-04-19,current,Renan Santos,2,2.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-04-26,current,Renan Santos,3,3.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-05-03,current,Renan Santos,3,3.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-05-10,current,Renan Santos,5,5.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-05-17,current,Renan Santos,6,6.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-05-24,current,Renan Santos,5,5.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-05-31,current,Renan Santos,8,8.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-06-07,current,Renan Santos,5,5.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-06-14,current,Renan Santos,3,3.0,BR,today 12-m,google_trends,batch_02,Lula,False,True,2026-06-18T18:37:07
+2025-06-15,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-06-22,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-06-29,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-07-06,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-07-13,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-07-20,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-07-27,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-08-03,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-08-10,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-08-17,current,Romeu Zema,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-08-24,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-08-31,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-09-07,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-09-14,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-09-21,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-09-28,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-10-05,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-10-12,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-10-19,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-10-26,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-11-02,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-11-09,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-11-16,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-11-23,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-11-30,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-12-07,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-12-14,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-12-21,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2025-12-28,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-01-04,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-01-11,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-01-18,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-01-25,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-02-01,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-02-08,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-02-15,current,Romeu Zema,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-02-22,current,Romeu Zema,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-03-01,current,Romeu Zema,0,0.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-03-08,current,Romeu Zema,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-03-15,current,Romeu Zema,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-03-22,current,Romeu Zema,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-03-29,current,Romeu Zema,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-04-05,current,Romeu Zema,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-04-12,current,Romeu Zema,2,2.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-04-19,current,Romeu Zema,4,4.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-04-26,current,Romeu Zema,5,5.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-05-03,current,Romeu Zema,2,2.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-05-10,current,Romeu Zema,2,2.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-05-17,current,Romeu Zema,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-05-24,current,Romeu Zema,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-05-31,current,Romeu Zema,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-06-07,current,Romeu Zema,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2026-06-14,current,Romeu Zema,1,1.0,BR,today 12-m,google_trends,batch_02,Lula,False,True,2026-06-18T18:37:07
+2025-06-15,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-06-22,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-06-29,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-07-06,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-07-13,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-07-20,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-07-27,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-08-03,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-08-10,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-08-17,current,Ronaldo Caiado,1,1.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-08-24,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-08-31,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-09-07,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-09-14,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-09-21,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-09-28,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-10-05,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-10-12,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-10-19,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-10-26,current,Ronaldo Caiado,1,1.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-11-02,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-11-09,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-11-16,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-11-23,current,Ronaldo Caiado,1,1.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-11-30,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-12-07,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-12-14,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-12-21,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-12-28,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-01-04,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-01-11,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-01-18,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-01-25,current,Ronaldo Caiado,1,1.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-02-01,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-02-08,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-02-15,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-02-22,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-03-01,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-03-08,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-03-15,current,Ronaldo Caiado,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-03-22,current,Ronaldo Caiado,1,1.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-03-29,current,Ronaldo Caiado,2,2.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-04-05,current,Ronaldo Caiado,1,1.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-04-12,current,Ronaldo Caiado,2,2.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-04-19,current,Ronaldo Caiado,1,1.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-04-26,current,Ronaldo Caiado,1,1.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-05-03,current,Ronaldo Caiado,1,1.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-05-10,current,Ronaldo Caiado,1,1.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-05-17,current,Ronaldo Caiado,1,1.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-05-24,current,Ronaldo Caiado,1,1.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-05-31,current,Ronaldo Caiado,1,1.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-06-07,current,Ronaldo Caiado,2,2.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-06-14,current,Ronaldo Caiado,1,1.0,BR,today 12-m,google_trends,batch_03,Lula,False,True,2026-06-18T18:37:07
+2025-06-15,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-06-22,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-06-29,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-07-06,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-07-13,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-07-20,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-07-27,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-08-03,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-08-10,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-08-17,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-08-24,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-08-31,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-09-07,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-09-14,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-09-21,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-09-28,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-10-05,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-10-12,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-10-19,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-10-26,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-11-02,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-11-09,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-11-16,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-11-23,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-11-30,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-12-07,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-12-14,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-12-21,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-12-28,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-01-04,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-01-11,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-01-18,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-01-25,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-02-01,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-02-08,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-02-15,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-02-22,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-03-01,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-03-08,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-03-15,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-03-22,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-03-29,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-04-05,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-04-12,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-04-19,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-04-26,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-05-03,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-05-10,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-05-17,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-05-24,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-05-31,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-06-07,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-06-14,current,Rui Costa Pimenta,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,True,2026-06-18T18:37:07
+2025-06-15,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-06-22,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-06-29,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-07-06,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-07-13,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-07-20,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-07-27,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-08-03,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-08-10,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-08-17,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-08-24,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-08-31,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-09-07,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-09-14,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-09-21,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-09-28,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-10-05,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-10-12,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-10-19,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-10-26,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-11-02,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-11-09,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-11-16,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-11-23,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-11-30,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-12-07,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-12-14,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-12-21,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2025-12-28,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-01-04,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-01-11,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-01-18,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-01-25,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-02-01,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-02-08,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-02-15,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-02-22,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-03-01,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-03-08,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-03-15,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-03-22,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-03-29,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-04-05,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-04-12,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-04-19,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-04-26,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-05-03,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-05-10,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-05-17,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-05-24,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-05-31,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-06-07,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2026-06-14,current,Samara Martins,0,0.0,BR,today 12-m,google_trends,batch_03,Lula,False,True,2026-06-18T18:37:07

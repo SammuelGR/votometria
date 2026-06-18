@@ -1,0 +1,584 @@
+date,election_year,term,interest_raw,interest_scaled,geo,timeframe,source,batch_id,anchor_term,is_anchor,is_partial,collected_at
+2021-12-26,2022,Lula,3,3.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-01-02,2022,Lula,4,4.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-01-09,2022,Lula,4,4.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-01-16,2022,Lula,3,3.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-01-23,2022,Lula,4,4.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-01-30,2022,Lula,3,3.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-02-06,2022,Lula,3,3.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-02-13,2022,Lula,3,3.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-02-20,2022,Lula,3,3.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-02-27,2022,Lula,3,3.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-03-06,2022,Lula,3,3.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-03-13,2022,Lula,3,3.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-03-20,2022,Lula,4,4.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-03-27,2022,Lula,5,5.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-04-03,2022,Lula,6,6.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-04-10,2022,Lula,4,4.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-04-17,2022,Lula,4,4.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-04-24,2022,Lula,5,5.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-05-01,2022,Lula,8,8.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-05-08,2022,Lula,6,6.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-05-15,2022,Lula,8,8.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-05-22,2022,Lula,5,5.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-05-29,2022,Lula,4,4.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-06-05,2022,Lula,4,4.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-06-12,2022,Lula,5,5.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-06-19,2022,Lula,5,5.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-06-26,2022,Lula,5,5.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-07-03,2022,Lula,5,5.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-07-10,2022,Lula,5,5.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-07-17,2022,Lula,5,5.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-07-24,2022,Lula,5,5.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-07-31,2022,Lula,6,6.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-08-07,2022,Lula,6,6.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-08-14,2022,Lula,8,8.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-08-21,2022,Lula,26,26.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-08-28,2022,Lula,19,19.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-09-04,2022,Lula,15,15.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-09-11,2022,Lula,14,14.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-09-18,2022,Lula,17,17.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-09-25,2022,Lula,35,35.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-10-02,2022,Lula,80,80.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-10-09,2022,Lula,30,30.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-10-16,2022,Lula,42,42.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-10-23,2022,Lula,46,46.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-10-30,2022,Lula,100,100.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-11-06,2022,Lula,33,33.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-11-13,2022,Lula,19,19.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-11-20,2022,Lula,12,12.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-11-27,2022,Lula,11,11.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-12-04,2022,Lula,9,9.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-12-11,2022,Lula,12,12.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-12-18,2022,Lula,9,9.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2022-12-25,2022,Lula,16,16.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,True,False,2026-06-18T18:37:07
+2021-12-26,2022,Jair Bolsonaro,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-01-02,2022,Jair Bolsonaro,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-01-09,2022,Jair Bolsonaro,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-01-16,2022,Jair Bolsonaro,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-01-23,2022,Jair Bolsonaro,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-01-30,2022,Jair Bolsonaro,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-02-06,2022,Jair Bolsonaro,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-02-13,2022,Jair Bolsonaro,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-02-20,2022,Jair Bolsonaro,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-02-27,2022,Jair Bolsonaro,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-03-06,2022,Jair Bolsonaro,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-03-13,2022,Jair Bolsonaro,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-03-20,2022,Jair Bolsonaro,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-03-27,2022,Jair Bolsonaro,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-04-03,2022,Jair Bolsonaro,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-04-10,2022,Jair Bolsonaro,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-04-17,2022,Jair Bolsonaro,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-04-24,2022,Jair Bolsonaro,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-05-01,2022,Jair Bolsonaro,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-05-08,2022,Jair Bolsonaro,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-05-15,2022,Jair Bolsonaro,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-05-22,2022,Jair Bolsonaro,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-05-29,2022,Jair Bolsonaro,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-06-05,2022,Jair Bolsonaro,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-06-12,2022,Jair Bolsonaro,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-06-19,2022,Jair Bolsonaro,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-06-26,2022,Jair Bolsonaro,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-07-03,2022,Jair Bolsonaro,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-07-10,2022,Jair Bolsonaro,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-07-17,2022,Jair Bolsonaro,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-07-24,2022,Jair Bolsonaro,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-07-31,2022,Jair Bolsonaro,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-08-07,2022,Jair Bolsonaro,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-08-14,2022,Jair Bolsonaro,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-08-21,2022,Jair Bolsonaro,2,2.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-08-28,2022,Jair Bolsonaro,2,2.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-09-04,2022,Jair Bolsonaro,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-09-11,2022,Jair Bolsonaro,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-09-18,2022,Jair Bolsonaro,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-09-25,2022,Jair Bolsonaro,2,2.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-10-02,2022,Jair Bolsonaro,4,4.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-10-09,2022,Jair Bolsonaro,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-10-16,2022,Jair Bolsonaro,2,2.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-10-23,2022,Jair Bolsonaro,3,3.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-10-30,2022,Jair Bolsonaro,12,12.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-11-06,2022,Jair Bolsonaro,2,2.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-11-13,2022,Jair Bolsonaro,2,2.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-11-20,2022,Jair Bolsonaro,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-11-27,2022,Jair Bolsonaro,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-12-04,2022,Jair Bolsonaro,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-12-11,2022,Jair Bolsonaro,2,2.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-12-18,2022,Jair Bolsonaro,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-12-25,2022,Jair Bolsonaro,2,2.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2021-12-26,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-01-02,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-01-09,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-01-16,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-01-23,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-01-30,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-02-06,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-02-13,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-02-20,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-02-27,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-03-06,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-03-13,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-03-20,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-03-27,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-04-03,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-04-10,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-04-17,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-04-24,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-05-01,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-05-08,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-05-15,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-05-22,2022,Simone Tebet,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-05-29,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-06-05,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-06-12,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-06-19,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-06-26,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-07-03,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-07-10,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-07-17,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-07-24,2022,Simone Tebet,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-07-31,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-08-07,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-08-14,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-08-21,2022,Simone Tebet,2,2.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-08-28,2022,Simone Tebet,3,3.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-09-04,2022,Simone Tebet,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-09-11,2022,Simone Tebet,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-09-18,2022,Simone Tebet,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-09-25,2022,Simone Tebet,5,5.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-10-02,2022,Simone Tebet,13,13.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-10-09,2022,Simone Tebet,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-10-16,2022,Simone Tebet,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-10-23,2022,Simone Tebet,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-10-30,2022,Simone Tebet,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-11-06,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-11-13,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-11-20,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-11-27,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-12-04,2022,Simone Tebet,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-12-11,2022,Simone Tebet,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-12-18,2022,Simone Tebet,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-12-25,2022,Simone Tebet,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2021-12-26,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-01-02,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-01-09,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-01-16,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-01-23,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-01-30,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-02-06,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-02-13,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-02-20,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-02-27,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-03-06,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-03-13,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-03-20,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-03-27,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-04-03,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-04-10,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-04-17,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-04-24,2022,Ciro Gomes,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-05-01,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-05-08,2022,Ciro Gomes,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-05-15,2022,Ciro Gomes,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-05-22,2022,Ciro Gomes,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-05-29,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-06-05,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-06-12,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-06-19,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-06-26,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-07-03,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-07-10,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-07-17,2022,Ciro Gomes,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-07-24,2022,Ciro Gomes,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-07-31,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-08-07,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-08-14,2022,Ciro Gomes,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-08-21,2022,Ciro Gomes,4,4.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-08-28,2022,Ciro Gomes,3,3.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-09-04,2022,Ciro Gomes,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-09-11,2022,Ciro Gomes,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-09-18,2022,Ciro Gomes,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-09-25,2022,Ciro Gomes,5,5.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-10-02,2022,Ciro Gomes,9,9.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-10-09,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-10-16,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-10-23,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-10-30,2022,Ciro Gomes,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-11-06,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-11-13,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-11-20,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-11-27,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-12-04,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-12-11,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-12-18,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-12-25,2022,Ciro Gomes,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2021-12-26,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-01-02,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-01-09,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-01-16,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-01-23,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-01-30,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-02-06,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-02-13,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-02-20,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-02-27,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-03-06,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-03-13,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-03-20,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-03-27,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-04-03,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-04-10,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-04-17,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-04-24,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-05-01,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-05-08,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-05-15,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-05-22,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-05-29,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-06-05,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-06-12,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-06-19,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-06-26,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-07-03,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-07-10,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-07-17,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-07-24,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-07-31,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-08-07,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-08-14,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-08-21,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-08-28,2022,Felipe d'Avila,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-09-04,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-09-11,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-09-18,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-09-25,2022,Felipe d'Avila,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-10-02,2022,Felipe d'Avila,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-10-09,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-10-16,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-10-23,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-10-30,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-11-06,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-11-13,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-11-20,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-11-27,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-12-04,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-12-11,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-12-18,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2022-12-25,2022,Felipe d'Avila,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_01,Lula,False,False,2026-06-18T18:37:07
+2021-12-26,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-01-02,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-01-09,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-01-16,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-01-23,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-01-30,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-02-06,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-02-13,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-02-20,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-02-27,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-03-06,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-03-13,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-03-20,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-03-27,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-04-03,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-04-10,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-04-17,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-04-24,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-05-01,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-05-08,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-05-15,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-05-22,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-05-29,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-06-05,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-06-12,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-06-19,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-06-26,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-07-03,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-07-10,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-07-17,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-07-24,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-07-31,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-08-07,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-08-14,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-08-21,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-08-28,2022,Soraya Thronicke,2,2.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-09-04,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-09-11,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-09-18,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-09-25,2022,Soraya Thronicke,2,2.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-10-02,2022,Soraya Thronicke,2,2.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-10-09,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-10-16,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-10-23,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-10-30,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-11-06,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-11-13,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-11-20,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-11-27,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-12-04,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-12-11,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-12-18,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-12-25,2022,Soraya Thronicke,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2021-12-26,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-01-02,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-01-09,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-01-16,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-01-23,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-01-30,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-02-06,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-02-13,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-02-20,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-02-27,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-03-06,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-03-13,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-03-20,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-03-27,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-04-03,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-04-10,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-04-17,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-04-24,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-05-01,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-05-08,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-05-15,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-05-22,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-05-29,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-06-05,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-06-12,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-06-19,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-06-26,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-07-03,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-07-10,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-07-17,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-07-24,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-07-31,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-08-07,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-08-14,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-08-21,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-08-28,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-09-04,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-09-11,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-09-18,2022,Padre Kelmon,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-09-25,2022,Padre Kelmon,10,10.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-10-02,2022,Padre Kelmon,3,3.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-10-09,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-10-16,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-10-23,2022,Padre Kelmon,1,1.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-10-30,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-11-06,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-11-13,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-11-20,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-11-27,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-12-04,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-12-11,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-12-18,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-12-25,2022,Padre Kelmon,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2021-12-26,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-01-02,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-01-09,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-01-16,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-01-23,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-01-30,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-02-06,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-02-13,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-02-20,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-02-27,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-03-06,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-03-13,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-03-20,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-03-27,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-04-03,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-04-10,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-04-17,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-04-24,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-05-01,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-05-08,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-05-15,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-05-22,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-05-29,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-06-05,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-06-12,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-06-19,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-06-26,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-07-03,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-07-10,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-07-17,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-07-24,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-07-31,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-08-07,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-08-14,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-08-21,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-08-28,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-09-04,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-09-11,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-09-18,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-09-25,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-10-02,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-10-09,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-10-16,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-10-23,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-10-30,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-11-06,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-11-13,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-11-20,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-11-27,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-12-04,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-12-11,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-12-18,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-12-25,2022,Léo Péricles,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2021-12-26,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-01-02,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-01-09,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-01-16,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-01-23,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-01-30,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-02-06,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-02-13,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-02-20,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-02-27,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-03-06,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-03-13,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-03-20,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-03-27,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-04-03,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-04-10,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-04-17,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-04-24,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-05-01,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-05-08,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-05-15,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-05-22,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-05-29,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-06-05,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-06-12,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-06-19,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-06-26,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-07-03,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-07-10,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-07-17,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-07-24,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-07-31,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-08-07,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-08-14,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-08-21,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-08-28,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-09-04,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-09-11,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-09-18,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-09-25,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-10-02,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-10-09,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-10-16,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-10-23,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-10-30,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-11-06,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-11-13,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-11-20,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-11-27,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-12-04,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-12-11,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-12-18,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2022-12-25,2022,Sofia Manzano,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_02,Lula,False,False,2026-06-18T18:37:07
+2021-12-26,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-01-02,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-01-09,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-01-16,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-01-23,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-01-30,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-02-06,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-02-13,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-02-20,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-02-27,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-03-06,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-03-13,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-03-20,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-03-27,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-04-03,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-04-10,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-04-17,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-04-24,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-05-01,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-05-08,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-05-15,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-05-22,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-05-29,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-06-05,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-06-12,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-06-19,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-06-26,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-07-03,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-07-10,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-07-17,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-07-24,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-07-31,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-08-07,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-08-14,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-08-21,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-08-28,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-09-04,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-09-11,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-09-18,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-09-25,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-10-02,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-10-09,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-10-16,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-10-23,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-10-30,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-11-06,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-11-13,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-11-20,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-11-27,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-12-04,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-12-11,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-12-18,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-12-25,2022,Vera Lúcia,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2021-12-26,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-01-02,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-01-09,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-01-16,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-01-23,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-01-30,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-02-06,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-02-13,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-02-20,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-02-27,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-03-06,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-03-13,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-03-20,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-03-27,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-04-03,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-04-10,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-04-17,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-04-24,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-05-01,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-05-08,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-05-15,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-05-22,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-05-29,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-06-05,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-06-12,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-06-19,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-06-26,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-07-03,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-07-10,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-07-17,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-07-24,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-07-31,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-08-07,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-08-14,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-08-21,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-08-28,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-09-04,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-09-11,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-09-18,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-09-25,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-10-02,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-10-09,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-10-16,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-10-23,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-10-30,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-11-06,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-11-13,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-11-20,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-11-27,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-12-04,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-12-11,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-12-18,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
+2022-12-25,2022,Eymael,0,0.0,BR,2022-01-01 2022-12-31,google_trends,batch_03,Lula,False,False,2026-06-18T18:37:07
