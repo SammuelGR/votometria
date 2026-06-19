@@ -1,24 +1,14 @@
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
-import AppLayout from '~/components/layout/AppLayout';
-import CurrentElection from '~/pages/CurrentElection';
-import HistoricalElections from '~/pages/HistoricalElections';
+import AppRoutes from '~/routes/AppRoutes';
+
+const queryClient = new QueryClient();
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route element={<AppLayout />}>
-          <Route path="/" element={<Navigate to="/current-election" replace />} />
-
-          <Route path="/current-election" element={<CurrentElection />} />
-
-          <Route path="/historical-elections" element={<HistoricalElections />} />
-
-          <Route path="*" element={<Navigate to="/" replace />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <QueryClientProvider client={queryClient}>
+      <AppRoutes />
+    </QueryClientProvider>
   );
 }
 
