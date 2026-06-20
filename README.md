@@ -6,11 +6,40 @@ A arquitetura do projeto segue um modelo de monorepo estruturado para processame
 
 - `/scripts`: Pipelines de extração, transformação e carga (ETL) em Python.
 - `/backend` (Futuro): Camada de servidor API Python.
-- `/frontend` (Futuro): Visualização interativa desenvolvida em React + TypeScript.
+- `/frontend`: Visualização interativa desenvolvida em React + TypeScript.
 
 ---
 
-## 🚀 Ingestão de Dados da Polymarket
+## Frontend
+
+O frontend usa Vite, React, TypeScript e Tailwind CSS.
+
+Para instalar as dependências:
+
+```bash
+cd frontend
+npm install
+```
+
+Para executar em desenvolvimento:
+
+```bash
+npm run dev
+```
+
+Para validar o módulo:
+
+```bash
+npm run format:check
+npm run lint
+npm run build
+```
+
+Mais detalhes estão em `frontend/README.md` e `docs/frontend.md`.
+
+---
+
+## Ingestão de Dados da Polymarket
 
 Esta etapa conecta à API pública da Polymarket para coletar as probabilidades da eleição de 2026, tratar os dados e salvá-los no banco **PostgreSQL** usando o ORM **SQLAlchemy**.
 
