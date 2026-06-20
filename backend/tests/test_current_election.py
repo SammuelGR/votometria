@@ -52,7 +52,15 @@ def test_market_expectations_returns_empty_series_when_no_data_exists(client):
 
     assert response.status_code == 200
     assert response.json() == {
-        "source": "polymarket",
+        "sources": ["polymarket"],
+        "metadata": {
+            "latestTimestamp": None,
+        },
+        "summary": {
+            "currentLeader": None,
+            "leaderMargin": None,
+            "largestChange": None,
+        },
         "series": [],
     }
 
@@ -82,21 +90,21 @@ def test_market_expectations_returns_grouped_candidate_series(client, create_tes
                 PolymarketProbability(
                     candidate_catalog_id=1,
                     candidate_name="Candidate A",
-                    probability=0.42,
+                    probability=0.25,
                     timestamp=datetime(2024, 1, 1, 10),
                     market_id="market-1",
                 ),
                 PolymarketProbability(
                     candidate_catalog_id=1,
                     candidate_name="Candidate A",
-                    probability=0.43,
+                    probability=0.50,
                     timestamp=datetime(2024, 1, 1, 11),
                     market_id="market-1",
                 ),
                 PolymarketProbability(
                     candidate_catalog_id=2,
                     candidate_name="Candidate B",
-                    probability=0.20,
+                    probability=0.125,
                     timestamp=datetime(2024, 1, 1, 10),
                     market_id="market-2",
                 ),
@@ -108,7 +116,28 @@ def test_market_expectations_returns_grouped_candidate_series(client, create_tes
 
     assert response.status_code == 200
     assert response.json() == {
-        "source": "polymarket",
+        "sources": ["polymarket"],
+        "metadata": {
+            "latestTimestamp": "2024-01-01T11:00:00",
+        },
+        "summary": {
+            "currentLeader": {
+                "candidateCatalogId": 1,
+                "displayName": "Candidate A",
+                "probability": 0.5,
+            },
+            "leaderMargin": {
+                "value": 0.375,
+                "leaderCandidateCatalogId": 1,
+                "runnerUpCandidateCatalogId": 2,
+            },
+            "largestChange": {
+                "candidateCatalogId": 1,
+                "displayName": "Candidate A",
+                "value": 0.25,
+                "absoluteValue": 0.25,
+            },
+        },
         "series": [
             {
                 "candidateCatalogId": 1,
@@ -118,11 +147,11 @@ def test_market_expectations_returns_grouped_candidate_series(client, create_tes
                 "points": [
                     {
                         "timestamp": "2024-01-01T10:00:00",
-                        "probability": 0.42,
+                        "probability": 0.25,
                     },
                     {
                         "timestamp": "2024-01-01T11:00:00",
-                        "probability": 0.43,
+                        "probability": 0.5,
                     },
                 ],
             },
@@ -134,7 +163,7 @@ def test_market_expectations_returns_grouped_candidate_series(client, create_tes
                 "points": [
                     {
                         "timestamp": "2024-01-01T10:00:00",
-                        "probability": 0.2,
+                        "probability": 0.125,
                     },
                 ],
             },
