@@ -17,6 +17,9 @@ Detailed product, frontend, database and integration decisions live in the dedic
 - `docs/frontend.md`
   Frontend stack, routing and interface language.
 
+- `docs/backend.md`
+  Backend API stack, routing and service boundaries.
+
 - `docs/database.md`
   Database schema and persistence decisions.
 
@@ -58,6 +61,7 @@ The application helps users answer two main focus questions:
 This project is structured as a monorepo containing isolated modules:
 
 - **/scripts**: Contains Python ETL pipelines organized by shared core utilities, extractors, transformers, loaders, pipelines, and database models.
+- **/backend**: Contains the FastAPI backend that serves processed analytical data to the frontend.
 - **/frontend**: Contains the Vite React frontend application for the dashboard.
 - **/docs**: Contains documentation schemas, specifications, and guidelines.
 
@@ -112,6 +116,12 @@ Testing is defined per monorepo module.
 - Use `tests/helpers.py` for small reusable factories and utilities.
 - Loader tests may use SQLite in-memory databases when validating persistence behavior.
 - Pipeline tests should mock extractors, transformers, and loaders to validate orchestration behavior.
+
+### `/backend`
+
+- Run backend unit tests from inside `/backend`.
+- Use `python -m pytest tests`.
+- Backend tests should use isolated test databases or dependency overrides.
 
 ---
 

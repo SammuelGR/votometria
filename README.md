@@ -5,7 +5,7 @@ Projeto da disciplina de Análise de Dados. O objetivo do Votometria é construi
 A arquitetura do projeto segue um modelo de monorepo estruturado para processamento e visualização:
 
 - `/scripts`: Pipelines de extração, transformação e carga (ETL) em Python.
-- `/backend` (Futuro): Camada de servidor API Python.
+- `/backend`: API Python para servir dados analíticos processados ao frontend.
 - `/frontend`: Visualização interativa desenvolvida em React + TypeScript.
 
 ---
@@ -36,6 +36,45 @@ npm run build
 ```
 
 Mais detalhes estão em `frontend/README.md` e `docs/frontend.md`.
+
+---
+
+## Backend
+
+O backend usa FastAPI e lê os dados processados do PostgreSQL.
+
+Para instalar as dependências:
+
+```bash
+cd backend
+python -m venv .venv
+```
+
+Ative o ambiente virtual conforme o seu terminal:
+- **Windows (Git Bash)**: `source .venv/Scripts/activate`
+- **Windows (PowerShell)**: `.venv\Scripts\Activate.ps1`
+- **Windows (CMD)**: `.venv\Scripts\activate`
+- **Linux/macOS**: `source .venv/bin/activate`
+
+Instale as dependências:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+Para executar em desenvolvimento:
+
+```bash
+uvicorn app.main:app --reload
+```
+
+Para executar os testes unitários:
+
+```bash
+python -m pytest tests
+```
+
+Mais detalhes estão em `backend/README.md` e `docs/backend.md`.
 
 ---
 
