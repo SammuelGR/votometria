@@ -1,6 +1,6 @@
-# Dashboard Eleitoral Comparativo
+# Votometria
 
-Projeto da disciplina de Análise de Dados. O objetivo deste projeto é construir um painel analítico sobre eleições presidenciais brasileiras.
+Projeto da disciplina de Análise de Dados. O objetivo do Votometria é construir um painel analítico sobre eleições presidenciais brasileiras.
 
 A arquitetura do projeto segue um modelo de monorepo estruturado para processamento e visualização:
 

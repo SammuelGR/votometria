@@ -1,6 +1,6 @@
-# Frontend
+# Frontend Votometria
 
-Frontend React do Dashboard Eleitoral Comparativo.
+Frontend React do Votometria.
 
 Stack principal:
 
