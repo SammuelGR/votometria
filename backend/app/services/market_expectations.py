@@ -76,16 +76,16 @@ def build_market_expectations_metadata(
 def build_market_expectations_summary(
     series: list[MarketExpectationSeries],
 ) -> MarketExpectationsSummary:
-    latest_points = get_latest_points_by_series(series)
+    latest_points = _get_latest_points_by_series(series)
 
     return MarketExpectationsSummary(
-        current_leader=get_current_leader(latest_points),
-        leader_margin=get_leader_margin(latest_points),
-        largest_change=get_largest_change(series),
+        current_leader=_get_current_leader(latest_points),
+        leader_margin=_get_leader_margin(latest_points),
+        largest_change=_get_largest_change(series),
     )
 
 
-def get_latest_points_by_series(
+def _get_latest_points_by_series(
     series: list[MarketExpectationSeries],
 ) -> list[tuple[MarketExpectationSeries, MarketExpectationPoint]]:
     latest_points = []
@@ -97,7 +97,7 @@ def get_latest_points_by_series(
     return latest_points
 
 
-def get_current_leader(
+def _get_current_leader(
     latest_points: list[tuple[MarketExpectationSeries, MarketExpectationPoint]],
 ) -> MarketExpectationLeader | None:
     if not latest_points:
@@ -115,7 +115,7 @@ def get_current_leader(
     )
 
 
-def get_leader_margin(
+def _get_leader_margin(
     latest_points: list[tuple[MarketExpectationSeries, MarketExpectationPoint]],
 ) -> MarketExpectationLeaderMargin | None:
     if len(latest_points) < 2:
@@ -136,7 +136,7 @@ def get_leader_margin(
     )
 
 
-def get_largest_change(
+def _get_largest_change(
     series: list[MarketExpectationSeries],
 ) -> MarketExpectationLargestChange | None:
     changes = []

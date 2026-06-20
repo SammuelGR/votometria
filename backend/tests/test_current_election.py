@@ -1,43 +1,6 @@
 from datetime import datetime
 
-import pytest
-from fastapi.testclient import TestClient
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
-from sqlalchemy.pool import StaticPool
-
-from app.core.database import get_db
-from app.main import app
-from app.models import Base, CandidateCatalog, PolymarketProbability
-
-
-@pytest.fixture
-def create_test_session_factory():
-    engine = create_engine(
-        "sqlite://",
-        connect_args={"check_same_thread": False},
-        poolclass=StaticPool,
-    )
-    Base.metadata.create_all(engine)
-
-    return sessionmaker(autocommit=False, autoflush=False, bind=engine)
-
-
-@pytest.fixture
-def client(create_test_session_factory):
-    def override_get_db():
-        db = create_test_session_factory()
-        try:
-            yield db
-        finally:
-            db.close()
-
-    app.dependency_overrides[get_db] = override_get_db
-
-    try:
-        yield TestClient(app)
-    finally:
-        app.dependency_overrides.clear()
+from tests.helpers import candidate_catalog, polymarket_probability
 
 
 def test_health_returns_ok(client):
@@ -65,43 +28,33 @@ def test_market_expectations_returns_empty_series_when_no_data_exists(client):
     }
 
 
-def test_market_expectations_returns_grouped_candidate_series(client, create_test_session_factory):
-    with create_test_session_factory() as session:
+def test_market_expectations_returns_grouped_candidate_series(client, db_session_factory):
+    with db_session_factory() as session:
         session.add_all(
             [
-                CandidateCatalog(
-                    id=1,
-                    source="polymarket",
-                    source_key="market-1",
-                    raw_name="Candidate A",
+                candidate_catalog(
+                    candidate_id=1,
                     display_name="Candidate A",
-                    normalized_name="candidate a",
-                    full_name="Candidate A",
+                    source_key="market-1",
                 ),
-                CandidateCatalog(
-                    id=2,
-                    source="polymarket",
-                    source_key="market-2",
-                    raw_name="Candidate B",
+                candidate_catalog(
+                    candidate_id=2,
                     display_name="Candidate B",
-                    normalized_name="candidate b",
-                    full_name="Candidate B",
+                    source_key="market-2",
                 ),
-                PolymarketProbability(
+                polymarket_probability(
                     candidate_catalog_id=1,
                     candidate_name="Candidate A",
                     probability=0.25,
                     timestamp=datetime(2024, 1, 1, 10),
-                    market_id="market-1",
                 ),
-                PolymarketProbability(
+                polymarket_probability(
                     candidate_catalog_id=1,
                     candidate_name="Candidate A",
                     probability=0.50,
                     timestamp=datetime(2024, 1, 1, 11),
-                    market_id="market-1",
                 ),
-                PolymarketProbability(
+                polymarket_probability(
                     candidate_catalog_id=2,
                     candidate_name="Candidate B",
                     probability=0.125,
