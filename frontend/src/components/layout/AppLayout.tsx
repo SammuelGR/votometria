@@ -35,7 +35,7 @@ export default function AppLayout() {
             </div>
 
             <div>
-              <p className="text-base font-semibold">Dashboard Eleitoral Comparativo</p>
+              <p className="text-base font-semibold">Votometria</p>
 
               <p className="text-muted text-sm">Eleições presidenciais brasileiras</p>
             </div>
