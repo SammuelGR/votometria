@@ -58,7 +58,7 @@ The application helps users answer two main focus questions:
 This project is structured as a monorepo containing isolated modules:
 
 - **/scripts**: Contains Python ETL pipelines organized by shared core utilities, extractors, transformers, loaders, pipelines, and database models.
-- **/frontend**: Reserved for the web-based visualization frontend application (dashboard).
+- **/frontend**: Contains the Vite React frontend application for the dashboard.
 - **/docs**: Contains documentation schemas, specifications, and guidelines.
 
 ---
@@ -80,11 +80,26 @@ When merging these sources, agents must implement the following data quality rul
 - **Strict English Policy**: All variables, database models, table/column names, prints, logs, docstrings, and code comments **must** be written in English.
 - Frontend user-facing interface text is documented separately in `docs/frontend.md`.
 
+### Frontend
+
+- Use Vite, React, TypeScript and Tailwind CSS for `/frontend`.
+- Keep frontend user-facing text in Portuguese.
+- Keep code identifiers, component names, file names, comments and internal documentation in English.
+- Follow the frontend architecture decisions documented in `docs/frontend.md`.
+- Follow the frontend module decisions documented in `docs/frontend-modules.md`.
+
 ---
 
 ## 5. Testing Guidelines
 
 Testing is defined per monorepo module.
+
+### `/frontend`
+
+- Run frontend validation from inside `/frontend`.
+- Use `npm run format:check` to verify formatting.
+- Use `npm run lint` for lint validation.
+- Use `npm run build` for TypeScript and production build validation.
 
 ### `/scripts`
 

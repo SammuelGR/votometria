@@ -22,6 +22,8 @@ The frontend uses:
 
 The recommended runtime is Node 24 LTS.
 
+Node 22.12 or newer is supported by Vite 8.
+
 ## Application model
 
 The frontend is a single-page application.
@@ -54,6 +56,37 @@ Analytical modules own their internal interface structure because each analysis 
 
 Shared UI primitives provide consistency across dashboards and modules.
 
+## Project structure
+
+Pages are organized by context:
+
+```text
+src/pages/
+  CurrentElection/
+    CurrentElection.tsx
+    modules/
+      ...
+
+  HistoricalElections/
+    HistoricalElections.tsx
+```
+
+Use explicit component file names instead of generic `index.tsx` files for pages and feature-level components.
+
+Page-specific module components stay inside the page context that owns them.
+
+Shared UI components stay in `src/components/ui`.
+
+Shared UI components may be imported from the `src/components/ui` barrel export:
+
+```ts
+import { ModuleHeader, ModulePanel } from '~/components/ui';
+```
+
+Components inside `src/components/ui` should import other UI components directly from their source file when needed, not from the barrel export.
+
+General utilities stay in `src/utils`.
+
 ## Interface language
 
 All user-facing interface text must be written in Portuguese.
@@ -75,3 +108,33 @@ The frontend implementation follows the decisions registered in those documents.
 Routes use English slugs.
 
 Route names should reflect the product areas they represent.
+
+Route paths are centralized in `src/routes/paths.ts`.
+
+The route tree is defined in `src/routes/AppRoutes.tsx`.
+
+Do not hardcode route strings in layout navigation or route declarations when a value exists in `ROUTES`.
+
+## Providers
+
+Global application providers are configured in `src/App.tsx`.
+
+TanStack Query is configured with a shared `QueryClient` and `QueryClientProvider`.
+
+## Styling conventions
+
+Use Tailwind CSS v4.
+
+Prefer project theme tokens and CSS variables in `src/index.css` for stable colors and shared visual decisions.
+
+When writing Tailwind classes, keep classes in a consistent logical order. Prefer alphabetical order when practical, especially in new or edited code.
+
+Avoid unnecessary decorative text in analytical modules. Module titles, controls, metrics and visualizations should carry the interface unless additional interpretation text is explicitly needed.
+
+## Current implementation notes
+
+The Current Election dashboard currently uses temporary chart placeholder images.
+
+Real charts should replace those placeholders when data and chart components are implemented.
+
+Temporal range selection for charts should be handled by the chart implementation, such as Recharts Brush, not by a separate application-level period filter.

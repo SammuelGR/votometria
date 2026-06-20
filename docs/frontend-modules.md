@@ -50,9 +50,13 @@ Public Attention vs Market Expectations works as the synthesis module of the das
 
 Analytical modules are implemented as specific components.
 
-Shared visual components may be used to keep consistency across the interface, including panels, headers, filter controls, source labels, legends and metric cards.
+Shared visual components may be used to keep consistency across the interface, including panels, headers, filter controls, source badges, legends and metric cards.
 
 Each module keeps its own internal structure according to the analysis it represents.
+
+Time-series date range selection belongs to the chart interaction layer, such as Recharts Brush.
+
+Do not represent the date range as a standalone period filter outside the chart.
 
 ## Market Expectations
 
@@ -77,9 +81,12 @@ Time series line chart.
 
 ### Controls
 
-- Period
 - Interval
 - Candidates
+
+### Interaction
+
+The chart should allow date range selection through the time-series interaction layer.
 
 ### Contextual layers
 
@@ -110,9 +117,11 @@ Time series line chart.
 
 ### Controls
 
-- Period
 - Candidates
-- Source
+
+### Interaction
+
+The chart should allow date range selection through the time-series interaction layer.
 
 ### Contextual layers
 
@@ -144,9 +153,11 @@ This module should represent Share of Search as a proportional distribution, not
 
 ### Controls
 
-- Period
 - Candidates
-- Source
+
+### Interaction
+
+The selected date range should come from the dashboard or related chart context when implemented.
 
 ### Source
 
@@ -168,11 +179,11 @@ Scatterplot.
 
 ### Controls
 
-- Period
 - Candidates
-- Attention source
 
 ### Interaction
+
+The selected date range should come from the dashboard or related chart context when implemented.
 
 The tooltip shows:
 
