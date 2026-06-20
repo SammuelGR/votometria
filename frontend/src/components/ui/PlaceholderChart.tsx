@@ -28,7 +28,7 @@ export default function PlaceholderChart({
       {imageSrc ? (
         <img
           alt={imageAlt ?? label}
-          className="h-full max-h-[420px] min-h-56 w-full rounded object-contain"
+          className="h-full max-h-96 min-h-56 object-contain rounded w-full"
           src={imageSrc}
         />
       ) : (
