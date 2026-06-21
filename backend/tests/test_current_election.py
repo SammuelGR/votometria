@@ -10,6 +10,19 @@ def test_health_returns_ok(client):
     assert response.json() == {"status": "ok"}
 
 
+def test_cors_allows_local_frontend_origin(client):
+    response = client.options(
+        "/api/current-election/market-expectations",
+        headers={
+            "Origin": "http://localhost:5173",
+            "Access-Control-Request-Method": "GET",
+        },
+    )
+
+    assert response.status_code == 200
+    assert response.headers["access-control-allow-origin"] == "http://localhost:5173"
+
+
 def test_market_expectations_returns_empty_series_when_no_data_exists(client):
     response = client.get("/api/current-election/market-expectations")
 
@@ -310,7 +323,7 @@ def test_market_expectations_rejects_inverted_date_range(client):
 
     assert response.status_code == 400
     assert response.json() == {
-        "detail": "fromDate must be earlier than or equal to toDate.",
+        "message": "fromDate must be earlier than or equal to toDate.",
     }
 
 
@@ -322,8 +335,15 @@ def test_market_expectations_rejects_unsupported_interval(client):
 
     assert response.status_code == 422
     response_body = response.json()
-    assert response_body["detail"][0]["msg"] == "Input should be '1h', '4h', '1d' or '1w'"
-    assert response_body["detail"][0]["input"] == "2h"
+    assert response_body == {
+        "message": "Invalid request.",
+        "errors": [
+            {
+                "field": "interval",
+                "message": "Input should be '1h', '4h', '1d' or '1w'",
+            }
+        ],
+    }
 
 
 def test_market_expectation_filters_returns_empty_values_when_no_data_exists(client):
