@@ -105,7 +105,36 @@ When no Polymarket records exist, `dateRange.min` and `dateRange.max` are return
 
 ## Configuration
 
-The backend reads `DATABASE_URL` from the project environment.
+The backend reads configuration from the project environment.
+
+Current backend configuration keys:
+
+- `DATABASE_URL`: PostgreSQL connection URL.
+- `BACKEND_CORS_ORIGINS`: allowed browser origins for the backend API, separated by commas.
+
+## Error handling
+
+HTTP errors return a `message` field:
+
+```json
+{
+  "message": "fromDate must be earlier than or equal to toDate."
+}
+```
+
+Request validation errors return a general message and field-level errors:
+
+```json
+{
+  "message": "Invalid request.",
+  "errors": [
+    {
+      "field": "interval",
+      "message": "Input should be '1h', '4h', '1d' or '1w'"
+    }
+  ]
+}
+```
 
 ## Testing
 

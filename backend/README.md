@@ -6,6 +6,7 @@ FastAPI backend for Votometria.
 
 - Python 3.11 or newer
 - PostgreSQL database configured through `DATABASE_URL` in the project `.env` file
+- Backend CORS origins configured through `BACKEND_CORS_ORIGINS` in the project `.env` file
 
 ## Installation
 

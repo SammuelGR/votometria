@@ -10,6 +10,17 @@ A arquitetura do projeto segue um modelo de monorepo estruturado para processame
 
 ---
 
+## Configuração de Ambiente
+
+Crie uma cópia do arquivo `.env.example` na raiz do projeto e renomeie-a para `.env`.
+
+Variáveis usadas atualmente:
+
+- `DATABASE_URL`: URL de conexão PostgreSQL. Preencha com a connection string do banco que será usado pelo projeto.
+- `BACKEND_CORS_ORIGINS`: origens autorizadas a acessar o backend pelo browser. Preencha com URLs separadas por vírgula, por exemplo `http://localhost:5173,https://votometria.vercel.app`.
+
+---
+
 ## Frontend
 
 O frontend usa Vite, React, TypeScript e Tailwind CSS.
@@ -78,9 +89,11 @@ Mais detalhes estão em `backend/README.md` e `docs/backend.md`.
 
 ---
 
-## Ingestão de Dados da Polymarket
+## Scripts
 
-Esta etapa conecta à API pública da Polymarket para coletar as probabilidades da eleição de 2026, tratar os dados e salvá-los no banco **PostgreSQL** usando o ORM **SQLAlchemy**.
+Os scripts concentram os pipelines de extração, transformação e carga (ETL) do projeto.
+
+Os dados processados são persistidos no PostgreSQL para consumo posterior pelo backend e pelo frontend.
 
 ### Pré-requisitos
 
@@ -108,11 +121,7 @@ Esta etapa conecta à API pública da Polymarket para coletar as probabilidades 
    python -m pip install -r requirements.txt
    ```
 
-3. **Configurar as credenciais do banco**:
-   - Crie uma cópia do arquivo `.env.example` na raiz do projeto e renomeie-a para `.env`.
-   - Abra o arquivo `.env` e insira a string de conexão do seu banco de dados **PostgreSQL** na variável `DATABASE_URL`.
-
-### Executando o Script
+### Executando os pipelines
 
 Com o ambiente virtual ativo e dentro da pasta `scripts`, execute:
 
