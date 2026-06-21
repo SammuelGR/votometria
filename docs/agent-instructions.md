@@ -1,10 +1,48 @@
-# Project Blueprint & Developer Guidelines
+# Project Entry Point & Developer Guidelines
 
-This document provides a comprehensive overview of the **Brazilian Presidential Election Analytical Dashboard** project. It serves as a master guide for developers and AI coding agents to ensure architectural alignment and consistency across all modules.
+This document is the entry point for developers and AI coding agents working on the **Brazilian Presidential Election Analytical Dashboard** project.
+
+Detailed product, frontend, database and integration decisions live in the dedicated documentation files listed below. When a specific document defines a topic, prefer that document over older or broader notes.
 
 ---
 
-## 1. Project Proposal & Objectives
+## Documentation map
+
+- `docs/modules.md`
+  Product and domain definition of the analytical modules.
+
+- `docs/frontend-modules.md`
+  Frontend representation of the analytical modules.
+
+- `docs/frontend.md`
+  Frontend stack, routing and interface language.
+
+- `docs/database.md`
+  Database schema and persistence decisions.
+
+- `docs/polymarket-integration.md`
+  Polymarket ETL and integration details.
+
+## Reading guide
+
+For frontend tasks, read:
+
+- `docs/frontend.md`
+- `docs/frontend-modules.md`
+- `docs/modules.md`
+
+For data modeling or backend tasks, read:
+
+- `docs/modules.md`
+- `docs/database.md`
+
+For Polymarket tasks, read:
+
+- `docs/polymarket-integration.md`
+- `docs/database.md`
+- `docs/modules.md`
+
+## 1. Project Overview
 
 The goal of this project is to build an analytical dashboard that consolidates public expectation, electoral data, public attention, and macroeconomic context for Brazilian Presidential Elections.
 
@@ -20,54 +58,12 @@ The application helps users answer two main focus questions:
 This project is structured as a monorepo containing isolated modules:
 
 - **/scripts**: Contains Python ETL pipelines organized by shared core utilities, extractors, transformers, loaders, pipelines, and database models.
-- **/frontend**: Reserved for the web-based visualization frontend application (dashboard).
+- **/frontend**: Contains the Vite React frontend application for the dashboard.
 - **/docs**: Contains documentation schemas, specifications, and guidelines.
 
 ---
 
-## 3. Integrated Data Modules & Data Sources
-
-Future development will expand the backend to ingest, clean, and align data for the following dashboard sections:
-
-### A. Current Election ("Eleição Atual")
-
-This section tracks present-day expectation, interest, and their correlations:
-
-1. **Public Attention ("Atenção Pública")**:
-   - _Source_: Google Trends & Wikipedia Pageviews APIs.
-   - _Visualization_: Line chart showing interest trends over time. Interactive markers on the X-axis for relevant news/events.
-2. **Market Expectation ("Expectativa de Mercado")**:
-   - _Source_: Polymarket CLOB API.
-   - _Visualization_: Line chart showing candidate victory probabilities. Must include Moving Averages (MM) to highlight trendlines.
-3. **Share of Search**:
-   - _Source_: Google Trends.
-   - _Visualization_: Horizontal bar chart displaying the percentage share of search volume across main candidates.
-4. **Public Attention vs. Market Expectation**:
-   - _Source_: Merged Google Trends/Wikipedia & Polymarket datasets.
-   - _Visualization_: Scatter plot mapping Share of Search (X-axis) against Polymarket Probability (Y-axis), where each point represents a candidate.
-
-### B. Past Results ("Resultados Passados")
-
-This section serves as a historical reference (e.g., 2018 and 2022 elections):
-
-5. **Total per Candidate**:
-
-- _Source_: Tribunal Superior Eleitoral (TSE) official CSV data.
-- _Visualization_: Vertical bar chart of valid votes per candidate for a selected election year.
-
-6. **Round Difference ("Diferença de Turnos")**:
-   - _Source_: TSE.
-   - _Visualization_: Line chart showing candidate performance change between the 1st and 2nd round.
-7. **Geographic Distribution**:
-   - _Source_: TSE.
-   - _Visualization_: Choropleth map of Brazil colored by vote share per state/region.
-8. **Social Media vs. Demographics**:
-   - _Source_: Demographic voting data & social media indexes.
-   - _Visualization_: Scatter plot showing social media presence (Y-axis) against vote share by age group (X-axis).
-
----
-
-## 4. Data Integration & Quality Standards
+## 3. Data Integration & Quality Standards
 
 When merging these sources, agents must implement the following data quality rules:
 
@@ -79,15 +75,31 @@ When merging these sources, agents must implement the following data quality rul
 
 ---
 
-## 5. Coding Conventions
+## 4. Coding Conventions
 
 - **Strict English Policy**: All variables, database models, table/column names, prints, logs, docstrings, and code comments **must** be written in English.
+- Frontend user-facing interface text is documented separately in `docs/frontend.md`.
+
+### Frontend
+
+- Use Vite, React, TypeScript and Tailwind CSS for `/frontend`.
+- Keep frontend user-facing text in Portuguese.
+- Keep code identifiers, component names, file names, comments and internal documentation in English.
+- Follow the frontend architecture decisions documented in `docs/frontend.md`.
+- Follow the frontend module decisions documented in `docs/frontend-modules.md`.
 
 ---
 
-## 6. Testing Guidelines
+## 5. Testing Guidelines
 
 Testing is defined per monorepo module.
+
+### `/frontend`
+
+- Run frontend validation from inside `/frontend`.
+- Use `npm run format:check` to verify formatting.
+- Use `npm run lint` for lint validation.
+- Use `npm run build` for TypeScript and production build validation.
 
 ### `/scripts`
 
@@ -102,11 +114,11 @@ Testing is defined per monorepo module.
 
 ---
 
-## 7. KPI Thresholds & Update Frequencies
+## 6. KPI Thresholds & Update Frequencies
 
 ### Specific KPI Meta Targets
 
-Future visualization logic or analytical notifications must implement the following business thresholds:
+Analytical notifications and visualization logic use the following business thresholds:
 
 - **Attention Concentration**: Triggered when the top 2 candidates by Share of Search aggregate **70% or more** of total attention in a given period.
 - **Attention/Market Divergence**: Triggered when the difference between a candidate's Share of Search and their Polymarket win probability exceeds **10 percentage points**.
