@@ -1,12 +1,12 @@
 import { useState } from 'react';
 
 import {
+  IntervalSelector,
   MetricCard,
   ModuleHeader,
   ModulePanel,
   MultiSelect,
   PlaceholderChart,
-  SegmentedControl,
   SourceBadge,
 } from '~/components/ui';
 
@@ -26,6 +26,7 @@ const mockIntervalOptions = [
 
 export default function MarketExpectations() {
   const [selectedCandidates, setSelectedCandidates] = useState<string[]>([]);
+  const [selectedInterval, setSelectedInterval] = useState('1h');
 
   return (
     <ModulePanel>
@@ -33,7 +34,7 @@ export default function MarketExpectations() {
         <ModuleHeader badges={<SourceBadge label="Polymarket" />} title="Expectativa de mercado" />
 
         <div className="flex flex-wrap gap-3">
-          <SegmentedControl label="Intervalo" options={mockIntervalOptions} value="1h" />
+          <IntervalSelector onChange={setSelectedInterval} options={mockIntervalOptions} value={selectedInterval} />
 
           <MultiSelect
             label="Candidatos"
