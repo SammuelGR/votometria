@@ -4,80 +4,113 @@ import zipfile
 import tempfile
 import sys
 
-DIRETORIO_ATUAL = os.path.dirname(os.path.abspath(__file__))
-DIRETORIO_PAI = os.path.dirname(DIRETORIO_ATUAL)
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+PARENT_DIR = os.path.dirname(CURRENT_DIR)
 
-sys.path.append(DIRETORIO_PAI)
+sys.path.append(PARENT_DIR)
 
 from constants_tse import (
-    URL_TSE_PRESIDENCIA_2018,
-    URL_TSE_PRESIDENCIA_2022,
-    TARGET_CSV_PRESIDENCIA_2018,
-    TARGET_CSV_PRESIDENCIA_2022,
-    URL_TSE_ELEITORADO_2018, 
-    URL_TSE_ELEITORADO_2022, 
-    TARGET_CSV_ELEITORADO_2018, 
-    TARGET_CSV_ELEITORADO_2022, 
-    RAW_DATA_DIR
+    URL_TSE_PRESIDENCY_2018,
+    URL_TSE_PRESIDENCY_2022,
+    TARGET_CSV_PRESIDENCY_2018,
+    TARGET_CSV_PRESIDENCY_2022,
+    URL_TSE_ELECTORATE_2018,
+    URL_TSE_ELECTORATE_2022,
+    TARGET_CSV_ELECTORATE_2018,
+    TARGET_CSV_ELECTORATE_2022,
+    RAW_DATA_DIR,
 )
 
-def baixar_e_extrair_tse(url_zip, nome_arquivo_alvo):
+
+def download_and_extract_tse(url_zip, target_filename):
     """
-    Faz o download do ZIP do TSE via stream e extrai apenas o arquivo de interesse.
+    Downloads a ZIP file from TSE via stream and extracts only the target file.
     """
-    # 1. Garante que a pasta data/raw/ existe
+    # 1. Ensures that the data/raw/ folder exists
     os.makedirs(RAW_DATA_DIR, exist_ok=True)
     
-    caminho_final_csv = os.path.join(RAW_DATA_DIR, nome_arquivo_alvo)
+    final_csv_path = os.path.join(RAW_DATA_DIR, target_filename)
     
-    # Pula a extração se o arquivo já existir na pasta (evita retrabalho)
-    if os.path.exists(caminho_final_csv):
-        print(f"O arquivo {nome_arquivo_alvo} já existe em {RAW_DATA_DIR}. Pulando extração.")
+    # Skips extraction if the file already exists (avoids redundant work)
+    if os.path.exists(final_csv_path):
+        print(f"File {target_filename} already exists in {RAW_DATA_DIR}. Skipping extraction.")
         return
 
-    print(f"Iniciando download de: {url_zip}")
+    print(f"Starting download from: {url_zip}")
     
-    # 2. Cria um arquivo temporário no sistema para não lotar a RAM
+    # 2. Creates a temporary file to avoid consuming all RAM
     with tempfile.NamedTemporaryFile(delete=False, suffix=".zip") as tmp_zip:
-        # Faz a requisição em modo stream (baixa em pedaços)
-        resposta = requests.get(url_zip, stream=True)
-        resposta.raise_for_status() # Verifica se deu erro no download
+        # Makes the request in streaming mode (downloads in chunks)
+        response = requests.get(url_zip, stream=True)
+        response.raise_for_status()  # Checks for download errors
         
-        # Escreve os pedaços (chunks) de 8MB no disco
-        for chunk in resposta.iter_content(chunk_size=8192 * 1024): 
+        # Writes 8MB chunks to disk
+        for chunk in response.iter_content(chunk_size=8192 * 1024): 
             if chunk:
                 tmp_zip.write(chunk)
                 
-        caminho_tmp_zip = tmp_zip.name
+        tmp_zip_path = tmp_zip.name
 
-    print("Download concluído. Iniciando extração do CSV alvo...")
+    print("Download completed. Starting target CSV extraction...")
 
-    # 3. Abre o ZIP temporário e extrai apenas o arquivo BR.csv
+    # 3. Opens the temporary ZIP and extracts only the target file
     try:
-        with zipfile.ZipFile(caminho_tmp_zip, 'r') as zip_ref:
-            if nome_arquivo_alvo in zip_ref.namelist():
-                # Extrai especificamente o CSV nacional para a pasta raw
-                zip_ref.extract(nome_arquivo_alvo, path=RAW_DATA_DIR)
-                print(f"Sucesso: {nome_arquivo_alvo} extraído para {RAW_DATA_DIR}")
+        with zipfile.ZipFile(tmp_zip_path, 'r') as zip_ref:
+            if target_filename in zip_ref.namelist():
+                # Extracts the CSV file to the raw folder
+                zip_ref.extract(target_filename, path=RAW_DATA_DIR)
+                print(f"Success: {target_filename} extracted to {RAW_DATA_DIR}")
             else:
-                print(f"Erro: O arquivo {nome_arquivo_alvo} não foi encontrado no ZIP.")
+                print(f"Error: File {target_filename} not found in ZIP.")
     finally:
-        # 4. Limpeza: apaga o arquivo ZIP gigante temporário do seu computador
-        os.remove(caminho_tmp_zip)
-        print("Arquivo ZIP temporário removido para liberar espaço.")
+        # 4. Cleanup: removes the temporary ZIP file to free up space
+        os.remove(tmp_zip_path)
+        print("Temporary ZIP file removed to free up space.")
 
-def main():
-    print("--- Iniciando Pipeline de Extração: TSE ---")
-    
-    # Executa a extração para 2018
-    baixar_e_extrair_tse(URL_TSE_PRESIDENCIA_2018, TARGET_CSV_PRESIDENCIA_2018)
-    baixar_e_extrair_tse(URL_TSE_ELEITORADO_2018, TARGET_CSV_ELEITORADO_2018)
-    
-    # Executa a extração para 2022
-    baixar_e_extrair_tse(URL_TSE_PRESIDENCIA_2022, TARGET_CSV_PRESIDENCIA_2022)
-    baixar_e_extrair_tse(URL_TSE_ELEITORADO_2022, TARGET_CSV_ELEITORADO_2022)
 
-    print("--- Extração Finalizada com Sucesso! ---")
+def extract_presidency_data() -> int:
+    """
+    Extracts TSE presidential election data for 2018 and 2022.
+    Returns the number of files successfully extracted.
+    """
+    presidency_targets = [
+        (URL_TSE_PRESIDENCY_2018, TARGET_CSV_PRESIDENCY_2018),
+        (URL_TSE_PRESIDENCY_2022, TARGET_CSV_PRESIDENCY_2022),
+    ]
 
-if __name__ == "__main__":
-    main()
+    print("\nExtracting TSE presidential election data...")
+    extracted_count = 0
+
+    for url, target_file in presidency_targets:
+        try:
+            download_and_extract_tse(url, target_file)
+            extracted_count += 1
+        except Exception as exc:
+            print(f"Error extracting {target_file}: {exc}")
+            continue
+
+    return extracted_count
+
+
+def extract_voter_profile_data() -> int:
+    """
+    Extracts TSE voter profile data for 2018 and 2022.
+    Returns the number of files successfully extracted.
+    """
+    voter_profile_targets = [
+        (URL_TSE_ELECTORATE_2018, TARGET_CSV_ELECTORATE_2018),
+        (URL_TSE_ELECTORATE_2022, TARGET_CSV_ELECTORATE_2022),
+    ]
+
+    print("\nExtracting TSE voter profile data...")
+    extracted_count = 0
+
+    for url, target_file in voter_profile_targets:
+        try:
+            download_and_extract_tse(url, target_file)
+            extracted_count += 1
+        except Exception as exc:
+            print(f"Error extracting {target_file}: {exc}")
+            continue
+
+    return extracted_count

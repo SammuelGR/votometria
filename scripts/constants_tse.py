@@ -1,34 +1,34 @@
 import os
 
 ## =================================================================
-## CONSTANTES PARA EXTRAÇÃO - DADOS DO TSE (PRESIDENTE 2018 E 2022)
+## TSE EXTRACTION CONSTANTS (PRESIDENCY 2018 AND 2022)
 ## =================================================================
 
-# 1. URLs dos arquivos ZIP originais do repositório de Dados Abertos do TSE
-URL_TSE_PRESIDENCIA_2018 = "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
-URL_TSE_PRESIDENCIA_2022 = "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
-URL_TSE_ELEITORADO_2018 = "https://cdn.tse.jus.br/estatistica/sead/odsele/perfil_eleitorado/perfil_eleitorado_2018.zip"
-URL_TSE_ELEITORADO_2022 = "https://cdn.tse.jus.br/estatistica/sead/odsele/perfil_eleitorado/perfil_eleitorado_2022.zip"
+# 1. Source ZIP URLs from the TSE Open Data repository
+URL_TSE_PRESIDENCY_2018 = "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip"
+URL_TSE_PRESIDENCY_2022 = "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip"
+URL_TSE_ELECTORATE_2018 = "https://cdn.tse.jus.br/estatistica/sead/odsele/perfil_eleitorado/perfil_eleitorado_2018.zip"
+URL_TSE_ELECTORATE_2022 = "https://cdn.tse.jus.br/estatistica/sead/odsele/perfil_eleitorado/perfil_eleitorado_2022.zip"
 
-# 2. Arquivos Alvo dentro do ZIP (Focando na abrangência Nacional/Presidente)
-# Isso garante que não vamos carregar os dados de governadores, senadores, etc.
-TARGET_CSV_PRESIDENCIA_2018 = "votacao_candidato_munzona_2018_BR.csv"
-TARGET_CSV_PRESIDENCIA_2022 = "votacao_candidato_munzona_2022_BR.csv"
-TARGET_CSV_ELEITORADO_2018 = "perfil_eleitorado_2018.csv"
-TARGET_CSV_ELEITORADO_2022 = "perfil_eleitorado_2022.csv"
+# 2. Target files inside the ZIP archives (focusing on national/presidency scope)
+# This avoids loading governor, senator, and other non-presidential data.
+TARGET_CSV_PRESIDENCY_2018 = "votacao_candidato_munzona_2018_BR.csv"
+TARGET_CSV_PRESIDENCY_2022 = "votacao_candidato_munzona_2022_BR.csv"
+TARGET_CSV_ELECTORATE_2018 = "perfil_eleitorado_2018.csv"
+TARGET_CSV_ELECTORATE_2022 = "perfil_eleitorado_2022.csv"
 
-# 3. Configurações de Leitura (Conforme o documento leiame.pdf)
+# 3. Read/write settings
 CSV_ENCODING = "latin-1"
 CSV_SEPARATOR = ";"
 
-# 4. Estrutura de Diretórios Local
-# Utiliza caminhos relativos para funcionar no computador de qualquer um do grupo
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) 
+# 4. Local directory setup
+# Uses relative paths so the project works on any team member's machine.
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW_DATA_DIR = os.path.join(BASE_DIR, "data", "raw")
 
-# Lista de colunas úteis para focar na extração/leitura (Opcional, mas ajuda a otimizar a RAM)
-# Vocês podem ajustar caso precise de mais colunas
-COLUNAS_INTERESSE = [
+# Optional useful columns for extraction/reading to save memory.
+# You can adjust this list if more fields are needed.
+INTEREST_COLUMNS = [
     "ANO_ELEICAO",
     "NR_TURNO",
     "SG_UF",
