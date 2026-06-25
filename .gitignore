@@ -42,3 +42,5 @@ Thumbs.db
 # Ignorar arquivos de dados (ETL)
 data/raw/*.csv
 data/raw/*.zip
+data/parsed_tse/*.csv
+tests/
