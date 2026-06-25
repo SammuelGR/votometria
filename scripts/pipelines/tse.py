@@ -1,5 +1,8 @@
 from extractors.tse import extract_presidency_data, extract_voter_profile_data
-from transformers.tse import run_presidency_transformation
+from transformers.tse import (
+    run_presidency_transformation,
+    run_voter_profile_transformation,
+)
 
 
 def run_tse_pipeline() -> int:
@@ -29,9 +32,15 @@ def run_tse_pipeline() -> int:
     # Phase 2: Transformation
     print("\n--- Phase 2: Transformation ---")
     presidency_transform_success = run_presidency_transformation()
-    
+    electorate_transform_success = run_voter_profile_transformation()
+
     if not presidency_transform_success:
         print("Warning: Presidency transformation failed.")
+    if not electorate_transform_success:
+        print("Warning: Voter profile transformation failed.")
+    
+    if not presidency_transform_success or not electorate_transform_success:
+        print("Transformation completed with warnings.")
         return total_extracted
     
     print("Transformation completed successfully.")
