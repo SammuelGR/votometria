@@ -26,16 +26,13 @@ CSV_SEPARATOR = ";"
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW_DATA_DIR = os.path.join(BASE_DIR, "data", "raw")
 
-# Optional useful columns for extraction/reading to save memory.
-# You can adjust this list if more fields are needed.
-INTEREST_COLUMNS = [
-    "ANO_ELEICAO",
-    "NR_TURNO",
+# Columns for transforming and cleaning the data, focusing on the most relevant fields for analysis.
+INTEREST_COLUMNS_PRESIDENCY = [
+    "NR_TURNO", 
     "SG_UF",
-    "NM_MUNICIPIO",
-    "DS_CARGO",
-    "NR_CANDIDATO",
-    "NM_URNA_CANDIDATO",
-    "SG_PARTIDO",
-    "QT_VOTOS_NOMINAIS"
+    "NM_URNA_CANDIDATO", 
+    "SG_PARTIDO", 
+    "NM_PARTIDO",
+    "QT_VOTOS_NOMINAIS",
+    "DS_SIT_TOT_TURNO"
 ]

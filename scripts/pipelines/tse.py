@@ -1,23 +1,41 @@
 from extractors.tse import extract_presidency_data, extract_voter_profile_data
+from transformers.tse import run_presidency_transformation
 
 
 def run_tse_pipeline() -> int:
     """
-    Runs the complete TSE extraction pipeline for both presidential election
-    and voter profile data across all configured election cycles.
-    Returns the total number of files successfully extracted.
-    """
-    print("Starting TSE extraction pipeline...")
+    Runs the complete TSE ETL pipeline for presidential election data:
+    1. Extracts raw data from TSE sources
+    2. Transforms and cleans the data
+    3. Persists parsed datasets to disk
     
+    Returns the total number of TSE files successfully processed.
+    """
+    print("Starting TSE ETL pipeline...")
+    
+    # Phase 1: Extraction
+    print("\n--- Phase 1: Extraction ---")
     presidency_count = extract_presidency_data()
     voter_profile_count = extract_voter_profile_data()
     
     total_extracted = presidency_count + voter_profile_count
 
-    if total_extracted > 0:
-        print(f"\nSuccess! {total_extracted} TSE files extracted.")
-    else:
-        print("\nNo TSE files were extracted.")
-
+    if total_extracted == 0:
+        print("No TSE files were extracted.")
+        return 0
+    
+    print(f"Extracted: {total_extracted} TSE files")
+    
+    # Phase 2: Transformation
+    print("\n--- Phase 2: Transformation ---")
+    presidency_transform_success = run_presidency_transformation()
+    
+    if not presidency_transform_success:
+        print("Warning: Presidency transformation failed.")
+        return total_extracted
+    
+    print("Transformation completed successfully.")
+    print(f"\nSuccess! TSE ETL pipeline completed with {total_extracted} files extracted.")
+    
     return total_extracted
 
