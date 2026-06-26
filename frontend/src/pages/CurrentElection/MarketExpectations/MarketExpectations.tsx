@@ -101,7 +101,7 @@ export default function MarketExpectations() {
               {chartFeedback}
             </div>
           ) : (
-            <MarketExpectationsChart series={series} />
+            <MarketExpectationsChart interval={selectedInterval} series={series} />
           )}
 
           <div className="gap-3 grid md:grid-cols-4">
