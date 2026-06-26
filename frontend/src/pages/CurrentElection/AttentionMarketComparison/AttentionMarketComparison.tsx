@@ -1,5 +1,4 @@
-import { CandidateSelector, ModuleHeader, ModulePanel, PlaceholderChart, SourceBadge } from '~/components/ui';
-import { candidateOptions } from '~/pages/CurrentElection/modules/filterOptions';
+import { ModuleHeader, ModulePanel, MultiSelect, PlaceholderChart, SourceBadge } from '~/components/ui';
 
 export default function AttentionMarketComparison() {
   return (
@@ -17,7 +16,7 @@ export default function AttentionMarketComparison() {
         />
 
         <div className="flex flex-wrap gap-3">
-          <CandidateSelector candidates={candidateOptions} label="Candidatos" value="all" />
+          <MultiSelect label="Candidatos" onChange={() => {}} options={[]} value={[]} />
         </div>
 
         <PlaceholderChart

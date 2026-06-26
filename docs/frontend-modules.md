@@ -66,11 +66,12 @@ It shows the evolution of market probabilities for candidates in the current pre
 
 ### Main visualization
 
-Time series line chart.
+Recharts time series line chart.
 
 - X axis: time
 - Y axis: market probability
 - Series: one line per candidate
+- Range interaction: Recharts Brush
 
 ### Summary metrics
 
@@ -86,7 +87,7 @@ Time series line chart.
 
 ### Interaction
 
-The chart should allow date range selection through the time-series interaction layer.
+The chart allows date range selection through the time-series interaction layer.
 
 ### Contextual layers
 

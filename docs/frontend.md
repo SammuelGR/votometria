@@ -16,6 +16,7 @@ The frontend uses:
 - Tailwind CSS v4
 - React Router 7
 - TanStack Query v5
+- Recharts
 - Lucide React
 - clsx
 - tailwind-merge
@@ -64,8 +65,12 @@ Pages are organized by context:
 src/pages/
   CurrentElection/
     CurrentElection.tsx
-    modules/
-      ...
+    MarketExpectations/
+      MarketExpectations.tsx
+      MarketExpectationsChart.tsx
+    PublicAttention/
+    ShareOfSearch/
+    AttentionMarketComparison/
 
   HistoricalElections/
     HistoricalElections.tsx
@@ -86,6 +91,14 @@ import { ModuleHeader, ModulePanel } from '~/components/ui';
 Components inside `src/components/ui` should import other UI components directly from their source file when needed, not from the barrel export.
 
 General utilities stay in `src/utils`.
+
+API request helpers stay in `src/fetchers`.
+
+TanStack Query hooks for API requests stay in `src/fetchers/hooks`.
+
+Shared frontend domain models stay in `src/models`.
+
+Frontend environment configuration stays in `src/config`.
 
 ## Interface language
 
@@ -121,6 +134,19 @@ Global application providers are configured in `src/App.tsx`.
 
 TanStack Query is configured with a shared `QueryClient` and `QueryClientProvider`.
 
+## Data fetching
+
+Frontend API calls use the configured `VITE_API_BASE_URL`.
+
+Feature fetchers expose endpoint-specific functions.
+
+TanStack Query hooks own cache configuration and query keys for API-backed data.
+
+Market Expectations uses separate requests for:
+
+- initial option values for controls and default candidate selection
+- market expectation time series and summary values
+
 ## Styling conventions
 
 Use Tailwind CSS v4.
@@ -133,7 +159,7 @@ Avoid unnecessary decorative text in analytical modules. Module titles, controls
 
 ## Current implementation notes
 
-The Current Election dashboard currently uses temporary chart placeholder images.
+The Current Election dashboard uses temporary chart placeholder images for modules that do not have data integration.
 
 Real charts should replace those placeholders when data and chart components are implemented.
 

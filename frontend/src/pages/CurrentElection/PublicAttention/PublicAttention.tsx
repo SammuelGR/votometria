@@ -1,12 +1,4 @@
-import {
-  CandidateSelector,
-  MetricCard,
-  ModuleHeader,
-  ModulePanel,
-  PlaceholderChart,
-  SourceBadge,
-} from '~/components/ui';
-import { candidateOptions } from '~/pages/CurrentElection/modules/filterOptions';
+import { MetricCard, ModuleHeader, ModulePanel, MultiSelect, PlaceholderChart, SourceBadge } from '~/components/ui';
 
 export default function PublicAttention() {
   return (
@@ -23,7 +15,7 @@ export default function PublicAttention() {
         />
 
         <div className="flex flex-wrap gap-3">
-          <CandidateSelector candidates={candidateOptions} label="Candidatos" value="all" />
+          <MultiSelect label="Candidatos" onChange={() => {}} options={[]} value={[]} />
         </div>
 
         <div className="flex flex-col gap-5 lg:flex-col-reverse">
@@ -34,9 +26,9 @@ export default function PublicAttention() {
           />
 
           <div className="gap-3 grid sm:grid-cols-2">
-            <MetricCard label="Maior atenção" value="Implementação futura" />
+            <MetricCard text="Implementação futura" title="Maior atenção" />
 
-            <MetricCard label="Maior pico" value="Implementação futura" />
+            <MetricCard text="Implementação futura" title="Maior pico" />
           </div>
         </div>
       </div>

@@ -3,10 +3,18 @@
 @theme {
   --color-background: #f8fafc;
   --color-border: #dbe4ef;
+  --color-chart-1: #2563eb;
+  --color-chart-2: #db2777;
+  --color-chart-3: #16a34a;
+  --color-chart-4: #9333ea;
+  --color-chart-5: #ea580c;
+  --color-chart-6: #0891b2;
   --color-foreground: #0f172a;
   --color-muted: #64748b;
   --color-navigation: #eef4fb;
   --color-navigation-active: #ffffff;
+  --color-negative: #b91c1c;
+  --color-positive: #047857;
   --color-surface: #ffffff;
 }
 

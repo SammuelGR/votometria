@@ -51,6 +51,7 @@ This document explains the configuration, endpoints, and logic used to fetch ele
 ## 4. Ingestion & Execution Strategy
 
 - **Update Frequency**: Polymarket data changes rapidly. The pipeline is designed to be executed on a scheduled trigger **daily** or **every 4 hours** to capture fresh snapshots.
+- **Candidate Catalog**: Each parsed market is associated with a `candidate_catalog` entry using the Polymarket source and market ID.
 - **Incremental Runs**: The ETL pipeline queries the latest persisted timestamp per `market_id`, applies a 24-hour safety overlap, and requests only the needed CLOB history window using `startTs`, `endTs`, and `fidelity=60`.
 - **Deduplication**: The loader checks only the `(market_id, timestamp)` pairs from the current batch before inserting records.
 
@@ -61,6 +62,7 @@ This document explains the configuration, endpoints, and logic used to fetch ele
 The Polymarket integration follows a modular ETL layout:
 
 - `scripts/extractors/polymarket.py`: Calls Polymarket APIs and returns raw payloads.
+- `scripts/core/catalog.py`: Provides candidate catalog helpers shared by ETL pipelines.
 - `scripts/transformers/polymarket.py`: Parses markets, resolves `"Yes"` token IDs, filters placeholders, and converts price history points into internal records.
 - `scripts/loaders/polymarket.py`: Reads existing database state and persists new probability records.
 - `scripts/pipelines/polymarket.py`: Orchestrates the full extraction, transformation, incremental window calculation, and loading flow.

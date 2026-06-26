@@ -5,14 +5,33 @@ Projeto da disciplina de Análise de Dados. O objetivo do Votometria é construi
 A arquitetura do projeto segue um modelo de monorepo estruturado para processamento e visualização:
 
 - `/scripts`: Pipelines de extração, transformação e carga (ETL) em Python.
-- `/backend` (Futuro): Camada de servidor API Python.
+- `/backend`: API Python para servir dados analíticos processados ao frontend.
 - `/frontend`: Visualização interativa desenvolvida em React + TypeScript.
+
+---
+
+## Configuração de Ambiente
+
+Crie uma cópia do arquivo `.env.example` na raiz do projeto e renomeie-a para `.env`.
+
+Variáveis de ambiente:
+
+- `DATABASE_URL`: URL de conexão PostgreSQL. Preencha com a connection string do banco que será usado pelo projeto.
+- `BACKEND_CORS_ORIGINS`: origens autorizadas a acessar o backend pelo browser. Preencha com URLs separadas por vírgula, por exemplo `http://localhost:5173,https://votometria.vercel.app`.
+
+O frontend possui um arquivo de ambiente próprio em `/frontend`.
+
+Crie uma cópia de `frontend/.env.example` como `frontend/.env`.
+
+Variável de ambiente do frontend:
+
+- `VITE_API_BASE_URL`: URL base da API backend, incluindo o prefixo `/api`.
 
 ---
 
 ## Frontend
 
-O frontend usa Vite, React, TypeScript e Tailwind CSS.
+O frontend usa Vite, React, TypeScript, Tailwind CSS, TanStack Query e Recharts.
 
 Para instalar as dependências:
 
@@ -39,9 +58,50 @@ Mais detalhes estão em `frontend/README.md` e `docs/frontend.md`.
 
 ---
 
-## Ingestão de Dados da Polymarket
+## Backend
 
-Esta etapa conecta à API pública da Polymarket para coletar as probabilidades da eleição de 2026, tratar os dados e salvá-los no banco **PostgreSQL** usando o ORM **SQLAlchemy**.
+O backend usa FastAPI e lê os dados processados do PostgreSQL.
+
+Para instalar as dependências:
+
+```bash
+cd backend
+python -m venv .venv
+```
+
+Ative o ambiente virtual conforme o seu terminal:
+- **Windows (Git Bash)**: `source .venv/Scripts/activate`
+- **Windows (PowerShell)**: `.venv\Scripts\Activate.ps1`
+- **Windows (CMD)**: `.venv\Scripts\activate`
+- **Linux/macOS**: `source .venv/bin/activate`
+
+Instale as dependências:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+Para executar em desenvolvimento:
+
+```bash
+uvicorn app.main:app --reload
+```
+
+Para executar os testes unitários:
+
+```bash
+python -m pytest tests
+```
+
+Mais detalhes estão em `backend/README.md` e `docs/backend.md`.
+
+---
+
+## Scripts
+
+Os scripts concentram os pipelines de extração, transformação e carga (ETL) do projeto.
+
+Os dados processados são persistidos no PostgreSQL para consumo posterior pelo backend e pelo frontend.
 
 ### Pré-requisitos
 
@@ -69,11 +129,7 @@ Esta etapa conecta à API pública da Polymarket para coletar as probabilidades 
    python -m pip install -r requirements.txt
    ```
 
-3. **Configurar as credenciais do banco**:
-   - Crie uma cópia do arquivo `.env.example` na raiz do projeto e renomeie-a para `.env`.
-   - Abra o arquivo `.env` e insira a string de conexão do seu banco de dados **PostgreSQL** na variável `DATABASE_URL`.
-
-### Executando o Script
+### Executando os pipelines
 
 Com o ambiente virtual ativo e dentro da pasta `scripts`, execute:
 

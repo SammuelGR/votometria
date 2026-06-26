@@ -1,5 +1,7 @@
 from datetime import datetime, timezone
 
+from constants import POLYMARKET_SOURCE
+from core.catalog import get_or_create_candidate_catalog_entry
 from core.time_windows import calculate_incremental_start_timestamp
 from extractors.polymarket import fetch_event_markets, fetch_price_history
 from loaders.polymarket import get_latest_timestamps_by_market, save_probability_records
@@ -28,6 +30,13 @@ def run_polymarket_pipeline(session) -> int:
     for market in markets:
         last_timestamp = latest_timestamps.get(market.market_id)
         start_ts = calculate_incremental_start_timestamp(last_timestamp)
+        candidate = get_or_create_candidate_catalog_entry(
+            session,
+            source=POLYMARKET_SOURCE,
+            source_key=market.market_id,
+            raw_name=market.candidate_name,
+            full_name=market.candidate_name,
+        )
 
         try:
             history_points = fetch_price_history(
@@ -35,7 +44,7 @@ def run_polymarket_pipeline(session) -> int:
                 start_ts=start_ts,
                 end_ts=end_ts if start_ts is not None else None,
             )
-            records = parse_price_history(market, history_points)
+            records = parse_price_history(market, candidate.id, history_points)
         except Exception as exc:
             print(
                 f"Error processing price history for market ID "

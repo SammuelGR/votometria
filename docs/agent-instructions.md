@@ -17,6 +17,9 @@ Detailed product, frontend, database and integration decisions live in the dedic
 - `docs/frontend.md`
   Frontend stack, routing and interface language.
 
+- `docs/backend.md`
+  Backend API stack, routing and service boundaries.
+
 - `docs/database.md`
   Database schema and persistence decisions.
 
@@ -58,6 +61,7 @@ The application helps users answer two main focus questions:
 This project is structured as a monorepo containing isolated modules:
 
 - **/scripts**: Contains Python ETL pipelines organized by shared core utilities, extractors, transformers, loaders, pipelines, and database models.
+- **/backend**: Contains the FastAPI backend that serves processed analytical data to the frontend.
 - **/frontend**: Contains the Vite React frontend application for the dashboard.
 - **/docs**: Contains documentation schemas, specifications, and guidelines.
 
@@ -68,6 +72,7 @@ This project is structured as a monorepo containing isolated modules:
 When merging these sources, agents must implement the following data quality rules:
 
 - **Name Standardization**: Normalize candidate names across different sources (e.g., aligning "Luiz Inácio Lula da Silva" vs "Lula" into a unified ID).
+- **Candidate Catalog**: ETL pipelines should register observed source candidates in the candidate catalog when persisting candidate-based facts.
 - **Temporal Alignment**: Resample daily/high-frequency series (like Polymarket) to a **weekly granularity** when comparing with lower-frequency public interest data (Google Trends).
 - **Date Formats**: Enforce standard ISO `YYYY-MM-DD` formatting across all databases and datasets.
 - **Data Types**: Ensure numerical metrics (like TSE vote counts stored as text strings) are parsed into integer or float columns during ingestion.
@@ -111,6 +116,12 @@ Testing is defined per monorepo module.
 - Use `tests/helpers.py` for small reusable factories and utilities.
 - Loader tests may use SQLite in-memory databases when validating persistence behavior.
 - Pipeline tests should mock extractors, transformers, and loaders to validate orchestration behavior.
+
+### `/backend`
+
+- Run backend unit tests from inside `/backend`.
+- Use `python -m pytest tests`.
+- Backend tests should use isolated test databases or dependency overrides.
 
 ---
 

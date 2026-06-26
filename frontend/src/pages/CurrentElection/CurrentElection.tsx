@@ -1,7 +1,7 @@
-import AttentionMarketComparison from '~/pages/CurrentElection/modules/AttentionMarketComparison';
-import MarketExpectations from '~/pages/CurrentElection/modules/MarketExpectations';
-import PublicAttention from '~/pages/CurrentElection/modules/PublicAttention';
-import ShareOfSearch from '~/pages/CurrentElection/modules/ShareOfSearch';
+import AttentionMarketComparison from '~/pages/CurrentElection/AttentionMarketComparison/AttentionMarketComparison';
+import MarketExpectations from '~/pages/CurrentElection/MarketExpectations/MarketExpectations';
+import PublicAttention from '~/pages/CurrentElection/PublicAttention/PublicAttention';
+import ShareOfSearch from '~/pages/CurrentElection/ShareOfSearch/ShareOfSearch';
 
 export default function CurrentElection() {
   return (

@@ -56,11 +56,12 @@ def test_parse_price_history_returns_probability_records(candidate_market):
         "p": 0.42,
     }
 
-    records = parse_price_history(candidate_market, [history_point])
+    records = parse_price_history(candidate_market, 1, [history_point])
 
     assert records == [
         PolymarketProbabilityRecord(
             market_id=candidate_market.market_id,
+            candidate_catalog_id=1,
             candidate_name=candidate_market.candidate_name,
             probability=history_point["p"],
             timestamp=datetime.fromtimestamp(history_point["t"], timezone.utc).replace(tzinfo=None),
@@ -78,11 +79,12 @@ def test_parse_price_history_ignores_incomplete_points(candidate_market):
         {"p": 0.43},
     ]
 
-    records = parse_price_history(candidate_market, [valid_point, *incomplete_points])
+    records = parse_price_history(candidate_market, 1, [valid_point, *incomplete_points])
 
     assert records == [
         PolymarketProbabilityRecord(
             market_id=candidate_market.market_id,
+            candidate_catalog_id=1,
             candidate_name=candidate_market.candidate_name,
             probability=valid_point["p"],
             timestamp=datetime.fromtimestamp(valid_point["t"], timezone.utc).replace(tzinfo=None),

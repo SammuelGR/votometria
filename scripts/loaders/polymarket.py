@@ -54,6 +54,7 @@ def save_probability_records(
 
         session.add(
             PolymarketProbability(
+                candidate_catalog_id=record.candidate_catalog_id,
                 candidate_name=record.candidate_name,
                 probability=record.probability,
                 timestamp=record.timestamp,

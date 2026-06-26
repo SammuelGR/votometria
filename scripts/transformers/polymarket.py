@@ -14,6 +14,7 @@ class PolymarketMarket:
 @dataclass(frozen=True)
 class PolymarketProbabilityRecord:
     market_id: str
+    candidate_catalog_id: int
     candidate_name: str
     probability: float
     timestamp: datetime
@@ -77,6 +78,7 @@ def parse_clob_tokens(clob_tokens_raw) -> list:
 
 def parse_price_history(
     market: PolymarketMarket,
+    candidate_catalog_id: int,
     history_points: List[dict],
 ) -> List[PolymarketProbabilityRecord]:
     """
@@ -100,6 +102,7 @@ def parse_price_history(
         records.append(
             PolymarketProbabilityRecord(
                 market_id=market.market_id,
+                candidate_catalog_id=candidate_catalog_id,
                 candidate_name=market.candidate_name,
                 probability=probability,
                 timestamp=timestamp,
