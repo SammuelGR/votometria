@@ -53,3 +53,9 @@ npm run build
 - `src/fetchers`: funções de acesso à API e hooks de TanStack Query.
 - `src/models`: modelos de domínio compartilhados no frontend.
 - `src/utils`: utilitários compartilhados.
+
+## Deploy
+
+O frontend está hospedado na Vercel.
+
+URL de Produção: `https://votometria.vercel.app`

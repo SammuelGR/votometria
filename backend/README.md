@@ -48,3 +48,9 @@ With the virtual environment active and inside `/backend`, run:
 ```bash
 python -m pytest tests
 ```
+
+## Deployment
+
+The backend is hosted on Render.
+
+Production URL: `https://votometria.onrender.com`

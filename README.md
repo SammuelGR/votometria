@@ -70,6 +70,7 @@ python -m venv .venv
 ```
 
 Ative o ambiente virtual conforme o seu terminal:
+
 - **Windows (Git Bash)**: `source .venv/Scripts/activate`
 - **Windows (PowerShell)**: `.venv\Scripts\Activate.ps1`
 - **Windows (CMD)**: `.venv\Scripts\activate`
@@ -144,3 +145,12 @@ Com o ambiente virtual ativo e dentro da pasta `scripts`, execute:
 ```bash
 python -m pytest tests
 ```
+
+---
+
+## Deploy
+
+| Módulo   | Host   | URL                             |
+| -------- | ------ | ------------------------------- |
+| Frontend | Vercel | https://votometria.vercel.app   |
+| Backend  | Render | https://votometria.onrender.com |

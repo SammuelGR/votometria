@@ -164,3 +164,9 @@ The Current Election dashboard uses temporary chart placeholder images for modul
 Real charts should replace those placeholders when data and chart components are implemented.
 
 Temporal range selection for charts should be handled by the chart implementation, such as Recharts Brush, not by a separate application-level period filter.
+
+## Deployment
+
+The frontend is hosted on Vercel.
+
+Production URL: `https://votometria.vercel.app`

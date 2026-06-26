@@ -138,6 +138,12 @@ Request validation errors return a general message and field-level errors:
 }
 ```
 
+## Deployment
+
+The backend is hosted on Render.
+
+Production URL: `https://votometria.onrender.com`
+
 ## Testing
 
 Run backend unit tests from inside `/backend`.
