@@ -1,4 +1,4 @@
-import { CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import { Brush, CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 
 import type { MarketExpectationInterval, MarketExpectationSeries } from '~/models/marketExpectations';
 import { formatDateTime, formatProbability } from '~/utils/format';
@@ -30,9 +30,9 @@ export default function MarketExpectationsChart({ interval, series }: MarketExpe
   const data = buildChartData(series, interval);
 
   return (
-    <div className="h-72 min-w-0">
+    <div className="h-96 min-w-0">
       <ResponsiveContainer height="100%" width="100%">
-        <LineChart data={data} margin={{ bottom: 8, left: 12, right: 16, top: 8 }}>
+        <LineChart data={data} margin={{ bottom: 28, left: 48, right: 64, top: 8 }}>
           <CartesianGrid stroke="var(--color-border)" strokeDasharray="4 4" vertical={false} />
 
           <XAxis
@@ -73,6 +73,8 @@ export default function MarketExpectationsChart({ interval, series }: MarketExpe
               type="linear"
             />
           ))}
+
+          <Brush dataKey="timestampMs" tickFormatter={(value) => formatDateTimeFromTimestamp(Number(value))} />
         </LineChart>
       </ResponsiveContainer>
     </div>
