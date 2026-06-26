@@ -39,10 +39,14 @@ export default function MarketExpectations() {
   const hasSeries = (marketExpectationsQuery.data?.series.length ?? 0) > 0;
 
   const candidateOptions =
-    filtersQuery.data?.candidates.map((candidate) => ({
-      label: candidate.displayName,
-      value: String(candidate.candidateCatalogId),
-    })) ?? [];
+    filtersQuery.data?.candidates
+      .toSorted((firstCandidate, secondCandidate) =>
+        firstCandidate.displayName.localeCompare(secondCandidate.displayName),
+      )
+      .map((candidate) => ({
+        label: candidate.displayName,
+        value: String(candidate.candidateCatalogId),
+      })) ?? [];
 
   const intervals = filtersQuery.data?.intervals ?? DEFAULT_INTERVALS;
   const intervalOptions = intervals.map((interval) => ({
@@ -51,11 +55,18 @@ export default function MarketExpectations() {
   }));
 
   const summary = marketExpectationsQuery.data?.summary;
-  const currentLeaderValue = summary?.currentLeader
-    ? `${summary.currentLeader.displayName} (${formatProbability(summary.currentLeader.probability)})`
-    : EMPTY_VALUE;
+  const currentLeaderText = summary?.currentLeader?.displayName ?? EMPTY_VALUE;
+  const currentLeaderValue = formatProbability(summary?.currentLeader?.probability);
   const leaderMarginValue = formatProbability(summary?.leaderMargin?.value);
-  const largestChangeValue = formatProbability(summary?.largestChange?.value);
+  const largestChange = summary?.largestChange;
+  const largestChangeText = largestChange?.displayName ?? EMPTY_VALUE;
+  const largestChangeValue = formatProbability(largestChange?.value, { signDisplay: 'exceptZero' });
+  const largestChangeVariant =
+    largestChange && largestChange.value > 0
+      ? 'positive'
+      : largestChange && largestChange.value < 0
+        ? 'negative'
+        : 'default';
 
   const chartFeedback = hasError
     ? 'Não foi possível carregar os dados de expectativa de mercado.'
@@ -103,13 +114,18 @@ export default function MarketExpectations() {
           )}
 
           <div className="gap-3 grid md:grid-cols-4">
-            <MetricCard label="Líder atual" value={currentLeaderValue} />
+            <MetricCard text={currentLeaderText} title="Líder atual" value={currentLeaderValue} />
 
-            <MetricCard label="Margem" value={leaderMarginValue} />
+            <MetricCard title="Margem" value={leaderMarginValue} />
 
-            <MetricCard label="Maior variação" value={largestChangeValue} />
+            <MetricCard
+              text={largestChangeText}
+              title="Maior variação"
+              value={largestChangeValue}
+              variant={largestChangeVariant}
+            />
 
-            <MetricCard label="Evento recente" value="Implementação futura" />
+            <MetricCard text="Implementação futura" title="Evento recente" />
           </div>
         </div>
       </div>

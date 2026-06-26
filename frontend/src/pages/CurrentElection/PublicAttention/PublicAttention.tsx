@@ -26,9 +26,9 @@ export default function PublicAttention() {
           />
 
           <div className="gap-3 grid sm:grid-cols-2">
-            <MetricCard label="Maior atenção" value="Implementação futura" />
+            <MetricCard text="Implementação futura" title="Maior atenção" />
 
-            <MetricCard label="Maior pico" value="Implementação futura" />
+            <MetricCard text="Implementação futura" title="Maior pico" />
           </div>
         </div>
       </div>

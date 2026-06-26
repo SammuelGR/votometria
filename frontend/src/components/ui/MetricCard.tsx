@@ -1,14 +1,30 @@
+import { cn } from '~/utils/cn';
+
+type MetricCardVariant = 'default' | 'negative' | 'positive';
+
 type MetricCardProps = {
-  label: string;
-  value: string;
+  text?: string;
+  title: string;
+  value?: string;
+  variant?: MetricCardVariant;
 };
 
-export default function MetricCard({ label, value }: MetricCardProps) {
+const valueVariantClassNames: Record<MetricCardVariant, string> = {
+  default: 'text-foreground',
+  negative: 'text-negative',
+  positive: 'text-positive',
+};
+
+export default function MetricCard({ text, title, value, variant = 'default' }: MetricCardProps) {
   return (
     <div className="bg-navigation rounded-md p-4">
-      <p className="font-medium text-muted text-xs uppercase">{label}</p>
+      <p className="font-medium text-muted text-xs uppercase">{title}</p>
 
-      <p className="mt-2 font-semibold text-foreground text-sm">{value}</p>
+      {text ? <p className="mt-2 truncate font-semibold text-foreground text-sm">{text}</p> : null}
+
+      {value ? (
+        <p className={cn('font-semibold text-sm', text ? 'mt-1' : 'mt-2', valueVariantClassNames[variant])}>{value}</p>
+      ) : null}
     </div>
   );
 }

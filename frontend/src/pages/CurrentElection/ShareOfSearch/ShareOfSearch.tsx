@@ -20,9 +20,9 @@ export default function ShareOfSearch() {
           />
 
           <div className="gap-3 grid">
-            <MetricCard label="Top 2" value="Implementação futura" />
+            <MetricCard text="Implementação futura" title="Top 2" />
 
-            <MetricCard label="Maior participação" value="Implementação futura" />
+            <MetricCard text="Implementação futura" title="Maior participação" />
           </div>
         </div>
       </div>
