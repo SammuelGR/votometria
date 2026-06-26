@@ -1,4 +1,5 @@
 from extractors.tse import extract_presidency_data, extract_voter_profile_data
+from loaders.tse import run_tse_load
 from transformers.tse import (
     run_presidency_transformation,
     run_voter_profile_transformation,
@@ -42,9 +43,15 @@ def run_tse_pipeline() -> int:
     if not presidency_transform_success or not electorate_transform_success:
         print("Transformation completed with warnings.")
         return total_extracted
-    
+
     print("Transformation completed successfully.")
+
+    print("\n--- Phase 3: Load ---")
+    load_success = run_tse_load()
+    if not load_success:
+        print("Warning: TSE load stage failed.")
+        return total_extracted
+
     print(f"\nSuccess! TSE ETL pipeline completed with {total_extracted} files extracted.")
-    
     return total_extracted
 

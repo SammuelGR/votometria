@@ -43,6 +43,7 @@ Thumbs.db
 data/raw/*.csv
 data/raw/*.zip
 data/parsed_tse/*.csv
+data/tables/*.csv
 tests/
 
 # Ignorar notebooks de exploração

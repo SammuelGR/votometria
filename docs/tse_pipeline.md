@@ -141,7 +141,8 @@ The steps are:
 The pipeline is intentionally linear:
 - extraction must happen before transformation
 - transformation depends on extracted raw files in `data/raw`
-- persistence writes transformed files to `data/parsed_tse`
+- load depends on parsed presidency CSVs in `data/parsed_tse`
+- persistence writes aggregated tables to `data/tables`
 
 ### Responsibility of Each Stage
 
