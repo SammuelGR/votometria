@@ -38,3 +38,6 @@ dist-ssr/
 # OS Files
 .DS_Store
 Thumbs.db
+
+# Data
+data/*
