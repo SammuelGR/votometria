@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import { IntervalSelector, MetricCard, ModuleHeader, ModulePanel, MultiSelect, SourceBadge } from '~/components/ui';
-import { useMarketExpectationFilters } from '~/fetchers/hooks/useMarketExpectationFilters';
+import { useMarketExpectationOptions } from '~/fetchers/hooks/useMarketExpectationOptions';
 import { useMarketExpectations } from '~/fetchers/hooks/useMarketExpectations';
 import type { MarketExpectationInterval } from '~/models/marketExpectations';
 import { EMPTY_VALUE, formatProbability } from '~/utils/format';
@@ -14,37 +14,41 @@ const INTERVAL_LABELS: Partial<Record<MarketExpectationInterval, string>> = {
 };
 
 export default function MarketExpectations() {
-  const [selectedCandidates, setSelectedCandidates] = useState<string[]>([]);
+  const [selectedCandidates, setSelectedCandidates] = useState<string[]>();
   const [selectedInterval, setSelectedInterval] = useState<MarketExpectationInterval>('1h');
 
-  const filtersQuery = useMarketExpectationFilters();
+  const optionsQuery = useMarketExpectationOptions();
 
-  const selectedCandidateCatalogIds = selectedCandidates
+  const defaultCandidateValues = optionsQuery.data?.defaultCandidateCatalogIds.map(String);
+  const selectedCandidateValues = selectedCandidates ?? defaultCandidateValues ?? [];
+  const selectedCandidateCatalogIds = selectedCandidateValues
     .map(Number)
     .toSorted((firstId, secondId) => firstId - secondId);
-  const marketExpectationsQuery = useMarketExpectations({
-    candidateCatalogIds: selectedCandidateCatalogIds.length > 0 ? selectedCandidateCatalogIds : undefined,
-    interval: selectedInterval,
-  });
 
-  const isFiltersLoading = filtersQuery.isLoading;
+  const marketExpectationsQuery = useMarketExpectations(
+    {
+      candidateCatalogIds: selectedCandidateCatalogIds?.length ? selectedCandidateCatalogIds : undefined,
+      interval: selectedInterval,
+    },
+    {
+      enabled: optionsQuery.isSuccess,
+    },
+  );
+
+  const isOptionsLoading = optionsQuery.isLoading;
   const isSeriesLoading = marketExpectationsQuery.isLoading;
-  const hasError = filtersQuery.isError || marketExpectationsQuery.isError;
-  const isLoading = isFiltersLoading || isSeriesLoading;
+  const hasError = optionsQuery.isError || marketExpectationsQuery.isError;
+  const isLoading = isOptionsLoading || isSeriesLoading;
   const hasSeries = (marketExpectationsQuery.data?.series.length ?? 0) > 0;
   const series = marketExpectationsQuery.data?.series ?? [];
 
   const candidateOptions =
-    filtersQuery.data?.candidates
-      .toSorted((firstCandidate, secondCandidate) =>
-        firstCandidate.displayName.localeCompare(secondCandidate.displayName),
-      )
-      .map((candidate) => ({
-        label: candidate.displayName,
-        value: String(candidate.candidateCatalogId),
-      })) ?? [];
+    optionsQuery.data?.candidates.map((candidate) => ({
+      label: candidate.displayName,
+      value: String(candidate.candidateCatalogId),
+    })) ?? [];
 
-  const intervals = filtersQuery.data?.intervals ?? DEFAULT_INTERVALS;
+  const intervals = optionsQuery.data?.intervals ?? DEFAULT_INTERVALS;
   const intervalOptions = intervals.map((interval) => ({
     label: INTERVAL_LABELS[interval] ?? interval,
     value: interval,
@@ -79,7 +83,7 @@ export default function MarketExpectations() {
 
         <div className="flex flex-wrap gap-3">
           <IntervalSelector
-            disabled={isFiltersLoading || hasError}
+            disabled={isOptionsLoading || hasError}
             onChange={(value) => setSelectedInterval(value as MarketExpectationInterval)}
             options={intervalOptions}
             value={selectedInterval}
@@ -88,10 +92,10 @@ export default function MarketExpectations() {
           <MultiSelect
             disabled={hasError}
             label="Candidatos"
-            loading={isFiltersLoading}
+            loading={isOptionsLoading}
             onChange={setSelectedCandidates}
             options={candidateOptions}
-            value={selectedCandidates}
+            value={selectedCandidateValues}
           />
         </div>
 

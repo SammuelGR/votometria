@@ -5,8 +5,13 @@ import { marketExpectationKeys } from '~/fetchers/hooks/marketExpectationKeys';
 
 const MARKET_EXPECTATIONS_STALE_TIME = 60 * 60 * 1000;
 
-export function useMarketExpectations(params?: MarketExpectationsParams) {
+type UseMarketExpectationsOptions = {
+  enabled?: boolean;
+};
+
+export function useMarketExpectations(params?: MarketExpectationsParams, options?: UseMarketExpectationsOptions) {
   return useQuery({
+    enabled: options?.enabled ?? true,
     placeholderData: keepPreviousData,
     queryFn: () => getMarketExpectations(params),
     queryKey: marketExpectationKeys.marketExpectations(params),

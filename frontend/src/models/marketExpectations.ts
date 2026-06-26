@@ -5,14 +5,16 @@ export type MarketExpectationDateRange = {
   min: string | null;
 };
 
-export type MarketExpectationFilterCandidate = {
+export type MarketExpectationOptionCandidate = {
   candidateCatalogId: number;
   displayName: string;
+  latestProbability: number;
 };
 
-export type MarketExpectationFilters = {
-  candidates: MarketExpectationFilterCandidate[];
+export type MarketExpectationOptions = {
+  candidates: MarketExpectationOptionCandidate[];
   dateRange: MarketExpectationDateRange;
+  defaultCandidateCatalogIds: number[];
   intervals: MarketExpectationInterval[];
 };
 

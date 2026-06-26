@@ -1,16 +1,16 @@
 import { fetcher } from '~/fetchers/fetcher';
 import type {
-  MarketExpectationFilters,
   MarketExpectationInterval,
   MarketExpectationMetadata,
+  MarketExpectationOptions,
   MarketExpectationSeries,
   MarketExpectationSummary,
 } from '~/models/marketExpectations';
 
-type MarketExpectationFiltersResponse = MarketExpectationFilters;
+type MarketExpectationOptionsResponse = MarketExpectationOptions;
 
-export function getMarketExpectationFilters() {
-  return fetcher<MarketExpectationFiltersResponse>('current-election/market-expectations/filters');
+export function getMarketExpectationOptions() {
+  return fetcher<MarketExpectationOptionsResponse>('current-election/market-expectations/options');
 }
 
 type MarketExpectationsResponse = {
