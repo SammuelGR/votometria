@@ -46,4 +46,4 @@ data/parsed_tse/*.csv
 tests/
 
 # Ignorar notebooks de exploração
-*.ipynb
+scripts/exploracao_tse.ipynb
