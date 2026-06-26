@@ -44,3 +44,4 @@ data/raw/*.csv
 data/raw/*.zip
 data/parsed_tse/*.csv
 tests/
+exploracao_tse.ipynb
