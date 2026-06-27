@@ -98,7 +98,8 @@ Tudo em `scripts/constants.py`, no dicionário `GOOGLE_TRENDS_ELECTION_GROUPS`:
 | Termos por consulta / lote   | `GOOGLE_TRENDS_MAX_TERMS_PER_REQUEST`, `GOOGLE_TRENDS_TERMS_PER_BATCH` |
 | Retry / backoff              | `GOOGLE_TRENDS_MAX_RETRIES`, `GOOGLE_TRENDS_BACKOFF_SECONDS` |
 
-> O `anchor_term` de um ano **deve** estar presente na lista `terms` daquele ano.
+> Se o `anchor_term` não estiver presente na lista `terms`, ele será adicionado
+> automaticamente no início de cada lote.
 > A lista de candidatos atuais é configurável e **não** é definitiva — ver
 > `google_trends_candidatos.md`.
 

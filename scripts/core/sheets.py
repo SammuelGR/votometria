@@ -1,9 +1,8 @@
 """
 Reusable Google Sheets client and writer.
 
-Used both by the data pipeline (which publishes datasets straight to a
-spreadsheet) and by the standalone CSV sync script. Configuration is read from
-the project ``.env`` file:
+Used by data pipelines that publish datasets straight to a spreadsheet.
+Configuration is read from the project ``.env`` file:
 
     GOOGLE_SHEETS_ID            ID of the destination spreadsheet.
     GOOGLE_SERVICE_ACCOUNT_FILE Path to the service account JSON key file.

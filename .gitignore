@@ -40,11 +40,6 @@ dist-ssr/
 *.sln
 *.swp
 
-# Local data artifacts. The pipeline now publishes straight to Google Sheets,
-# so these folders are not versioned; ignore them if recreated locally.
-dados-brutos/
-dados-processados/
-
 # OS Files
 .DS_Store
 Thumbs.db
