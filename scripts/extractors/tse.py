@@ -28,27 +28,27 @@ def download_and_extract_tse(url_zip, target_filename):
     """
     # 1. Ensures that the data/raw/ folder exists
     os.makedirs(RAW_DATA_DIR, exist_ok=True)
-    
+
     final_csv_path = os.path.join(RAW_DATA_DIR, target_filename)
-    
+
     # Skips extraction if the file already exists (avoids redundant work)
     if os.path.exists(final_csv_path):
         print(f"File {target_filename} already exists in {RAW_DATA_DIR}. Skipping extraction.")
         return
 
     print(f"Starting download from: {url_zip}")
-    
+
     # 2. Creates a temporary file to avoid consuming all RAM
     with tempfile.NamedTemporaryFile(delete=False, suffix=".zip") as tmp_zip:
         # Makes the request in streaming mode (downloads in chunks)
         response = requests.get(url_zip, stream=True)
         response.raise_for_status()  # Checks for download errors
-        
+
         # Writes 8MB chunks to disk
-        for chunk in response.iter_content(chunk_size=8192 * 1024): 
+        for chunk in response.iter_content(chunk_size=8192 * 1024):
             if chunk:
                 tmp_zip.write(chunk)
-                
+
         tmp_zip_path = tmp_zip.name
 
     print("Download completed. Starting target CSV extraction...")

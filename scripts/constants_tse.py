@@ -44,10 +44,10 @@ RAW_DATA_DIR = os.path.join(BASE_DIR, "data", "raw")
 
 # Columns for transforming and cleaning the data, focusing on the most relevant fields for analysis.
 INTEREST_COLUMNS_PRESIDENCY = [
-    "NR_TURNO", 
+    "NR_TURNO",
     "SG_UF",
-    "NM_URNA_CANDIDATO", 
-    "SG_PARTIDO", 
+    "NM_URNA_CANDIDATO",
+    "SG_PARTIDO",
     "NM_PARTIDO",
     "QT_VOTOS_NOMINAIS",
     "DS_SIT_TOT_TURNO"
