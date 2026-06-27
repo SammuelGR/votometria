@@ -8,7 +8,5 @@ type ModulePanelProps = {
 };
 
 export default function ModulePanel({ children, className }: ModulePanelProps) {
-  return (
-    <section className={cn('bg-surface border-border rounded-lg border p-5 shadow-sm', className)}>{children}</section>
-  );
+  return <section className={cn('bg-surface border-border rounded-md border p-5', className)}>{children}</section>;
 }

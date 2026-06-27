@@ -28,14 +28,14 @@ export default function PlaceholderChart({
       {imageSrc ? (
         <img
           alt={imageAlt ?? label}
-          className="h-full max-h-96 min-h-56 object-contain rounded w-full"
+          className="h-full max-h-96 min-h-56 w-full rounded object-contain"
           src={imageSrc}
         />
       ) : (
         <div className="flex flex-1 flex-col items-center justify-center gap-3 text-center">
           <ChartIcon aria-hidden="true" className="size-8 text-muted" />
 
-          <p className="font-medium text-muted text-sm">{label}</p>
+          <p className="font-mono text-muted text-xs uppercase tracking-wide">{label}</p>
         </div>
       )}
     </div>

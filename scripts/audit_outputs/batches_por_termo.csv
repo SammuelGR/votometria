@@ -1,0 +1,38 @@
+election_year,term,batches,n_batches
+2018,Alvaro Dias,batch_02,1
+2018,Bolsonaro,batch_01,1
+2018,Cabo Daciolo,batch_03,1
+2018,Ciro Gomes,batch_01,1
+2018,Eymael,batch_04,1
+2018,Geraldo Alckmin,batch_01,1
+2018,Guilherme Boulos,batch_03,1
+2018,Haddad,batch_01,1
+2018,Henrique Meirelles,batch_02,1
+2018,João Amoêdo,batch_02,1
+2018,João Goulart Filho,batch_03,1
+2018,Lula,batch_01,1
+2018,Marina Silva,batch_02,1
+2018,Vera Lúcia,batch_03,1
+2022,Bolsonaro,batch_01,1
+2022,Ciro Gomes,batch_01,1
+2022,Eymael,batch_03,1
+2022,Felipe d'Avila,batch_01,1
+2022,Lula,batch_01,1
+2022,Léo Péricles,batch_02,1
+2022,Padre Kelmon,batch_02,1
+2022,Simone Tebet,batch_01,1
+2022,Sofia Manzano,batch_02,1
+2022,Soraya Thronicke,batch_02,1
+2022,Vera Lúcia,batch_03,1
+current,Aldo Rebelo,batch_01,1
+current,Augusto Cury,batch_01,1
+current,Cabo Daciolo,batch_01,1
+current,Edmilson Costa,batch_01,1
+current,Flávio Bolsonaro,batch_02,1
+current,Hertz Dias,batch_02,1
+current,Lula,batch_01,1
+current,Renan Santos,batch_02,1
+current,Romeu Zema,batch_02,1
+current,Ronaldo Caiado,batch_03,1
+current,Rui Costa Pimenta,batch_03,1
+current,Samara Martins,batch_03,1

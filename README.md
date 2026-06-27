@@ -150,6 +150,21 @@ python -m pytest tests
 
 ---
 
+## Ingestão de Dados do Google Trends
+
+O pipeline do Google Trends coleta o interesse de busca dos candidatos e publica
+os dados **direto no Google Sheets** (abas `raw_*` e `proc_*`), sem CSV em disco e
+sem banco de dados. Roda junto do `python main.py` (uma falha aqui não interrompe
+os demais pipelines).
+
+Requer, no `.env`, além do `DATABASE_URL`:
+
+- `GOOGLE_SHEETS_ID`: ID da planilha de destino.
+- `GOOGLE_SERVICE_ACCOUNT_FILE`: caminho do JSON da service account.
+
+Passo a passo de credenciais, configuração e consumo pelo frontend em
+`docs/google_sheets_sync.md`.
+
 ## Deploy
 
 | Módulo   | Host   | URL                             |

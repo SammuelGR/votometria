@@ -1,17 +1,28 @@
 import { cn } from '~/utils/cn';
 
+type SourceTone = 'attention' | 'market' | 'neutral';
+
 type SourceBadgeProps = {
   label: string;
+  tone?: SourceTone;
 };
 
-export default function SourceBadge({ label }: SourceBadgeProps) {
+const dotToneClass: Record<SourceTone, string> = {
+  attention: 'bg-accent-2',
+  market: 'bg-accent',
+  neutral: 'bg-muted',
+};
+
+export default function SourceBadge({ label, tone = 'neutral' }: SourceBadgeProps) {
   return (
     <span
       className={cn(
-        'bg-navigation border border-border font-medium inline-flex px-2.5 py-1',
-        'rounded-full text-muted text-xs',
+        'bg-surface border border-border font-mono inline-flex items-center gap-1.5',
+        'rounded-sm px-2 py-1 text-[10.5px] text-muted uppercase tracking-wide',
       )}
     >
+      <span aria-hidden="true" className={cn('size-1.5 rounded-full', dotToneClass[tone])} />
+
       {label}
     </span>
   );

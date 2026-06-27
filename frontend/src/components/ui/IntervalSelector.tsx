@@ -22,19 +22,20 @@ export default function IntervalSelector({
 }: IntervalSelectorProps) {
   return (
     <div className="flex w-fit max-w-full flex-col gap-2">
-      <span className="font-medium text-muted text-xs uppercase">{label}</span>
+      <span className="font-mono text-[11px] text-muted uppercase tracking-wide">{label}</span>
 
-      <div className="bg-navigation inline-flex max-w-full flex-wrap gap-1 rounded-md p-1">
-        {options.map((option) => {
+      <div className="border-line-strong bg-surface inline-flex max-w-full overflow-hidden rounded-md border">
+        {options.map((option, index) => {
           const isSelected = option.value === value;
 
           return (
             <button
               className={cn(
-                'rounded px-2.5 py-1.5 text-sm transition-colors whitespace-nowrap',
-                isSelected ? 'bg-surface shadow-sm text-foreground' : 'text-muted',
+                'font-mono px-3 py-1.5 text-xs uppercase tracking-wide whitespace-nowrap transition-colors',
+                index > 0 && 'border-border border-l',
+                isSelected ? 'bg-foreground text-surface' : 'text-muted',
                 !disabled && 'cursor-pointer',
-                !disabled && !isSelected && 'hover:text-foreground',
+                !disabled && !isSelected && 'hover:bg-navigation',
                 'disabled:cursor-not-allowed disabled:opacity-60',
               )}
               disabled={disabled}

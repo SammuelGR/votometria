@@ -29,6 +29,21 @@ Detailed product, frontend, database and integration decisions live in the dedic
 - `docs/tse-integration.md`
   TSE historical election CSV integration details.
 
+- `docs/google_trends_pipeline.md`
+  Google Trends ETL and Google Sheets publication details.
+
+- `docs/google_sheets_sync.md`
+  Google Sheets authentication, writing and frontend CSV export details.
+
+- `docs/google_trends_metodologia.md`
+  Google Trends collection methodology, anchor rescaling and limitations.
+
+- `docs/google_trends_dicionario_dados.md`
+  Google Trends raw and processed worksheet schemas.
+
+- `docs/google_trends_candidatos.md`
+  Google Trends candidate search terms and configuration notes.
+
 ## Reading guide
 
 For frontend tasks, read:
@@ -52,6 +67,14 @@ For TSE historical election tasks, read:
 
 - `docs/tse-integration.md`
 - `docs/modules.md`
+
+For Google Trends tasks, read:
+
+- `docs/google_trends_pipeline.md`
+- `docs/google_sheets_sync.md`
+- `docs/google_trends_metodologia.md`
+- `docs/google_trends_dicionario_dados.md`
+- `docs/google_trends_candidatos.md`
 
 ## 1. Project Overview
 
@@ -146,6 +169,6 @@ Analytical notifications and visualization logic use the following business thre
 ### Data Ingestion Frequencies
 
 - **Polymarket Expectations**: Daily or every 4 hours.
-- **Google Trends & Wikipedia Pageviews**: Weekly batches.
-- **TSE Historical Votes**: Static historical load per election cycle, currently generated as local CSV outputs under `scripts/data`.
+- **Google Trends**: Weekly batches.
+- **TSE Historical Votes**: Static historical load per election cycle.
 - **Macroeconomic Indicators**: Weekly or monthly batches (aligned with indicator releases).

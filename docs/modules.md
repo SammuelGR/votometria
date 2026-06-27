@@ -70,7 +70,7 @@ Related sources:
 
 The Public Attention module tracks how public interest in each candidate changes over time.
 
-This module uses search and pageview data as proxies for public attention.
+This module uses search data as a proxy for public attention.
 
 It supports analysis of:
 
@@ -82,7 +82,6 @@ It supports analysis of:
 Related sources:
 
 - Google Trends
-- Wikipedia Pageviews
 - Relevant political events
 
 ### Share of Search
@@ -117,7 +116,6 @@ It supports analysis of:
 Related sources:
 
 - Google Trends
-- Wikipedia Pageviews
 - Polymarket
 
 ## Historical Elections modules
@@ -176,6 +174,5 @@ Related sources may include:
 - polling aggregators
 - public opinion data
 - Google Trends
-- Wikipedia Pageviews
 - economic indicators
 - other complementary public datasets

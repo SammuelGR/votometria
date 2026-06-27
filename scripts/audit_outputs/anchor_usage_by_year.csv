@@ -1,0 +1,4 @@
+election_year,configured_anchor,terms_flagged_is_anchor,only_configured_anchor_flagged,anchor_batches_in_processed,anchor_duplicate_dates
+2018,Bolsonaro,Bolsonaro,True,batch_01,0
+2022,Lula,Lula,True,batch_01,0
+current,Lula,Lula,True,batch_01,0

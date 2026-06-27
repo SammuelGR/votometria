@@ -71,13 +71,6 @@ To support the other data modules outlined in the project blueprint (`AGENTS.md`
 
 ### A. Cross-Source Candidate Linking
 
-The current `candidate_catalog` stores source-specific candidate entries. Future cross-source analyses may introduce a canonical candidate entity or linking field to relate entries that represent the same person across Polymarket, Google Trends, Wikipedia, and TSE.
+The current `candidate_catalog` stores source-specific candidate entries. Future cross-source analyses may introduce a canonical candidate entity or linking field to relate entries that represent the same person across TSE, Polymarket, and Google Trends.
 
 This should be added only where cross-source modules require it, such as Public Attention vs Market Expectations.
-
-### B. Mapped Tables for Upcoming Modules
-
-- **`public_attention_snapshots`**:
-  - Columns: candidate catalog reference, `timestamp` (DateTime), `wikipedia_views` (Integer), `trends_index` (Float).
-- **`macroeconomic_indicators`**:
-  - Columns: `timestamp` (DateTime), `usd_rate` (Float), `selic_rate` (Float), `ipca_index` (Float), `ibovespa` (Float).

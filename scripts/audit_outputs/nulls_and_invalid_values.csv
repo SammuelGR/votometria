@@ -1,0 +1,10 @@
+metric,value
+null_date,0
+null_election_year,0
+null_term,0
+null_interest_raw,0
+null_interest_scaled,0
+interest_raw_below_0,0
+interest_raw_above_100,0
+interest_scaled_below_0,0
+interest_scaled_above_120,0
