@@ -8,11 +8,9 @@ export default function CurrentElection() {
     <section className="grid gap-5">
       <MarketExpectations />
 
-      <div className="grid gap-5 lg:grid-cols-[minmax(0,2fr)_minmax(280px,1fr)]">
-        <PublicAttention />
+      <PublicAttention />
 
-        <ShareOfSearch />
-      </div>
+      <ShareOfSearch />
 
       <AttentionMarketComparison />
     </section>

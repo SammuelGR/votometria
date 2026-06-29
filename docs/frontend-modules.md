@@ -33,16 +33,14 @@ Visual hierarchy:
 ```text
 [ Market Expectations ]
 
-[ Public Attention ] [ Share of Search ]
+[ Public Attention ]
+
+[ Share of Search ]
 
 [ Public Attention vs Market Expectations ]
 ```
 
 Market Expectations is the main highlighted module.
-
-Public Attention and Share of Search are visually grouped because they represent complementary views of public attention.
-
-Public Attention receives more horizontal space than Share of Search in desktop layouts.
 
 Public Attention vs Market Expectations works as the synthesis module of the dashboard.
 
@@ -100,8 +98,6 @@ Relevant events are represented as vertical markers on the time axis.
 ## Public Attention
 
 Public Attention shows how public interest in each candidate changes over time.
-
-It is visually grouped with Share of Search.
 
 ### Main visualization
 
