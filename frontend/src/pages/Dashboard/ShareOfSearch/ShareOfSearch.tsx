@@ -86,15 +86,7 @@ export default function ShareOfSearch() {
         : orderedCandidateTerms.slice(0, INITIAL_SELECTED_CANDIDATE_LIMIT);
 
     return shareOfSearch(yearRows, termsForShare, metric, { start: periodStartDate, end: periodEndDate });
-  }, [
-    candidateSelection,
-    electionYear,
-    metric,
-    orderedCandidateTerms,
-    periodEndDate,
-    periodStartDate,
-    yearRows,
-  ]);
+  }, [candidateSelection, electionYear, metric, orderedCandidateTerms, periodEndDate, periodStartDate, yearRows]);
 
   const concentration = top2Concentration(candidateShares);
   const concentrationLabel = classifyConcentration(concentration);
@@ -175,7 +167,9 @@ export default function ShareOfSearch() {
           </div>
 
           <MultiSelect
+            disabled={isError}
             label="Candidatos"
+            loading={isLoading}
             onChange={(terms) => setCandidateSelection({ terms, year: electionYear })}
             options={candidateOptions}
             value={selectedCandidateValues}

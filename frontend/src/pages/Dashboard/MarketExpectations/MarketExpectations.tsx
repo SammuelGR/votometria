@@ -79,9 +79,9 @@ export default function MarketExpectations() {
   return (
     <ModulePanel>
       <div className="flex flex-col gap-5">
-        <ModuleHeader badges={<SourceBadge label="Polymarket" />} title="Expectativa de mercado" />
+        <ModuleHeader badges={<SourceBadge label="Polymarket" tone="market" />} title="Expectativa de mercado" />
 
-        <div className="flex flex-wrap gap-3">
+        <div className="flex flex-wrap items-end gap-4">
           <IntervalSelector
             disabled={isOptionsLoading || hasError}
             onChange={(value) => setSelectedInterval(value as MarketExpectationInterval)}

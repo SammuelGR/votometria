@@ -101,7 +101,9 @@ export default function PublicAttention() {
           />
 
           <MultiSelect
+            disabled={isError}
             label="Candidatos"
+            loading={isLoading}
             onChange={handleSelectionChange}
             options={candidateOptions}
             value={selectedValues}

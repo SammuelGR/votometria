@@ -67,29 +67,30 @@ export default function MultiSelect({
   }, [isPopoverOpen]);
 
   function handleOptionChange(optionValue: string, checked: boolean) {
-    const nextValue = checked
-      ? [...value, optionValue]
-      : value.filter((selectedValue) => selectedValue !== optionValue);
+    const selectedValues = new Set(
+      checked ? [...value, optionValue] : value.filter((selectedValue) => selectedValue !== optionValue),
+    );
+    const nextValue = options.filter((option) => selectedValues.has(option.value)).map((option) => option.value);
 
     onChange(nextValue);
   }
 
   return (
-    <div className="relative flex w-full flex-col gap-2 sm:w-64" ref={rootRef}>
-      <label className="font-medium text-muted text-xs uppercase" htmlFor={fieldId}>
+    <div className="relative flex w-full max-w-full flex-col gap-2 sm:w-56" ref={rootRef}>
+      <label className="font-mono text-[11px] text-muted uppercase tracking-wide" htmlFor={fieldId}>
         {label}
       </label>
 
       <button
         aria-expanded={isPopoverOpen}
         className={cn(
-          'bg-navigation border border-border flex gap-3 h-10 items-center justify-between',
-          'px-3 rounded-md text-foreground text-sm transition-colors w-full',
+          'border-line-strong bg-surface flex h-8 items-center justify-between gap-3 rounded-md border',
+          'font-mono px-3 text-foreground text-xs transition-colors w-full',
           !isDisabled && 'cursor-pointer',
-          !error && !isDisabled && 'hover:border-muted',
-          error && 'border-red-500',
-          loading && 'border-muted cursor-wait text-muted',
-          'disabled:cursor-not-allowed disabled:bg-border disabled:text-muted',
+          !error && !isDisabled && 'hover:bg-navigation',
+          error && 'border-negative',
+          loading && 'cursor-wait text-muted',
+          'disabled:cursor-not-allowed disabled:opacity-60',
         )}
         disabled={isDisabled}
         id={fieldId}
@@ -112,44 +113,63 @@ export default function MultiSelect({
       {isPopoverOpen ? (
         <div
           className={cn(
-            'absolute bg-surface border border-border gap-1 grid left-0 max-h-64',
-            'mt-2 overflow-auto p-2 rounded-md shadow-sm top-full w-full z-20',
+            'absolute bg-surface border border-line-strong gap-1 grid left-0 max-h-64',
+            'mt-2 overflow-auto p-1.5 rounded-md shadow-sm top-full w-full z-20',
           )}
         >
           {options.length > 0 ? (
-            options.map((option, optionIndex) => {
-              const optionId = `${fieldId}-option-${optionIndex}`;
+            <>
+              <label
+                className="cursor-pointer flex gap-2 hover:bg-navigation items-center px-2 py-1.5 rounded text-foreground text-sm"
+                htmlFor={`${fieldId}-option-all`}
+              >
+                <input
+                  checked={value.length === 0}
+                  className="h-4 w-4 accent-foreground"
+                  id={`${fieldId}-option-all`}
+                  onChange={() => onChange([])}
+                  type="checkbox"
+                />
 
-              return (
-                <label
-                  className={cn(
-                    'cursor-pointer flex gap-2 hover:bg-navigation items-center',
-                    'px-2 py-1.5 rounded text-foreground text-sm',
-                    option.disabled && 'cursor-not-allowed opacity-60 hover:bg-transparent',
-                  )}
-                  htmlFor={optionId}
-                  key={option.value}
-                >
-                  <input
-                    checked={value.includes(option.value)}
-                    className="h-4 w-4 accent-foreground"
-                    disabled={option.disabled}
-                    id={optionId}
-                    onChange={(event) => handleOptionChange(option.value, event.currentTarget.checked)}
-                    type="checkbox"
-                  />
+                <span>{allLabel}</span>
+              </label>
 
-                  <span>{option.label}</span>
-                </label>
-              );
-            })
+              <div className="border-border border-t" />
+
+              {options.map((option, optionIndex) => {
+                const optionId = `${fieldId}-option-${optionIndex}`;
+
+                return (
+                  <label
+                    className={cn(
+                      'cursor-pointer flex gap-2 hover:bg-navigation items-center',
+                      'px-2 py-1.5 rounded text-foreground text-sm',
+                      option.disabled && 'cursor-not-allowed opacity-60 hover:bg-transparent',
+                    )}
+                    htmlFor={optionId}
+                    key={option.value}
+                  >
+                    <input
+                      checked={value.includes(option.value)}
+                      className="h-4 w-4 accent-foreground"
+                      disabled={option.disabled}
+                      id={optionId}
+                      onChange={(event) => handleOptionChange(option.value, event.currentTarget.checked)}
+                      type="checkbox"
+                    />
+
+                    <span>{option.label}</span>
+                  </label>
+                );
+              })}
+            </>
           ) : (
             <span className="px-2 py-1.5 text-muted text-sm">{emptyLabel}</span>
           )}
         </div>
       ) : null}
 
-      {error ? <span className="text-red-600 text-xs">{error}</span> : null}
+      {error ? <span className="text-negative text-xs">{error}</span> : null}
     </div>
   );
 }
