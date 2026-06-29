@@ -24,11 +24,6 @@ secrets/
 *service_account*.json
 *credentials*.json
 
-# Service account keys and other secrets (never commit credentials)
-secrets/
-*service_account*.json
-*credentials*.json
-
 # Frontend Node / React
 node_modules/
 dist/
