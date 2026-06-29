@@ -2,10 +2,10 @@ import { useMemo, useState } from 'react';
 
 import ShareOfSearchChart from '~/components/charts/ShareOfSearchChart';
 import {
-  CandidateMultiSelect,
   MetricCard,
   ModuleHeader,
   ModulePanel,
+  MultiSelect,
   PlaceholderChart,
   SegmentedControl,
   SourceBadge,
@@ -15,25 +15,18 @@ import { useGoogleTrends } from '~/fetchers/hooks/useGoogleTrends';
 import type { ElectionYear, TrendsMetric } from '~/services/googleTrends';
 import {
   classifyConcentration,
+  type DateRange,
   dateExtent,
   filterByYear,
   shareOfSearch,
   termsByMean,
   top2Concentration,
-  type DateRange,
 } from '~/utils/trends';
 
-function formatFullDate(date?: string): string {
-  if (!date) {
-    return '—';
-  }
+const INITIAL_SELECTED_CANDIDATE_LIMIT = 7;
+const EMPTY_DATE_RANGE: DateRange = {};
 
-  const [year, month, day] = date.split('-');
-
-  return `${day}/${month}/${year}`;
-}
-
-const yearOptions = [
+const YEAR_OPTIONS = [
   { label: '2018', value: '2018' },
   { label: '2022', value: '2022' },
   { label: '2026', value: 'current' },
@@ -42,55 +35,89 @@ const yearOptions = [
 // Default to the anchor-rescaled metric. The raw toggle is an audit aid: for
 // candidates collected in the same batch (e.g. Lula and Bolsonaro, both in
 // batch_01) raw and scaled coincide and are directly comparable.
-const metricOptions = [
+const METRIC_OPTIONS = [
   { label: 'Reescalado', value: 'interestScaled' },
   { label: 'Bruto', value: 'interestRaw' },
 ];
+
+const formatFullDate = (date?: string): string => {
+  if (!date) {
+    return '—';
+  }
+
+  const [year, month, day] = date.split('-');
+
+  return `${day}/${month}/${year}`;
+};
 
 export default function ShareOfSearch() {
   const { data, isLoading, isError } = useGoogleTrends();
   const [electionYear, setElectionYear] = useState<ElectionYear>('current');
   const [metric, setMetric] = useState<TrendsMetric>('interestScaled');
-  const [selection, setSelection] = useState<{ terms: string[]; year: ElectionYear | null }>({
+  const [candidateSelection, setCandidateSelection] = useState<{ terms: string[]; year: ElectionYear | null }>({
     terms: [],
     year: null,
   });
-  const [rangeState, setRangeState] = useState<{ range: DateRange; year: ElectionYear | null }>({
+  const [dateRangeSelection, setDateRangeSelection] = useState<{ range: DateRange; year: ElectionYear | null }>({
     range: {},
     year: null,
   });
 
-  const rows = useMemo(() => filterByYear(data ?? [], electionYear), [data, electionYear]);
-  const orderedTerms = useMemo(() => termsByMean(rows, metric), [rows, metric]);
-  const extent = useMemo(() => dateExtent(rows), [rows]);
+  const yearRows = useMemo(() => filterByYear(data ?? [], electionYear), [data, electionYear]);
+  const orderedCandidateTerms = useMemo(() => termsByMean(yearRows, metric), [yearRows, metric]);
+  const dateRangeExtent = useMemo(() => dateExtent(yearRows), [yearRows]);
+  const periodPresets = periodsForYear(electionYear);
 
-  const selected = selection.year === electionYear ? selection.terms : orderedTerms;
-  const range = rangeState.year === electionYear ? rangeState.range : {};
-  const startDate = range.start ?? extent.start;
-  const endDate = range.end ?? extent.end;
+  const candidateOptions = orderedCandidateTerms.map((term) => ({ label: term, value: term }));
+  const initialCandidateValues = orderedCandidateTerms.slice(0, INITIAL_SELECTED_CANDIDATE_LIMIT);
+  const selectedCandidateValues =
+    candidateSelection.year === electionYear ? candidateSelection.terms : initialCandidateValues;
 
-  const shares = useMemo(
-    () => shareOfSearch(rows, selected, metric, { start: startDate, end: endDate }),
-    [rows, selected, metric, startDate, endDate],
-  );
+  const selectedDateRange = dateRangeSelection.year === electionYear ? dateRangeSelection.range : EMPTY_DATE_RANGE;
+  const periodStartDate = selectedDateRange.start ?? dateRangeExtent.start;
+  const periodEndDate = selectedDateRange.end ?? dateRangeExtent.end;
 
-  const concentration = top2Concentration(shares);
+  const candidateShares = useMemo(() => {
+    const termsForShare =
+      candidateSelection.year === electionYear
+        ? candidateSelection.terms.length > 0
+          ? candidateSelection.terms
+          : orderedCandidateTerms
+        : orderedCandidateTerms.slice(0, INITIAL_SELECTED_CANDIDATE_LIMIT);
+
+    return shareOfSearch(yearRows, termsForShare, metric, { start: periodStartDate, end: periodEndDate });
+  }, [
+    candidateSelection,
+    electionYear,
+    metric,
+    orderedCandidateTerms,
+    periodEndDate,
+    periodStartDate,
+    yearRows,
+  ]);
+
+  const concentration = top2Concentration(candidateShares);
   const concentrationLabel = classifyConcentration(concentration);
-  const periodLabel = `período de ${formatFullDate(startDate)} a ${formatFullDate(endDate)}`;
+  const periodLabel = `período de ${formatFullDate(periodStartDate)} a ${formatFullDate(periodEndDate)}`;
 
-  const presets = periodsForYear(electionYear);
+  const presetOptions = periodPresets.map((preset) => ({ label: preset.label, value: preset.key }));
+  const activePreset = activePresetKey(electionYear, selectedDateRange);
+  const hasChartData = candidateShares.length > 0 && yearRows.length > 0;
 
-  function setRange(next: DateRange) {
-    setRangeState({ range: next, year: electionYear });
-  }
+  const handlePeriodChange = (field: keyof DateRange, value: string) => {
+    setDateRangeSelection({
+      range: { ...selectedDateRange, [field]: value },
+      year: electionYear,
+    });
+  };
 
-  function applyPreset(key: string) {
-    const preset = presets.find((option) => option.key === key);
+  const handlePresetChange = (key: string) => {
+    const preset = periodPresets.find((option) => option.key === key);
 
     if (preset) {
-      setRange(preset.range);
+      setDateRangeSelection({ range: preset.range, year: electionYear });
     }
-  }
+  };
 
   return (
     <ModulePanel>
@@ -101,23 +128,23 @@ export default function ShareOfSearch() {
           <SegmentedControl
             label="Eleição"
             onChange={(value) => setElectionYear(value as ElectionYear)}
-            options={yearOptions}
+            options={YEAR_OPTIONS}
             value={electionYear}
           />
 
           <SegmentedControl
             label="Índice"
             onChange={(value) => setMetric(value as TrendsMetric)}
-            options={metricOptions}
+            options={METRIC_OPTIONS}
             value={metric}
           />
 
-          {presets.length > 1 ? (
+          {periodPresets.length > 1 ? (
             <SegmentedControl
               label="Janela"
-              onChange={applyPreset}
-              options={presets.map((preset) => ({ label: preset.label, value: preset.key }))}
-              value={activePresetKey(electionYear, range)}
+              onChange={handlePresetChange}
+              options={presetOptions}
+              value={activePreset}
             />
           ) : null}
 
@@ -127,31 +154,31 @@ export default function ShareOfSearch() {
             <div className="flex items-center gap-2">
               <input
                 className="bg-surface border-border h-9 cursor-pointer rounded-md border px-2 font-mono text-foreground text-xs"
-                max={endDate}
-                min={extent.start}
-                onChange={(event) => setRange({ ...range, start: event.target.value })}
+                max={periodEndDate}
+                min={dateRangeExtent.start}
+                onChange={(event) => handlePeriodChange('start', event.target.value)}
                 type="date"
-                value={startDate ?? ''}
+                value={periodStartDate ?? ''}
               />
 
               <span className="text-muted text-xs">até</span>
 
               <input
                 className="bg-surface border-border h-9 cursor-pointer rounded-md border px-2 font-mono text-foreground text-xs"
-                max={extent.end}
-                min={startDate}
-                onChange={(event) => setRange({ ...range, end: event.target.value })}
+                max={dateRangeExtent.end}
+                min={periodStartDate}
+                onChange={(event) => handlePeriodChange('end', event.target.value)}
                 type="date"
-                value={endDate ?? ''}
+                value={periodEndDate ?? ''}
               />
             </div>
           </div>
 
-          <CandidateMultiSelect
+          <MultiSelect
             label="Candidatos"
-            onChange={(terms) => setSelection({ terms, year: electionYear })}
-            options={orderedTerms}
-            selected={selected}
+            onChange={(terms) => setCandidateSelection({ terms, year: electionYear })}
+            options={candidateOptions}
+            value={selectedCandidateValues}
           />
         </div>
 
@@ -162,10 +189,10 @@ export default function ShareOfSearch() {
             className="min-h-56"
             label="Falha ao carregar os dados. Verifique a planilha e o VITE_GOOGLE_SHEETS_ID."
           />
-        ) : shares.length === 0 || rows.length === 0 ? (
-          <PlaceholderChart className="min-h-56" label="Sem dados para o período selecionado." />
+        ) : hasChartData ? (
+          <ShareOfSearchChart periodLabel={periodLabel} shares={candidateShares} />
         ) : (
-          <ShareOfSearchChart periodLabel={periodLabel} shares={shares} />
+          <PlaceholderChart className="min-h-56" label="Sem dados para o período selecionado." />
         )}
 
         <div className="gap-3 grid">
