@@ -34,7 +34,7 @@ export default function TseVotes() {
   return (
     <ModulePanel>
       <div className="flex flex-col gap-5">
-        <ModuleHeader badges={<SourceBadge label="TSE" tone="neutral" />} title="Votos válidos por candidato" />
+        <ModuleHeader badges={<SourceBadge label="TSE" tone="election" />} title="Votos válidos por candidato" />
 
         <div className="flex flex-wrap items-end gap-4">
           <SegmentedControl
@@ -68,7 +68,7 @@ export default function TseVotes() {
         </div>
 
         <p className="font-mono text-[11px] text-muted">
-          Dados lidos diretamente das abas processadas do Google Sheets para o TSE, já em formato consolidado para o frontend.
+          Resultado oficial da apuração de votos válidos para o cargo presidencial, nos anos de 2018 e 2022.
         </p>
       </div>
     </ModulePanel>
