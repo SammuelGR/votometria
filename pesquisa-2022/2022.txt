@@ -1,0 +1,2463 @@
+=== 2022 ===
+
+==== 3º trimestre ====
+{| class="wikitable" style="text-align:center;font-size:85%"
+! rowspan="3" | Contratante / Pesquisa
+{{small|Número de<br>identificação}}
+! rowspan="3" | Data(s) de<br>Pesquisa
+! rowspan="3" | Tamanho<br>da Amostra
+! rowspan="3" | Margem<br>de erro<br>([[Porcentagem|pontos<br>percentuais]])
+! [[Imagem:{{tmpv|Predefinição:Info/Jair Bolsonaro|Info/Político/Presidente|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|Predefinição:Info/Luiz Inácio Lula da Silva|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|Ciro Gomes|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|Simone Tebet|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:Senadora Soraya Thronicke.jpg|x80px]]
+! [[Imagem:Luiz-felipe-davila retrato (cropped).jpg|x80px]]
+! [[Imagem:{{tmpv|José Maria Eymael|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:Sofia Manzano.png|x80px]]
+! [[Imagem:{{tmpv|Léo Péricles|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|Vera Lúcia Salgado|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|Pablo Marçal|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|Padre Kelmon|Info/Político|1|imagem}}|x80px]]
+! rowspan="3" |Outros
+! rowspan="3" | Indecisos e Absentos
+|-
+! [[Jair Bolsonaro|Bolsonaro]]<br>{{small|[[Partido Liberal (2006)|PL]]}}
+! [[Luiz Inácio Lula da Silva|Lula]]<br>{{small|[[Partido dos Trabalhadores|PT]]|[[PT]]}}
+! [[Ciro Gomes|Gomes]]<br>{{small|[[Partido Democrático Trabalhista|PDT]]}}
+! [[Simone Tebet|Tebet]]<br>{{small|[[Movimento Democrático Brasileiro (1980)|MDB]]}}
+! [[Soraya Thronicke|Thronicke]]<br>{{small|[[União Brasil|UNIÃO]]}}
+! [[Luiz Felipe d'Avila|D'Avila]]<br>{{small|[[Partido Novo|NOVO]]}}
+! [[José Maria Eymael|Eymael]]<br>{{small|[[Democracia Cristã (Brasil)|DC]]}}
+! [[Sofia Manzano|Manzano]]<br>{{small|[[Partido Comunista Brasileiro|PCB]]}}
+! [[Léo Péricles|Péricles]]<br>{{small|[[Unidade Popular (Brasil)|UP]]}}
+! [[Vera Lúcia Salgado|Salgado]]<br>{{small|[[Partido Socialista dos Trabalhadores Unificado|PSTU]]}}
+! [[Pablo Marçal|Marçal]]<br>{{small|[[Partido Republicano da Ordem Social|PROS]]}}
+! [[Padre Kelmon|Kelmon]]<br/>{{small|[[Partido Trabalhista Brasileiro|PTB]]}}
+|-
+! style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |
+! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
+! style="color:white;background:{{Partido Democrático Trabalhista/meta/cor}}" |
+! style="color:white;background:{{Movimento Democrático Brasileiro/meta/cor}}" |
+! style="color:white;background:{{União Brasil/meta/cor}}" |
+! style="color:white;background:{{Partido Novo/meta/cor}}" |
+! style="color:white;background:{{Democracia Cristã/meta/cor}}" |
+! style="color:white;background:{{Partido Comunista Brasileiro/meta/cor}}" |
+! style="color:white;background:{{Unidade Popular (Brasil)/meta/cor}}" |
+! style="color:white;background:{{Partido Socialista dos Trabalhadores Unificado/meta/cor}}" |
+! style="color:white;background:{{Partido Republicano da Ordem Social/meta/cor}}" |
+! style="color:white;background:{{Partido Trabalhista Brasileiro/meta/cor}}" |
+|-style=background:#e9e9e9;font-weight:bold;font-size:85%
+|-
+|[[Globo (empresa)|Globo]]/[[Datafolha]]<ref name="BR-00245">{{Citar web|url= https://g1.globo.com/jornal-nacional/noticia/2022/10/01/datafolha-lula-tem-50percent-dos-votos-validos-e-bolsonaro-36percent.ghtml |titulo=Datafolha: Lula tem 50% dos votos válidos e Bolsonaro, 36% |publicado=G1 |acessodata=2022-10-05 |lingua=pt-br}}</ref>
+<small>{{small|BR-00245/2022}}</small>
+|30 Set–01 Out
+|12.800
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''34%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''48%'''
+|5%
+|6%
+|1%
+|1%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|0%
+|{{n/a}}
+|5%
+|-
+|Globo/[[Inteligência em Pesquisa e Consultoria Estratégica|IPEC]]<ref name="BR-00999">{{Citar web|url= https://g1.globo.com/jornal-nacional/noticia/2022/10/01/ipec-lula-tem-51percent-dos-votos-validos-e-bolsonaro-37percent.ghtml |titulo=  Ipec: Lula tem 51% dos votos válidos e Bolsonaro, 37% |acessodata =2022-10-02|website=G1|lingua=pt-br}}</ref>
+<small>{{small|BR-00999/2022}}</small>
+|25 Set–01 Out
+|3.008
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''34%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''47%'''
+|5%
+|5%
+|1%
+|1%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|0%
+|{{n/a}}
+|7%
+|-
+|Abrapel/[[Ipespe]]<ref name="BR-05007">{{Citar web|url=https://noticias.uol.com.br/eleicoes/2022/10/01/pesquisa-ipespe-presidente-1-de-outubro.htm|titulo=Ipespe/Abrapel: Lula tem 49% e chance de vencer no 1º turno; Bolsonaro, 35%|acessodata=2022-10-01|website=noticias.uol.com.br|lingua=pt-br}}</ref>
+<small>{{small|BR-05007/2022}}</small>
+|30 Set
+|1.100
+|3
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''33%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''46%'''
+|7%
+|6%
+|1%
+|0%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|1%
+|{{n/a}}
+|4%
+|-
+|Arko Advice/AtlasIntel<ref name="BR-07338">{{Citar web|url= https://www.cnnbrasil.com.br/politica/pesquisa-atlas-presidencial-lula-tem-503-dos-votos-validos-bolsonaro-411/ |titulo= Pesquisa Atlas presidencial: Lula tem 50,3% dos votos válidos; Bolsonaro, 41,1% | website=CNN Brasil| acessodata=2022-10-05|lingua=pt-br}}</ref>
+<small>{{small|BR-07338/2022}}</small>
+|28–30 Set
+|4.500
+|1
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''40,7%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''49,8%'''
+|3,9%
+|2,6%
+|0,7%
+|0,8%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|0,3%
+|{{n/a}}
+|1%
+|-
+|CNT/MDA<ref name="BR-02944">{{Citar web|url= https://static.poder360.com.br/2022/10/pesquisa-CNT-MDA-1oout2022.pdf |titulo= Lula tem 48,3% dos votos válidos; Bolsonaro, 39,7%, diz MDA/CNT | website=Poder360| acessodata=2022-10-01|lingua=pt-br}}</ref>
+<small>{{small|BR-02944/2022}}</small>
+|28–30 Set
+|2.002
+|2,2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''36,3%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''44,2%'''
+|4,5%
+|4,3%
+|1,2%
+|0,4%
+|0%
+|0,2%
+|0%
+|0,1%
+|{{n/a}}
+|0,3%
+|{{n/a}}
+|8,5%
+|-
+|[[Paraná Pesquisas]]<ref name="BR-07917">{{Citar web|url= https://www.cnnbrasil.com.br/politica/parana-pesquisas-lula-tem-471-dos-votos-validos-bolsonaro-400/ |titulo= Paraná Pesquisas: Lula tem 47,1% dos votos válidos; Bolsonaro, 40,0%|acessodata=2022-09-30|website=CNN|lingua=pt-br}}</ref>
+<small>{{small|BR-07917/2022}}</small>
+|27–29 Set
+|2.020
+|2,2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''37,3%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''43,9%'''
+|4,9%
+|5,8%
+|0,5%
+|0,4%
+|0,1%
+|0%
+|0%
+|0,1%
+|{{n/a}}
+|0,1%
+|{{n/a}}
+|11,9%
+|-
+|Globo/Datafolha<ref name="BR-09479">{{Citar web|url= https://g1.globo.com/politica/eleicoes/2022/pesquisa-eleitoral/noticia/2022/09/29/datafolha-votos-validos-lula-50percent-bolsonaro-36percent.ghtml |titulo= Datafolha, votos válidos: Lula, 50%; Bolsonaro, 36% |acessodata=2022-09-29 |lingua=pt-br}}</ref>
+<small>{{small|BR-09479/2022}}</small>
+|27–29 Set
+|6.800
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''34%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''48%'''
+|6%
+|5%
+|1%
+|0%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|0%
+|{{n/a}}
+|5%
+|-
+|[[Instituto Veritá]]<ref name="BR-05980">{{Citar web|url=https://institutoverita.com.br/eleicoes/?jet_download=962|titulo= Pesquisa Instituto Veritá de 30 de setembro de 2022|data=2022-09-30|formato=PDF|acessodata=2022-10-08|arquivourl=https://web.archive.org/web/20221008213606/https://institutoverita.com.br/eleicoes/?jet_download=962|arquivodata=8 de outubro de 2022|publicado=Instituto Veritá |lingua=pt-br}}</ref>
+<small>{{small|BR-05980/2022}}</small>
+|24–29 Set
+|51.169
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''44,6%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''41,6%'''
+|4,1%
+|4,2%
+|0,9%
+|1,4%
+|0,3%
+|0%
+|0,1%
+|0%
+|{{n/a}}
+|0,4% 
+|{{n/a}}
+|2,4%
+|-
+|[[Brasmarket]]<ref name="BR-08847">{{Citar web|url= https://www.leiagora.com.br/noticia/126521/brasmarket-bolsonaro-faz-509-dos-votos-validos-e-vence-no-1-turno |titulo= Brasmarket: Bolsonaro faz 50,9% dos votos válidos e vence no 1º turno|acessodata=2022-09-30|lingua=pt-br}}</ref>
+<small>{{small|BR-08847/2022}}</small>
+|26–28 Set
+|1.600
+|2,45
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''45,4%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''30,9%'''
+|6,2%
+|5,2%
+|0,8%
+|0,3%
+|0%
+|0%
+|0,1%
+|0%
+|{{n/a}}
+|0,3%
+|{{n/a}}
+|10,9%
+|-
+|[[Banco Modal|Modalmais]]/Futura<ref name="BR-06743">{{Citar web|url=https://www.gazetadopovo.com.br/eleicoes/2022/pesquisa-eleitoral/modalmais-futura-presidente-30-09-22/|titulo=Modalmais/Futura: confira nova pesquisa para corrida presidencial|acessodata=2022-09-30|lingua=pt-br}}</ref>
+<small>{{small|BR-06743/2022}}</small>
+|26–28 Set
+|2.000
+|2,2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''37,8%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40,7%'''
+|5,6%
+|7,2%
+|0,9%
+|0,4%
+|0%
+|0,1%
+|0,3%
+|0,3%
+|{{n/a}}
+|0,1%
+|{{n/a}}
+|6,7%
+|-
+|[[Arko Advice]]/AtlasIntel<ref name="BR-01318">{{Citar web|url=https://static.poder360.com.br/2022/09/Pesquisa_Atlas_e_Arko_Eleic%CC%A7o%CC%83es_2022_Presidenciais_24_28_09_2022.pdf|titulo= Pesquisa Atlas e Arko - Eleições 2022 Presidenciais (24-28/09/2022) | acessodata=2022-10-01 |lingua=pt-BR}}</ref>
+<small>{{small|BR-01318/2022}}</small>
+|24–28 Set
+|4.500
+|1
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''39,9%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''49,3%'''
+|3,5%
+|2,5%
+|0,8%
+|0,7%
+|0,1%
+|0%
+|0%
+|0,2%
+|{{n/a}}
+|0,1% 
+|{{n/a}}
+|2,7%
+|-
+|[[Exame (revista brasileira)|Exame]]/Ideia<ref name="BR-09782">{{Citar web|url= https://www.poder360.com.br/eleicoes/lula-tem-47-contra-37-de-bolsonaro-diz-exame-ideia/ |titulo= Lula tem 47% contra 37% de Bolsonaro, dizExame/Ideia |acessodata=2022-09-29 |website=Poder 360|lingua=pt-br}}</ref>
+<small>{{small|BR-09782/2022}}</small>
+|23–28 Set
+|1.500
+|3
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''37%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''47%'''
+|6%
+|5%
+|0,2%
+|0,4%
+|0,1%
+|0,1%
+|0,1%
+|0,2%
+|{{n/a}}
+|0,1%
+|{{n/a}}
+|4%
+|-
+|PoderData<ref name="BR-01426">{{Citar web|url=https://static.poder360.com.br/2022/09/pd-intencao-presidente-27-set-2022-01.png|titulo= 1º turno - total de votos. Intenção de voto para presidente|acessodata=2022-09-28 |website=Poder 360|lingua=pt-br}}</ref>
+<small>{{small|BR-01426/2022}}</small>
+|25–27 Set
+|4.500
+|1,5
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''36%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''45%'''
+|6%
+|4%
+|1%
+|1%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|0%
+|{{n/a}}
+|5%
+|-
+|[[Grupo Genial|Genial]]/[[Quaest]]<ref name="BR-04371">{{Citar web|url= https://noticias.uol.com.br/eleicoes/2022/09/28/quaest-pesquisa-presidente-lula-bolsonaro-setembro.htm |titulo= Quaest: Lula oscila para cima e vai a 46%; Bolsonaro tem 33% | acessodata=2022-09-28 |website=UOL|lingua=pt-br}}</ref>
+<small>{{small|BR-04371/2022}}</small>
+|24–27 Set
+|2.000
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''33%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''46%'''
+|6%
+|5%
+|1%
+|0%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|0%
+|{{n/a}}
+|9%
+|-
+|Globo/IPEC<ref name="BR-01640">{{Citar web|url= https://noticias.uol.com.br/eleicoes/2022/09/26/pesquisa-ipec-presidente-lula-bolsonaro.htm |titulo=  Ipec: Lula pode vencer no 1º turno com 52% de votos válidos; Bolsonaro, 34% |acessodata =2022-09-26|website=UOL|lingua=pt-br}}</ref>
+<small>{{small|BR-01640/2022}}</small>
+|25–26 Set
+|3.008
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''31%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''48%'''
+|6%
+|5%
+|1%
+|1%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|0%
+|{{n/a}}
+|8%
+|-
+|Paraná Pesquisas<ref name="BR-03928">{{Citar web|url= https://www.gazetadopovo.com.br/eleicoes/2022/pesquisa-eleitoral/parana-pesquisas-presidente-27-09-22/amp/&ved=2ahUKEwiRucfaybX6AhUPp5UCHZNqCYIQ0PADKAB6BAgLEAE&usg=AOvVaw3hq4Ew3dvq1jV8GAmpKDJc |titulo= Paraná Pesquisas: veja o novo levantamento sobre a corrida presidencial |acessodata=2022-09-27|website=Gazeta do Povo|lingua=pt-br}}</ref>
+<small>{{small|BR-03928/2022}}</small>
+|22–26 Set
+|2.020
+|2,2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''36,4%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''42,7%'''
+|5,6%
+|5%
+|0,8%
+|0,1%
+|0%
+|0%
+|0,1%
+|0,1%
+|{{n/a}}
+|0,1%
+|{{n/a}}
+|9,2%
+|-
+|Arko Advice/AtlasIntel<ref name="BR-02714">{{Citar web|url= https://www.cnnbrasil.com.br/politica/pesquisa-atlas-para-presidente-lula-tem-483-e-bolsonaro-41/ |titulo= Pesquisa Atlas para presidente: Lula tem 48,3%; e Bolsonaro, 41% |acessodata=2022-09-27 |lingua=pt-BR}}</ref>
+<small>{{small|BR-02714/2022}}</small>
+|22–26 Set
+|4.500
+|1
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''41%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''48,3%'''
+|3,5%
+|2,1%
+|1%
+|1,3%
+|0,1%
+|0%
+|0%
+|0,2%
+|{{n/a}}
+|0,1% 
+|{{n/a}}
+|2,3%
+|-
+|[[BTG Pactual]]/FSB<ref name="BR-08123">{{Citar web|url= https://noticias.uol.com.br/eleicoes/2022/09/26/pesquisa-btg-fsb-presidente-26-setembro-2022.htm |titulo= BTG/FSB: Lula oscila um ponto para cima; Bolsonaro fica estável com 35% |acessodata=2022-09-26|lingua=pt-br}}</ref>
+<small>{{small|BR-08123/2022}}</small>
+|23–25 Set
+|2.000
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''45%'''
+|7%
+|4%
+|1%
+|1%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|0%
+|{{n/a}}
+|6%
+|-
+|Instituto Veritá<ref name="BR-06580">{{Citar web|url=https://institutoverita.com.br/eleicoes/?jet_download=906|titulo= Relatório Brasil Setembro 2022|acessodata=2022-09-30 |publicado=Instituto Veritá|lingua=pt-br}}</ref>
+<small>{{small|BR-06580/2022}}</small>
+|19–23 Set
+|11.000
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''43,2%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''42,1%'''
+|4,7%
+|4%
+|1,1%
+|1%
+|0,3%
+|0,1%
+|0,1%
+|0,1%
+|{{n/a}}
+|0,1% 
+|{{n/a}}
+|3,3%
+|-
+|Equilíbrio Brasil<ref name="BR-02018">{{citar web|url=https://portaldeprefeitura.com.br/wp-content/uploads/2022/09/Equili%CC%81brio-Brasil.pdf |titulo=Pesquisa Equilíbrio Brasil BR-02018/2022 | acessodata= 2022-09-29}}</ref>
+<small>{{small|BR-02018/2022}}</small>
+|20–22 Set
+|11.500
+|3
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''44%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39%'''
+|5%
+|4%
+|2%
+|1%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|0%
+|{{n/a}}
+|4%
+|-
+|Globo/Datafolha<ref name="BR-04180">{{Citar web|url= https://veja.abril.com.br/coluna/maquiavel/datafolha-presidencial-lula-tem-47-e-bolsonaro-33/ |titulo= Datafolha presidencial: Lula tem 47% e Bolsonaro, 33% |acessodata=2022-09-22 |lingua=pt-br}}</ref>
+<small>{{small|BR-04180/2022}}</small>
+|20–22 Set
+|6.754
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''33%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''47%'''
+|7%
+|5%
+|1%
+|0%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|0%
+|{{n/a}}
+|6%
+|-
+|Modalmais/Futura<ref name="BR-02650">{{Citar web|url=https://www.gazetadopovo.com.br/eleicoes/2022/pesquisa-eleitoral/modalmais-futura-presidente-23-09-22/ |titulo=Modalmais/Futura: confira nova pesquisa para corrida presidencial |acessodata=2022-09-23|lingua=pt-br}}</ref>
+<small>{{small|BR-02650/2022}}</small>
+|19–21 Set
+|2.000
+|2,2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''39,2%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39,1%'''
+|6,6%
+|6,1%
+|0,8%
+|0,3%
+|0,2%
+|0,2%
+|{{n/a}}
+|0,4%
+|{{n/a}}
+|0,1%
+|{{n/a}}
+|7,1%
+|-
+|Abrapel/Ipespe<ref name="BR-08425">{{Citar web|url= https://www.cnnbrasil.com.br/politica/pesquisa-ipespe-para-presidente-lula-tem-45-bolsonaro-35/ |titulo= Pesquisa Ipespe para presidente: Lula tem 45%; Bolsonaro, 35% |acessodata=2022-09-23|lingua=pt-br}}</ref>
+<small>{{small|BR-08425/2022}}</small>
+|19–21 Set
+|2.000
+|2,2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''46%'''
+|7%
+|4%
+|1%
+|0%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|0%
+|{{n/a}}
+|7%
+|-
+|Brasmarket<ref name="BR-00580">{{Citar web|url= https://www.leiagora.com.br/noticia/126091/bolsonaro-vence-no-primeiro-turno-com-449-dos-votos-diz-pesquisa-brasmarket |titulo= Bolsonaro vence no primeiro turno com 44,9% dos votos, diz pesquisa Brasmarket |acessodata=2022-09-23|lingua=pt-br}}</ref>
+<small>{{small|BR-00580/2022}}</small>
+|18–20 Set
+|2.400
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''44,9%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''31%'''
+|6,5%
+|4,5%
+|0,7%
+|0,4%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|0%
+|{{n/a}}
+|11,9%
+|-
+|PoderData<ref name="BR-00407">{{Citar web|url= https://www.poder360.com.br/governo/lula-44-x-37-bolsonaro-no-1o-turno-mostra-poderdata/ |titulo= Lula 44% X 37% Bolsonaro no 1º turno, mostra PoderData |acessodata=2022-09-21|website=Poder360|lingua=pt-br}}</ref>
+<small>{{small|BR-00407/2022}}</small>
+|18–20 Set
+|3.500
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''37%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''44%'''
+|7%
+|4%
+|1%
+|1%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|0%
+|{{n/a}}
+|5%
+|-
+|Genial/Quaest<ref name="BR-04459">{{Citar web|url= https://www.jota.info/eleicoes/diferenca-entre-lula-e-bolsonaro-volta-aos-10-pontos-aponta-pesquisa-genial-quaest-21092022 |titulo= Diferença entre Lula e Bolsonaro volta aos 10 pontos, aponta pesquisa Genial/Quaest|acessodata=2022-09-21|website=Jota|lingua=pt-br}}</ref>
+<small>{{small|BR-04459/2022}}</small>
+|17–20 Set
+|2.000
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''34%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''44%'''
+|6%
+|5%
+|1%
+|0%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|0%
+|{{n/a}}
+|10%
+|-
+|Arko Advice/AtlasIntel<ref name="BR-01204">{{Citar web|url= https://www.cnnbrasil.com.br/politica/pesquisa-atlas-para-presidente-lula-tem-484-bolsonaro-386/ |titulo= Pesquisa AtlasIntel para presidente: Lula tem 48,4%; Bolsonaro, 38,6%|acessodata=2022-09-24|lingua=pt-BR}}</ref>
+<small>{{small|BR-01204/2022}}</small>
+|16–20 Set
+|7.514
+|1
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''38,6%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''48,4%'''
+|6,3%
+|4%
+|0,4%
+|0,7%
+|0,2%
+|0,1%
+|0,2%
+|0,1%
+|{{n/a}}
+|0,1% 
+|{{n/a}}
+|1%
+|-
+|Paraná Pesquisas<ref name="BR-09417">{{Citar web|url= https://www.gazetadopovo.com.br/eleicoes/2022/pesquisa-eleitoral/parana-pesquisas-divulga-novo-levantamento-sobre-a-corrida-presidencial-veja/ |titulo= Paraná Pesquisas divulga novo levantamento sobre a corrida presidencial; veja |acessodata=2022-09-20|website=Gazeta do Povo|lingua=pt-br}}</ref>
+<small>{{small|BR-09417/2022}}</small>
+|15–19 Set
+|2.020
+|2,2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''36,4%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40,1%'''
+|7,2%
+|4,6%
+|0,7%
+|0,2%
+|0%
+|0,2%
+|0,1%
+|0,2%
+|{{n/a}}
+|0,1%
+|{{n/a}}
+|10,3%
+|-
+|Globo/IPEC<ref name="BR-00073">{{Citar web|url=https://www.cnnbrasil.com.br/politica/pesquisa-ipec-para-presidente-lula-tem-47-bolsonaro-31/ |titulo= Pesquisa Ipec para presidente: Lula tem 47%; Bolsonaro, 31%|acessodata=2022-09-19|website=CNN|lingua=pt-br}}</ref>
+<small>{{small|BR-00073/2022}}</small>
+|17–18 Set
+|3.008
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''31%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''47%'''
+|7%
+|5%
+|1%
+|0%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|0%
+|{{n/a}}
+|9%
+|-
+|BTG Pactual/FSB<ref name="BR-07560">{{Citar web|url=https://noticias.uol.com.br/eleicoes/2022/09/19/btg-fsb-pesquisa-presidente-19-de-setembro.htm|titulo=BTG/FSB: Lula cresce três pontos e amplia vantagem; Bolsonaro segue com 35%|acessodata=2022-09-19|lingua=pt-br}}</ref>
+<small>{{small|BR-07560/2022}}</small>
+|16–18 Set
+|2.000
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''44%'''
+|7%
+|5%
+|1%
+|0%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|0%
+|{{n/a}}
+|7%
+|-
+|Abrapel/Ipespe<ref name="BR-08883">{{Citar web|url= https://www.cnnbrasil.com.br/politica/pesquisa-ipespe-para-presidente-lula-tem-45-bolsonaro-35/ |titulo= Pesquisa Ipespe para presidente: Lula tem 45%; Bolsonaro, 35% |acessodata=2022-09-17|lingua=pt-br}}</ref>
+<small>{{small|BR-08883/2022}}</small>
+|14–16 Set
+|1.100
+|3
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''45%'''
+|7%
+|5%
+|1%
+|1%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|0%
+|{{n/a}}
+|5%
+|-
+|Globo/Datafolha<ref name="BR-04099">{{Citar web|url= https://www.cartacapital.com.br/politica/datafolha-lula-se-mantem-com-45-no-1o-turno-bolsonaro-oscila-para-baixo-e-marca-33/ |titulo= Datafolha: Lula se mantém com 45% no 1º turno; Bolsonaro oscila para baixo e marca 33% |acessodata=2022-09-15|lingua=pt-br}}</ref>
+<small>{{small|BR-04099/2022}}</small>
+|13–15 Set
+|5.926
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''33%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''45%'''
+|8%
+|5%
+|2%
+|0%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|0%
+|{{n/a}}
+|6%
+|-
+|CNT/MDA<ref name="BR-06984">{{Citar web|url= https://www.poder360.com.br/eleicoes/lula-marca-434-contra-348-de-bolsonaro-diz-mda-cnt/ |titulo= Lula marca 43,4% contra 34,8% de Bolsonaro, diz MDA/CNT | website=Poder360| acessodata=2022-09-16|lingua=pt-br}}</ref>
+<small>{{small|BR-06984/2022}}</small>
+|12–14 Set
+|2.002
+|2,2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''34,8%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''43,4%'''
+|5,6%
+|4,5%
+|0,7%
+|0,3%
+|0%
+|0,1%
+|0%
+|0,2%
+|{{n/a}}
+|0,1%
+|{{n/a}}
+|10,9%
+|-
+|Modalmais/Futura<ref name="BR-00745">{{Citar web|url=https://www.gazetadopovo.com.br/eleicoes/2022/pesquisa-eleitoral/modalmais-futura-presidente-16-09-22/|titulo=Modalmais/Futura: confira nova pesquisa para corrida presidencial|acessodata=2022-09-18|lingua=pt-br}}</ref>
+<small>{{small|BR-00745/2022}}</small>
+|12–14 Set
+|2.000
+|2,2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''41,9%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''36,9%'''
+|7%
+|6,4%
+|0,5%
+|0,4%
+|0%
+|0,1%
+|0%
+|0,2%
+|0,5%
+|{{n/a}}
+|{{n/a}}
+|6,5
+|-
+|Brasmarket<ref name="BR-01527">{{Citar web|url= https://contilnetnoticias.com.br/2022/09/nova-pesquisa-diz-que-bolsonaro-esta-13-pontos-a-frente-de-lula/ |titulo= Nova pesquisa diz que Bolsonaro está 13 pontos à frente de Lula |acessodata=2022-09-15|lingua=pt-br}}</ref>
+<small>{{small|BR-01527/2022}}</small>
+|10–14 Set
+|2.400
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''43,5%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''30,5%'''
+|7,6%
+|4,6%
+|0,8%
+|0,3%
+|0%
+|0,2%
+|0%
+|0%
+|{{n/a}}
+|0,2%
+|{{n/a}}
+|12,1%
+|-
+|PoderData<ref name="BR-02955">{{Citar web|url= https://www.poder360.com.br/poderdata/lula-43-x-37-bolsonaro-no-1o-turno-diz-poderdata/|titulo= Lula 43% X 37% Bolsonaro no 1º turno, diz PoderData |acessodata=2022-09-14|website=Poder360|lingua=pt-br}}</ref>
+<small>{{small|BR-02955/2022}}</small>
+|11–13 Set
+|3.500
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''37%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''43%'''
+|8%
+|5%
+|0%
+|1%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|5%
+|-
+|Genial/Quaest<ref name="BR-03420">{{Citar web|url= https://www.em.com.br/app/noticia/politica/2022/09/14/interna_politica,1393502/pesquisa-genial-quaest-vantagem-de-lula-para-bolsonaro-e-de-8-pontos.shtml |titulo= Pesquisa Genial/Quaest: vantagem de Lula para Bolsonaro é de 8 pontos |acessodata=2022-09-14|website=Estado de Minas|lingua=pt-br}}</ref>
+<small>{{small|BR-03420/2022}}</small>
+|10–13 Set
+|2.000
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''34%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''42%'''
+|7%
+|4%
+|1%
+|1%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|11%
+|-
+|Paraná Pesquisas<ref name="BR-05388">{{Citar web|url= https://www.poder360.com.br/pesquisas/lula-e-bolsonaro-empatam-tecnicamente-diz-parana-pesquisas/ |titulo= Lula e Bolsonaro empatam tecnicamente, diz Paraná Pesquisas |acessodata=2022-09-13|website=Poder360|lingua=pt-br}}</ref>
+<small>{{small|BR-05388/2022}}</small>
+|8–12 Set
+|2.020
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''36,5%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39,6%'''
+|7,4%
+|4,7%
+|0,4%
+|0,5%
+|0%
+|0,1%
+|0,1%
+|0,1%
+|0,4%
+|{{n/a}}
+|{{n/a}}
+|10%
+|-
+|BTG Pactual/FSB<ref name="BR-06321">{{Citar web|url= https://noticias.uol.com.br/eleicoes/2022/09/12/pesquisa-btg-fsb-presidente-12-de-setembro.htm |titulo= DatafolhaBTG/FSB: Lula tem 41%, e vantagem para Bolsonaro oscila 2 pontos para baixo |acessodata=2022-09-12|website=UOL|lingua=pt-br}}</ref>
+<small>{{small|BR-06321/2022}}</small>
+|9–11 Set
+|2.000
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''41%'''
+|9%
+|7%
+|1%
+|1%
+|1%
+|0%
+|0%
+|0%
+|{{n/a}}
+|0%
+|{{n/a}}
+|6%
+|-
+|Globo/IPEC<ref name="BR-01390">{{Citar web|url=https://g1.globo.com/politica/eleicoes/2022/pesquisa-eleitoral/noticia/2022/09/12/ipec-lula-passa-de-44percent-para-46percent-e-bolsonaro-se-mantem-com-31percent.ghtml|titulo= Ipec: Lula passa de 44% para 46%, e Bolsonaro se mantém com 31%|acessodata=2022-09-12|website=G1|lingua=pt-br}}</ref>
+<small>{{small|BR-01390/2022}}</small>
+|9–11 Set
+|2.512
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''31%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''46%'''
+|7%
+|4%
+|1%
+|1%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|0%
+|{{n/a}}
+|10%
+|-
+|Globo/Datafolha<ref name="BR-07422">{{Citar web|url= https://g1.globo.com/politica/eleicoes/2022/noticia/2022/09/09/datafolha-lula-mantem-45percent-e-bolsonaro-passa-de-32percent-para-34percent.ghtml |titulo= Datafolha divulga hoje (9/9) números de pesquisa para presidente |acessodata=2022-09-09|website=G1|lingua=pt-br}}</ref>
+<small>{{small|BR-07422/2022}}</small>
+|8–9 Set
+|2.276
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''34%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''45%'''
+|7%
+|5%
+|1%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|7%
+|-
+|Abrapel/Ipespe<ref name="BR-07626">{{Citar web|url=https://noticias.uol.com.br/eleicoes/2022/09/10/pesquisa-ipespe-presidencial-10-de-setembro-de-2022.htm|titulo=Ipespe/Abrapel: Lula tem 44%, Bolsonaro, 36%, Ciro, 8%, e Tebet, 5%|acessodata=2022-09-19|website=UOL|lingua=pt-br}}</ref>
+<small>{{small|BR-07626/2022}}</small>
+|7–9 Set
+|1.100
+|3
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''36%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''44%'''
+|8%
+|5%
+|1%
+|1%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|5%
+|-
+| colspan=4 | 6 Set || colspan="14" |'''[[Tribunal Superior Eleitoral]] (TSE) nega registro de candidatura de [[Pablo Marçal]] ([[Partido Republicano da Ordem Social|PROS]])'''<ref>{{citar web|url=https://www.cnnbrasil.com.br/politica/tse-nega-candidatura-de-pablo-marcal-a-presidencia-pelo-pros/|titulo=TSE nega candidatura de Pablo Marçal à Presidência pelo Pros|data=06-09-2022|acessodata=07-09-2022|website=CNN Brasil}}</ref>
+|-
+|Modalmais/Futura<ref name="BR-02618">{{Citar web|url= https://noticias.r7.com/eleicoes-2022/jair-bolsonaro-lidera-corrida-presidencial-diz-pesquisa-futura-inteligencia-08092022|titulo= Jair Bolsonaro lidera corrida presidencial, diz pesquisa Futura Inteligência|acessodata=2022-09-08|website=R7|lingua=pt-br}}</ref>
+<small>{{small|BR-02618/2022}}</small>
+|5–6 Set
+|2.000
+|2,2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''41,8%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''35,7%'''
+|7,7%
+|5,4%
+|0,7%
+|0,2%
+|0,1%
+|0,2%
+|0,2%
+|0,2%
+|0,5%
+|{{n/a}}
+|{{n/a}}
+|7,3%
+|-
+|PoderData<ref name="BR-03760">{{Citar web|url= https://www.band.uol.com.br/eleicoes/noticias/poderdata-lula-lidera-com-43-dos-votos-contra-37-de-bolsonaro-16533079 |titulo= PoderData: Lula lidera com 43% dos votos contra 37% de Bolsonaro |acessodata=2022-09-07|website=Band|lingua=pt-br}}</ref>
+<small>{{small|BR-03760/2022}}</small>
+|4–6 Set
+|3.500
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''37%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''43%'''
+|8%
+|5%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0% [[Roberto Jefferson|'''Jefferson''']]
+|{{n/a}}
+|5%
+|-
+|Paraná Pesquisas<ref name="BR-09446">{{Citar web|url= https://www.cnnbrasil.com.br/politica/parana-pesquisas-para-presidente-lula-tem-402-bolsonaro-364/ |titulo=Paraná Pesquisas para presidente: Lula tem 40,2%; Bolsonaro, 36,4%|acessodata=2022-09-06|website=CNN Brasil|lingua=pt-br}}</ref>
+<small>{{small|BR-09446/2022}}</small>
+|31 Ago–5 Set
+|2.020
+|2,2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''36,4%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40,2%'''
+|7,3%
+|4,1%
+|0,6%
+|0,3%
+|0%
+|0,1%
+|0,1%
+|0,3%
+|0,5%
+|0,1% [[Roberto Jefferson|'''Jefferson''']]
+|{{n/a}}
+|11%
+|-
+|Globo/IPEC<ref name="BR00922">{{Citar web|url=https://g1.globo.com/politica/eleicoes/2022/pesquisa-eleitoral/noticia/2022/09/05/ipec-lula-segue-com-44percent-bolsonaro-oscila-para-baixo-e-esta-com-31percent.ghtml|titulo=Ipec: Lula segue com 44%; Bolsonaro tem 31%; Ciro, 8%; Tebet, 4%|acessodata=2022-09-06|website=G1|lingua=pt-br}}</ref>
+<small>{{small|BR-00922/2022}}</small>
+|2–4 Set
+|2.512
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''31%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''44%'''
+|8%
+|4%
+|1%
+|1%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0% [[Roberto Jefferson|'''Jefferson''']]
+|{{n/a}}
+|11%
+|-
+|BTG Pactual/FSB<ref name="BR-01786/2022">{{Citar web|url=https://www.poder360.com.br/pesquisas/lula-tem-42-ante-34-de-bolsonaro-diz-pesquisa-btg-fsb/ |título=Lula tem 42% ante 34% de Bolsonaro, diz pesquisa BTG/FSB |publicado=Poder 360 |acessodata=2022-09-05|língua=pt-BR}}</ref>
+<small>{{small|BR-01786/2022}}</small>
+|2–4 Set
+|2.000
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''34%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''42%'''
+|8%
+|6%
+|1%
+|0%
+|0%
+|0%
+|0%
+|1%
+|1%
+|0% [[Roberto Jefferson|'''Jefferson''']]
+|{{n/a}}
+|4%
+|-
+|Quaest<ref name="BR-00807">{{Citar web|url=https://noticias.uol.com.br/eleicoes/2022/09/07/pesquisa-quaest-presidente-setembro-lula-bolsonaro.htm |titulo=Quaest: Lula estaciona e diferença para Bolsonaro agora é de 10 pontos|acessodata=2022-09-06 |website=UOL|lingua=pt-br}}</ref>
+<small>{{small|BR-00807/2022}}</small>
+|1–4 Set
+|2.000
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''34%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''44%'''
+|7%
+|4%
+|1%
+|1%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0% [[Roberto Jefferson|'''Jefferson''']]
+|{{n/a}}
+|9%
+|-
+|Instituto Veritá<ref name="BR-01060">{{Citar web|url=https://institutoverita.com.br/eleicoes/?jet_download=704|titulo= Relatório Brasil Agosto 2022-1|acessodata=2022-09-30|publicado=Instituto Veritá|lingua=pt-br}}</ref>
+<small>{{small|BR-01060/2022}}</small>
+|27 Ago–2 Set
+|21.019
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''43,6%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''41,9%'''
+|5,5%
+|3,6%
+|0,3%
+|0,5%
+|0,2%
+|0,1%
+|0,1%
+|0,2%
+|0,5%
+|0,1% [[Roberto Jefferson|'''Jefferson''']]
+|{{n/a}}
+|3,5%
+|-
+|[[XP Investimentos|XP]]/Ipespe<ref name="BR-09344/2022">{{Citar web|url=https://www.cnnbrasil.com.br/politica/pesquisa-ipespe-para-presidente-lula-tem-44-bolsonaro-35-2/|título=Pesquisa Ipespe para presidente: Lula tem 44%; Bolsonaro, 35%|publicado=CNN Brasil|acessodata=2022-09-02|lingua=pt-BR}}</ref>
+<small>{{small|BR-09344/2022}}</small>
+|31 Ago–1 Set
+|1.100
+|3
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''44%'''
+|9%
+|5%
+|1%
+|1%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0% [[Roberto Jefferson|'''Jefferson''']]
+|{{n/a}}
+|5%
+|-
+|Datafolha<ref name="BR-00433/2022">{{Citar web|url= https://g1.globo.com/politica/eleicoes/2022/pesquisa-eleitoral/noticia/2022/09/01/datafolha-lula-oscila-de-47percent-para-45percent-bolsonaro-mantem-32percent-ciro-vai-a-9percent-e-tebet-sobe-para-5percent.ghtml |titulo= Datafolha: Lula oscila de 47% para 45%, Bolsonaro mantém 32%, Ciro vai a 9% e Tebet sobe para 5% |publicado=G1|acessodata=2022-09-02|lingua=pt-BR}}</ref>
+<small>{{small|BR-00433/2022}}</small>
+|30 Ago–1 Set
+|5.734
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''32%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''45%'''
+|9%
+|5%
+|1%
+|1%
+|0%
+|0%
+|0%
+|0%
+|1%
+|0% [[Roberto Jefferson|'''Jefferson''']]
+|{{n/a}}
+|6%
+|-
+|Gerp<ref name="BR-09102/2022">{{Citar web|url=https://www.gazetadopovo.com.br/eleicoes/2022/pesquisa-eleitoral/gerp-pesquisa-para-presidente-05-09-2022/|título=Gerp: veja o resultado da 5.ª rodada da pesquisa para|publicado=Gazeta do Povo |acessodata=2022-09-06|lingua=pt-BR}}</ref>
+<small>{{small|BR-09102/2022}}</small>
+|29 Ago–1 Set
+|2.095
+|2,18
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''39%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''38%'''
+|11%
+|6%
+|0%
+|1%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0% [[Roberto Jefferson|'''Jefferson''']]
+|{{n/a}}
+|7%
+|-style=background:#e9e9e9;font-weight:bold;font-size:85%
+| colspan=4 | 1 Set || colspan="14" | '''[[Tribunal Superior Eleitoral]] (TSE) nega registro de candidatura de [[Roberto Jefferson]] ([[Partido Trabalhista Brasileiro (1979)|PTB]])'''<ref>{{citar web|url=https://www.tse.jus.br/comunicacao/noticias/2022/Setembro/negado-registro-de-roberto-jefferson-ptb-ao-cargo-de-presidente|titulo=Negado registro de Roberto Jefferson (PTB) ao cargo de presidente|data=01-09-2022|acessodata=06-09-2022|website=Tribunal Superior Eleitoral}}</ref>
+|-
+|PoderData<ref name="BR-06922/2022">{{Citar web|url= https://www.band.uol.com.br/eleicoes/noticias/lula-tem-44-contra-36-de-bolsonaro-indica-pesquisa-poderdata-16531743 |titulo= Lula tem 44% contra 36% de Bolsonaro, indica pesquisa DataPoder |publicado=Band|acessodata=2022-08-31|lingua=pt-BR}}</ref>
+<small>{{small|BR-06922/2022}}</small>
+|28–30 Ago
+|3.500
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''36%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''44%'''
+|8%
+|4%
+|0%
+|0%
+|1%
+|0%
+|0%
+|0%
+|0%
+|0% [[Roberto Jefferson|'''Jefferson''']]
+|{{n/a}}
+|5%
+|-
+|Paraná Pesquisas<ref name="BR-03492/2022">{{Citar web|url= https://www.poder360.com.br/pesquisas/lula-tem-413-ante-371-de-bolsonaro-diz-parana-pesquisas/|titulo= Lula tem 41,3% ante 37,1% de Bolsonaro, diz Paraná Pesquisas |publicado=Poder 360|acessodata=2022-08-31|lingua=pt-BR}}</ref>
+<small>{{small|BR-03492/2022}}</small>
+|26–30 Ago
+|2.000
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''37,1%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''41,3%'''
+|7,7%
+|2,4%
+|0,1%
+|0,2%
+|0,1%
+|0,2%
+|0,1%
+|0,3%
+|0,6%
+|0% [[Roberto Jefferson|'''Jefferson''']]
+|{{n/a}}
+|9,9%
+|-
+|XP/Ipespe<ref name="BR-04347/2022">{{Citar web|url= https://www.infomoney.com.br/politica/ipespe-lula-lidera-com-43-bolsonaro-tem-35/ |titulo= Ipespe: Lula lidera com 43%; Bolsonaro tem 35%; Simone entra em empate técnico com Ciro |publicado=InfoMoney|acessodata=2022-08-31|lingua=pt-BR}}</ref>
+<small>{{small|BR-04347/2022}}</small>
+|26–29 Ago
+|2.000
+|2,2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''43%'''
+|9%
+|5%
+|0%
+|1%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0% [[Roberto Jefferson|'''Jefferson''']]
+|{{n/a}}
+|6%
+|-
+|BTG Pactual/FSB<ref name="BR-08934/2022">{{Citar web|url= https://noticias.uol.com.br/eleicoes/2022/08/29/pesquisa-btg-fsb-presidente-29-de-agosto.htm|titulo= BTG/FSB: Lula oscila 2 pontos para baixo; Bolsonaro fica estável com 36% |acessodata=2022-08-29|lingua=pt-BR}}</ref>
+<small>{{small|BR-08934/2022}}</small>
+|26–28 Ago
+|2.000
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''36%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''43%'''
+|9%
+|4%
+|0%
+|0%
+|0%
+|0%
+|0%
+|1%
+|1%
+|0% [[Roberto Jefferson|'''Jefferson''']]
+|{{n/a}}
+|7%
+|-
+|Globo/IPEC<ref name="BR-01979/2022">{{Citar web|url= https://www.poder360.com.br/pesquisas/ipec-mostra-cenario-estavel-lula-44-x-32-de-bolsonaro/ |titulo=Ipec mostra cenário estável: Lula 44% X 32% Bolsonaro |acessodata=2022-08-29|lingua=pt-BR}}</ref>
+<small>{{small|BR-01979/2022}}</small>
+|26–28 Ago
+|2.000
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''32%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''44%'''
+|7%
+|3%
+|0%
+|1%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0% [[Roberto Jefferson|'''Jefferson''']]
+|{{n/a}}
+|13%
+|-
+|Genial/Quaest<ref name="BR-00585/2022">{{Citar web|url= https://www.cnnbrasil.com.br/politica/pesquisa-quaest-para-presidente-lula-tem-44-e-bolsonaro-32-2/ |titulo= Lula tem 44%; e Bolsonaro, 32% | publicado=CNN Brasil|acessodata=2022-08-31|lingua=pt-BR}}</ref>
+<small>{{small|BR-00585/2022}}</small>
+|25–28 Ago
+|2.000
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''32%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''44%'''
+|8%
+|3%
+|0%
+|0%
+|0%
+|0%
+|0%
+|1%
+|1%
+|0% [[Roberto Jefferson|'''Jefferson''']]
+|{{n/a}}
+|11%
+|-
+|CNT/MDA<ref name="BR-00950/2022">{{Citar web|url=https://cnt.org.br/documento/9a934bd0-9675-4619-86ca-33a22ee6a17c|titulo=153ª Pesquisa CNT de Opinião|acessodata=2022-09-06|website=CNT|lingua=pt-br}}</ref>
+<small>{{small|BR-00950/2022}}</small>
+|25–28 Ago
+|2.002
+|2,2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''34,1%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''42,3%'''
+|7,3%
+|2,1%
+|0%
+|0,3%
+|0%
+|0%
+|0,1%
+|0,1%
+|0,4%
+|0,2% [[Roberto Jefferson|'''Jefferson''']]
+|{{n/a}}
+|12,8%
+|-
+|Modalmais/Futura<ref name="BR-07568/2022">{{Citar web|url=https://www.gazetadopovo.com.br/eleicoes/2022/pesquisa-eleitoral/modalmais-futura-presidente-01-09-22/ |titulo=Pesquisa Modal/Futura mostra empate técnico entre Bolsonaro e Lula na corrida presidencial|acessodata=2022-09-01|lingua=pt-BR}}</ref>
+<small>{{small|BR-07568/2022}}</small>
+|24–25 Ago
+|2.000
+|2,2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''40,1%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''36,9%'''
+|10,1%
+|2,2%
+|0%
+|0,4%
+|0%
+|0,1%
+|0,1%
+|0,4%
+|0,4%
+|0,2% [[Roberto Jefferson|'''Jefferson''']]
+|{{n/a}}
+|9,2%
+|-
+|Arko Advice/AtlasIntel<ref name="BR-00848/2022">{{Citar web|url=https://www.cartacapital.com.br/politica/lula-lidera-por-8-pontos-no-1o-turno-e-venceria-bolsonaro-por-11-no-2o-diz-pesquisa-atlas/|titulo=Lula lidera por 8 pontos no 1º turno e venceria Bolsonaro por 11 no 2º|acessodata=2022-08-25|lingua=pt-BR}}</ref>
+<small>{{small|BR-00848/2022}}</small>
+|20–24 Ago
+|7.475
+|1
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''38,3%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''46,7%'''
+|6,4%
+|3,6%
+|0,1%
+|0,7%
+|0,1%
+|0,2%
+|0,1%
+|0,4%
+|1,5%
+|0% [[Roberto Jefferson|'''Jefferson''']]
+|{{n/a}}
+|1,9%
+|-
+|Exame/Ideia<ref name="br02405">{{Citar web|url=https://www.band.uol.com.br/eleicoes/noticias/exame-ideia-lula-tem-44-contra-36-de-bolsonaro-indica-pesquisa-16530472|titulo=Exame/Ideia: Lula tem 44% contra 36% de Bolsonaro, indica pesquisa|acessodata=2022-08-25|website=www.band.uol.com.br|lingua=pt-BR}}</ref>
+<small>{{small|BR-02405/2022}}</small>
+|19–24 Ago
+|1.500
+|3
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''36%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''44%'''
+|9%
+|4%
+|0,1%
+|1%
+|0,1%
+|0,1%
+|0,2%
+|1%
+|1%
+|0,1% [[Roberto Jefferson|'''Jefferson''']]
+|{{n/a}}
+|5%
+|-
+|Paraná Pesquisas<ref name="Paraná24082022">{{citar web |url=https://www.gazetadopovo.com.br/eleicoes/2022/pesquisa-eleitoral/parana-pesquisas-para-presidente-24-08-2022/| título=Paraná Pesquisas divulga novo levantamento sobre a corrida presidencial| data=24 de agosto de 2022| acessodata=24 de agosto de 2022| publicado=Gazeta do Povo}}</ref>
+<small>{{small|BR-03138/2022}}</small>
+|19–23 Ago
+|2.020
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''37%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''41,7%'''
+|7,3%
+|2,7%
+|0,1%
+|0,1%
+|0,1%
+|0,1%
+|0,1%
+|0,2%
+|0,4%
+|0,1% [[Roberto Jefferson|'''Jefferson''']]
+|{{n/a}}
+|10,1%
+|-
+|Instituto Veritá<ref name="BR-03033">{{Citar web|url= https://institutoverita.com.br/eleicoes/?jet_download=683|titulo=Relatório Brasil Agosto 2022|acessodata=2022-09-30 |publicado=Instituto Veritá|lingua=pt-br}}</ref>
+<small>{{small|BR-03033/2022}}</small>
+|17–22 Ago
+|5.050
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''40,1%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''42,1%'''
+|4,2%
+|2,3%
+|0,1%
+|0,6%
+|0,2%
+|0,5%
+|0,2%
+|0,2%
+|0,7%
+|{{n/a}}
+|0,0%
+|8,6%
+|-
+|Brasmarket<ref name="BR-07901/2022">{{citar web |url=https://f5online.com.br/virada-nova-pesquisa-mostra-bolsonaro-a-frente-de-lula-veja-os-numeros/ | título=Virada: Nova pesquisa mostra Bolsonaro à frente de Lula; veja os números | data=24 de agosto de 2022| acessodata=25 de agosto de 2022}}</ref> 
+<small>{{small|BR-07901/2022}}</small>
+|20–22 Ago
+|2.000
+|2,2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''41%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''32,9%'''
+|4,3%
+|3,3%
+|0,1%
+|0,3%
+|0,2%
+|0%
+|0,2%
+|0,4%
+|0,3%
+|0% [[Roberto Jefferson|'''Jefferson''']]
+|{{n/a}}
+|17,3%
+|-
+|BTG Pactual/FSB<ref name="br00244">{{citar web|url=https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2022/08/22/lula-tem-45-e-bolsonaro-vai-a-36-diz-pesquisa-btgfsb.htm|título=Lula tem 45% e Bolsonaro vai a 36%, diz pesquisa BTG/FSB|acessodata=2022-08-22|website=UOL}}</ref> 
+<small>{{small|BR-00244/2022}}</small>
+|19–21 Ago
+|2.000
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''36%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''45%'''
+|6%
+|3%
+|0%
+|0%
+|0%
+|0%
+|0%
+|1%
+|1%
+|0% [[Roberto Jefferson|'''Jefferson''']]
+|{{n/a}}
+|5%
+|-
+|Datafolha<ref name="br09404">{{Citar web|url=https://g1.globo.com/politica/eleicoes/2022/pesquisa-eleitoral/noticia/2022/08/18/datafolha-lula-tem-47percent-e-bolsonaro-tem-32percent.ghtml|titulo=Datafolha: Lula tem 47%; Bolsonaro, 32%; Ciro, 7%; Tebet, 2%|acessodata=2022-08-20|website=UOL|lingua=pt-br|}}</ref>
+<small>{{small|BR-09404/2022}}</small>
+|16–18 Ago
+|5.744
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''32%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''47%'''
+|7%
+|2%
+|0%
+|0%
+|0%
+|0%
+|0%
+|1%
+|0%
+|0% [[Roberto Jefferson|'''Jefferson''']]
+|{{n/a}}
+|8%
+|-
+|PoderData<ref name="br02548">{{Citar web|url=https://www.poder360.com.br/poderdata/poderdata-no-1o-turno-lula-tem-44-contra-37-de-bolsonaro/|titulo=PoderData no 1º turno: Lula tem 44% contra 37% de Bolsonaro|acessodata=2022-08-20|website=Poder360|lingua=pt-br}}</ref>
+<small>{{small|BR-02548/2022}}</small>
+|14–16 Ago
+|3.500
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''37%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''44%'''
+|6%
+|4%
+|0%
+|0%
+|0%
+|1%
+|0%
+|0%
+|0%
+|0% [[Roberto Jefferson|'''Jefferson''']]
+|{{n/a}}
+|7%
+|-
+|BTG Pactual/FSB<ref name="br00603">{{Citar web|url=https://noticias.uol.com.br/eleicoes/2022/08/15/pesquisa-btg-fsb-presidencia-15-agosto-2022.htm|titulo=BTG/FSB: sem Janones, Lula vai a 45%, Bolsonaro fica com 34%, e Ciro tem 8%|acessodata=2022-08-15|website=UOL|lingua=pt-br|}}</ref>
+<small>{{small|BR-00603/2022}}</small>
+|12–14 Ago
+|2.000
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''34%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''45%'''
+|8%
+|2%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0% [[Roberto Jefferson|'''Jefferson''']]
+|{{n/a}}
+|8%
+|-
+|IPEC<ref name="br03980">{{Citar web|url=https://g1.globo.com/politica/eleicoes/2022/pesquisa-eleitoral/noticia/2022/08/15/ipec-lula-tem-44percent-e-bolsonaro-32percent-no-1-turno-de-2022.ghtml|titulo=Ipec: Lula tem 44% e Bolsonaro 32% no 1° turno de 2022|acessodata=2022-08-15|website=UOL|lingua=pt-br|}}</ref>
+<small>{{small|BR-03980/2022}}</small>
+|12–14 Ago
+|2.000
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''32%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''44%'''
+|6%
+|2%
+|0%
+|0%
+|0%
+|0%
+|0%
+|1%
+|0%
+|0% [[Roberto Jefferson|'''Jefferson''']]
+|{{n/a}}
+|15%
+|-
+|Genial/Quaest<ref name="br01167">{{Citar web|ultimo=wellingtonramalhoso|url=https://www.cnnbrasil.com.br/politica/pesquisa-quaest-para-presidente-lula-tem-45-e-bolsonaro-33/|titulo=Pesquisa Quaest para presidente: Lula tem 45% e Bolsonaro, 33%|acessodata=2022-08-17|website=CNN Brasil|lingua=pt-BR}}</ref>
+<small>{{small|BR-01167/2022}}</small>
+|11–14 Ago
+|2.000
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''33%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''45%'''
+|6%
+|3%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0% 
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|12%
+|-
+|BTG Pactual/FSB<ref name="br08028">{{Citar web|url=https://www.opovo.com.br/eleicoes-2022/2022/08/08/pesquisa-btg-fsb-lula-tem-41-bolsonaro-34-e-ciro-7.html|titulo=Pesquisa BTG/FSB: Lula tem 41%, Bolsonaro, 34% e Ciro, 7%|acessodata=2022-08-08|website=O Povo|lingua=pt-br|}}</ref>
+<small>{{small|BR-08028/2022}}</small>
+|5–7 Ago
+|2.000
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''34%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''41%'''
+|7%
+|3%
+|0%
+[[Luciano Bivar|'''Bivar''']]
+|0%
+|1%
+|0%
+|0%
+|0%
+|1% 
+|{{n/a}}
+|2%<br/>[[André Janones|'''Janones''']]<br/>{{small|'''([[Avante|AVANTE]])'''}}
+|5%
+|-style=background:#e9e9e9;font-weight:bold;font-size:85%
+| colspan=4 | 4 Ago || colspan="14" | '''Deputado federal [[André Janones]] (AVANTE) desiste da candidatura e apoia o ex-presidente [[Luiz Inácio Lula da Silva|Lula]]'''<ref>{{Citar web|url=https://www.poder360.com.br/eleicoes/janones-retira-pre-candidatura-a-presidente-e-apoia-lula/|titulo=Janones retira pré-candidatura a presidente e apoia Lula|acessodata=2022-08-14|website=Poder360|lingua=pt-br}}</ref>
+|-style=background:#e9e9e9;font-weight:bold;font-size:85%
+| colspan=4 | 2 Ago || colspan="14" | '''Senadora [[Soraya Thronicke]] anunciada como candidata pela UNIÃO'''<ref>{{Citar web|url=https://exame.com/brasil/bivar-confirma-soraya-thronicke-como-candidata-a-presidencia-pelo-uniao-brasil/|titulo=Bivar confirma Soraya Thronicke como candidata à Presidência pelo União Brasil|acessodata=2022-08-14|website=Exame|lingua=pt-br}}</ref>
+|-
+|Grupo 6Sigma{{carece de fontes}}
+<small>{{small|BR-04937/2022}}</small>
+|1–5 Ago
+|1.000
+|3,1
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''37,5%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''28,2%'''
+|8%
+|3%
+|0%
+[[Luciano Bivar|'''Bivar''']]
+|0%
+|0,4%
+|0,1%
+|0%
+|0,2%
+|1,1
+|0,1% [[Roberto Jefferson|'''Jefferson''']]
+|0,5%<br/>[[André Janones|'''Janones''']]<br/>{{small|'''([[Avante|AVANTE]])'''}}
+|18,3%
+|-
+|Gerp<ref>{{Citar web|ultimo=Povo|primeiro=Gazeta do|url=https://www.gazetadopovo.com.br/eleicoes/2022/pesquisa-eleitoral/gerp-pesquisa-para-presidente-05-08-2022/|titulo=Gerp: veja o resultado da 4.ª rodada da pesquisa para presidente|acessodata=2022-08-14|website=Gazeta do Povo|lingua=pt-BR}}</ref>
+<small>{{small|BR-009327/2022}}</small>
+|1–5 Ago
+|2.095
+|2,18
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''38%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''38%'''
+|10%
+|3%
+|0%
+[[Luciano Bivar|'''Bivar''']]
+|1%
+|0%
+|0%
+|0%
+|1%
+|1%
+|{{n/a}}
+|1%<br />[[André Janones|'''Janones''']]<br />{{small|'''([[Avante|AVANTE]])'''}}
+|7%
+|-style=background:#e9e9e9;font-weight:bold;font-size:85%
+| colspan=4 | 31 Jul || colspan="14" | '''Deputado federal [[Luciano Bivar]] (UNIÃO) desiste da candidatura'''<ref>{{Citar web|url=https://exame.com/brasil/luciano-bivar-desiste-de-candidatura-a-presidencia-e-tentara-vaga-na-camara/|titulo=Luciano Bivar desiste de candidatura à Presidência e concorrerá a vaga na Câmara|acessodata=2022-08-14|website=Exame|lingua=pt-br}}</ref>
+|-
+|PoderData<ref name="br08398">{{Citar web|url=https://noticias.uol.com.br/politica/ultimas-noticias/2022/08/04/pesquisa-poderdata-presidente-4-de-agosto.htm|titulo=Lula tem 51% contra 38% de Bolsonaro no 2º turno, diz PoderData|acessodata=2022-07-22|website=Poder360|lingua=pt-br}}</ref>
+<small>{{small|BR-08398/2022}}</small>
+|31 Jul–2 Ago
+|3.500
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''43%'''
+|7%
+|4%
+|0%
+[[Luciano Bivar|'''Bivar''']]
+|1%
+|1%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|2%<br/>[[André Janones|'''Janones''']]<br/>{{small|'''([[Avante|AVANTE]])'''}}
+|6%
+|-
+|Asserj/Brasmarket<ref>{{Citar web|ultimo=RedeTV!|url=https://www.redetv.uol.com.br//jornalismo/eleicoes2022/blog/presidenciaveis/bolsonaro-tem-399-dos-votos-contra-331-de-lula-diz-pesquisa-brasmarket|titulo=Bolsonaro tem 39,9% dos votos contra 33,1% de Lula, diz pesquisa Brasmarket|acessodata=2022-08-14|website=RedeTV! - TV Fama|lingua=pt-br}}</ref><ref>{{Citar web|url=https://www.leiagora.com.br/noticia/123496/pesquisa-brasmarket-aponta-bolsonaro-com-399-da-preferencia-e-lula-331|titulo=Pesquisa Brasmarket aponta Bolsonaro com 39,9% da preferência e Lula 33,1%|acessodata=2022-08-14|website=Leiagora|lingua=pt-br}}</ref>
+<small>{{small|BR-08398/2022}}</small>
+|30 Jul–2 Ago
+|2.000
+|2,2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''39,9%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |33,1%'''
+|6,3%
+|1,7%
+|0,3%
+[[Luciano Bivar|'''Bivar''']]
+|0,2%
+|0,5%
+|0%
+|0,2%
+|0,2%
+|0,7%
+|{{n/a}}
+|0,2%<br />[[André Janones|'''Janones''']]<br />{{small|'''([[Avante|AVANTE]])'''}}
+|16,8%
+|-
+|BGC Liquidez/Paraná Pesquisas<ref name="BR05251">{{Citar web|url=https://www.paranapesquisas.com.br/pesquisas/parana-pesquisas-divulga-pesquisa-nacional-contratada-pela-bgc-liquidez-distribuidora-de-titulos-mobiliarios-ltda-registro-tse-n-o-br-05251-2022-situacao-eleitoral-para-o-executi/|titulo=Paraná Pesquisas divulga pesquisa Nacional contratada pela BGC Liquidez Distribuidora de Títulos Mobiliários Ltda– Registro TSE -n.ºBR-05251/2022- Situação eleitoral para o Executivo Federal em 2022 e Avaliação da administração Federal-Agosto/2022. – Paraná Pesquisas|acessodata=2022-08-14|lingua=pt-BR}}</ref><br /><small>{{small|BR-05251/2022}}</small>
+|28 Jul–1 Ago
+|2.020
+|2,2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35,6%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''41,1%'''
+|7,9%
+|1,8%
+|0,1%
+[[Luciano Bivar|'''Bivar''']]
+|0,2%
+|0,1%
+|0,1%
+|0,2%
+|0,5%
+|0,4%
+|{{n/a}}
+|1,7%<br/>[[André Janones|'''Janones''']]<br/>{{small|'''([[Avante|AVANTE]])'''}}
+|10,3%
+|-
+| rowspan="2" | Genial/Quaest<ref name="br02546">{{Citar web|url=https://www.cnnbrasil.com.br/politica/pesquisa-quaest-para-presidente-lula-tem-44-e-bolsonaro-32/?amp|titulo=Pesquisa Quaest para presidente: Lula tem 44% e Bolsonaro, 32%|data=2022-08-03|acessodata=2022-08-03|website=CNN Brasil}}</ref>
+<small>{{small|BR-02546/2022}}</small>
+| rowspan="2" |28–31 Jul
+| rowspan="2" |2.000
+| rowspan="2" |2
+| rowspan="2" style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |32%
+| rowspan="2" style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} " |44%
+| rowspan="2" |5%
+| rowspan="2" |2%
+| rowspan="2" |0%
+[[Luciano Bivar|'''Bivar''']]
+| rowspan="2" |0%
+| rowspan="2" |0%
+| rowspan="2" |0%
+| rowspan="2" |0%
+| rowspan="2" |0%
+| rowspan="2" |1%
+| rowspan="2" {{n/a}}
+|2%<br/>[[André Janones|'''Janones''']]<br/>{{small|'''([[Avante|AVANTE]])'''}}
+| rowspan="2" |12%
+|-
+|0%'''<br>[[Carlos Alberto dos Santos Cruz|Santos Cruz]]'''<br>{{small|'''([[Podemos (Brasil)|PODE]])'''}}
+|-
+| rowspan="2" | Datafolha<ref name="br01192">{{Citar web|ultimo=Gielow|primeiro=Igor|autorlink=Igor Gielow|ultimo2=|primeiro2=|url=https://www1.folha.uol.com.br/poder/2022/07/datafolha-lula-tem-18-pontos-sobre-bolsonaro-no-1o-turno.shtml|titulo=Datafolha: Lula tem 18 pontos sobre Bolsonaro no 1º turno|data=2022-07-28|acessodata=2022-07-29|website=Folha de S.Paulo|lingua=pt-BR}}</ref>
+<small>{{small|BR-01192/2022}}</small>
+| rowspan="2" |27–28 Jul
+| rowspan="2" |2.256
+| rowspan="2" |2
+| rowspan="2" style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |29%
+| rowspan="2" style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} " |47%
+| rowspan="2" |8%
+| rowspan="2" |2%
+| rowspan="2" |0%
+[[Luciano Bivar|'''Bivar''']]
+| rowspan="2" |0%
+| rowspan="2" |0%
+| rowspan="2" |0%
+| rowspan="2" |0%
+| rowspan="2" |1%
+| rowspan="2" |1%
+| rowspan="2" {{n/a}}
+|1%<br/>[[André Janones|'''Janones''']]<br/>{{small|'''([[Avante|AVANTE]])'''}}
+| rowspan="2" |9%
+|-
+|0%'''<br>[[Carlos Alberto dos Santos Cruz|Santos Cruz]]'''<br>{{small|'''([[Podemos (Brasil)|PODE]])'''}}
+|-
+|Modalmais/Futura<ref name="br07639">{{Citar web|url= https://www.gazetadopovo.com.br/eleicoes/2022/pesquisa-eleitoral/modalmais-futura-presidencia-28-07-22/ |titulo=Modalmais/Futura: confira nova pesquisa para corrida presidencial|data=2022-07-28|acessodata=2022-07-28|website=Gazeta do Povo|lingua=pt-BR}}</ref>
+<small>{{small|BR-07639/2022}}</small>
+|21–25 Jul
+|2.000
+|2.2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''37,5%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39,6%'''
+|7,4%
+|1,9%
+|1%
+[[Luciano Bivar|'''Bivar''']]
+|1%
+|1%
+|1%
+|1%
+|1%
+|1%
+|{{n/a}}
+|1,5%<br />[[André Janones|'''Janones''']]<br />{{small|'''([[Avante|AVANTE]])'''}}
+|10,8%
+|-
+|BTG Pactual/FSB<ref name="br05938">{{Citar web|url=https://www.poder360.com.br/pesquisas/lula-tem-44-contra-31-de-bolsonaro-diz-pesquisa-btg-fsb/|titulo=Lula tem 44% contra 31% de Bolsonaro, diz pesquisa BTG/FSB|data=2022-07-25|acessodata=2022-07-29|website=Poder360|lingua=pt-BR}}</ref>
+<small>{{small|BR-05938/2022}}</small>
+|22–24 Jul
+|2.000
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''31%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''44%'''
+|9%
+|2%
+|0%
+[[Luciano Bivar|'''Bivar''']]
+|0%
+|0%
+|0%
+|0%
+|0%
+|1%
+|{{n/a}}
+|2%<br/>[[André Janones|'''Janones''']]<br/>{{small|'''([[Avante|AVANTE]])'''}}
+|10%
+|-
+|XP/Ipespe<ref name="br08220">{{Citar web|url=https://www.infomoney.com.br/politica/ipespe-lula-tem-44-contra-35-de-bolsonaro-ciro-tem-9-e-simone-4/|titulo=Ipespe: Lula tem 44%, contra 35% de Bolsonaro; Ciro tem 9% e Simone, 4%|data=2022-07-25|acessodata=2022-07-25|website=InfoMoney}}</ref>
+<small>{{small|BR-08220/2022}}</small>
+|20–22 Jul
+|2.000
+|2,2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''44%'''
+|9%
+|4%
+|0%
+[[Luciano Bivar|'''Bivar''']]
+|1%
+|0%
+|0%
+|0%
+|0%
+|1%
+|{{n/a}}
+|2%<br/>[[André Janones|'''Janones''']]<br/>{{small|'''([[Avante|AVANTE]])'''}}
+|6%
+|-
+|Exame/Ideia<ref name="br09608">{{Citar web|url=https://exame.com/brasil/pesquisa-eleitoral-presidente-julho-lula-bolsonaro/|titulo=Pesquisa eleitoral para presidente: Lula tem 44%, e Bolsonaro, 33%, no primeiro turno|data=2022-07-21|acessodata=2022-07-22|website=Exame|lingua=pt-br}}</ref>
+<small>{{small|BR-09608/2022}}</small>
+|15–20 Jul
+|1.500
+|3
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''33%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''44%'''
+|8%
+|4%
+|0,2%
+[[Luciano Bivar|'''Bivar''']]
+|1%
+|0,1%
+|0,1%
+|{{n/a}}
+|0,5%
+|1%
+|{{n/a}}
+|2%<br/>[[André Janones|'''Janones''']]<br/>{{small|'''([[Avante|AVANTE]])'''}}
+|7%
+|-
+|PoderData<ref name="br07122">{{Citar web|url=https://www.poder360.com.br/poderdata/lula-tem-51-contra-38-de-bolsonaro-no-2o-turno-diz-poderdata/|titulo=Lula tem 51% contra 38% de Bolsonaro no 2º turno, diz PoderData|acessodata=2022-07-22|website=Poder360|lingua=pt-br}}</ref>
+<small>{{small|BR-07122/2022}}</small>
+|17–19 Jul
+|3.000
+|2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''37%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''43%'''
+|6%
+|3%
+|0%
+[[Luciano Bivar|'''Bivar''']]
+|0%
+|0%
+|0%
+|0%
+|0%
+|1%
+|{{n/a}}
+|2%<br/>[[André Janones|'''Janones''']]<br/>{{small|'''([[Avante|AVANTE]])'''}}
+|8%
+|-
+| rowspan="2" |BTG Pactual/FSB<ref name="br09292">{{Citar web|ultimo=Povo|primeiro=Gazeta do|url=https://www.gazetadopovo.com.br/eleicoes/2022/pesquisa-eleitoral/pesquisa-btg-fsb-para-presidente-11-07-2022/|titulo=Nova rodada da pesquisa BTG/FSB para presidente é divulgada; confira|acessodata=2022-07-22|website=Gazeta do Povo|lingua=pt-BR}}</ref>
+<small>{{small|BR-09292/2022}}</small>
+| rowspan="2" |8–10 Jul
+| rowspan="2" |2.000
+| rowspan="2" |2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''32%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''41%'''
+|9%
+|4%
+|0%
+[[Luciano Bivar|'''Bivar''']]
+|1%
+|0%
+|0%
+|0%
+|1%
+|1%
+|{{n/a}}
+|3%<br/>[[André Janones|'''Janones''']]<br/>{{small|'''([[Avante|AVANTE]])'''}}
+|8%
+|-
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''32%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''42%'''
+|9%
+|4%
+|{{n/a}}
+|0%
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|1%
+|{{n/a}}
+|3%<br/>[[André Janones|'''Janones''']]<br/>{{small|'''([[Avante|AVANTE]])'''}}
+|9%
+|-
+|PoderData<ref name="br06550">{{citar web|url=https://static.poder360.com.br/2022/07/PoderData-59-5jul22-2.pdf|titulo=Pesquisa de Opinião Pública. Brasil. 3 a 5 de julho de 2022|data=8 de julho de 2022|acessodata=22 de julho de 2022|website=Poder360}}</ref>
+<small>{{small|BR-06550/2022}}</small>
+|3–5 Jul
+|3.000
+|2,2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" | '''36%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" | '''44%'''
+|5%
+|3%
+|0%
+[[Luciano Bivar|'''Bivar''']]
+|0%
+|0%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|3%<br/>[[André Janones|'''Janones''']]<br/>{{small|'''([[Avante|AVANTE]])'''}}
+|9%
+|-
+| rowspan="3" |BGC Liquidez/Paraná Pesquisas<ref name="br09408">{{Citar web|url=https://www.paranapesquisas.com.br/pesquisas/parana-pesquisas-divulga-pesquisa-nacional-contratada-pela-bgc-liquidez-distribuidora-de-titulos-mobiliarios-ltda-registro-tse-n-o-br-09408-2022-situacao-eleitoral-para-o-executivo-fed/|titulo=Paraná Pesquisas divulga pesquisa Nacional contratada pela BGC Liquidez Distribuidora de Títulos Mobiliários Ltda– Registro TSE -n.º BR-09408/2022- Situação eleitoral para o Executivo Federal em 2022 e Avaliação da administração Federal – Julho/2022. – Paraná Pesquisas|acessodata=2022-07-22|lingua=pt-BR}}</ref><br /><small>{{small|BR-09408/2022 }}</small>
+| rowspan="3" |30 Jun–5 Jul
+| rowspan="3" |2.020
+| rowspan="3" |2,2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35,1%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''41,1%'''
+|7,4%
+|2,2%
+|0,3%
+[[Luciano Bivar|'''Bivar''']]
+|0,4%
+|0,2%
+|0,2%
+|0%
+|0,6%
+|0,6%
+|{{n/a}}
+|1,5%<br/>[[André Janones|'''Janones''']]<br/>{{small|'''([[Avante|AVANTE]])'''}}
+|10,3%
+|-
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35,9%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''42%'''
+|8,6%
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|1,9%[[André Janones|'''Janones''']]<br/>{{small|'''([[Avante|AVANTE]])'''}}
+|11,7%
+|-
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''36,5%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''44,4%'''
+|{{n/a}}
+|3,4%
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|2,2%<br/>[[André Janones|'''Janones''']]<br/>{{small|'''([[Avante|AVANTE]])'''}}
+|13,5%
+|-
+| rowspan="3" |Genial/Quaest<ref name="br01763">{{Citar web|url=https://www.uol.com.br/eleicoes/2022/07/06/pesquisa-quaest-presidente-julho-lula-bolsonaro.htm|titulo=Genial/Quaest: Lula segue na liderança, com 45%; Bolsonaro tem 31%|acessodata=2022-07-22|website=www.uol.com.br|lingua=pt-br}}</ref>
+<small>{{small|BR-01763/2022}}</small>
+| rowspan="3" |29 Jun–2 Jul
+| rowspan="3" |2.000
+| rowspan="3" |2
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''31%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''45%'''
+|6%
+|2%
+|0%
+[[Luciano Bivar|'''Bivar''']]
+|0%
+|0%
+|0%
+|0%
+|0%
+|1%
+|{{n/a}}
+|2%<br/>[[André Janones|'''Janones''']]<br/>{{small|'''([[Avante|AVANTE]])'''}}
+|12%
+|-
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''31%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''45%'''
+|7%
+|3%
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|3%<br/>[[André Janones|'''Janones''']]<br/>{{small|'''([[Avante|AVANTE]])'''}}
+|11%
+|-
+| style="font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''31%'''
+| style="font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''47%'''
+|8%
+|3%
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|12%
+|}
+
+==== 2º trimestre ====
+{| class=wikitable style=text-align:center;font-size:85%
+! rowspan=3 | Publicação / Pesquisa
+{{small|Número de<br>identificação}}
+! rowspan=3 | Data(s) de<br>Pesquisa
+! rowspan=3 | Tamanho<br>da Amostra
+! rowspan=3 | Margem<br>de erro<br>([[Porcentagem|pontos<br>percentuais]])
+! [[Imagem:{{tmpv|Predefinição:Info/Jair Bolsonaro|Info/Político/Presidente|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|Predefinição:Info/Luiz Inácio Lula da Silva|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|Ciro Gomes|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|André Janones|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|Simone Tebet|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|Luciano Bivar|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:Luiz-felipe-davila retrato (cropped).jpg|x80px]]
+! [[Imagem:{{tmpv|José Maria Eymael|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:Sofia Manzano.png|x80px]]
+! [[Imagem:{{tmpv|Léo Péricles|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|Vera Lúcia Salgado|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|João Doria|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|Eduardo Leite|Info/Político|1|imagem}}|x80px]]
+! rowspan=3 | Outros
+! rowspan=3 | Indecisos e Absentos
+|-
+! [[Jair Bolsonaro|Bolsonaro]]<br>{{small|[[Partido Liberal (2006)|PL]]}}
+! [[Luiz Inácio Lula da Silva|Lula]]<br>{{small|[[Partido dos Trabalhadores|PT]]|[[PT]]}}
+! [[Ciro Gomes|Gomes]]<br>{{small|[[Partido Democrático Trabalhista|PDT]]}}
+! [[André Janones|Janones]]<br>{{small|[[Avante|AVANTE]]}}
+! [[Simone Tebet|Tebet]]<br>{{small|[[Movimento Democrático Brasileiro (1980)|MDB]]}}
+! [[Luciano Bivar|Bivar]]<br>{{small|[[União Brasil|UNIÃO]]}}
+! [[Luiz Felipe d'Avila|D'Avila]]<br>{{small|[[Partido Novo|NOVO]]}}
+! [[José Maria Eymael|Eymael]]<br>{{small|[[Democracia Cristã (Brasil)|DC]]}}
+! [[Sofia Manzano|Manzano]]<br>{{small|[[Partido Comunista Brasileiro|PCB]]}}
+! [[Léo Péricles|Péricles]]<br>{{small|[[Unidade Popular (Brasil)|UP]]}}
+! [[Vera Lúcia Salgado|Salgado]]<br>{{small|[[Partido Socialista dos Trabalhadores Unificado|PSTU]]}}
+! [[João Doria|Doria]]<br>{{small|[[Partido da Social Democracia Brasileira|PSDB]]}}
+! [[Eduardo Leite|Leite]]<br>{{Nota de rodapé|nome=Leite|A consulta interna prévia do Partido da Social Democracia Brasileira selecionou o governador João Dória como candidato a presidente. Embora não tenha deixado o partido, o governador Eduardo Leite é ventilado como candidato por outras agremiações.<ref name=Leite>{{Citar web|url=https://www1.folha.uol.com.br/poder/2022/03/eduardo-leite-e-pressionado-a-definir-candidatura-e-ouve-apelo-para-nao-deixar-psdb.shtml|titulo=Eduardo Leite é pressionado a definir candidatura e ouve apelo para não deixar PSDB|data=2022-03-15|acessodata=2022-05-03|website=Folha de S.Paulo|lingua=pt-BR}}</ref>}}
+|-
+! style=color:white;background:{{Partido Liberal (2006)/meta/cor}} |
+! style=color:white;background:{{Partido dos Trabalhadores/meta/cor}} |
+! style=color:white;background:{{Partido Democrático Trabalhista/meta/cor}} |
+! style="background:{{Avante (partido político)/meta/cor}}" |
+! style="color:white;background:{{Movimento Democrático Brasileiro/meta/cor}}" |
+! style="color:white;background:{{União Brasil/meta/cor}}" |
+! style="color:white;background:{{Partido Novo/meta/cor}}" |
+! style="color:white;background:{{Democracia Cristã/meta/cor}}" |
+! style="color:white;background:{{Partido Comunista Brasileiro/meta/cor}}" |
+! style="color:white;background:{{Unidade Popular (Brasil)/meta/cor}}" |
+! style="color:white;background:{{Partido Socialista dos Trabalhadores Unificado/meta/cor}}" |
+! style=color:white;background:{{Partido da Social Democracia Brasileira/meta/cor}} |
+! style=background:#DDDDDD |
+|-
+|BTG Pactual/FSB<ref name="br05022">{{Citar web|url=https://www.uol.com.br/eleicoes/2022/06/27/pesquisa-btg-fsb-27-junho-2022.htm|titulo=BTG/FSB: Lula oscila de 44% para 43%; Bolsonaro flutua de 32% a 33%|acessodata=2022-07-02|website=www.uol.com.br|lingua=pt-br}}</ref>
+<small>{{small|BR-05022/2022}}</small>
+|24–26 Jun
+|2.000
+|2
+|style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | '''33%'''
+|style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | '''43%'''
+|8%
+|2%
+|3%
+|0%
+|0%
+|0%
+|0%
+|0%
+|0%
+|{{n/a}}
+|{{n/a}}
+|1%<br>'''[[Pablo Marçal|Marçal]]'''<br>{{small|'''([[Partido Republicano da Ordem Social|PROS]])'''}}
+|8%
+|-
+|Modalmais/Futura<ref name="br09994">{{citar web|ultimo=Povo|primeiro=Gazeta do|url=https://www.gazetadopovo.com.br/eleicoes/2022/pesquisa-eleitoral/modalmais-futura-divulga-pesquisa-para-presidente-confira-os-numeros/|titulo=Modalmais/Futura divulga pesquisa para presidente; confira os números|acessodata=2022-07-02|website=Gazeta do Povo|lingua=pt-BR}}</ref><ref name="br09994janones">{{citar web|url=https://www.istoedinheiro.com.br/pesquisa-modalmais-mostra-lula-e-bolsonaro-tecnicamente-empatados/|titulo=Pesquisa Modalmais mostra Lula e Bolsonaro tecnicamente empatados|data=2022-06-30|acessodata=2022-07-02|website=ISTOÉ DINHEIRO|lingua=pt-BR}}</ref>
+<small>{{small|BR-09994/2022}}</small>
+|20–24 Jun
+|2.000
+|2,2
+|style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} |'''37,6%'''
+|style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} |'''38,9'''
+|7,3%
+|2,2%
+|2%
+|0%
+|0,2%
+|0,1%
+|{{n/a}}
+|0,1%
+|0,5%
+|{{n/a}}
+|{{n/a}}
+|{{n/a}}
+|11%
+|-
+| rowspan="2" |Datafolha<ref name="br09088">{{Citar web|url=https://www.cnnbrasil.com.br/politica/pesquisa-datafolha-para-presidente-lula-tem-47-bolsonaro-28-ciro-8/|titulo=Pesquisa Datafolha para presidente: Lula tem 47%; Bolsonaro, 28%; Ciro, 8%|acessodata=2022-06-24|website=CNN Brasil|lingua=pt-BR}}</ref>
+<small>{{small|BR-09088/2022}}</small>
+| rowspan="2" | 22–23 Jun || rowspan="2" style="text-align:center" | 2.556 || rowspan="2" | 2 || rowspan="2" style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 28% || rowspan="2" style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 47% || rowspan="2" | 8% || rowspan="2" | 2% || rowspan="2" | 1% || rowspan="2" | 0% || rowspan="2" | 0% || rowspan="2" | 0% || rowspan="2" | 0% || rowspan="2" | 0% || rowspan="2" | 1% || rowspan="2" {{n/a}} || rowspan="2" {{n/a}} || 1%<br>'''[[Pablo Marçal|Marçal]]'''<br>{{small|'''([[Partido Republicano da Ordem Social|PROS]])'''}} || rowspan=2 |11%
+|-
+| 0%<br>'''[[Carlos Alberto dos Santos Cruz|Santos Cruz]]'''<br>{{small|'''([[Podemos (Brasil)|PODE]])'''}}
+|-
+|Exame/Ideia<ref name="br02845">{{Citar web|url=https://www.uol.com.br/eleicoes/2022/06/23/pequisa-exameideia-presidente-junho.htm|titulo=Exame/Ideia: Lula lidera com 45%; Bolsonaro tem 36%; Ciro, 7%, e Tebet, 3%|acessodata=2022-06-24|website=www.uol.com.br|lingua=pt-br}}</ref>
+<small>{{small|BR-02845/2022}}</small>
+| 17–22 Jun || style=text-align:center | 1.500 || 3 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 36% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 45% || 7% || 1% || 3% || 0,1% || 0,5% || {{n/a}} || 0,1% || 0,1% || 0,3% || {{n/a}} || {{n/a}} || 0,5%<br>'''[[Pablo Marçal|Marçal]]'''<br>{{small|'''([[Partido Republicano da Ordem Social|PROS]])'''}} || 7%
+|-
+|PoderData<ref name="br07003">{{Citar web|url=https://www.poder360.com.br/poderdata/lula-abre-17-pontos-sobre-bolsonaro-no-2o-turno-diz-poderdata/|titulo=Lula abre 17 pontos sobre Bolsonaro no 2º turno, diz PoderData|acessodata=2022-06-24|website=Poder360|lingua=pt-br}}</ref>
+<small>{{small|BR-07003/2022}}</small>
+| 19–21 Jun || style=text-align:center | 3.000 || 2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 34% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 44% || 6% || 2% || 1% || 1% || 0% || 1% || 0% || 0% || 0% || {{n/a}} || {{n/a}} || 0%<br>'''[[Pablo Marçal|Marçal]]'''<br>{{small|'''([[Partido Republicano da Ordem Social|PROS]])'''}} || 9%
+|-
+| BTG Pactual/FSB<ref name=:18>{{Citar web|url=https://www.poder360.com.br/pesquisas/btg-fsb-confirma-poderdata-lula-tem-44-e-bolsonaro-32/|titulo=BTG/FSB confirma PoderData: Lula tem 44% e Bolsonaro, 32%|acessodata=2022-06-14|website=Poder360|lingua=pt-br}}</ref>
+<small>{{small|BR-03958/2022}}</small>
+| 10–12 Jun || style=text-align:center | 2.000 || 2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 32% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 44% || 9% || 1% || 2% || 0% || 1% || 0% || 0% || 0% || 0% || {{n/a}} || {{n/a}} || 0%<br>'''[[Pablo Marçal|Marçal]]'''<br>{{small|'''([[Partido Republicano da Ordem Social|PROS]])'''}} || 9%
+|-style=background:#e9e9e9;font-weight:bold;font-size:85%
+| colspan=4 | 9 Jun || colspan=15 | O [[Partido da Social Democracia Brasileira]] (PSDB) oficializa apoio à senadora [[Simone Tebet]] ([[Movimento Democrático Brasileiro (1980)|MDB]])<ref>{{Citar web|url=https://www.poder360.com.br/eleicoes/psdb-oficializa-apoio-a-simone-tebet-para-presidencia/|titulo=PSDB oficializa apoio a Simone Tebet para Presidência|acessodata=2022-06-14|website=Poder360|lingua=pt-br}}</ref>
+|-
+| PoderData<ref>{{Citar web|url=https://www.poder360.com.br/governo/lula-tem-43-contra-35-de-bolsonaro-tebet-tem-so-tem-1/|titulo=Lula tem 43% contra 35% de Bolsonaro; Tebet só tem 1%|acessodata=2022-06-08|website=Poder360|lingua=pt-br}}</ref>
+<small>{{small|BR-01975/2022}}</small>
+| 5–7 Jun || style=text-align:center | 3.000 || 2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 35% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 43% || 6% || 2% || 1% || 1% || 0% || 1% || 0% || 0% || 0% || {{n/a}} || {{n/a}} || 0%<br>'''[[Pablo Marçal|Marçal]]'''<br>{{small|'''([[Partido Republicano da Ordem Social|PROS]])'''}} || 10%
+|-
+| rowspan=4 |Genial/Quaest<ref name=:16>{{Citar web|url=https://www.uol.com.br/eleicoes/2022/06/08/pesquisa-quaest-presidente-junho-lula-bolsonaro.htm|titulo=Genial/Quaest: Lula tem 52,87% dos votos válidos e venceria no 1º turno|acessodata=2022-06-08|website=www.uol.com.br|lingua=pt-br}}</ref>
+<small>{{small|BR-03552/2022}}</small>
+| rowspan=4 |2–5 Jun || rowspan=4 |2.000 || rowspan=4 |2 || rowspan=2 style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 30% || rowspan=2 style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 46% || rowspan=2 |7% || rowspan=2 |2% || rowspan=2 |1% || rowspan=2 |0% || rowspan=2 |0% || rowspan=2 |0% || rowspan=2 |0% || rowspan=2 |0% || rowspan=2 |0% || rowspan=2 {{n/a}} || rowspan=2 {{n/a}} || 1%<br>'''[[Pablo Marçal|Marçal]]'''<br>{{small|'''([[Partido Republicano da Ordem Social|PROS]])'''}} || rowspan=2 |13%
+|-
+| 0%
+'''[[Carlos Alberto dos Santos Cruz|Santos Cruz]]'''<br>{{small|'''([[Podemos (Brasil)|PODE]])'''}}
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 29% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 47% || 9% || {{n/a}} || 3% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 12%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 30% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 48% || 9% || 3% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 11%
+|-
+| rowspan=3 |Gerp<ref>{{Citar web|ultimo=Povo|primeiro=Gazeta do|url=https://www.gazetadopovo.com.br/eleicoes/2022/pesquisa-eleitoral/gerp-veja-o-resultado-da-nova-rodada-da-pesquisa-eleitoral-para-presidente/|titulo=Gerp: veja o resultado da rodada de junho da pesquisa para presidente|acessodata=2022-06-07|website=Gazeta do Povo|lingua=pt-BR}}</ref><br/><small>{{small|BR-00123/2022}}</small> || rowspan=3 |30 Mai–3 Jun || rowspan=3 |2.095 || rowspan=3 |2,18 || rowspan=2 style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 37% || rowspan=2 style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 39% || rowspan=2 |7% || rowspan=2 |3% || rowspan=2 |2% || rowspan=2 |0% || rowspan=2 |0% || rowspan=2 |0% || rowspan=2 |0% || rowspan=2 |1% || rowspan=2 |0% || rowspan=2 {{n/a}} || rowspan=2 {{n/a}} || 2%<br>'''[[Michel Temer|Temer]]'''<br>{{small|'''([[Movimento Democrático Brasileiro (1980)|MDB]])'''}} || rowspan=2 |9%
+|-
+| 0%<br>'''[[Pablo Marçal|Marçal]]'''<br>{{small|'''([[Partido Republicano da Ordem Social|PROS]])'''}}
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 37% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 39% || 8% || 3% || 2% || 0% || 0% || 0% || 0% || 1% || 0% || {{n/a}} || {{n/a}} || 0%<br>'''[[Pablo Marçal|Marçal]]'''<br>{{small|'''([[Partido Republicano da Ordem Social|PROS]])'''}} || 10%
+|-
+| XP/Ipespe<ref name=:15>{{Citar web|url=https://www.cnnbrasil.com.br/politica/pesquisa-ipespe-lula-tem-45-bolsonaro-34-ciro-9/|titulo=Pesquisa Ipespe: Lula tem 45%; Bolsonaro, 34%; Ciro, 9%|acessodata=2022-06-05|website=CNN Brasil|lingua=pt-BR}}</ref>
+<small>{{small|BR-02893/2022}}</small>
+| 30 Mai–1 Jun || style=text-align:center | 1.000 || 3,2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 34% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 45% || 9% || 1% || 3% || 0% || {{n/a}} || {{n/a}} || {{n/a}} || 0% || 1% || {{n/a}} || {{n/a}} || 1%<br>'''[[Pablo Marçal|Marçal]]'''<br>{{small|'''([[Partido Republicano da Ordem Social|PROS]])'''}} || 7%
+|-
+| rowspan=3 |Paraná Pesquisas<ref name=:14>{{Citar web|url=https://www.paranapesquisas.com.br/pesquisas/parana-pesquisas-divulga-pesquisa-nacional-contratada-pela-bgc-liquidez-distribuidora-de-titulos-mobiliarios-ltda-registro-tse-n-o-br-04618-2022-situacao-eleitoral-para-o-executivo-fed/|titulo=Paraná Pesquisas divulga pesquisa Nacional contratada pela BGC Liquidez Distribuidora de Títulos Mobiliários Ltda– Registro TSE -n.º BR-04618/2022- Situação eleitoral para o Executivo Federal em 2022 e Avaliação da administração Federal – Junho/2022. – Paraná Pesquisas|acessodata=2022-06-05|lingua=pt-BR}}</ref>
+<small>{{small|BR-04618/2022}}</small>
+| rowspan=3 |26–30 Mai || rowspan=3 |2.020 || rowspan=3 |2,2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 35,3% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 41,4% || 7,7% || 1,3% || 1,4% || 0,9% || 0,3% || 0,1% || {{n/a}} || {{n/a}} || 0,6% || {{n/a}} || {{n/a}} || 0,8%<br>'''[[Pablo Marçal|Marçal]]'''<br>{{small|'''([[Partido Republicano da Ordem Social|PROS]])'''}} || 10,1%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 35,8% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 41,6% || 8,3% || 1,3% || 1,7% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 11,3%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 37% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 44,5% || {{n/a}} || 1,8% || 2,6% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 14,1%
+|-
+| rowspan=7 |BTG Pactual/FSB<ref name=:13>{{citar web|url=https://static.btgpactual.com/media/pesquisa-btg-fsb-30mai2022.pdf|titulo=Pesquisa de Opinião. Eleições 2022 – Presidente. 3ª rodada|data=30 de maio de 2022|acessodata=5 de junho de 2022|website=BTG Pactual}}</ref>
+<small>{{small|BR-03196/2022}}</small>
+| rowspan=7 |27–29 Mai || rowspan=7 |2.000 || rowspan=7 |2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 32% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 46% || 9% || 1% || 2% || 0% || 0% || 0% || 0% || 0% || 0% || {{n/a}} || {{n/a}} || {{n/a}} || 8%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 31% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 41% || 13% || 2% || 2% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 3% || {{n/a}} || 9%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 32% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 44% || 10% || 1% || 3% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 3% || 1%<br>'''[[Tasso Jereissati|Jereissati]]'''
+{{small|'''([[Partido da Social Democracia Brasileira|PSDB]])'''}}
+| 9%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 34% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 47% || 13% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 7%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 34% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 50% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 8% || {{n/a}} || 7%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 35% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 50% || {{n/a}} || {{n/a}} || 8% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 7%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 34% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 51% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 5%<br>'''[[Tasso Jereissati|Jereissati]]'''
+{{small|'''([[Partido da Social Democracia Brasileira|PSDB]])'''}}
+| 9%
+|-
+| rowspan=2 | Datafolha<ref>{{Citar web|url=https://g1.globo.com/politica/eleicoes/2022/pesquisa-eleitoral/noticia/2022/05/26/datafolha-lula-tem-48percent-no-primeiro-turno-contra-27percent-de-bolsonaro.ghtml|titulo=Datafolha: Lula tem 48% no primeiro turno, contra 27% de Bolsonaro|acessodata=2022-05-29|website=G1|lingua=pt-br}}</ref>
+<small>{{small|BR-05166/2022}}</small>
+| rowspan=2 |25–26 Mai || rowspan=2 |2.556 || rowspan=2 |2 || rowspan=2 style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 27% || rowspan=2 style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 48% || rowspan=2 |7% || rowspan=2 |2% || rowspan=2 |2% || rowspan=2 |0% || rowspan=2 |0% || rowspan=2 |0% || rowspan=2 |0% || rowspan=2 |0% || rowspan=2 |1% || rowspan=2 {{n/a}} || rowspan=2 {{n/a}} || 1%<br>'''[[Pablo Marçal|Marçal]]'''<br>{{small|'''([[Partido Republicano da Ordem Social|PROS]])'''}} || rowspan=2 |11%
+|-
+| 0%<br>'''[[Carlos Alberto dos Santos Cruz|Santos Cruz]]'''<br>{{small|'''([[Podemos (Brasil)|PODE]])'''}}
+|-style=background:#e9e9e9;font-weight:bold;font-size:85%
+| colspan=4 | 23 Mai || colspan=15 | O ex-governador de São Paulo [[João Doria]] desiste da candidatura.<ref name=DoriaD>{{Citar web|url=https://g1.globo.com/politica/eleicoes/2022/noticia/2022/05/23/joao-doria-desiste-da-pre-candidatura-a-presidencia-veja-a-integra-do-discurso.ghtml|titulo=João Doria desiste da pré-candidatura à Presidência; veja a íntegra do discurso|acessodata=2022-05-23|website=G1|lingua=pt-br}}</ref>
+|-
+| XP/Ipespe<ref name=:9>{{citar web|url=https://www.poder360.com.br/pesquisas/xp-ipespe-confirma-poderdata-lula-tem-45-e-bolsonaro-34/|titulo="XP/Ipespe confirma PoderData; Lula tem 45% e Bolsonaro 34%..."|data=2022-27-05|acessodata=2022-28-05|website=Poder 360}}</ref><small>{{small|BR-07856/2022}}</small> || 23–25 Mai || style=text-align:center | 1.000 || 3.2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 34% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 45% || 8% || 2% || 3% || 0% || 0% || 0% || 0% || 0% || 0% || 2% || {{n/a}} || {{n/a}} || 5%
+|-
+| rowspan=4 |CNN/RealTime Big Data<ref>{{Citar web|url=https://www.cnnbrasil.com.br/politica/pesquisa-cnn-realtime-big-data-lula-tem-40-bolsonaro-32-e-ciro-9/|titulo=Eleições 2022: Pesquisa CNN/RealTime Big Data: Lula tem 40%; Bolsonaro, 32%, e Ciro, 9%|acessodata=2022-05-29|website=CNN Brasil|lingua=pt-BR}}</ref>
+<small>{{small|BR-07451/2022}}</small>
+| rowspan=4 |23–24 Mai || rowspan=4 |3.000 || rowspan=4 |2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 31% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 39% || 8% || 2% || 1% || 1% || 0% || 0% || 0% || 0% || 0% || 4% || {{n/a}} || 0%<br>'''[[Pablo Marçal|Marçal]]'''<br>{{small|'''([[Partido Republicano da Ordem Social|PROS]])'''}} || 14%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 31% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 39% || 8% || 2% || {{n/a}} || 1% || 0% || 0% || 0% || 0% || 0% || 5% || {{n/a}} || 0%<br>'''[[Pablo Marçal|Marçal]]'''<br>{{small|'''([[Partido Republicano da Ordem Social|PROS]])'''}} || 14%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 32% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 40% || 9% || 2% || 2% || 1% || 0% || 0% || 0% || 0% || 0% || {{n/a}} || {{n/a}} || 0%<br>'''[[Pablo Marçal|Marçal]]'''<br>{{small|'''([[Partido Republicano da Ordem Social|PROS]])'''}} || 14%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 33% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 40% || 11% || 2% || {{n/a}} || {{n/a}} || 0% || 0% || 0% || 0% || 0% || {{n/a}} || {{n/a}} || 0%<br>'''[[Pablo Marçal|Marçal]]'''<br>{{small|'''([[Partido Republicano da Ordem Social|PROS]])'''}} || 14%
+|-
+| PoderData<ref name=:10>{{Citar web|url=https://www.poder360.com.br/eleicoes/lula-e-bolsonaro-param-e-doria-fora-influi-pouco-na-disputa/|titulo=Lula e Bolsonaro param e saída de Doria tem efeito inicial nulo|acessodata=2022-05-29|website=Poder360|lingua=pt-br}}</ref>
+<small>{{small|BR-05638/2022}}</small>
+| 22–24 Mai || style=text-align:center | 3.000 || 2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 35% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 43% || 5% || 3% || 2% || 1% || 0% || 1% || 0% || 0% || 0% || 1% || {{n/a}} || 0%<br>'''[[Pablo Marçal|Marçal]]'''<br>{{small|'''([[Partido Republicano da Ordem Social|PROS]])'''}} || 9%
+|-
+| rowspan=2 |Modalmais/Futura<ref name=:12>{{Citar web|url=https://www.modalmais.com.br/blog/11a-edicao-da-pesquisa-eleitoral/|titulo=modalmais e Futura Inteligência divulgam nova pesquisa eleitoral|data=2022-05-26|acessodata=2022-05-29|website=modalmais {{!}} modl11 - O Banco Digital dos investidores|lingua=pt-BR}}</ref>
+<small>{{small|BR-05658/2022}}</small>
+| rowspan=2 |16–19 Mai || rowspan=2 |2.000 || rowspan=2 |2,2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 36% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 41% || 5,6% || 2,4% || 0,9% || 0% || 0,4% || 0% || {{n/a}} || 0,2% || 0,2% || 2,5% || {{n/a}} || {{n/a}} || 10,8%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 35,5% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 38,4% || 7,6% || 3,5% || 1,7% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 4% || {{n/a}} || {{n/a}} || 9,4%
+|-
+| rowspan=4 |Exame/Ideia<ref name=:7>{{Citar web|url=https://exame.com/brasil/pesquisa-eleitoral-lula-tem-46-e-bolsonaro-39-em-um-segundo-turno/|titulo=Pesquisa eleitoral: Lula tem 46% e Bolsonaro 39% em um segundo turno|data=2022-05-19|acessodata=2022-05-22|website=Exame|lingua=pt-br}}</ref>
+{{small|{{small|BR-01734/2022}}}}
+| rowspan=4 |14–19 Mai || rowspan=4 |1.500 || rowspan=4 |3 || rowspan=2 style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 32% || rowspan=2 style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 41% || rowspan=2 |9% || rowspan=2 |1% || rowspan=2 |1% || rowspan=2 |0,1% || rowspan=2 |1% || rowspan=2 |0,4% || rowspan=2 |1% || rowspan=2 |0,1% || rowspan=2 |0,3% || rowspan=2 |2% || rowspan=2 {{n/a}} || 0,2%<br>'''[[Pablo Marçal|Marçal]]'''<br>{{small|'''([[Partido Republicano da Ordem Social|PROS]])'''}} || rowspan=2 |12%
+|-
+| 0,1%<br>'''[[Aldo Rebelo|Rebelo]]'''<br>{{small|'''([[Partido Democrático Trabalhista|PDT]])'''}}
+|-
+| rowspan=2 style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 33% || rowspan=2 style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 40% || rowspan=2 |8% || rowspan=2 |0,5% || rowspan=2 |1% || rowspan=2 {{n/a}} || rowspan=2 |0,4% || rowspan=2 |0,5% || rowspan=2 |1% || rowspan=2 {{n/a}} || rowspan=2 |0,1% || rowspan=2 {{n/a}} || rowspan=2 |3% || 0,3%<br>'''[[Pablo Marçal|Marçal]]'''<br>{{small|'''([[Partido Republicano da Ordem Social|PROS]])'''}} || rowspan=2 |14%
+|-
+| 0,1%<br>'''[[Aldo Rebelo|Rebelo]]'''<br>{{small|'''([[Partido Democrático Trabalhista|PDT]])'''}}
+|-
+| XP/Ipespe<ref name=:5>{{Citar web|url=https://www.cnnbrasil.com.br/politica/pesquisa-ipespe-lula-tem-44-bolsonaro-32-ciro-8-doria-4-tebet-e-janones-2/|titulo=Pesquisa Ipespe: Lula tem 44%; Bolsonaro, 32%; Ciro, 8%; Doria, 4%; Tebet e Janones, 2%|acessodata=2022-05-22|website=CNN Brasil|lingua=pt-BR}}</ref>
+{{small|{{small|BR-08011/2022}}}}
+| 16–18 Mai || style=text-align:center | 1.000 || 3,2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 32% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 44% || 8% || 2% || 2% || 0% || 0% || 0% || {{n/a}} || {{n/a}} || 0% || 4% || {{n/a}} || {{n/a}} || 10%
+|-
+| rowspan=2 |Ranking Brasil<ref name=:6>{{Citar web|url=https://bn1.com.br/noticias/lula-lidera-mas-bolsonaro-cresce-em-pesquisa-nacional-do-instituto-ranking/|titulo=Lula lidera, mas Bolsonaro cresce em pesquisa nacional do Instituto Ranking|data=2022-05-15|acessodata=2022-05-22|website=Brasil News 1|lingua=pt-BR}}</ref>
+{{small|{{small|BR-06764/2022}}}}
+| rowspan=2 |10–14 Mai || rowspan=2 |3.000 || rowspan=2 |1,8 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 34% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 39% || 6,4% || 1,5% || 1% || 0,2% || 0,2% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 2,7% || {{n/a}} || {{n/a}} || 15%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 35,5% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 40% || 6,6% || {{n/a}} || 1,1% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 2,8% || {{n/a}} || {{n/a}} || 14%
+|-
+| XP/Ipespe<ref name=:8>{{Citar web|url=https://www.cnnbrasil.com.br/politica/pesquisa-ipespe-lula-tem-44-bolsonaro-32-ciro-8-doria-3-janones-2-tebet-1/|titulo=Eleições 2022: Ipespe - Lula tem 44%; Bolsonaro, 32%; Ciro, 8%; Doria, 3%; Janones, 2%; Tebet, 1%|acessodata=2022-05-22|website=CNN Brasil|lingua=pt-BR}}</ref>
+{{small|{{small|BR-02603/2022}}}}
+| 9–11 Mai || style=text-align:center | 1.000 || 3,2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 32% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 44% || 8% || 2% || 1% || 0% || 0% || 0% || {{n/a}} || {{n/a}} || 0% || 3% || {{n/a}} || {{n/a}} || 10%
+|-
+| rowspan=2 |PoderData<ref>{{Citar web|url=https://www.poder360.com.br/poderdata/poderdata-bolsonaro-para-de-crescer-e-lula-mantem-vantagem/|titulo=PoderData: Bolsonaro para de crescer e Lula mantém vantagem|acessodata=2022-05-11|website=Poder360|lingua=pt-br}}</ref>
+{{small|{{small|BR-08423/2022}}}}
+| rowspan=2 |8–10 Mai || rowspan=2 |3.000 || rowspan=2 |2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 35% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 42% || 5% || 3% || 2% || 0% || 0% || 0% || 0% || 0% || 0% || 4% || {{n/a}} || {{n/a}} || 9%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 35% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 42% || 7% || 2% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 5% || {{n/a}} || 3% || 7%
+|-
+| rowspan=6 |Genial/Quaest<ref name=:3>{{citar web|url=https://media-blog.genialinvestimentos.com.br/wp-content/uploads/2022/05/10224027/genial-nas-eleicoes_pesquisa-para-presidente-2022_resultado-maio-1.pdf|titulo=Genial nas Eleições - Pesquisa para presidente 2022 - Resultado Maio/2022.pdf|data=11 de maio de 2022|acessodata=11 de maio de 2022|website=Genial Investimentos}}</ref>
+{{small|{{small|BR-01603/2022}}}}
+| rowspan=6 |5–8 Mai || rowspan=6 |2.000 || rowspan=6 |2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 29% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 46% || 7% || 3% || 1% || 0% || 1% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 3% || {{n/a}} || {{n/a}} || 9%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 31% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 46% || 9% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 4% || {{n/a}} || {{n/a}} || 10%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 33% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 50% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 5% || {{n/a}} || {{n/a}} || 12%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 33% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 51% || {{n/a}} || {{n/a}} || 4% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || || {{n/a}} || {{n/a}} || 12%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 31% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 48% || 9% || {{n/a}} || 2% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 10%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 32% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 48% || 10% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 10%
+|-
+| CNT/MDA<ref name=:2>{{Citar web|url=https://cnt.org.br/agencia-cnt/cnt-divulga-os-resultados-da-nova-edicao-da-pesquisa-de-opiniao|titulo=CNT divulga os resultados da nova edição da Pesquisa de Opinião|acessodata=2022-05-11|website=CNT|lingua=pt-br}}</ref>
+{{small|{{small|BR-05757/2022}}}}
+| 4–7 Mai || style=text-align:center | 2.002 || 2,2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 32,0% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 40,6% || 7,1% || 2,5% || 2,3% || {{n/a}} || 0,3% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 3,1% || {{n/a}} || {{n/a}} || 12,1%
+|-
+| XP/Ipespe<ref name=:1>{{Citar web|url=https://www.cartacapital.com.br/politica/ipespe-lula-consolida-lideranca-e-distancia-para-bolsonaro-e-de-13-pontos/|titulo=Ipespe: Lula consolida liderança e distância para Bolsonaro é de 13 pontos - CartaCapital|acessodata=2022-05-07|website=www.cartacapital.com.br}}</ref>
+{{small|{{small|BR-03473/2022}}}}
+| 2–4 Mai || style=text-align:center | 1.000 || 3,2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 31% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 44% || 8% || 2% || 1% || 0% || 1% || 0% || {{n/a}} || {{n/a}} || 0% || 3% || {{n/a}} || {{n/a}} || 0%
+|-
+| rowspan=2 |Paraná Pesquisas''<ref name=auto332>{{citar web|url=https://www.paranapesquisas.com.br/pesquisas/parana-pesquisas-divulga-pesquisa-nacional-contratada-pela-bgc-liquidez-distribuidora-de-titulos-mobiliarios-ltda-registro-tse-br-09280-2022-situacao-eleitoral-para-o-executivo-federal/|título=Paraná Pesquisas divulga pesquisa Nacional contratada pela BGC Liquidez Distribuidora de Títulos Mobiliários Ltda– Registro TSE -{{small|BR-09280/2022}}- Situação eleitoral para o Executivo Federal em 2022 e Avaliação da administração Federal – Maio/2022. – Paraná Pesquisas|língua=pt-BR|arquivourl=https://web.archive.org/web/20220505044932/https://www.paranapesquisas.com.br/pesquisas/parana-pesquisas-divulga-pesquisa-nacional-contratada-pela-bgc-liquidez-distribuidora-de-titulos-mobiliarios-ltda-registro-tse-br-09280-2022-situacao-eleitoral-para-o-executivo-federal/|arquivodata=2022-05-05|urlmorta= não|acessodata=2022-05-05}}</ref>''
+{{small|{{small|BR-09280/2022}}}}
+| rowspan=2 |28–3 Mai || rowspan=2 |2.020 || rowspan=2 |2,2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} |35,2% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} |40% || 7,4% || 2,4% || 0,7% || 0,2% || 0,1% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 3,2% || {{n/a}} || {{n/a}} || 10,7%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} |35,7% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} |42,6% || {{n/a}} || 2,5% || 1,2% || {{n/a}} || 0,3% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 4,9% || {{n/a}} || {{n/a}} || 12,8%
+|-
+| PoderData<ref>{{Citar web|ultimo=Segundo|primeiro=iG Último|url=https://ultimosegundo.ig.com.br/politica/2022-04-29/lula-tem-vantagem-sobre-bolsonaro-no-1-e-2-turno--diz-poderdata.html|titulo=Lula tem vantagem sobre Bolsonaro no 1º e 2º turno, diz PoderData|data=2022-04-29|acessodata=2022-05-03|website=iG|lingua=pt-BR}}</ref><br>{{small|{{small|BR-07167/2022}}}} || 24–26 Abr || style=text-align:center | 3.000 || 2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 36% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 41% || 6% || 3% || 1% || 1% || 0% || 0% || 0% || 0% || 0% || 4% || {{n/a}} || {{n/a}} || 7%
+|-
+| rowspan=3 |Modalmais / Futura<ref>{{Citar web|url=https://gauchazh.clicrbs.com.br/politica/noticia/2022/04/lula-lidera-com-411-e-bolsonaro-tem-353-aponta-pesquisa-modalmais-futura-cl2j2x3kh002r01i2q2bgdqbj.html|titulo=Lula lidera com 41,1% e Bolsonaro tem 35,3%, aponta pesquisa Modalmais Futura|data=2022-04-28|acessodata=2022-05-03|website=GZH|lingua=pt-BR}}</ref><ref name=:0>{{Citar web|url=https://www.cartacapital.com.br/cartaexpressa/lula-lidera-com-41-contra-34-de-bolsonaro-diz-pesquisa-modalmais-futura/|titulo=Lula lidera com 41% contra 34% de Bolsonaro, diz pesquisa Modalmais/Futura - CartaCapital|acessodata=2022-05-03|website=www.cartacapital.com.br}}</ref><br>{{small|{{small|BR-08858/2022}}}} || rowspan=3 |20–25 Abr || rowspan=3 |2.000 || rowspan=3 |2,2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 35,3% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 41,1% || 6,8% || 1,9% || 0,9% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 2,7% || {{n/a}} || {{n/a}} || 11,3%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 34,2% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 41,5% || 10% || {{n/a}} || 1,7% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 3,3% || {{n/a}} || {{n/a}} || 9,2%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 34,6% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 42,9% || 10,2% || {{n/a}} || 3,4% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 8,9%
+|-
+| rowspan=9 | BTG Pactual / FSB<ref>{{Citar web|url=https://congressoemfoco.uol.com.br/area/pais/btg-fsb-lula-lidera-mas-distancia-para-bolsonaro-cai-cinco-pontos/|titulo=BTG/FSB: Lula lidera, mas distância para Bolsonaro cai cinco pontos|data=2022-04-25|acessodata=2022-05-03|website=Congresso em Foco|lingua=pt-BR}}</ref><br>{{small|{{small|BR-04676/2022}}}} || rowspan=9 | 22–24 Abr || rowspan=9 | 2.000 || rowspan=9 | 2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 32% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 41% || 8% || 1% || 1% || 0% || 0% || 0% || 0% || 0% || 1% || 3% || {{n/a}} || {{n/a}} || 9%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 31% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 39% || 13% || 4% || 2% || {{n/a}} || 1% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 10%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 32% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 41% || 11% || 3% || {{n/a}} || {{n/a}} || 1% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 3% || {{n/a}} || 10%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 34% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 45% || 14% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 6%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 35% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 49% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 9% || {{n/a}} || {{n/a}} || 7%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 36% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 49% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}}|| 8% || {{n/a}} || 7%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 36% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 49% || {{n/a}} || {{n/a}}|| 8% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}}|| {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 7%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 35% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 49% || {{n/a}}|| 8% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}}|| {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 9%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 37% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 50% || {{n/a}}|| {{n/a}}|| {{n/a}} || {{n/a}}|| 5% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 8%
+|-
+| XP / Ipespe<ref>{{Citar web|url=https://www.cnnbrasil.com.br/politica/pesquisa-ipespe-lula-tem-45-bolsonaro-31-ciro-8-doria-3-janones-e-tebet-2/|titulo=Pesquisa Ipespe: Lula tem 45%; Bolsonaro, 31%; Ciro, 8%; Doria, 3%; Janones e Tebet, 2%|acessodata=2022-05-03|website=CNN Brasil|lingua=pt-BR}}</ref><br>{{small|{{small|BR-05747/2022}}}} || 18–20 Abr || style=text-align:center | 1.000 || 3,2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 31% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 45% || 8% || 2% || 2% || {{n/a}} || 0% || 0% || {{n/a}} || {{n/a}} || 0% || 3% || {{n/a}} || {{n/a}} || 10%
+|-
+| rowspan=2 | Exame / Ideia<ref>{{Citar web|url=https://exame.com/brasil/diferenca-entre-lula-e-bolsonaro-no-segundo-turno-cai-de-13-para-9/|titulo=Diferença entre Lula e Bolsonaro no segundo turno cai de 13% para 9%|data=2022-04-21|acessodata=2022-05-03|website=Exame|lingua=pt-br}}</ref><br>{{small|{{small|BR-02495/2022}}}} || rowspan=2 | 15–20 Abr || rowspan=2 | 1.500 || rowspan=2 | 3 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 33% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 42% || 10% || 1% || 1% || 0,2% || 0,5% || 1% || 1% || 1% || 0,3% || 3% || {{n/a}} || 0,1%<br>'''[[Aldo Rebelo|Rebelo]]'''<br>{{small | ([[Partido Democrático Trabalhista|PDT]])}} || 7%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 34% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 43% || 10% || 1% || 1% || 0,2% || 0,5% || 1% || 1% || 0,2% || 0,3% || {{n/a}} || 4% || 0,1%<br>'''[[Aldo Rebelo|Rebelo]]'''<br>{{small | ([[Partido Democrático Trabalhista|PDT]])}} || 5%
+|-style=background:#e9e9e9;font-weight:bold;font-size:85%
+| colspan=4 | 13 Abr || colspan=15 | O [[Partido dos Trabalhadores]] aprova formalmente a candidatura de [[Geraldo Alckmin]] (PSB) a vice-presidente na chapa conduzida por Lula<ref name=auto3>{{Citar web| url=https://agenciabrasil.ebc.com.br/justica/noticia/2022-01/confira-o-calendario-oficial-aprovado-pelo-tse-para-eleicoes-de-2022| titulo=Confira o calendário oficial aprovado pelo TSE para eleições de 2022| data=2022-01-05| acessodata=2022-04-14| website=Agência Brasil| lingua=pt-br}}</ref>
+|-style=background:#e9e9e9;font-weight:bold;font-size:85%
+| colspan=4 | 13 Abr || colspan=15 | A [[União Brasil]] anuncia o deputado federal [[Luciano Bivar]] como candidato do partido no lugar de [[Sergio Moro]]<ref>{{Citar web| url=https://www.poder360.com.br/poderdata/frente-de-lula-sobre-bolsonaro-cai-a-5-pontos-diz-poderdata/| titulo=Frente de Lula sobre Bolsonaro cai a 5 pontos, diz PoderData| data=2022-04-13| acessodata=2022-04-19| website=Poder360| lingua=pt-br}}</ref>
+|-
+| rowspan=2 | PoderData<ref name=auto>{{Citar web|url=https://www.poder360.com.br/poderdata/frente-de-lula-sobre-bolsonaro-cai-a-5-pontos-diz-poderdata/|titulo=Frente de Lula sobre Bolsonaro cai a 5 pontos, diz PoderData|data=2022-04-13|acessodata=2022-05-03|website=Poder360|lingua=pt-br}}</ref><ref name=auto/><br>{{small|{{small|BR-00368/2022}}}} || rowspan=2 | 10–12 Abr || rowspan=2 | 3.000 || rowspan=2 | 2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 35% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 40% || 5% || 3% || 2% || {{n/a}} || 0% || 1% || 0% || 0% || 0% || 3% || {{n/a}} || {{n/a}} || 11%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 35% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 40% || 7% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 6% || {{n/a}} || 3% || 9%
+|-
+| IstoÉ / Sensus<ref>{{Citar web|url=https://istoe.com.br/eleitor-quer-bolsonaro-fora/|titulo=Exclusivo: Pesquisa ISTOÉ/Sensus revela que, se a eleição fosse hoje, Bolsonaro não seria reeleito|data=2022-04-13|acessodata=2022-05-03|website=ISTOÉ Independente|lingua=pt-BR}}</ref><br>{{small|{{small|BR-01631/2022}}}} || 8–11 Abr || style=text-align:center | 2.000 || 2,2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 28,8% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 43,3% || 6,3% || 2% || 0,8% || {{n/a}} || 0,1% || 0,1% || 0,1% || 0,1% || 1,1% || 2,6% || {{n/a}} || {{n/a}} || 14,9%
+|-
+| XP / Ipespe<ref>{{Citar web|url=https://www.cnnbrasil.com.br/politica/pesquisa-ipespe-lula-tem-44-bolsonaro-30-ciro-9-doria-3-tebet-2-janones-1/|titulo=Pesquisa Ipespe: Lula tem 44%; Bolsonaro, 30%; Ciro, 9%; Doria, 3%; Tebet, 2%; Janones, 1%|acessodata=2022-05-03|website=CNN Brasil|lingua=pt-BR}}</ref><br>{{small|{{small|BR-03874/2022}}}} || 2–5 Abr || style=text-align:center | 1.000 || 3,2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 30% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 44% || 9% || 1% || 2% || {{n/a}} || 0% || 0% || {{n/a}} || {{n/a}} || 0% || 3% || {{n/a}} || {{n/a}} || 12%
+|-
+| rowspan=5 | Paraná Pesquisas<ref>{{Citar web|url=https://www.paranapesquisas.com.br/noticias/parana-pesquisas-divulga-pesquisa-nacional-registro-tse-br-08065-2022-situacao-eleitoral-para-o-executivo-federal-em-2022-e-avaliacao-da-administracao-federal-abril-2022/|titulo=Paraná Pesquisas divulga pesquisa Nacional – Registro TSE -{{small|{{small|BR-08065/2022}}}}- Situação eleitoral para o Executivo Federal em 2022 e Avaliação da administração Federal – Abril/2022 – Paraná Pesquisas|acessodata=2022-05-03|lingua=pt-BR}}</ref><br>{{small|{{small|BR-08065/2022}}}} || rowspan=5 | 31–5 Abr || rowspan=5 | 2.020 || rowspan=5 | 2,2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 32,7% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 40% || 5,4% || 1,1% || 0,6% || 7,1%<br>'''[[Sergio Moro|Moro]]''' || 0,1% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 2,3% || {{n/a}} || {{n/a}} || 10,6%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 32,7% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 40,1% || 5,4% || 1,1% || 0,5% || 7,1%<br>'''[[Sergio Moro|Moro]]''' || 0,1% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 2% || {{n/a}} || 11%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 32,9% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 40,5% || 5,5% || {{n/a}} || {{n/a}} || 7,4%<br>'''[[Sergio Moro|Moro]]''' || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 2,4% || {{n/a}} || {{n/a}} || 11,3%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 32,9% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 40,6% || 5,6% || {{n/a}} || {{n/a}} || 7,3%<br>'''[[Sergio Moro|Moro]]''' || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 2,1% || {{n/a}} || 11,4%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 35,3% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 41,5% || 5,8% || 1,2% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 3,1% || {{n/a}} || {{n/a}} || 13,1%
+|-
+| rowspan=2 | Gerp<ref>{{Citar web|url=https://veja.abril.com.br/coluna/radar/lula-e-bolsonaro-empatam-na-segunda-pesquisa-do-instituto-gerp/|titulo=Lula e Bolsonaro empatam na segunda pesquisa do Instituto Gerp {{!}} Radar|acessodata=2022-05-03|website=VEJA|lingua=pt-BR}}</ref><br>BR–02346/2022 || rowspan=2 | 30–5 Abr || rowspan=2 | 2.095 || rowspan=2 | 2,18 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 35% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 37% || 5% || 2% || {{n/a}} || 6%<br>'''[[Sergio Moro|Moro]]''' || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 1% || {{n/a}} || {{n/a}} || 7%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 36% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 37% || 6% || 2% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 2% || {{n/a}} || {{n/a}} || 10%
+|-
+| rowspan=6 | Genial / Quaest<ref name="auto53">[https://media-blog.genialinvestimentos.com.br/wp-content/uploads/2022/04/06195508/genial-nas-eleicoes_pesquisa-para-presidente-2022_resultado-abril.pdf]</ref><br>{{small|{{small|BR-00372/2022}}}} || rowspan="6" | 1–3 Abr || rowspan=6 | 2.000 || rowspan=6 | 2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 31% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 45% || 6% || 2% || {{n/a}} || {{n/a}} || {{n/a}} || 0% || 0% || 0% || 0% || 2% || {{n/a}} || {{n/a}} || 12%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 29% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 44% || 5% || 3% || 1% || 6%<br>'''[[Sergio Moro|Moro]]''' || 0% || 0% || 0% || 0% || 0% || 1% || {{n/a}} || {{n/a}} || 10%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 29% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 45% || 6% || {{n/a}} || {{n/a}} || 7%<br>'''[[Sergio Moro|Moro]]''' || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 2% || {{n/a}} || {{n/a}} || 10%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 31% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 44% || 6% || 3% || {{n/a}} || {{n/a}} || 1% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 2% || {{n/a}} || {{n/a}} || 12%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 32% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 46% || 7% || {{n/a}} || 2% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 13%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 31% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 46% || 7% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 2% || {{n/a}} || 13%
+|-style=background:#e9e9e9;font-weight:bold;font-size:85%
+| colspan=4 | 1 Abr || colspan=15 | Fechamento da janela partidária<ref name=auto3/>
+|}
+
+==== 1º trimestre ====
+{{hidden begin | title = Entre janeiro e março | titlestyle = background:lightgrey;text-align:center}}
+{| class=wikitable style=text-align:center;font-size:85%
+! rowspan=3 | Publicação / Pesquisa
+{{small|Número de<br>identificação}}
+! Data(s) de<br>Pesquisa
+! rowspan=3 | Tamanho<br>da Amostra
+! rowspan=3 | Margem<br>de erro<br>([[Porcentagem|pontos<br>percentuais]])
+! [[Imagem:{{tmpv|Predefinição:Info/Jair Bolsonaro|Info/Político/Presidente|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|Predefinição:Info/Luiz Inácio Lula da Silva|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|Ciro Gomes|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|João Doria|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:Luiz-felipe-davila retrato (cropped).jpg|x80px]]
+! [[Imagem:Foto Oficial de Simone Tebet como Senadora (2ª versão) (cropped).jpg|x80px]]
+! [[Imagem:{{tmpv|Sergio Moro|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|Alessandro Vieira|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|André Janones|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|Eduardo Leite|Info/Político|1|imagem}}|x80px]]
+! rowspan=3 | Outros
+! rowspan=3 | Indecisos<br>e Absentos
+|-
+!
+! [[Jair Bolsonaro|Bolsonaro]]<br>{{small|[[Partido Liberal (2006)|PL]]}}
+! [[Luiz Inácio Lula da Silva|Lula]]<br>{{small|[[Partido dos Trabalhadores|PT]]|[[PT]]}}
+! [[Ciro Gomes|Gomes]]<br>{{small|[[Partido Democrático Trabalhista|PDT]]}}
+! [[João Doria|Doria]]<br>{{small|[[Partido da Social Democracia Brasileira|PSDB]]}}
+! [[Luiz Felipe d'Avila|D'Avila]]<br>{{small|[[Partido Novo|NOVO]]}}
+! [[Simone Tebet|Tebet]]<br>{{small|[[Movimento Democrático Brasileiro (1980)|MDB]]}}
+! [[Sergio Moro|Moro]]<br>{{small|[[Podemos (Brasil)|PODE]]}}
+! [[Alessandro Vieira|Vieira]]<br>{{small|[[Cidadania (partido político)|CDN]]}}
+! [[André Janones|Janones]]<br>{{small|[[Avante|AVANTE]]}}
+! [[Eduardo Leite|Leite]]<br><ref name=Leite/>
+|-
+!
+! style=color:white;background:{{Partido Liberal (2006)/meta/cor}} |
+! style=color:white;background:{{Partido dos Trabalhadores/meta/cor}} |
+! style=color:white;background:{{Partido Democrático Trabalhista/meta/cor}} |
+! style=color:white;background:{{Partido da Social Democracia Brasileira/meta/cor}} |
+! style=color:white;background:{{Partido Novo/meta/cor}} |
+! style=color:white;background:{{Movimento Democrático Brasileiro/meta/cor}} |
+! style=color:white;background:{{Podemos (Brasil)/meta/cor}} |
+! style=background:#ec008c |
+! style=background:{{Avante (partido político)/meta/cor}} |
+! style=background:#DDDDDD |
+|-style=background:#e9e9e9;font-weight:bold;font-size:85%
+| colspan=4 | 31 Mar || colspan=15 | Ex-ministro [[Aldo Rebelo]] desiste da candidatura<ref name=auto2>{{Citar web| url=https://politica.estadao.com.br/noticias/eleicoes,eleicoes-2022-candidatos-presidente-bolsonaro-lula-ciro-doria-tebet,70004026491| titulo=Após desistência de Moro, confira quem ainda disputa a Presidência - Política| acessodata=2022-04-01| website=Estadão| lingua=pt-BR}}</ref>
+|-style=background:#e9e9e9;font-weight:bold;font-size:85%
+| colspan=4 | 31 Mar || colspan=15 | Ex-ministro [[Aldo Rebelo]] se filia ao [[Partido Democrático Trabalhista|PDT]]<ref name=auto2/>
+|-style=background:#e9e9e9;font-weight:bold;font-size:85%
+| colspan=4 | 31 Mar || colspan=15 | Ex-ministro [[Sergio Moro]] se filia à [[União Brasil]]<ref>{{Citar web| url=https://g1.globo.com/sp/sao-paulo/noticia/2022/03/31/sergio-moro-assina-filiacao-ao-uniao-brasil-em-evento-em-sp.ghtml| titulo=Moro assina filiação ao União Brasil e abre mão, 'neste momento', da pré-candidatura à Presidência da República| acessodata=2022-04-01| website=G1| lingua=pt-br}}</ref>
+|-
+| PoderData<ref>{{citar web|url=https://www.poder360.com.br/poderdata/poderdata-lula-tem-41-no-1o-turno-bolsonaro-32/|título=PoderData: Lula tem 41% no 1º turno; Bolsonaro, 32%|website=Poder360}}</ref><br>{{small|BR-06661/2022}} || 27–29 Mar || style=text-align:center | 3.000 || 2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 32% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 41% || 7% || 3% || 0% || 1% || 6% || {{n/a}} || 2% || 1% || 0%<br>'''[[Vera Lúcia Salgado|Salgado]]'''<br>{{small | ([[Partido Socialista dos Trabalhadores Unificado|PSTU]])}} || 7%
+|-
+| rowspan=3 | Modalmais/Futura<ref name=auto90>{{citar web|url=https://www.cartacapital.com.br/politica/pesquisa-de-banco-mostra-lula-e-bolsonaro-empatados-especialistas-estranham-o-resultado/|título=Pesquisa de banco mostra Lula e Bolsonaro empatados; especialistas estranham o resultado - CartaCapital|website=www.cartacapital.com.br}}</ref><br>{{small|BR-00758/2022}} || rowspan=3 | 21–25 Mar || rowspan=3 | 2.000 || rowspan=3 | 2,2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 35,5% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 38,5% || 5,1% || 1,3% || 0,3% || 1,1% || 5,3% || {{n/a}} || 2,1% || 1,3% || {{n/a}} || 9,4%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 35,3% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 38,3% || 7,4% || 2,5% || {{n/a}} || {{n/a}} || 7,4% || {{n/a}} || {{n/a}} || 1,6% || {{n/a}} || 7,5%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 38,3% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 42,4% || 7,3% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 3,2% || {{n/a}} || 8,8%
+|-
+| rowspan=8 | Datafolha<ref>{{citar web|url=https://g1.globo.com/politica/eleicoes/2022/pesquisa-eleitoral/noticia/2022/03/24/datafolha-lula-tem-43percent-no-primeiro-turno-contra-26percent-de-bolsonaro.ghtml|título=Datafolha: Lula tem 43% no primeiro turno, contra 26% de Bolsonaro|website=G1}}</ref><br>{{small|BR-08967/2022}} || rowspan=8 | 22–23 Mar || rowspan=8 | 2.556 || rowspan=8 | 2 || rowspan=2 style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 26% || rowspan=2 style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 43% || rowspan=2 | 6% || rowspan=2 | 2% || rowspan=2 | 1% || rowspan=2 | 1% || rowspan=2 | 8% || rowspan=2 {{n/a}} || rowspan=2 | 2% || rowspan=2 {{n/a}} || 1%<br>'''[[Vera Lúcia Salgado|Salgado]]'''<br>{{small | ([[Partido Socialista dos Trabalhadores Unificado|PSTU]])}} || rowspan=2 | 8%
+|-
+| 0%<br>'''[[Leonardo Péricles|Péricles]]'''<br>{{small|'''([[Unidade Popular (Brasil)|UP]])'''}}
+|-
+| rowspan=2 style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 26% || rowspan=2 style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 43% || rowspan=2 | 7% || rowspan=2 {{n/a}} || rowspan=2 | 1% || rowspan=2 | 1% || rowspan=2 | 8% || rowspan=2 {{n/a}} || rowspan=2 | 3% || rowspan=2 | 1% || 1%<br>'''[[Vera Lúcia Salgado|Salgado]]'''<br>{{small | ([[Partido Socialista dos Trabalhadores Unificado|PSTU]])}} || rowspan=2 | 10%
+|-
+| 0%<br>'''[[Leonardo Péricles|Péricles]]'''<br>{{small|'''([[Unidade Popular (Brasil)|UP]])'''}}
+|-
+| rowspan=2 style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 26% || rowspan=2 style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 44% || rowspan=2 | 7% || rowspan=2 | 2% || rowspan=2 | 1% || rowspan=2 {{n/a}} || rowspan=2 | 8% || rowspan=2 {{n/a}} || rowspan=2 | 3% || rowspan=2 {{n/a}} || 1%<br>'''[[Vera Lúcia Salgado|Salgado]]'''<br>{{small | ([[Partido Socialista dos Trabalhadores Unificado|PSTU]])}} || rowspan=2 | 8%
+|-
+| 0%<br>'''[[Leonardo Péricles|Péricles]]'''<br>{{small|'''([[Unidade Popular (Brasil)|UP]])'''}}
+|-
+| rowspan=2 style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 26% || rowspan=2 style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 43% || rowspan=2 | 8% || rowspan=2 {{n/a}} || rowspan=2 | 0% || rowspan=2 | 1% || rowspan=2 | 8% || rowspan=2 {{n/a}} || rowspan=2 | 3% || rowspan=2 {{n/a}} || 1%<br>'''[[Vera Lúcia Salgado|Salgado]]'''<br>{{small | ([[Partido Socialista dos Trabalhadores Unificado|PSTU]])}} || rowspan=2 | 9%
+|-
+| 0%<br>'''[[Leonardo Péricles|Péricles]]'''<br>{{small|'''([[Unidade Popular (Brasil)|UP]])'''}}
+|-
+| Ipespe<ref name=auto82>{{citar web|url=https://www.uol.com.br/eleicoes/2022/03/25/pesquisa-ipespe-presidente-marco.htm|título=Pesquisa Ipespe: Lula tem 44% dos votos; Bolsonaro, 26%; Moro, 9%; Ciro, 7%|website=www.uol.com.br}}</ref><br>{{small|BR-04222/2022}} || 21–23 Mar || style=text-align:center | 1.000 || 3,2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 26% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 44% || 7% || 2% || 1% || 1% || 9% || {{n/a}} || 1% || 1% || {{n/a}} || 9%
+|-
+| Exame/Ideia<ref name=auto130>{{citar web|url=https://exame.com/brasil/lula-tem-40-bolsonaro-29-ciro-e-moro-tem-9-cada-diz-exame-ideia/|título=Lula tem 40%; Bolsonaro, 29%. Ciro e Moro têm 9% cada, diz EXAME/IDEIA|data=24 de mar. de 2022|website=Exame}}</ref><br>{{small|BR-04244/2022}} || 18–23 Mar || style=text-align:center | 1.500 || 3 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 29% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 40% || 9% || 1% || 0,4% || 1% || 9% || {{n/a}} || 1% || 2% || 0,1%<br>'''[[Aldo Rebelo|Rebelo]]'''<br>{{small | (Indep.)}} || 6%
+|-
+| BTG Pactual/FSB<ref name=auto109>{{citar web|url=https://www.cartacapital.com.br/politica/bolsonaro-perde-para-todos-os-adversarios-no-segundo-turno-diz-pesquisa/|título=Bolsonaro perde para todos os adversários no segundo turno, diz pesquisa - CartaCapital|website=www.cartacapital.com.br}}</ref><br>{{small|BR-09630/2022}} || 18–20 Mar || style=text-align:center | 2.000 || 2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 29% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 43% || 9% || 2% || 0% || 1% || 8% || {{n/a}} || 2% || 2% || {{n/a}} || 5%
+|-style=background:#e9e9e9;font-weight:bold;font-size:85%
+| colspan=4 | 18 Mar || colspan=15 | Senador [[Alessandro Vieira]] (CDN) declara apoio a [[João Doria]] (PSDB)<ref>{{Citar web| url=https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2022/03/18/senador-alessandro-vieira-anuncia-filiacao-ao-psdb-apos-deixar-o-cidadania.htm| titulo=Senador Alessandro Vieira anuncia filiação ao PSDB após deixar o Cidadania| acessodata=2022-03-21| website=noticias.uol.com.br| lingua=pt-br}}</ref>
+|-
+| PoderData<ref name=auto45>{{citar web|url=https://www.poder360.com.br/poderdata/recuperacao-de-bolsonaro-perde-impeto-diz-poderdata/|título=Recuperação de Bolsonaro perde ímpeto, diz PoderData|website=Poder360}}</ref><br>{{small|BR-00835/2022}} || 13–15 Mar || style=text-align:center | 3.000 || 2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 30% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 40% || 7% || 2% || 0% || 2% || 7% || {{n/a}} || 2% || 2% || {{n/a}} || 8%
+|-
+| rowspan=3 | Genial/Quaest<ref name=auto75>{{citar web|url=https://www.cnnbrasil.com.br/politica/pesquisa-quaest-genial-lula-tem-45-e-bolsonaro-25-ciro-tem-7-e-moro-6/|título=Pesquisa Quaest/Genial: Lula tem 45% e Bolsonaro, 25%; Ciro tem 7% e Moro, 6%|website=CNN Brasil}}</ref><br>{{small|BR-06693/2022}} || rowspan=3 | 10–13 Mar || rowspan=3 | 2.000 || rowspan=3 | 2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 26% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 44% || 7% || 2% || 0% || 1% || 7% || {{n/a}} || 2% || {{n/a}} || {{n/a}} || 11%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 25% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 45% || 7% || 2% || 0% || 1% || 6% || {{n/a}} || 2% || 1% || {{n/a}} || 10%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 28% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 48% || 8% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 3% || {{n/a}} || 12%
+|-style=background:#e9e9e9;font-weight:bold;font-size:85%
+| colspan=4 | 9 Mar || colspan=15 | Presidente do Senado [[Rodrigo Pacheco]] (PSD) desiste da candidatura<ref>{{citar web| url=https://noticias.uol.com.br/politica/ultimas-noticias/2022/03/09/rodrigo-pacheco-anuncia-que-nao-sera-candidato-a-presidencia-da-republica.htm| titulo=Rodrigo Pacheco anuncia que não será candidato à presidência da República| data=9 de março de 2022| acessodata=9 de março de 2022| website=UOL}}</ref>
+|-
+| rowspan=2 | Ranking Brasil<ref name=auto23>{{citar web|url=https://diariomsnews.com.br/noticias/instituto-ranking-divulga-pesquisa-nacional-para-presidente-confira-os-numeros/|título=Instituto Ranking divulga pesquisa nacional para presidente: confira os números|data=14 de mar. de 2022}}</ref><br>{{small|BR-04724/2022}} || rowspan=2 | 7–12 Mar || rowspan=2 | 3.000 || rowspan=2 | 1,8 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 31,2% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 38,1% || 6% || 2% || {{n/a}} || 1,5% || 6,5% || 0,3% || 0,8% || 1,4% || {{n/a}} || 12,2%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 32,4% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 39% || 6,5% || 2,4% || {{n/a}} || 2% || 7,2% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 10,5%
+|-
+| rowspan=2 | Gerp<ref>{{citar web|url=https://veja.abril.com.br/coluna/radar/em-nova-pesquisa-lula-tem-38-e-bolsonaro-31/|título=Em nova pesquisa, Lula tem 38% e Bolsonaro, 31% &#124; Radar|website=VEJA}}</ref><br>{{small|BR-07402/2022}} || rowspan=2 | 7–10 Mar || rowspan=2 | 2.095 || rowspan=2 | 2,18 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 31% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 38% || 5% || 2% || 0% || 0% || 7% || 0% || 1% || {{n/a}} || 0%<br>'''[[Rodrigo Pacheco|Pacheco]]'''<br>{{small | ([[Partido Social Democrático (2011)|PSD]])}} || 16%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 31% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 40% || 5% || 2% || {{n/a}} || {{n/a}} || 7% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 15%
+|-
+| Ipespe<ref name=auto73>{{citar web|url=https://www.infomoney.com.br/politica/bolsonaro-cresce-dois-pontos-na-primeira-pesquisa-ipespe-de-marco-dentro-da-margem-de-erro/|título=Bolsonaro cresce dois pontos na primeira pesquisa Ipespe de março, dentro da margem de erro|data=11 de mar. de 2022}}</ref><br>{{small|BR-03573/2022}} || 7–9 Mar || style=text-align:center | 1.000 || 3,2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 28% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 43% || 8% || 3% || 0% || 1% || 8% || 0% || 1% || 1% || {{n/a}} || 9%
+|-
+| rowspan=3 | Paraná Pesquisas<ref name=auto7>{{citar web|url=https://www.paranapesquisas.com.br/pesquisas/parana-pesquisas-divulga-pesquisa-nacional-registro-tse-br-06682-2022-situacao-eleitoral-para-o-executivo-federal-em-2022-e-avaliacao-da-administracao-federal-marco-2022/|título=Paraná Pesquisas divulga Pesquisa Nacional – Registro TSE BR-06682/2022 – Situação eleitoral para o Executivo Federal em 2022 e Avaliação da administração federal – Março/2022 – Paraná Pesquisas}}</ref><br>{{small|BR-06682/2022}} || rowspan=3 | 3–8 Mar || rowspan=3 | 2.020 || rowspan=3 | 2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 30,9% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 38,9% || 6,8% || 2,2% || {{n/a}} || 0,4% || 7,4% || 0,1% || 0,7% || 1,3% || {{n/a}} || 11,2%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 31,1% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 39% || 6,9% || 2,2% || {{n/a}} || 0,4% || 7,5% || 0,1% || 0,7% || {{n/a}} || 0,8%<br>'''[[Rodrigo Pacheco|Pacheco]]'''<br>{{small | ([[Partido Social Democrático (2011)|PSD]])}} || 11,3%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 31,4% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 39,5% || 7,2% || 2,3% || {{n/a}} || {{n/a}} || 7,8% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 11,9%
+|}
+{| class=wikitable style=text-align:center;font-size:85%
+! rowspan=3 | Contratante/<br>Instituto de<br>Pesquisa<br>Número de<br>identificação
+! rowspan=3 | Data(s) de<br>Pesquisa
+! rowspan=3 | Tamanho<br>da Amostra
+! rowspan=3 | Margem<br>de erro<br>([[Porcentagem|pontos<br>percentuais]])
+! [[Imagem:{{tmpv|Predefinição:Info/Jair Bolsonaro|Info/Político/Presidente|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|Predefinição:Info/Luiz Inácio Lula da Silva|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|Ciro Gomes|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|João Doria|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:Luiz-felipe-davila retrato (cropped).jpg|x80px]]
+! [[Imagem:Foto Oficial de Simone Tebet como Senadora (2ª versão) (cropped).jpg|x80px]]
+! [[Imagem:{{tmpv|Sergio Moro|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:Senador_Rodrigo_Pacheco.jpg|x80px]]
+! [[Imagem:{{tmpv|Alessandro Vieira|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|André Janones|Info/Político|1|imagem}}|x80px]]
+! rowspan=3 | Outros
+! rowspan=3 | Indecisos<br>e Absentos
+|-
+! [[Jair Bolsonaro|Bolsonaro]]<br>{{small|[[Partido Liberal (2006)|PL]]}}
+! [[Luiz Inácio Lula da Silva|Lula]]<br>{{small|[[Partido dos Trabalhadores|PT]]|[[PT]]}}
+! [[Ciro Gomes|Gomes]]<br>{{small|[[Partido Democrático Trabalhista|PDT]]}}
+! [[João Doria|Doria]]<br>{{small|[[Partido da Social Democracia Brasileira|PSDB]]}}
+! [[Luiz Felipe d'Avila|D'Avila]]<br>{{small|[[Partido Novo|NOVO]]}}
+! [[Simone Tebet|Tebet]]<br>{{small|[[Movimento Democrático Brasileiro (1980)|MDB]]}}
+! [[Sergio Moro|Moro]]<br>{{small|[[Podemos (Brasil)|PODE]]}}
+! [[Rodrigo Pacheco|Pacheco]]<br>{{small|[[Partido Social Democrático (2011)|PSD]]}}
+! [[Alessandro Vieira|Vieira]]<br>{{small|[[Cidadania (partido político)|CDN]]}}
+! [[André Janones|Janones]]<br>{{small|[[Avante|AVANTE]]}}
+|-
+! style=color:white;background:{{Partido Liberal (2006)/meta/cor}} |
+! style=color:white;background:{{Partido dos Trabalhadores/meta/cor}} |
+! style=color:white;background:{{Partido Democrático Trabalhista/meta/cor}} |
+! style=color:white;background:{{Partido da Social Democracia Brasileira/meta/cor}} |
+! style=color:white;background:{{Partido Novo/meta/cor}} |
+! style=color:white;background:{{Movimento Democrático Brasileiro/meta/cor}} |
+! style=color:white;background:{{Podemos (Brasil)/meta/cor}} |
+! style=color:white;background:{{Partido Social Democrático (2011)/meta/cor}} |
+! style=background:#ec008c |
+! style=background:{{Avante (partido político)/meta/cor}} |
+|-
+| PoderData<ref>{{citar web|url=https://www.poder360.com.br/poderdata/lula-40-x-32-bolsonaro-diz-poderdata-sobre-1o-turno/|título=Lula 40% X 32% Bolsonaro, diz PoderData sobre 1º turno|website=Poder360}}</ref><br>{{small|BR-01570/2022}} || 27 Fev–1 Mar || style=text-align:center | 3.000 || 2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 32% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 40% || 7% || 2% || 0% || 1% || 6% || {{n/a}} || {{n/a}} || 2% || 3%<br>'''[[Eduardo Leite|Leite]]'''<br>{{small | ([[Partido da Social Democracia Brasileira|PSDB]])}} || 8%
+|-
+| Ipespe<ref name=auto110>{{citar web|url=https://www.infomoney.com.br/politica/lula-mantem-lideranca-na-corrida-pelo-planalto-com-43-das-intencoes-de-voto-mostra-ipespe/|título=Lula mantém liderança na corrida pelo Planalto com 43% das intenções de voto, mostra Ipespe|data=25 de fev. de 2022}}</ref><br>{{small|BR-05015/2022}} || 21–23 Fev || style=text-align:center | 1.000 || 3,2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 26% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 43% || 7% || 3% || 1% || 1% || 8% || {{n/a}} || 0% || 1% || 1%<br>'''[[Eduardo Leite|Leite]]'''<br>{{small | ([[Partido da Social Democracia Brasileira|PSDB]])}} || 9%
+|-
+| rowspan=4 | Exame/Ideia<ref name=auto135>{{citar web|url=https://exame.com/brasil/lula-lidera-com-42-contra-27-de-bolsonaro-diz-exame-ideia/|título=Lula lidera com 42%, contra 27% de Bolsonaro, diz EXAME/IDEIA|data=24 de fev. de 2022|website=Exame}}</ref><br>{{small|BR-05955/2022}} || rowspan=4 | 18–22 Fev || rowspan=4 | 1.500 || rowspan=4 | 3 || rowspan=2 style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 27% || rowspan=2 style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 42% || rowspan=2 | 8% || rowspan=2 | 2% || rowspan=2 | 0,5% || rowspan=2 | 0,4% || rowspan=2 | 10% || rowspan=2 | 0,8% || rowspan=2 | 0,3% || rowspan=2 | 0,9% || 0,2%<br>'''[[Aldo Rebelo|Rebelo]]'''<br>{{small | (Indep.)}} || rowspan=2 | 7%
+|-
+| 0,1%<br>'''[[Leonardo Péricles|Péricles]]'''<br>{{small|'''([[Unidade Popular (Brasil)|UP]])'''}}
+|-
+| rowspan=2 style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 27% || rowspan=2 style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 42% || rowspan=2 | 8% || rowspan=2 | 3% || rowspan=2 | 0,4% || rowspan=2 | 0,4% || rowspan=2 | 10% || rowspan=2 {{n/a}} || rowspan=2 | 0,3% || rowspan=2 | 0,5% || 2%<br>'''[[Eduardo Leite|Leite]]'''<br>{{small | ([[Partido da Social Democracia Brasileira|PSDB]])}} || rowspan=2 | 6%
+|-
+| 0,1%<br>'''[[Aldo Rebelo|Rebelo]]'''<br>{{small|'''(Indep.)'''}}
+|-
+| CNT/MDA<ref name=auto22>{{citar web|url=https://cnt.org.br/agencia-cnt/cnt-divulga-resultados-da-nova-pesquisa-de-opiniao|título=CNT divulga os resultados da nova edição da Pesquisa de Opinião|website=CNT}}</ref><br>{{small|BR-09751/2022}} || 16–19 Fev || style=text-align:center | 2.002 || 2,2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 28% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 42,2% || 6,7% || 1,8% || 0,3% || 0,6% || 6,4% || 0,3% || {{n/a}} || 1,5% || {{n/a}} || 12,2%
+|-
+| rowspan=4 | Modalmais/Futura<ref>{{citar web|url=https://jc.ne10.uol.com.br/colunas/jamildo/2022/02/14951697-pesquisa-modalmais-diferenca-entre-lula-e-bolsonaro-diminui-para-menos-de-1.html|título=Pesquisa Modalmais: diferença entre Lula e Bolsonaro diminui para menos de 1%|primeiro=Augusto|último=Tenório|data=24 de fev. de 2022|website=JC}}</ref><br>{{small|BR-03014/2022}} || rowspan=4 | 14–17 Fev || rowspan=4 | 2.000 || rowspan=4 | 2,2 || rowspan=3 style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 34,7% || rowspan=3 style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 35% || rowspan=3 | 5,8% || rowspan=3 | 1,8% || rowspan=3 | 0,1% || rowspan=3 | 0,4% || rowspan=3 | 7,5% || rowspan=3 | 0,7% || rowspan=3 | 0,1% || rowspan=3 | 2,1% || 0,9%<br>'''[[Guilherme Boulos|Boulos]]'''<br>{{small | ([[Partido Socialismo e Liberdade|PSOL]])}} || rowspan=3 | 10,5%
+|-
+| 0,3%<br>'''[[Aldo Rebelo|Rebelo]]'''<br>{{small|'''(Indep.)'''}}
+|-
+| 0,2%<br>'''[[Leonardo Péricles|Péricles]]'''<br>{{small|'''([[Unidade Popular (Brasil)|UP]])'''}}
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 34,8% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 36,2% || 7,8% || 3,1% || {{n/a}} || {{n/a}} || 9,5% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 8,7
+|-
+| PoderData<ref>{{citar web|url=https://www.poder360.com.br/poderdata/poderdata-lula-tem-40-contra-31-de-bolsonaro-no-1o-turno/|título=PoderData: Lula tem 40% contra 31% de Bolsonaro no 1º turno|website=Poder360}}</ref><br>{{small|BR-06942/2022}} || 13–15 Fev || style=text-align:center | 3.000 || 2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 31% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 40% || 4% || 3% || 0% || 0% || 9% || 1% || 1% || 2% || {{n/a}} || 8%
+|-
+| rowspan=2 | Ipespe<ref name=auto79>{{citar web|url=https://www.infomoney.com.br/politica/bolsonaro-apresenta-melhora-marginal-na-primeira-pesquisa-ipespe-de-fevereiro/|título=Bolsonaro apresenta melhora marginal na primeira pesquisa Ipespe de fevereiro|data=11 de fev. de 2022}}</ref><br>{{small|BR-03828/2022}} || rowspan=2 | 7–9 Fev || rowspan=2 | 1.000 || rowspan=2 | 3,2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 25% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 43% || 8% || 3% || 0% || 1% || 8% || 0% || 0% || 1% || {{n/a}} || 12%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 26% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 44% || {{n/a}} || 4% || 0% || 2% || 8% || 1% || 1% || 1% || {{n/a}} || 13%
+|-
+| rowspan=4 | Genial/Quaest<ref name=auto86>{{citar web|url=https://www.cnnbrasil.com.br/politica/pesquisa-quaest-genial-lula-tem-45-bolsonaro-23-moro-e-ciro-7/|título=Pesquisa Quaest/Genial: Lula tem 45%; Bolsonaro, 23%; Moro e Ciro, 7%|website=CNN Brasil}}</ref><br>{{small|BR-08857/2022}} || rowspan=4 | 3–6 Fev || rowspan=4 | 2.000 || rowspan=4 | 2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}}; | 23% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 45% || 7% || 2% || 0% || 1% || 7% || 0% || {{n/a}} || 2% || {{n/a}} || 13%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 24% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 45% || 8% || 3% || {{n/a}} || {{n/a}} || 9% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 12%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 24% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 45% || 8% || {{n/a}} || {{n/a}} || {{n/a}} || 9% || {{n/a}} || {{n/a}} || 2% || {{n/a}} || 12%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 26% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 47% || 9% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 3% || {{n/a}} || 14%
+|-
+| PoderData<ref name=auto29>{{citar web|url=https://www.poder360.com.br/poderdata/poderdata-lula-tem-41-no-1o-turno-bolsonaro-tem-30/|título=PoderData: Lula tem 41% no 1º turno; Bolsonaro tem 30%|website=Poder360}}</ref><br>{{small|BR-09445/2022}} || 31 Jan–1 Fev || style=text-align:center | 3.000 || 2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 30% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 41% || 7% || 2% || 0% || 1% || 7% || 1% || 1% || 2% || {{n/a}} || 8%
+|-
+| rowspan=2 | Paraná Pesquisas<ref name=auto41>{{citar web|url=https://noticias.uol.com.br/politica/ultimas-noticias/2022/02/02/lula-bolsonaro-moro-parana-pesquisas.htm|título=Paraná Pesquisas: Lula cresce na liderança e adversários ficam estagnados [02/02/2022]|website=noticias.uol.com.br}}</ref><br>{{small|BR-09055/2022}} || rowspan=2 | 27 Jan–1 Fev || rowspan=2 | 2.020 || rowspan=2 | 2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 29,6% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 41% || 5,8% || 2,5% || {{n/a}} || {{n/a}} || 10,6% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 10,5%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 29,1% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 40,1% || 5,6% || 2,4% || {{n/a}} || 0,8% || 10,1% || 0,4% || 0,1% || 1,1% || {{n/a}} || 10,3%
+|-
+| rowspan=2 | Ipespe<ref name=auto48>{{citar web|url=https://www.cnnbrasil.com.br/politica/pesquisa-ipespe-lula-tem-44-e-bolsonaro-24-moro-e-ciro-empatam-em-terceiro/|título=Pesquisa Ipespe: Lula tem 44% e Bolsonaro, 24%; Moro e Ciro empatam em terceiro|website=CNN Brasil}}</ref><br>{{small|BR-06408/2022}} || rowspan=2 | 24–25 Jan || rowspan=2 | 1.000 || rowspan=2 | 3,2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 26% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 44% || 9% || 4% || 1% || 1% || {{n/a}} || 1% || 1% || {{n/a}} || {{n/a}} || 14%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 24% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 44% || 8% || 2% || 0% || 1% || 8% || 1% || 1% || {{n/a}} || {{n/a}} || 12%
+|-
+| rowspan=6 | Modalmais/Futura<ref name=auto70>{{citar web|url=https://noticias.uol.com.br/politica/ultimas-noticias/2022/01/26/pesquisa-modalmais-futura-janeiro-2022-lula-bolsonaro.htm|título=Modalmais/Futura: Lula lidera, seguido de Bolsonaro e com 3ª via distante [26/01/2022]|website=noticias.uol.com.br}}</ref><br>{{small|BR-08869/2022}} || rowspan=6 | 17–21 Jan || rowspan=6 | 2.000 || rowspan=6 | 2,2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 34,5% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 42,2% || 8,7% || 5,4% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 9,2%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 32,9% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 42,2% || 7,5% || {{n/a}} || {{n/a}} || {{n/a}} || 10,7% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 6,7%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 33,2% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 39,5% || 7,5% || 3,2% || {{n/a}} || {{n/a}} || 8,4% || {{n/a}} || {{n/a}} || {{n/a}} || {{n/a}} || 8,2%
+|-
+| rowspan=3 style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 31,4% || rowspan=3 style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 36,9% || rowspan=3 | 5,6% || rowspan=3 | 2,4% || rowspan=3 | 0,1% || rowspan=3 | 0,5% || rowspan=3 | 8,5% || rowspan=3 | 0,6% || rowspan=3 | 0,1% || rowspan=3 | 1,8% || 0,8%<br>'''[[Guilherme Boulos|Boulos]]'''<br>{{small | ([[Partido Socialismo e Liberdade|PSOL]])}} || rowspan=3 | 10,7%
+|-
+| 0,2%<br>'''[[Aldo Rebelo|Rebelo]]'''<br>{{small|'''(Indep.)'''}}
+|-
+| 0,2%<br>'''[[Leonardo Péricles|Péricles]]'''<br>{{small|'''([[Unidade Popular (Brasil)|UP]])'''}}
+|-
+| PoderData<ref name=auto18>{{citar web|url=https://www.poder360.com.br/poderdata/poderdata-lula-vai-a-42-e-empata-com-a-soma-dos-adversarios/|título=PoderData: Lula vai a 42% e empata com a soma dos adversários|website=Poder360}}</ref><br>{{small|BR-02137/2022}} || 16–18 Jan || style=text-align:center | 3.000 || 2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 28% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 42% || 3% || 2% || 0% || 1% || 8% || 0% || 1% || 2% || || 12%
+|-
+| rowspan=2 | Exame/IDEIA<ref name=auto21>{{citar web|url=https://exame.com/brasil/exame-ideia-lula-tem-41-no-1o-turno-contra-24-de-bolsonaro/|título=EXAME/IDEIA: Lula tem 41% no 1º turno, contra 24% de Bolsonaro|data=13 de jan. de 2022|website=Exame}}</ref><br>{{small|BR-03460/2022}} || rowspan=2 | 9–13 Jan || rowspan=2 | 1.500 || rowspan=2 | 3 || rowspan=2 style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 24% || rowspan=2 style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 41% || rowspan=2 | 7% || rowspan=2 | 4% || rowspan=2 | 0% || rowspan=2 | 0% || rowspan=2 | 11% || rowspan=2 | 1% || rowspan=2 | 0% || rowspan=2 | 0% || 0%<br>'''[[Aldo Rebelo|Rebelo]]'''<br>{{small | (Indep.)}} || rowspan=2 | 11%
+|-
+| 0%<br>'''[[Leonardo Péricles|Péricles]]'''<br>{{small|'''([[Unidade Popular (Brasil)|UP]])'''}}
+|-
+| rowspan=2 | Ipespe<ref>{{citar web|url=https://www.infomoney.com.br/politica/lula-mantem-vantagem-na-disputa-pela-presidencia-mostra-ipespe/|título=Lula mantém vantagem na disputa pela presidência, mostra Ipespe|data=14 de jan. de 2022}}</ref><br>{{small|BR-09080/2022}} || rowspan=2 | 10–12 Jan || rowspan=2 | 1.000 || rowspan=2 | 3,2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 24% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 44% || 7% || 2% || 1% || 1% || 9% || 1% || {{n/a}} || {{n/a}} || {{n/a}} || 13%
+|-
+| style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 25% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 44% || 9% || 3% || 1% || 2% || {{n/a}} || 1% || 1% || {{n/a}} || {{n/a}} || 16%
+|-
+| Genial/Quaest<ref name=auto38>{{citar web|url=https://www.cnnbrasil.com.br/politica/pesquisa-quaest-genial-lula-tem-45-bolsonaro-23-e-moro-9/|título=Pesquisa Quaest/Genial: Lula tem 45%, Bolsonaro, 23% e Moro, 9%|website=CNN Brasil}}</ref><br>{{small|BR-00075/2022}} || 6–9 Jan || style=text-align:center | 2.000 || 2 || style=font-weight:bold;color:white;background:{{Partido Liberal (2006)/meta/cor}} | 23% || style=font-weight:bold;color:white;background:{{Partido dos Trabalhadores/meta/cor}} | 45% || 5% || 3% || 0% || 1% || 9% || 0% || {{n/a}} || {{n/a}} || {{n/a}} || 12%
+|}
+{{hidden end}}

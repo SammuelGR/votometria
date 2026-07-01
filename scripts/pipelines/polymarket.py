@@ -1,16 +1,32 @@
-from datetime import datetime, timezone
-
-from constants import POLYMARKET_SOURCE
-from core.catalog import get_or_create_candidate_catalog_entry
-from core.time_windows import calculate_incremental_start_timestamp
 from extractors.polymarket import fetch_event_markets, fetch_price_history
-from loaders.polymarket import get_latest_timestamps_by_market, save_probability_records
+from loaders.polymarket_sheets import (
+    save_raw_history_to_bronze,
+    save_raw_markets_to_bronze,
+    save_records_to_ouro,
+    save_records_to_prata,
+)
 from transformers.polymarket import parse_markets, parse_price_history
 
+from core.sheets import get_layer_spreadsheets
 
-def run_polymarket_pipeline(session) -> int:
+
+def _stable_candidate_catalog_ids(markets) -> dict:
     """
-    Runs the Polymarket ETL pipeline.
+    Assigns a deterministic integer id per candidate (sorted by market_id) so
+    the gold table has a stable ``candidate_catalog_id`` across runs without a
+    database-backed catalog.
+    """
+    ordered_ids = sorted({market.market_id for market in markets})
+    return {market_id: index for index, market_id in enumerate(ordered_ids, start=1)}
+
+
+def run_polymarket_pipeline() -> int:
+    """
+    Runs the Polymarket ETL pipeline straight to the medallion spreadsheets
+    (bronze/prata/ouro), with no database. The pipeline is stateless: the full
+    price history is refetched and the tabs are fully rewritten on every run.
+
+    Returns the number of probability records published to the gold layer.
     """
     markets_payload = fetch_event_markets()
     if not markets_payload:
@@ -23,28 +39,20 @@ def run_polymarket_pipeline(session) -> int:
         return 0
 
     print(f"Processing {len(markets)} candidate markets from the election event...")
-    latest_timestamps = get_latest_timestamps_by_market(session)
-    end_ts = int(datetime.now(timezone.utc).timestamp())
-    total_saved = 0
+
+    layers = get_layer_spreadsheets("bronze", "prata", "ouro")
+
+    # Extractor output -> bronze (raw markets).
+    save_raw_markets_to_bronze(layers["bronze"], markets)
+
+    catalog_ids = _stable_candidate_catalog_ids(markets)
+    raw_history_rows: list[dict] = []
+    all_records = []
 
     for market in markets:
-        last_timestamp = latest_timestamps.get(market.market_id)
-        start_ts = calculate_incremental_start_timestamp(last_timestamp)
-        candidate = get_or_create_candidate_catalog_entry(
-            session,
-            source=POLYMARKET_SOURCE,
-            source_key=market.market_id,
-            raw_name=market.candidate_name,
-            full_name=market.candidate_name,
-        )
-
         try:
-            history_points = fetch_price_history(
-                token_id=market.yes_token_id,
-                start_ts=start_ts,
-                end_ts=end_ts if start_ts is not None else None,
-            )
-            records = parse_price_history(market, candidate.id, history_points)
+            # Stateless full-history fetch (no incremental DB timestamps).
+            history_points = fetch_price_history(token_id=market.yes_token_id)
         except Exception as exc:
             print(
                 f"Error processing price history for market ID "
@@ -52,18 +60,35 @@ def run_polymarket_pipeline(session) -> int:
             )
             continue
 
-        saved_count = save_probability_records(session, records)
-        total_saved += saved_count
+        for point in history_points:
+            raw_history_rows.append(
+                {
+                    "market_id": market.market_id,
+                    "candidate_name": market.candidate_name,
+                    "t": point.get("t"),
+                    "p": point.get("p"),
+                }
+            )
+
+        records = parse_price_history(
+            market, catalog_ids[market.market_id], history_points
+        )
+        all_records.extend(records)
 
         print(
             f"-> Candidate: {market.candidate_name} | "
-            f"Fetched: {len(history_points)} | Saved: {saved_count} new records"
+            f"Fetched: {len(history_points)} points"
         )
 
-    if total_saved > 0:
-        session.commit()
-        print(f"Success! {total_saved} historical probability records saved to the database.")
-    else:
-        print("No new probability records to save.")
+    # Extractor output -> bronze (raw price history).
+    save_raw_history_to_bronze(layers["bronze"], raw_history_rows)
+    # Transformer output -> prata (parsed long records).
+    save_records_to_prata(layers["prata"], all_records)
+    # Loader output -> ouro (consolidated series; read by the backend API).
+    save_records_to_ouro(layers["ouro"], all_records)
 
-    return total_saved
+    print(
+        f"Success! {len(all_records)} probability records published to "
+        f"bronze/prata/ouro."
+    )
+    return len(all_records)

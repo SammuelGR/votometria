@@ -1,0 +1,3287 @@
+=== 2026 ===
+
+==== Junho ====
+{| class="wikitable" style="text-align:center;font-size:85%"
+! rowspan="3" | Contratante / Pesquisa
+! rowspan="3" | Data(s) de<br>pesquisa
+! rowspan="3" | Tamanho<br>da amostra
+! rowspan="3" | Margem<br>de erro
+! [[Ficheiro:Foto oficial de Luiz Inácio Lula da Silva (mais estreita).jpg|semmoldura|82x82px]]
+![[Ficheiro:Foto oficial do senador Flávio Bolsonaro (v. AgSen) (3x4).jpg|semmoldura|82x82px]]
+![[Ficheiro:Foto oficial do governador de Goiás, Ronaldo Caiado em 2023 (ombros).jpg|imagem|80x80px]]
+![[Imagem:{{tmpv|Romeu Zema|Info/Político|1|imagem}}|x80px]]
+![[Ficheiro:Renan Santos.jpg|semmoldura|82x82px]]
+![[Ficheiro:Aécio Neves em 2023 (cropped).jpg|semmoldura|81x81px]]
+![[Ficheiro:Deputados cabo Daciolo (PSOL-RJ) e Marcos Reategui (PSC-AP) participam do programa Brasil em Debate (cropped).jpg|semmoldura|82x82px]]
+![[Ficheiro:Augusto Cury.jpg|semmoldura|82x82px]]
+![[File:Joaquim Barbosa-21-11-2012-edit.jpg|Joaquim_Barbosa-21-11-2012-edit|76x76px]]
+![[Ficheiro:Samara Martins UP.jpg|semmoldura|82x82px]]
+![[Ficheiro:Hertz Dias PSTU.jpg|semmoldura|82x82px]]
+![[Ficheiro:Edmilson Costa - PCB.jpg|semmoldura|82x82px]]
+![[Ficheiro:Rui Costa Pimenta PCO ABr (cropped).jpg|semmoldura|82x82px]]
+! rowspan="3" |Outros
+! rowspan="3" |Indecisos e Absentos
+|-
+! [[Luiz Inácio Lula da Silva|Lula]]<br>{{small|[[Partido dos Trabalhadores|PT]]}}
+! [[Flávio Bolsonaro|Flávio]] <br>{{small|[[Partido Liberal (2006)|PL]]}}
+![[Ronaldo Caiado|Caiado]]<br>{{small|[[Partido Social Democrático (2011)|PSD]]}}
+! [[Romeu Zema|Zema]]<br>{{small|[[Partido Novo|NOVO]]}}
+! [[Renan Santos|Renan]]<br>{{small|[[Partido Missão|MISSÃO]]}}
+![[Aécio Neves|Aécio]]<br>{{small|[[Partido da Social Democracia Brasileira|PSDB]]}}
+! [[Cabo Daciolo|Daciolo]]<br>{{small|[[Mobilização Nacional|MOBILIZA]]}}
+![[Augusto Cury|Cury]]<br>{{small|[[Avante]]}}
+![[Joaquim Barbosa|Barbosa]]<br>{{small|[[Democracia Cristã (Brasil)|DC]]}}
+![[Samara Martins|Samara]]<br>{{small|[[Unidade Popular (Brasil)|UP]]}}
+![[Hertz Dias|Dias]]<br>{{small|[[Partido Socialista dos Trabalhadores Unificado|PSTU]]}}
+![[Edmilson Costa|Costa]]<br>{{small|[[Partido Comunista Brasileiro|PCB]]}}
+![[Rui Costa Pimenta|Pimenta]]<br>{{small|[[Partido da Causa Operária|PCO]]}}
+|-
+! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
+! style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |
+! style="color:white;background:{{Cor de partido político/BRA|psd}}" |
+! style="color:white;background:{{Partido Novo/meta/cor}}" |
+! style="color:white;background:{{Partido Missão/meta/cor}}" |
+! style="color:white;background:{{Partido da Social Democracia Brasileira/meta/cor}}" |
+| style="color:white;background:{{Mobilização Nacional/meta/cor}}" |
+| style="color:white;background:{{Avante (partido político)/meta/cor}}" |
+| style="color:white;background:{{Democracia Cristã/meta/cor}}" |
+| style="color:white;background:{{Unidade Popular (Brasil)/meta/cor}}" |
+| style="color:white;background:{{Partido Socialista dos Trabalhadores Unificado/meta/cor}}" |
+| style="color:white;background:{{Partido Comunista Brasileiro/meta/cor}}" |
+| style="color:white;background:{{Partido da Causa Operária/meta/cor}}" |
+|-
+| rowspan="2" | Nexus/BTG<ref>{{citar web|url=https://www.cartacapital.com.br/politica/os-numeros-da-nova-pesquisa-nexus-btg-para-o-primeiro-turno-da-eleicao-presidencial/|titulo=Os números da nova pesquisa Nexus/BTG para o primeiro turno da eleição presidencial|data=29 de junho de 2026|acessodata=29 de junho de 2026|website=[[Carta Capital]]}}</ref>
+| rowspan="2" | 26 Jun - 28 Jun
+| rowspan="2" | 2 009
+| rowspan="2" | 2,00
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''42%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35%'''
+|5%
+|3%
+|4%
+|1%
+|1%
+|1%
+|1%
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|8%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''42%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35%'''
+|5%
+|3%
+|5%
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|2%
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|8%
+|-
+| rowspan="1" | Vox Brasil<ref name=":103">{{citar web|url=https://www.poder360.com.br/poder-pesquisas/flavio-e-lula-empatam-no-2o-turno-diz-pesquisa-2/|titulo=Flávio e Lula empatam no 2º turno, diz pesquisa|data=27 de junho de 2026|acessodata=27 de junho de 2026|website=[[Poder 360]]}}</ref>
+| rowspan="1" | 23 Jun - 25 Jun
+| rowspan="1" | 2 100
+| rowspan="1" | 2,15
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''38,3%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''32,2%'''
+|5,1%
+|3,8%
+|2,5%
+|1,7%
+|0,5%
+|0,7%
+|0,9%
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|14,3%
+|-
+| rowspan="1" | PoderData/Aya<ref name=":102">{{citar web|url=https://www.cartacapital.com.br/politica/os-numeros-da-nova-pesquisa-poder-aya-para-a-presidencia/|titulo=Os números da nova pesquisa PoderData/Aya para a presidência|data=26 de junho de 2026|acessodata=26 de junho de 2026|website=[[Carta Capital]]}}</ref>
+| rowspan="1" | 21 Jun - 24 Jun
+| rowspan="1" | 2 400
+| rowspan="1" | 2,0
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''36%'''
+|4%
+|3%
+|4%
+|{{N/A}}
+|{{N/A}}
+|3%
+|3%
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|8%
+|-
+| rowspan="1" | Gerp<ref name=":101">{{citar web|url=https://www.poder360.com.br/poder-pesquisas/flavio-e-lula-empatam-no-2o-turno-diz-pesquisa/|titulo=Flávio e Lula empatam no 2º turno, diz pesquisa|data=24 de junho de 2026|acessodata=24 de junho de 2026|website=[[Poder360]]|wayb=20260625140442}}</ref>
+| rowspan="1" | 15 Jun - 20 Jun
+| rowspan="1" | 2 000
+| rowspan="1" | 2,19
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''37%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''34%'''
+|4%
+|3%
+|3%
+|{{N/A}}
+|1%
+|1%
+|1%
+|1%
+|{{N/A}}
+|{{N/A}}
+|0%
+|{{N/A}}
+|17%
+|-
+|Indexa<ref>{{citar web|url=https://www.congressoemfoco.com.br/amp/noticia/119896/lula-vence-flavio-por-47-a-40-no-2-turno-aponta-pesquisa-indexa|titulo=Lula vence Flávio por 47% a 40% no 2º turno, aponta pesquisa Indexa
+Levantamento também traz Lula com 42% e Flávio Bolsonaro com 31% no primeiro turno. Candidatos alternativos seguem abaixo de dois dígitos e enfrentam dificuldade para romper lógica da eleição de 2022.|data=23 de Junho de 2026|website=Congresso em Foco|wayb=20260625021148}}</ref>
+|18 Jun - 20 Jun
+|2000
+|2,2
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''42%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''31%'''
+|5%
+|3%
+|3%
+|{{N/A}}
+|0%
+|1%
+|1%
+|0%
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|14%
+|-
+|Datafolha<ref>{{Citar web|url=https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/06/20/datafolha-lula-tem-41percent-e-flavio-bolsonaro-31percent-das-intencoes-de-voto-no-1o-turno.ghtml|titulo=Datafolha: Lula tem 41% e Flávio Bolsonaro, 31%, das intenções de voto no 1º turno|data=2026-06-20|acessodata=2026-06-20|website=[[g1]]|língua=pt-BR}}</ref>
+|17 Jun - 19 Jun
+|2 004
+|2,0
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}"|'''41%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}"|'''31%'''
+|3%
+|2%
+|3%
+|2%
+|1%
+|2%
+|1%
+|2%
+|0%
+|0%
+|1%
+|{{N/A}}
+|11%
+|-
+|American Analytics <ref name=":103" />
+|11 Jun - 15 Jun
+|2000
+|2,2
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''38%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''30%'''
+|4%
+|2%
+|3%
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|2%
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|1%
+|19%
+|-
+| rowspan="1" | CTN/MDA<ref name=":99">{{citar web|url=https://www.poder360.com.br/poder-pesquisas/cnt-42-dizem-votar-em-lula-mas-so-21-se-veem-como-de-esquerda/|titulo=CNT: 42% dizem votar em Lula, mas só 21% se veem como de esquerda|data=17 de junho de 2026|acessodata=17 de junho de 2026|website=[[Poder360]]|wayb=20260617022632}}</ref>
+| rowspan="1" | 10 Jun - 14 Jun
+| rowspan="1" | 2 002
+| rowspan="1" | 2,2
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''41,8%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''28,2%'''
+|4%
+|2,8%
+|2%
+|{{N/A}}
+|{{N/A}}
+|1,8%
+|2,3%
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|1,9%{{nre|Michel Temer (MDB)}}
+|14,9%
+|-
+| rowspan="2" | Nexus/BTG<ref name=":97">{{citar web|url=https://www.poder360.com.br/poder-eleicoes/lula-tem-49-contra-43-de-flavio-no-2o-turno-diz-nexus/|titulo=Lula tem 49% contra 43% de Flávio no 2º turno, diz Nexus|data=15 de junho de 2026|acessodata=15 de junho de 2026|website=[[Poder360]]|wayb=20260616001943}}</ref>
+| rowspan="2" | 12 Jun - 14 Jun
+| rowspan="2" | 2 017
+| rowspan="2" | 2,0
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''42%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''33%'''
+|4%
+|2%
+|4%
+|1%
+|1%
+|2%
+|2%
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|8%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''43%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''34%'''
+|4%
+|3%
+|5%
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|3%
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|8%
+|-
+| rowspan="3" | Futura/Apex<ref name=":98">{{citar web|url=https://www.poder360.com.br/poder-pesquisas/lula-tem-481-e-flavio-429-em-eventual-2o-turno-diz-pesquisa/|titulo=Lula tem 48,1% e Flávio, 42,9%, em eventual 2º turno, diz pesquisa|data=16 de junho de 2026|acessodata=16 de junho de 2026|website=[[Poder360]]|wayb=20260616211159}}</ref>
+| rowspan="3" | 8 Jun - 12 Jun
+| rowspan="3" | 2 000
+| rowspan="3" | 2,2
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''41,6%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''34,1%'''
+|4,5%
+|3,5%
+|2,3%
+|{{N/A}}
+|1,1%
+|0,9%
+|2,1%
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|10%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39,8%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''32,8%'''
+|8,5%
+|5,3%
+|3,5%
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|10,1%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''42,7%'''
+|{{N/A}}
+|style="color:white;background:{{Partido Social Democrático (2011)/meta/cor}}" |'''16,5%'''
+|13,3%
+|6,1%
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|21,5%
+|-
+|Alfa Inteligência<ref name=":96">{{citar web|url=https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/450626-NACIONAL-1400E-ELEICAO.pdf|titulo=Pesquisa de Opinião Pública: Alfa Inteligência|data=11 de junho de 2026|acessodata=12 de junho de 2026|website=[[CNN Brasil]]|wayb=20260612180201}}</ref>
+|5 Jun - 10 Jun
+|1 400
+|2,6
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''31%'''
+|7%
+|7%
+|2%
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|3%
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|2%{{nre|Tereza Cristina (PP): 1%; Outros: 1%}}
+|8%
+|-
+|Quaest<ref name=":95">{{citar web|url=https://www.poder360.com.br/poder-eleicoes/lula-tem-44-contra-38-de-flavio-diz-quaest/|titulo=Lula tem 44% contra 38% de Flávio no 2º turno, diz Quaest|data=10 de junho de 2026|acessodata=10 de junho de 2026|website=[[Poder360]]|wayb=20260610133936}}</ref>
+|5 Jun - 8 Jun
+|2 004
+|2,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''29%'''
+|3%
+|2%
+|3%
+|2%
+|0%
+|1%
+|1%
+|1%
+|{{N/A}}
+|0%
+|{{N/A}}
+|0%{{nre|Hero Bezerra (PRTB)}}
+|19%
+|-
+|Vox Brasil<ref name=":93">{{citar web|url=https://www.poder360.com.br/poder-eleicoes/lula-tem-478-e-flavio-413-no-2o-turno-diz-pesquisa/|titulo=Lula tem 47,8% e Flávio, 41,3%, no 2º turno, diz pesquisa|data=5 de junho de 2026|acessodata=5 de junho de 2026|website=[[Poder360]]|wayb=20260605172054}}</ref>
+|1 Jun - 6 Jun
+|2 100
+|2,15
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''42,1%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''33,6%'''
+|6,9%
+|5,1%
+|3,1%
+|2,1%
+|0,3%
+|0,5%
+|1,1%
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|{{N/A}}
+|5,2%
+|-
+|Gerp<ref name=":94">{{citar web|url=https://www.poder360.com.br/poder-eleicoes/flavio-bolsonaro-vence-lula-no-2o-turno-diz-pesquisa-gerp/|titulo=Flávio Bolsonaro vence Lula no 2º turno, diz pesquisa Gerp|data=9 de junho de 2026|acessodata=9 de junho de 2026|website=[[Poder360]]|wayb=20260609194926}}</ref>
+|2 Jun - 5 Jun
+|2 000
+|2,24
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''34%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35%'''
+|2%
+|2%
+|4%
+|{{N/A}}
+|0%
+|1%
+|2%
+|0%
+|{{N/A}}
+|0%
+|0%
+|0%{{nre|Aldo Rebelo}}
+|19%
+|}
+
+==== Maio ====
+{| class="wikitable" style="text-align:center;font-size:85%"
+! rowspan="3" | Contratante / Pesquisa
+! rowspan="3" | Data(s) de<br>pesquisa
+! rowspan="3" | Tamanho<br>da amostra
+! rowspan="3" | Margem<br>de erro
+! [[Ficheiro:Foto oficial de Luiz Inácio Lula da Silva (mais estreita).jpg|semmoldura|82x82px]]
+![[Ficheiro:Foto oficial do senador Flávio Bolsonaro (v. AgSen) (3x4).jpg|semmoldura|82x82px]]
+![[Ficheiro:Foto oficial do governador de Goiás, Ronaldo Caiado em 2023 (ombros).jpg|imagem|80x80px]]
+! [[Imagem:{{tmpv|Romeu Zema|Info/Político|1|imagem}}|x80px]]
+! [[Ficheiro:Renan Santos.jpg|semmoldura|81x81px]]
+! [[Ficheiro:Aldo_Rebelo_(16654292721)_(cropped).jpg|semmoldura|82x82px]]
+![[File:Joaquim Barbosa-21-11-2012-edit.jpg|Joaquim_Barbosa-21-11-2012-edit|76x76px]]
+![[Ficheiro:Aécio Neves em 2023 (cropped).jpg|semmoldura|81x81px]]
+![[Ficheiro:Deputados cabo Daciolo (PSOL-RJ) e Marcos Reategui (PSC-AP) participam do programa Brasil em Debate (cropped).jpg|semmoldura|82x82px]]
+![[Ficheiro:Augusto Cury.jpg|semmoldura|82x82px]]
+![[Ficheiro:Samara Martins UP.jpg|semmoldura|82x82px]]
+![[Ficheiro:Hertz Dias PSTU.jpg|semmoldura|82x82px]]
+![[Ficheiro:Edmilson Costa - PCB.jpg|semmoldura|82x82px]]
+![[Ficheiro:Rui Costa Pimenta PCO ABr (cropped).jpg|semmoldura|82x82px]]
+![[Imagem:{{tmpv|Fernando Haddad|Info/Político|1|imagem}}|x80px]]
+! rowspan="3" |Outros
+! rowspan="3" |Indecisos e Absentos
+|-
+! [[Luiz Inácio Lula da Silva|Lula]]<br>{{small|[[Partido dos Trabalhadores|PT]]}}
+! [[Flávio Bolsonaro|Flávio]]<br>[[Partido Liberal (2006)|PL]]
+![[Ronaldo Caiado|Caiado]]<br>{{small|[[Partido Social Democrático (2011)|PSD]]}}
+! [[Romeu Zema|Zema]]<br>{{small|[[Partido Novo|NOVO]]}}
+! [[Renan Santos|Renan]]<br>{{small|[[Partido Missão|MISSÃO]]}}
+! [[Aldo Rebelo|Rebelo]]<br>{{small|[[Democracia Cristã (Brasil)|DC]]}}
+![[Joaquim Barbosa|Barbosa]]<br>{{small|[[Democracia Cristã (Brasil)|DC]]}}
+![[Aécio Neves|Aécio]]<br>{{small|[[Partido da Social Democracia Brasileira|PSDB]]}}
+![[Cabo Daciolo|Daciolo]]<br>{{small|[[Mobilização Nacional|MOBILIZA]]}}
+![[Augusto Cury|Cury]]<br>{{small|[[Avante]]}}
+![[Samara Martins|Samara]]<br>{{small|[[Unidade Popular (Brasil)|UP]]}}
+![[Hertz Dias|Dias]]<br>{{small|[[Partido Socialista dos Trabalhadores Unificado|PSTU]]}}
+![[Edmilson Costa|Costa]]<br>{{small|[[Partido Comunista Brasileiro|PCB]]}}
+![[Rui Costa Pimenta|Pimenta]]<br>{{small|[[Partido da Causa Operária|PCO]]}}
+![[Fernando Haddad|Haddad]]<br>{{small|[[Partido dos Trabalhadores|PT]]}}
+|-
+! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
+! style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |
+! style="color:white;background:{{Cor de partido político/BRA|psd}}" |
+! style="color:white;background:{{Partido Novo/meta/cor}}" |
+! style="color:white;background:{{Partido Missão/meta/cor}}" |
+| style="color:white;background:{{Democracia Cristã/meta/cor}}" |
+| style="color:white;background:{{Democracia Cristã/meta/cor}}" |
+! style="color:white;background:{{Partido da Social Democracia Brasileira/meta/cor}}" |
+| style="color:white;background:{{Mobilização Nacional/meta/cor}}" |
+| style="color:white;background:{{Avante (partido político)/meta/cor}}" |
+| style="color:white;background:{{Unidade Popular (Brasil)/meta/cor}}" |
+| style="color:white;background:{{Partido Socialista dos Trabalhadores Unificado/meta/cor}}" |
+| style="color:white;background:{{Partido Comunista Brasileiro/meta/cor}}" |
+| style="color:white;background:{{Partido da Causa Operária/meta/cor}}" |
+! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
+|-
+| rowspan="2" |Real Time Big Data<ref name=":91">{{citar web|url=https://www.cartacapital.com.br/politica/a-disputa-pela-presidencia-no-1o-turno-segundo-nova-pesquisa-real-time-big-data-2/|titulo=A disputa pela Presidência no 1º turno, segundo nova pesquisa Real Time Big Data|data=1 de junho de 2026|website=CartaCapital|wayb=20260604160658}}</ref>
+| rowspan="2" |29 Mai - 30 Mai
+| rowspan="2" |2 000
+| rowspan="2" |2,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''38%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''31%'''
+|6%
+|5%
+|6%
+|1%
+| -
+|3%
+|0%
+|1%
+|0%
+|0%
+|0%
+|0%
+| -
+| -
+|8%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''38%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''31%'''
+|6%
+|4%
+|6%
+| -
+|3%
+|3%
+|0%
+|1%
+|0%
+|0%
+|0%
+|0%
+| -
+| -
+|7%
+|-
+| rowspan="1" |PoderData/Aya<ref name=":90">{{citar web|url=https://www.cartacapital.com.br/politica/os-numeros-da-primeira-pesquisa-poder-aya-para-a-presidencia/|titulo=Os números da primeira pesquisa Poder/Aya para a presidência|data=29 de maio de 2026|acessodata=29 de maio de 2026|website=[[Carta Capital]]|wayb=20260530014755}}</ref>
+| rowspan="1" |25 Mai - 28 Mai
+| rowspan="1" |2 400
+| rowspan="1" |2,0
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35%'''
+|3%
+|4%
+|3%
+| -
+|3%
+| -
+| -
+|3%
+| -
+| -
+| -
+| -
+| -
+| -
+|9%
+|-
+| rowspan="4" |Meio/Ideia<ref name=":89">{{citar web|url=https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/meio-ideia-presidente-maio-2026-2/ |titulo=Confira os números da pesquisa Meio/Ideia para presidente|data=28 de maio de 2026|acessodata=28 de maio de 2026|website=[[Gazeta do Povo]]|wayb=20260528114146}}</ref>
+| rowspan="4" |23 Mai - 27 Mai
+| rowspan="4" |1 500
+| rowspan="4" |2,5
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''38,5%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''31,5%'''
+|5,5%
+|2,4%
+|2,1%
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|4,4%
+|15,6%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''38,0%'''
+| -
+|6,2%
+|3,8%
+|2,1%
+| -
+| -
+| -
+| -
+|1,8%
+| -
+| -
+| -
+| -
+| -
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''32,5%'''{{nre|Michelle Bolsonaro (PL): 29,6%; Outros não especificados: 2,9%}}
+|15,5%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''38,1%'''
+| -
+|9,2%
+|3,7%
+|4,5%
+| -
+| -
+| -
+| -
+|1,6%
+| -
+| -
+| -
+| -
+| -
+| style="color:white;background:{{Progressistas/meta/cor}}" |'''19,7%'''{{nre|Tereza Cristina (PP): 15,9%; Outros não especificados: 3,8%}}
+|23,2%
+|-
+| -
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''32,7%'''
+|5,9%
+|2,4%
+|2,1%
+| -
+| -
+| -
+| -
+|1,6%
+| -
+| -
+| -
+| -
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''36,5%'''
+|4,1%
+|14,8%
+|-
+| rowspan="1" |Veritá<ref name=":92">{{citar web|url=https://www.instagram.com/p/DZD7vnKIEcf/?img_index=1&igsh=eWtvZ2c1aG94MTc0|titulo=Pesquisa de opinião sobre a eleição presidencial de 2026 - Veritá - Maior de 2026|data=2 de junho de 2026}}</ref>
+| rowspan="1" |22 Mai - 26 Mai
+| rowspan="1" |3 330
+| rowspan="1" |2,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40,6%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''42,6%'''
+|3,0%
+|6,3%
+|3,7%
+| -
+|1,8%
+| -
+| -
+|2,1%
+| -
+| -
+| -
+| -
+| -
+| -
+|10,5%
+|-
+| rowspan="4" |Indexa<ref name=":88">{{citar web|url=https://www.jota.info/eleicoes/eleicoes-2026/lula-lidera-com-39-e-flavio-bolsonaro-tem-30-no-1o-turno-diz-indexa-pesquisas|titulo=Lula lidera com 39%, e Flávio Bolsonaro tem 30% no 1º turno, diz Indexa Pesquisas|data=27 de maio de 2026|website=Jota|wayb=20260529083313}}</ref>
+| rowspan="4" |22 Mai - 24 Mai
+| rowspan="4" |2 000
+| rowspan="4" |2,2
+| -
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''30%'''
+|7%
+|4%
+|2%
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''23%'''
+| -
+|25%
+|-
+| -
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''32%'''
+|7%
+|3%
+|2%
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| style="color:white;background:{{Partido Socialista Brasileiro (1985)/meta/cor}}" |'''21%'''
+|35%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40%'''
+| -
+|7%
+|5%
+|3%
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''25%'''{{Nre|Michelle Bolsonaro (PL) com 25%}}
+|20%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''30%'''
+|5%
+|3%
+|2%
+| -
+|3%
+| -
+|0%
+|0%
+|0%
+|0%
+| -
+| -
+| -
+| -
+|18%
+|-
+| rowspan="2" |Nexus/BTG<ref name=":87">{{citar web|url=https://www.cartacapital.com.br/politica/os-numeros-da-nova-pesquisa-nexus-btg-a-presidencia/|titulo=Os números da nova pesquisa Nexus/BTG à presidência|data=25 de maio de 2026|website=CartaCapital|wayb=20260529122135}}</ref>
+| rowspan="2" |22 Mai - 24 Mai
+| rowspan="2" |2 045
+| rowspan="2" |2,0
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''41%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35%'''
+|5%
+|4%
+|4%
+| -
+|3%
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|8%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35%'''
+|5%
+|4%
+|3%
+| -
+|2%
+| -
+|1%
+|1%
+| -
+| -
+| -
+| -
+| -
+| -
+|9%
+|-
+| rowspan="2" |Datafolha<ref name=":85">{{Citar web|url=https://g1.globo.com/politica/eleicoes/2026/noticia/2026/05/22/datafolha-2o-turno-lula-flavio.ghtml|titulo=Datafolha 2º turno: Lula tem 47% e Flávio Bolsonaro, 43%|data=2026-05-22|acessodata=2026-05-22|website=[[g1]]|língua=pt-BR|wayb=20260524122713}}</ref>
+| rowspan="2" |20 Mai - 21 Mai
+| rowspan="2" |2 004
+| rowspan="2" |2,0
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''31%'''
+|4%
+|3%
+|3%
+|1%
+| -
+| -
+|1%
+|2%
+|3%
+|0%
+| -
+|1%
+| -
+| -
+|12%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''41%'''
+| -
+|5%
+|6%
+|3%
+|1%
+| -
+| -
+|1%
+|2%
+|3%
+|0%
+| -
+|1%
+| -
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''22%{{Nre|Michelle Bolsonaro (PL) com 22%}}'''
+|16%
+|-
+|Gerp<ref name=":86">{{citar web|url=https://www.poder360.com.br/poder-eleicoes/flavio-tem-47-e-lula-44-no-2o-turno-diz-pesquisa/|titulo=Flávio tem 47% e Lula 44% no 2º turno, diz pesquisa|data=22 de maio de 2026|website=Poder360|wayb=20260523061703}}</ref>
+|18 Mai - 21 Mai
+|2 000
+|2,2
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''38%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''38%'''
+|2%
+|3%
+|3%
+|0%
+| -
+| -
+|1%
+|1%
+|1%
+|0%
+|0%
+|0%
+| -
+|3%{{Nre|Ciro Gomes (PSDB) com 3%}}
+|10%
+|-
+| rowspan="3" |Apex/Futura<ref name=":84">{{citar web|url=https://noticias.uol.com.br/politica/ultimas-noticias/2026/05/22/futuraapex-lula-aparecem-a-frente-de-flavio-em-1-e-2-turnos.ghtm|titulo=Futura/Apex: Lula aparece à frente de Flávio em 1º e 2º turnos|data=22 de maio de 2026|website=Uol|wayb=20260526100915}}</ref>
+| rowspan="3" |15 Mai - 20 Mai
+| rowspan="3" |2 000
+| rowspan="3" |2,2
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40%'''
+| -
+|6,5%
+|7,5%
+|2%
+|0,4%
+| -
+| -
+|1,3%
+|2%
+| -
+| -
+| -
+| -
+| -
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''27,4%{{Nre|Michelle Bolsonaro (PL) com 27,4%}}'''
+|12,8%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39%'''
+| -
+|13,1%
+| style="color:white;background:{{Partido Novo/meta/cor}}" |'''13,3%'''
+|3,1%
+|1,6%
+| -
+| -
+|2,9%
+|2,6%
+| -
+| -
+| -
+| -
+| -
+| -
+|24,4%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''42,7%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35,6%'''
+|3,3%
+|3,9%
+|1,7%
+|0,4%
+| -
+| -
+|1%
+|0,9%
+| -
+| -
+| -
+| -
+| -
+| -
+|10,6%
+|-
+| colspan="4" rowspan="2" |20 Mai
+| colspan="19" |'''[[Republicanos (partido político)|Republicanos]] avalia lançar o senador [[Cleitinho|Cleitinho Azevedo]] para a Presidência da República e solicita a inclusão dele em pesquisas presidenciais.'''<ref>{{citar web|url=https://www.metropoles.com/colunas/andreza-matais/com-flavio-abalado-republicanos-avalia-lancar-cleitinho-a-presidencia|titulo=Com Flávio abalado, Republicanos avalia lançar Cleitinho à Presidência|data=20 de maio de 2026|website=Metrópoles|wayb=20260521004012}}</ref>
+|-
+| colspan="19" |'''Após desistência de [[Ciro Gomes]], o [[Partido da Social Democracia Brasileira]] (PSDB) discute lançar [[Aécio Neves]] para a Presidência da República.<ref>{{citar web|url=https://www1.folha.uol.com.br/poder/2026/05/psdb-discute-lancar-aecio-neves-a-presidencia-para-aproveitar-desgaste-de-flavio-bolsonaro.shtml|titulo=PSDB discute lançar Aécio Neves à Presidência para aproveitar desgaste de Flávio Bolsonaro|data=20 de maio de 2026|website=Folha de São Paulo|wayb=20260523014736}}</ref>'''
+|-
+|Vox Brasil<ref name=":82">{{citar web|url=https://www.poder360.com.br/poder-eleicoes/lula-tem-468-e-flavio-381-no-2o-turno-diz-pesquisa/|titulo=Lula tem 46,8% e Flávio, 38,1% no 2º turno, diz pesquisa|data=20 de maio de 2026|website=Poder360|wayb=20260521051052}}</ref>
+|17 Mai - 19 Mai
+|2 100
+|2,15
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''41,5%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''32,1%'''
+|5,9%
+|4,1%
+|1,5%
+|0,1%
+| -
+| -
+|0,2%
+|0,3%
+| -
+| -
+| -
+| -
+| -
+| -
+|14,3%
+|-
+| colspan="4" |19 Mai
+| colspan="19" |'''Cúpula do [[Partido Liberal (2006)|Partido Liberal]] (PL) vê prazo de 15 dias para avaliar viabilidade da candidatura de [[Flávio Bolsonaro|Flávio]] [[Flávio Bolsonaro|Bolsonaro]] após conversas e encontro com [[Daniel Vorcaro|Vorcaro]] serem confirmadas.'''<ref>{{citar web|url=https://oglobo.globo.com/politica/noticia/2026/05/20/cupula-do-pl-ve-prazo-de-15-dias-para-avaliar-viabilidade-da-candidatura-de-flavio-apos-conversas-com-vorcaro.ghtml|titulo=Cúpula do PL vê prazo de 15 dias para avaliar viabilidade da candidatura de Flávio após conversas com Vorcaro|data=19 de maio de 2026|website=O Globo|wayb=20260525020409}}</ref><ref>{{citar web|url=https://oglobo.globo.com/blogs/miriam-leitao/post/2026/05/como-o-pl-analisa-as-caras-constrangidas-na-foto-com-flavio-bolsonaro.ghtml|titulo=Como o PL explica as caras constrangidas na foto com Flávio Bolsonaro|data=20 de maio de 2026|website=O Globo|wayb=20260520131736}}</ref>
+|-
+|Vetor/Arrow<ref name=":83">{{citar web|url=https://www.diariodocentrodomundo.com.br/efeito-bolsomaster-lula-abre-72-pontos-de-vantagem-sobre-flavio-bolsonaro-em-nova-pesquisa/|titulo=Efeito Bolsomaster: Lula abre 7,2 pontos de vantagem sobre Flávio Bolsonaro em nova pesquisa|data=19 de maio de 2026|website=Diário do Centro do Mundo|wayb=20260521041653}}</ref>
+|15 Mai - 18 Mai
+|9 000
+|1,0
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''37,4%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''30,2%'''
+|2,9%
+|3,6%
+|7,4%
+|1,5%
+| -
+| -
+| -
+|1,3%
+| -
+| -
+| -
+| -
+| -
+| -
+|15,8%
+|-
+| rowspan="3" |AtlasIntel<ref name=":78">{{citar web|url=https://www.poder360.com.br/poder-eleicoes/lula-tem-489-contra-418-de-flavio-no-2o-turno-diz-atlasintel/|titulo=Lula tem 48,9% contra 41,8% de Flávio no 2º turno, diz AtlasIntel|data=19 de maio de 2026|website=Poder360|wayb=20260523020927}}</ref>
+| rowspan="3" |13 Mai - 18 Mai
+| rowspan="3" |{{fmtn|5032}}
+| rowspan="3" |1,0
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''47%'''
+| -
+|6%
+|10%
+|7,8%
+|0,7%
+| -
+| -
+| -
+|0,5%
+| -
+| -
+| -
+| -
+| -
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''23,4%{{Nre|Michelle Bolsonaro (PL) com 23,4%}}'''
+|4,6%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''46,7%'''
+| -
+|13,8%
+| style="color:white;background:{{Partido Novo/meta/cor}}" |'''17%'''
+|8%
+|1,8%
+| -
+| -
+| -
+|1,2%
+| -
+| -
+| -
+| -
+| -
+| -
+|11,4%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''47%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''34,3%'''
+|2,7%
+|5,2%
+|6,9%
+|0,2%
+| -
+| -
+| -
+|0,4%
+| -
+| -
+| -
+| -
+| -
+| -
+|3,3%
+|-
+| colspan="4" |16 Mai
+| colspan="19" |'''[[Democracia Cristã (Brasil)|Democracia Cristã]] (DC) retira a pré-candidatura de [[Aldo Rebelo]] e lança oficialmente a pré-candidatura de [[Joaquim Barbosa]] à Presidência da República.<ref>{{citar web|url=https://www.metropoles.com/brasil/dc-lanca-pre-candidatura-de-joaquim-barbosa-a-presidencia-da-republica|titulo=DC lança pré-candidatura de Joaquim Barbosa à Presidência da República|data=16 de maio de 2026|website=Metrópoles|wayb=20260517073913}}</ref>'''
+|-
+|Veritá<ref>{{citar web|url=https://www.leiaja.com/politica/2026/05/17/instituto-verita-leiaja-lula-e-flavio-bolsonaro-aparecem-empatados-no-1o-turno/|titulo=Instituto Veritá/LeiaJá: Lula e Flávio Bolsonaro aparecem empatados no 1º turno|página=36|data=17 de maio de 2026|website=Leia Já|acessodata=25 de maio de 2026|wayb=20260525205934}}</ref>
+|11 Mai - 15 Mai
+|{{fmtn|3404}}
+|2,0
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''37,2%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''37,0%'''
+|2,9%
+|6,5%
+|2,3%
+|0,2%
+| -
+| -
+| -
+|2,3%
+| -
+| -
+| -
+| -
+| -
+|{{n/a}}
+|11,5%
+|-
+| Datafolha<ref name=":77">{{citar web|url=https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-maio-2026/|titulo=Os números da nova pesquisa Datafolha para presidente|data=16 de maio de 2026|acessodata=16 de maio de 2026|website=[[Gazeta do Povo]]|wayb=20260519090644}}</ref>
+| 12 Mai - 14 Mai
+| {{fmtn|2004}}
+| 2,0
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''38%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35%'''
+|3%
+|3%
+|2%
+| -
+| -
+| -
+|1%
+|2%
+|2%
+| -
+| -
+|1%
+| -
+| -
+|18%
+|-
+| colspan="4" |15 Mai
+| colspan="19" |'''Ex-ministro do Supremo Tribunal Federal [[Joaquim Barbosa]] se filia ao [[Democracia Cristã (Brasil)|Democracia Cristã]] (DC) e partido indica a intenção de lançá-lo à Presidência.'''<ref>{{citar web|url=https://www.cnnbrasil.com.br/blogs/teo-cury/eleicoes/joaquim-barbosa-se-filia-ao-dc-e-partido-quer-lanca-lo-a-presidencia/|titulo=Joaquim Barbosa se filia ao DC e partido quer lançá-lo à Presidência|data=15 de maio de 2026|website=CNN|wayb=20260523022413}}</ref><ref>{{citar web|url=https://www1.folha.uol.com.br/colunas/painel/2026/05/joaquim-barbosa-se-filia-ao-partido-dc-que-pretende-lanca-lo-a-presidencia.shtml|titulo=Joaquim Barbosa se filia ao partido DC, que pretende lançá-lo à Presidência|data=15 de maio de 2026|website=Folha de São Paulo|wayb=20260517145348}}</ref>
+|-
+| colspan="4" |13 Mai
+| colspan="19" |'''Gravações de áudio vazadas ligam [[Flávio Bolsonaro]] (PL) a [[Daniel Vorcaro]], figura central do [[Escândalo do Banco Master]].'''<ref name=":79">{{citar web|url=https://www.cnnbrasil.com.br/politica/flavio-pediu-r-134-mi-a-vorcaro-para-filme-de-bolsonaro-diz-intercept/|titulo=Flávio pediu R$ 134 mi a Vorcaro para filme de Bolsonaro, diz Intercept|data=13 de maio de 2026|website=CNN Brasil|wayb=20260515062430}}</ref><ref name=":80">{{citar web|url=https://www.intercept.com.br/2026/05/13/audio-flavio-negociou-vorcaro-milhoes/|titulo=ÁUDIO: Flávio Bolsonaro negociou com Daniel Vorcaro R$ 134 milhões para bancar filme sobre Jair|data=13 de maio de 2026|website=Intercept Brasil|wayb=20260519161152}}</ref><ref name=":81">{{citar web|url=https://www.economist.com/the-americas/2026/05/14/a-bombshell-leak-threatens-flavio-bolsonaros-election-bid|titulo=A bombshell leak threatens Flávio Bolsonaro’s election bid|data=14 de maio de 2026|website=The Economist|wayb=20260523023608}}</ref>
+|-
+| rowspan="2" |Vox<ref name=":76">{{citar web|url=https://www.poder360.com.br/poder-eleicoes/flavio-tem-438-e-lula-402-no-2o-turno-diz-vox/|titulo=Flávio tem 43,8% e Lula, 40,2% no 2º turno, diz Vox|data=15 de maio de 2026|website=Poder360|wayb=20260516220509}}</ref>
+| rowspan="2" |9 Mai - 12 Mai
+| rowspan="2" |{{fmtn|2100}}
+| rowspan="2" |2,15
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''35,1%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''37,8%'''
+|4,3%
+|4,5%
+|1,8%
+|0,2%
+| -
+| -
+|0,5%
+|0,8%
+| -
+| -
+| -
+| -
+| -
+| -
+|15%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''34,3%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''36,5%'''
+|4,1%
+|2,9%
+|1,3%
+|0,2%
+| -
+| -
+|0,4%
+|1,2%
+| -
+| -
+| -
+| -
+| -
+|5,1%{{Nre|Ciro Gomes (PSDB) com 5,1%}}
+|13%
+|-
+| rowspan="2" |Gerp<ref name=":75">{{citar web|url=https://www.poder360.com.br/poder-eleicoes/flavio-tem-50-e-lula-43-no-2o-turno-diz-pesquisa/|titulo=Flávio tem 50% e Lula, 43% no 2º turno, diz pesquisa|data=14 de maio de 2026|acessodata=14 de maio de 2026|website=[[Poder360]]|wayb=20260515170054}}</ref>
+| rowspan="2" |8 Mai - 12 Mai
+| rowspan="2" |{{fmtn|2000}}
+| rowspan="2" |2,24
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''34%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''36%'''
+|1%
+|5%
+|1%
+| -
+| -
+| -
+|0%
+|1%
+|1%
+| -
+| -
+|0%
+| -
+|8% {{nre|Ciro Gomes (PSDB): 6%; Pablo Marçal (UNIÃO): 2%}}
+|12%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''35%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''37%'''
+|2%
+|6%
+|1%
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| 7% {{nre|Ciro Gomes (PSDB): 7%}}
+|12%
+|-
+| colspan="4" |11 Mai
+| colspan="19" |'''[[Ciro Gomes]] recusa convite do [[Partido da Social Democracia Brasileira]] (PSDB) para concorrer à Presidência da República.'''<ref name=":74">{{Citar web|url=https://g1.globo.com/politica/eleicoes/2026/noticia/2026/05/11/ciro-gomes-candidatura-2026.ghtml|titulo=Ciro Gomes recusa convite do PSDB e decide não concorrer à Presidência da República|data=2026-05-11|acessodata=2026-05-11|website=[[g1]]|língua=pt-BR|wayb=20260513011156}}</ref>
+|-
+| rowspan="1" |Genial/Quaest<ref name=":73">{{citar web|url=https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-presidente-maio-2026/|titulo=Os números da nova pesquisa Genial/Quaest para presidente|data=13 de maio de 2026|acessodata=13 de maio de 2026|website=[[Gazeta do Povo]]|wayb=20260514145733}}</ref>
+| rowspan="1" |8 Mai - 11 Mai
+| rowspan="1" |{{fmtn|2004}}
+| rowspan="1" |2,0
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''33%'''
+|4%
+|4%
+|2%
+|0%
+| -
+| -
+|1%
+|1%
+|1%
+| -
+|0%
+| -
+|{{n/a}}
+| -
+|15%
+|-
+| rowspan="3" |Apex/Futura<ref name=":72">{{citar web|url=https://www.cnnbrasil.com.br/eleicoes/futura-apex-lula-e-flavio-tem-empate-tecnico-no-1o-turno/|titulo=Futura/Apex: Lula e Flávio têm empate técnico no 1º turno|data=11 de maio de 2026|website=CNN Brasil|wayb=20260523023725}}</ref>
+| rowspan="3" |4 Mai - 8 Mai
+| rowspan="3" |{{fmtn|2000}}
+| rowspan="3" |2,2
+| -
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35,9%'''
+|4,2%
+|4,4%
+|2%
+|0,9%
+| -
+| -
+|1,7%
+|2,2%
+| -
+| -
+| -
+| -
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''17,1%'''
+|11,5%{{Nre|Ciro Gomes (PSDB) com 11,5%}}
+|20%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''38,1%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''37,4%'''
+|5,7%
+| -
+|2,3%
+|0,7%
+| -
+| -
+|1,4%
+|1,5%
+| -
+| -
+| -
+| -
+| -
+| -
+|12,9%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''38,3%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''36,1%'''
+|4,4%
+|3,6%
+|1,5%
+|0,1%
+| -
+| -
+|0,6%
+|1,4%
+| -
+| -
+| -
+| -
+| -
+|4,4%{{Nre|Ciro Gomes (PSDB) com 4,4%}}
+|9,6%
+|-
+|Meio/Ideia<ref name=":71">{{citar web|url=https://www.cnnbrasil.com.br/eleicoes/meio-ideia-lula-tem-40-e-flavio-36-no-1o-turno/|titulo=Meio/Ideia: Lula tem 40%, e Flávio, 36% no 1º turno|data=6 de maio de 2026|website=CNN Brasil|wayb=20260507141145}}</ref>
+|1 Mai - 5 Mai
+|1 500
+|2,5
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''36%'''
+|5,6%
+|3%
+|1,4%
+|0,8%
+| -
+| -
+|0,3%
+|1,5%
+|0%
+|0%
+|0%
+|0%
+| -
+| -
+|9,1%
+|-
+| rowspan="2" |Real Time Big Data<ref name=":70">{{Citar web|url=https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-presidente-maio-2026/|titulo=Os números da pesquisa Real Time Big Data para presidente|data=2026-05-05|acessodata=2026-05-05|website=[[Gazeta do Povo]]|língua=pt-BR|wayb=20260507170354}}</ref>
+| rowspan="2" |2 Mai - 4 Mai
+| rowspan="2" |{{fmtn|2000}}
+| rowspan="2" | 2,0
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |40%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |34%
+|5%
+|4%
+|3%
+|1%
+| -
+| -
+|1%
+|1%
+|0%
+|0%
+|0%
+|0%
+| -
+| -
+|9%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |38%
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |33%
+|4%
+|4%
+|3%
+|1%
+| -
+| -
+|1%
+|1%
+
+|0%
+|0%
+|0%
+|0%
+| -
+|4% {{nre|Ciro Gomes (PSDB): 4%}}
+| 11%
+|}
+
+==== Abril ====
+{| class="wikitable" style="text-align:center;font-size:85%"
+! rowspan="3" | Contratante / Pesquisa
+! rowspan="3" | Data(s) de<br>pesquisa
+! rowspan="3" | Tamanho<br>da amostra
+! rowspan="3" | Margem<br>de erro
+! [[Ficheiro:Foto oficial de Luiz Inácio Lula da Silva (mais estreita).jpg|semmoldura|82x82px]]
+![[Ficheiro:Foto oficial do senador Flávio Bolsonaro (v. AgSen) (3x4).jpg|semmoldura|82x82px]]
+![[Ficheiro:Foto oficial do governador de Goiás, Ronaldo Caiado em 2023 (ombros).jpg|imagem|80x80px]]
+! [[Imagem:{{tmpv|Romeu Zema|Info/Político|1|imagem}}|x80px]]
+! [[Ficheiro:Renan Santos.jpg|semmoldura|81x81px]]
+! [[Ficheiro:Aldo_Rebelo_(16654292721)_(cropped).jpg|semmoldura|82x82px]]
+![[Ficheiro:Deputados cabo Daciolo (PSOL-RJ) e Marcos Reategui (PSC-AP) participam do programa Brasil em Debate (cropped).jpg|semmoldura|82x82px]]
+![[Ficheiro:Augusto Cury.jpg|semmoldura|82x82px]]
+![[Ficheiro:Samara Martins UP.jpg|semmoldura|82x82px]]
+![[Ficheiro:Hertz Dias PSTU.jpg|semmoldura|82x82px]]
+![[Ficheiro:Edmilson Costa - PCB.jpg|semmoldura|82x82px]]
+![[Ficheiro:Rui Costa Pimenta PCO ABr (cropped).jpg|semmoldura|82x82px]]
+![[Imagem:{{tmpv|Fernando Haddad|Info/Político|1|imagem}}|x80px]]
+! rowspan="3" |Outros
+! rowspan="3" |Indecisos e Absentos
+|-
+! [[Luiz Inácio Lula da Silva|Lula]]<br>{{small|[[Partido dos Trabalhadores|PT]]}}
+! [[Flávio Bolsonaro|Flávio]]<br>[[Partido Liberal (2006)|PL]]
+![[Ronaldo Caiado|Caiado]]<br>{{small|[[Partido Social Democrático (2011)|PSD]]}}
+! [[Romeu Zema|Zema]]<br>{{small|[[Partido Novo|NOVO]]}}
+! [[Renan Santos|Renan]]<br>{{small|[[Partido Missão|MISSÃO]]}}
+! [[Aldo Rebelo|Rebelo]]<br>{{small|[[Democracia Cristã (Brasil)|DC]]}}
+![[Cabo Daciolo|Daciolo]]<br>{{small|[[Mobilização Nacional|MOBILIZA]]}}
+![[Augusto Cury|Cury]]<br>{{small|[[Avante]]}}
+![[Samara Martins|Samara]]<br>{{small|[[Unidade Popular (Brasil)|UP]]}}
+![[Hertz Dias|Dias]]<br>{{small|[[Partido Socialista dos Trabalhadores Unificado|PSTU]]}}
+![[Edmilson Costa|Costa]]<br>{{small|[[Partido Comunista Brasileiro|PCB]]}}
+![[Rui Costa Pimenta|Pimenta]]<br>{{small|[[Partido da Causa Operária|PCO]]}}
+![[Fernando Haddad|Haddad]]<br>{{small|[[Partido dos Trabalhadores|PT]]}}
+|-
+! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
+! style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |
+! style="color:white;background:{{Cor de partido político/BRA|psd}}" |
+! style="color:white;background:{{Partido Novo/meta/cor}}" |
+! style="color:white;background:{{Partido Missão/meta/cor}}" |
+| style="color:white;background:{{Democracia Cristã/meta/cor}}" |
+| style="color:white;background:{{Mobilização Nacional/meta/cor}}" |
+| style="color:white;background:{{Avante (partido político)/meta/cor}}" |
+| style="color:white;background:{{Unidade Popular (Brasil)/meta/cor}}" |
+| style="color:white;background:{{Partido Socialista dos Trabalhadores Unificado/meta/cor}}" |
+| style="color:white;background:{{Partido Comunista Brasileiro/meta/cor}}" |
+| style="color:white;background:{{Partido da Causa Operária/meta/cor}}" |
+! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
+|-
+| rowspan="3" |AtlasIntel<ref name=":69">{{Citar web|url=https://www.cartacapital.com.br/politica/o-que-diz-a-nova-pesquisa-atlasintel-sobre-as-intencoes-de-voto-para-presidente-no-1o-turno/|titulo=O que diz a nova pesquisa AtlasIntel sobre as intenções de voto para presidente no 1º turno|data=2026-04-28|acessodata=2026-04-28|website=[[CartaCapital]]|língua=pt-BR|wayb=20260430235522}}</ref>
+| rowspan="3" |22 Abr - 27 Abr
+| rowspan="3" |{{fmtn|5008}}
+| rowspan="3" | 1,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}"|46,7%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}"|39,7%
+|3,3%
+|3,1%
+|5,3%
+|0,3%
+| -
+|1%
+| -
+| -
+| -
+| -
+| -
+| -
+|0,6%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}"|44,2%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}"|39,3%
+|3%
+|3,5%
+|5,1%
+|0,4%
+|0%
+|0,4%
+|2,0%
+|0%
+|0,2%
+|0%
+| -
+|1,3% {{nre|Ciro Gomes (PSDB): 1,3%}}
+|0,4%
+|-
+| -
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}"|39,2%
+|3,6%
+|3,8%
+|5,8%
+|0,5%
+| -
+|1,3%
+| -
+| -
+| -
+| -
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}"|40,5%
+| {{n/a}}
+|5,3%
+|-
+| rowspan="3" |Nexus/BTG<ref name=":68">{{Citar web|url=https://www.cartacapital.com.br/politica/a-disputa-pela-presidencia-no-1o-turno-segundo-nova-pesquisa-nexus/|titulo=A disputa pela Presidência no 1º turno, segundo nova pesquisa Nexus|data=2026-04-27|acessodata=2026-04-27|website=[[CartaCapital]]|língua=pt-BR|wayb=20260430235522}}</ref>
+| rowspan="3" |24 Abr - 26 Abr
+| rowspan="3" |{{fmtn|2028}}
+| rowspan="3" |2,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}"|41%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}"|38%
+|6%
+| -
+|4%
+|1%
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|9%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}"|41%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}"|36%
+|4%
+|5%
+|4%
+|1%
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|9%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}"|41%
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}"|36%
+|3%
+|4%
+|3%
+|1%
+|1%
+|2%
+| -
+| -
+| -
+| -
+| -
+| -
+|8%
+|-
+|Genial/Quaest<ref name=":67">{{citar web|url=https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-presidente-abril-2026/|titulo=Quaest divulga nova pesquisa para presidente; veja os números|data=15 de abril de 2026|website=Gazeta do Povo|wayb=20260528133253}}</ref>
+|9 Abr - 13 Abr
+|{{fmtn|2004}}
+|2,0
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''37%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''32%'''
+|6%
+|3%
+|2%
+|0%
+|1%
+|2%
+|1%
+| -
+| -
+| -
+| -
+| -
+|16%
+|-
+| colspan="4" |14 Abr
+| colspan="15" |'''[[Partido da Social Democracia Brasileira|Partido Social da Democracia Brasileira]] (PSDB) convida [[Ciro Gomes]] a ser o candidato do partido à Presidência da República.'''<ref>{{citar web|url=https://g1.globo.com/politica/eleicoes/2026/noticia/2026/04/14/aecio-convida-ciro-gomes-para-ser-candidato-a-presidencia-pelo-psdb-e-cearense-diz-que-vai-avaliar.ghtml|titulo=Aécio convida Ciro Gomes para ser candidato à presidência pelo PSDB; político diz que vai avaliar|data=14 de abril de 2026|website=G1|wayb=20260506200937}}</ref><ref>{{citar web|url=https://www.estadao.com.br/politica/aecio-neves-convida-ciro-gomes-para-ser-candidato-a-presidencia-pelo-psdb/|titulo=Aécio Neves convida Ciro Gomes para ser candidato à Presidência pelo PSDB|data=14 de abril de 2026|website=Estadão|wayb=20260419165900}}</ref>
+|-
+|CNT/MDA<ref name=":66">{{citar web|url=https://www.cartacapital.com.br/politica/lula-lidera-a-disputa-contra-flavio-bolsonaro-no-1o-e-2o-turnos-mostra-pesquisa/|titulo=Lula lidera a disputa contra Flávio Bolsonaro no 1º e 2º turnos, mostra pesquisa|data=2026-04-14|acessodata=2026-04-14|website=[[CartaCapital]]|wayb=20260416154230}}</ref>
+|8 Abr - 12 Abr
+|{{fmtn|2002}}
+|2,2
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39,2%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''30,2%'''
+|4,6%
+|3,3%
+|1,8%
+|1,5%
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|19,3%
+|-
+| rowspan="3" |Apex/Futura<ref name=":65">{{citar web|url=https://www.cnnbrasil.com.br/eleicoes/futura-apex-lula-e-flavio-empatam-em-cenarios-de-1o-turno/|titulo=Futura/Apex: Lula e Flávio empatam em cenários de 1º turno|data=14 de abril de 2026|website=CNN Brasil|wayb=20260419230118}}</ref>
+| rowspan="3" |7 Abr - 11 Abr
+| rowspan="3" |{{fmtn|2000}}
+| rowspan="3" |2,2
+| -
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''38,4%'''
+|7,4%
+|4%
+|2,4%
+|0,6%
+|1,3%
+|2,3%
+| -
+| -
+| -
+| -
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''21,3%'''
+| -
+|22,3%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''38,4%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''38,2%'''
+|6%
+| -
+|2%
+|0,8%
+|1,1%
+|1,9%
+| -
+| -
+| -
+| -
+| -
+| -
+|11,5%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39,8%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''37,3%'''
+|4,8%
+|2,9%
+|1,4%
+|0,3%
+|0,5%
+|1,3%
+| -
+| -
+| -
+| -
+| -
+| -
+|11,6%
+|-
+|Datafolha<ref name=":64">{{citar web|url=https://www1.folha.uol.com.br/poder/2026/04/datafolha-lula-perde-vantagem-e-empata-com-flavio-caiado-e-zema-no-2o-turno.shtml|titulo=Datafolha: Lula perde vantagem e empata com Flávio, Caiado e Zema no 2º turno|data=11 de abril de 2026|website=Folha de São Paulo|wayb=20260513014256}}</ref>
+|7 Abr - 9 Abr
+|{{fmtn|2004}}
+|2,0
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35%'''
+|5%
+|4%
+|2%
+|1%
+|1%
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|14%
+|-
+|Veritá<ref>{{citar web|url=https://www.cnnbrasil.com.br/eleicoes/verita-flavio-tem-359-e-lula-332-no-1o-turno/|titulo=Veritá: Flávio tem 35,9%, e Lula, 33,2% no 1º turno|data=9 de abril de 2026|website=CNN Brasil|wayb=20260417191833}}</ref>
+|13 Mar - 4 Abr
+|{{fmtn|40500}}
+|1,0
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''33,2%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35,9%'''
+|1,9%
+|1,8%
+|1,8%
+|0,4%
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|5,1%{{Nre|Ratinho Jr (PSD) com 3%; Pablo Marçal (UNIÃO) com 2,1%}}
+|20%
+|-
+| rowspan="1" |Meio/Ideia<ref name=":63">{{citar web|url=https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/meio-ideia-pesquisa-presidente-abril-2026/|titulo=Meio/Ideia divulga nova pesquisa para presidente; veja os números|data=7 de abril de 2026|acessodata=7 de abril de 2026|website=[[Gazeta do Povo]]|wayb=20260428193817}}</ref>
+| rowspan="1" |3 Abr- 7 Abr
+| rowspan="1" |{{fmtn|1500}}
+| rowspan="1" |2,5
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40,4%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''37%'''
+| 6,5%
+| 3%
+| 3%
+| 0,6%
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| 9,5%
+|-
+| colspan="4" |5 Abr
+| colspan="15" |'''[[Augusto Cury]] se filia ao [[Avante]] para concorrer à Presidência da República.<ref>{{citar web|url=https://www.metropoles.com/brasil/augusto-cury-anuncia-pre-candidatura-a-presidencia-pelo-avante|titulo=Augusto Cury anuncia pré-candidatura à Presidência pelo Avante|data=5 de abril de 2026|website=Metrópoles|wayb=20260423140401}}</ref>'''
+|-
+| colspan="4" |4 Abr
+| colspan="15" |'''Fim da janela partidária e do prazo de desincompatibilização.<ref>{{citar web|url=https://www.cnnbrasil.com.br/eleicoes/com-prazos-encerrados-veja-as-proximas-datas-importantes-para-a-eleicao/|titulo=Com prazos encerrados, veja as próximas datas importantes para a eleição|data=4 de abril de 2026|website=CNN Brasil|wayb=20260413012322}}</ref>'''
+|-
+| colspan="4" |3 Abr
+| colspan="15" |'''[[Cabo Daciolo]] se filia ao [[Mobilização Nacional]] (MOBILIZA) e anuncia oficialmente sua pré-candidatura à presidência.<ref>{{citar web|url=https://www1.folha.uol.com.br/colunas/painel/2026/04/cabo-daciolo-se-filia-ao-partido-mobiliza-e-anuncia-pre-candidatura-a-presidente.shtml|titulo=Cabo Daciolo se filia ao partido Mobiliza e anuncia pré-candidatura a presidente|data=3 de abril de 2026|website=Folha de São Paulo|wayb=20260513120936}}</ref>'''
+|-
+| colspan="4" |1 Abr
+| colspan="15" |'''[[Luiz Inácio Lula da Silva|Lula]] (PT) confirma que [[Geraldo Alckmin]] (PSB) será seu candidato a vice-presidente na candidatura à reeleição.<ref name="lula-confirma-alckmin">{{citar web |url=https://www1.folha.uol.com.br/poder/2026/03/lula-confirma-alckmin-como-vice-na-disputa-deste-ano.shtml |website=[[Folha de S.Paulo]] |subscricao=sim |wayb=20260401121224 |título=Lula confirma Alckmin como vice e prepara ministros para embate com Flávio Bolsonaro |primeiro1=Mariana |último1=Brasil |primeiro2=Isadora |último2=Albernaz |primeiro3=Catia |último3=Seabra |acessodata=2026-04-01 |data=2026-03-31}}</ref>'''
+|}
+
+==== Março ====
+{| class="wikitable" style="text-align:center;font-size:85%"
+! rowspan="3" | Contratante / Pesquisa
+! rowspan="3" | Data(s) de<br>pesquisa
+! rowspan="3" | Tamanho<br>da amostra
+! rowspan="3" | Margem<br>de erro
+![[Ficheiro:Foto oficial de Luiz Inácio Lula da Silva (mais estreita).jpg|semmoldura|82x82px]]
+![[Ficheiro:Foto oficial do senador Flávio Bolsonaro (v. AgSen) (3x4).jpg|semmoldura|82x82px]]
+![[Imagem:{{tmpv|Tarcísio de Freitas|Info/Político|1|imagem}}|x80px]]
+![[Imagem:{{tmpv|Fernando Haddad|Info/Político|1|imagem}}|x80px]]
+! [[Ficheiro:Ratinho Júnior as governor of Paraná, January 2023 (cropped).jpg|semmoldura|84x84px]]
+![[Ficheiro:Foto oficial do governador de Goiás, Ronaldo Caiado em 2023 (ombros).jpg|imagem|80x80px]]
+![[Imagem:{{tmpv|Eduardo Leite|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|Romeu Zema|Info/Político|1|imagem}}|x80px]]
+! [[Ficheiro:Renan Santos.jpg|semmoldura|81x81px]]
+! [[Ficheiro:Aldo_Rebelo_(16654292721)_(cropped).jpg|semmoldura|82x82px]]
+! [[Imagem:{{tmpv|Ciro Gomes|Info/Político|1|imagem}}|x80px]]
+! rowspan="3" |Outros
+! rowspan="3" |Indecisos e Absentos
+|-
+! [[Luiz Inácio Lula da Silva|Lula]]<br>{{small|[[Partido dos Trabalhadores|PT]]}}
+! [[Flávio Bolsonaro|Flávio]]<br>[[Partido Liberal (2006)|PL]]
+![[Tarcísio de Freitas|Tarcísio]]<br>{{small|[[Republicanos (partido político)|Republicanos]]}}
+![[Fernando Haddad|Haddad]]<br>{{small|[[Partido dos Trabalhadores|PT]]}}
+! [[Ratinho Júnior|Ratinho]]<br>{{small|[[Partido Social Democrático (2011)|PSD]]}}
+![[Ronaldo Caiado|Caiado]]<br>{{small|[[Partido Social Democrático (2011)|PSD]]}}
+![[Eduardo Leite|Leite]]<br>{{small|[[Partido Social Democrático (2011)|PSD]]}}
+! [[Romeu Zema|Zema]]<br>{{small|[[Partido Novo|NOVO]]}}
+! [[Renan Santos|Renan]]<br>{{small|[[Partido Missão|MISSÃO]]}}
+! [[Aldo Rebelo|Rebelo]]<br>{{small|[[Democracia Cristã (Brasil)|DC]]}}
+!  [[Ciro Gomes|Gomes]]<br>[[Partido da Social Democracia Brasileira|PSDB]]
+|-
+! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
+! style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |
+! style="color:white;background:{{Cor de partido político/BRA|prb}}" |
+! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
+! style="color:white;background:{{Cor de partido político/BRA|psd}}" |
+! style="color:white;background:{{Cor de partido político/BRA|psd}}" |
+! style="color:white;background:{{Cor de partido político/BRA|psd}}" |
+! style="color:white;background:{{Partido Novo/meta/cor}}" |
+! style="color:white;background:{{Partido Missão/meta/cor}}" |
+! style="color:white;background:{{Democracia Cristã/meta/cor}}" |
+! style="color:white;background:{{Partido da Social Democracia Brasileira/meta/cor}}" |
+|-
+| colspan="4" |30 Mar
+| colspan="13" |'''O [[Partido Social Democrático (2011)|Partido Social Democrático]] (PSD) anuncia que Ronaldo Caiado será o candidato do partido à presidência.<ref name="psd-caiado">{{citar web |url=https://www.poder360.com.br/poder-eleicoes/psd-escolhe-ronaldo-caiado-como-candidato-a-presidente/ |título=PSD escolhe Ronaldo Caiado como candidato a presidente |website=[[Poder360]] |data=2026-03-30 |acessodata=2026-03-30|wayb=20260429144332 }}</ref>'''
+|-
+| rowspan="3" |Nexus/BTG<ref name=":62">{{citar web|url=https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/03/30/btgnexus-lula-e-flavio-bolsonaro-empatam-em-46-em-eventual-2-turno-da-corrida-presidencial.htm|titulo=Lula e Flávio Bolsonaro empatariam no 2º turno, diz pesqusia BTG/Nexus|data=30 de março de 2026|website=Uol}}</ref>
+| rowspan="3" |27 Mar - 29 Mar
+| rowspan="3" |{{fmtn|2000}}
+| rowspan="3" |2,0
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''42%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''39%'''
+| -
+| -
+| -
+| -
+| -
+|6%
+|3%
+|1%
+| -
+| -
+|8%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''39%'''
+| -
+| -
+| -
+| -
+|4%
+|5%
+|3%
+|1%
+| -
+| -
+|9%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''41%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''38%'''
+| -
+| -
+| -
+|4%
+| -
+|4%
+|2%
+|0%
+| -
+| -
+|10%
+|-
+|Paraná Pesquisas<ref>{{citar web|url=https://www.cnnbrasil.com.br/eleicoes/parana-pesquisas-flavio-tem-452-contra-441-de-lula-no-2o-turno/|titulo=Paraná Pesquisas: Flávio tem 45,2% contra 44,1% de Lula no 2º turno|data=30 de março de 2026|website=CNN Brasil|wayb=20260519220543}}</ref>
+|25 Mar - 28 Mar
+|{{fmtn|2080}}
+|2,2
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''41,3%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''37,8%'''
+| -
+| -
+| -
+|3,6%
+| -
+|3%
+|1,2%
+|1,1%
+| -
+| -
+|12%
+|-
+| rowspan="4" |Gerp<ref name=":61">{{citar web|url=https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-marco-2026/|titulo=Gerp divulga pesquisa para presidente da República; veja os números|data=27 de março de 2026|website=Gazeta do Povo|wayb=20260416002645}}</ref>
+| rowspan="4" |20 Mar - 25 Mar
+| rowspan="4" |{{fmtn|2000}}
+| rowspan="4" |2,24
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''38%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''40%'''
+| -
+| -
+| -
+| -
+|3%
+|5%
+|1%
+|0%
+|7%
+| -
+|7%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''37%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''37%'''
+| -
+| -
+|5%
+| -
+| -
+|4%
+|1%
+|0%
+|7%
+| -
+|8%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''38%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''37%'''
+| -
+| -
+| -
+|5%
+| -
+|5%
+|1%
+|0%
+|7%
+| -
+|7%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''38%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''36%'''
+| -
+| -
+|4%
+|3%
+| -
+|3%
+|1%
+|0%
+|7%
+| -
+|9%
+|-
+| rowspan="6" |AtlasIntel<ref name=":60">{{citar web|url=https://www.poder360.com.br/poder-pesquisas/lula-lidera-em-todos-os-cenarios-de-1o-turno-diz-atlasintel/|titulo=Lula lidera em todos os cenários de 1º turno, diz AtlasIntel|data=25 de março de 2026|website=Poder360|wayb=20260326030455}}</ref>
+| rowspan="6" |18 Mar - 23 Mar
+| rowspan="6" |{{fmtn|5028}}
+| rowspan="6" |1,0
+| -
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''40,1%'''
+| -
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''37,6%'''
+| -
+|3,9%
+| -
+|3%
+|4,5%
+|1%
+| -
+| -
+|10%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''45,7%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35,8%'''
+|7,9%
+| -
+| -
+|2,8%
+| -
+|1,6%
+|4,3%
+|0,5%
+| -
+| -
+|1,4%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''45,6%'''
+| -
+| style="color:white;background:{{Cor de partido político/BRA|prb}}" |'''33,3%'''
+| -
+| -
+|4,2%
+| -
+|6,2%
+|4,6%
+|0,6%
+| -
+| -
+|4,6%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''45,7%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''40,6%'''
+| -
+| -
+|3,4%
+| -
+| -
+|3,3%
+|4,5%
+|0,7%
+| -
+| -
+|1,9%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''45,5%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''42,4%'''
+| -
+| -
+| -
+| -
+|1,2%
+|3,7%
+|4,6%
+|0,8%
+| -
+| -
+|1,9%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''45,9%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''40,1%'''
+| -
+| -
+| -
+|3,7%
+| -
+|3,1%
+|4,4%
+|0,6%
+| -
+| -
+|2,2%
+|-
+| colspan="4" |23 Mar
+| colspan="13" |'''[[Ratinho Júnior]] (PSD) desiste de sua pré-candidatura à Presidência.'''<ref>{{citar web|url=https://oglobo.globo.com/politica/noticia/2026/03/23/ratinho-jr-vai-concluir-mandato-no-parana-e-nao-disputara-a-presidencia.ghtml|titulo=Ratinho Jr. vai concluir mandato no Paraná e não disputará a presidência|data=23 de março de 2026|website=O Globo|wayb=20260326100835}}</ref>
+|-
+| colspan="4" |22 Mar
+| colspan="13" |'''[[Romeu Zema]] (NOVO) renuncia ao cargo de [[Governador de Minas Gerais]] para concorrer à Presidência.<ref>{{citar web|url=https://g1.globo.com/mg/minas-gerais/noticia/2026/03/22/zema-renuncia-ao-governo-de-mg-para-pre-campanha-a-presidencia-da-republica-e-vice-mateus-simoes-assume-cargo.ghtml|titulo=Zema renuncia ao governo de MG para pré-campanha à Presidência da República; vice, Mateus Simões, assume cargo|data=22 de março de 2026|website=G1|wayb=20260324201515}}</ref>'''
+|-
+| colspan="4" |13 Mar
+| colspan="13" |'''O [[Partido Social Democrático (2011)|Partido Social Democrático]] (PSD) anuncia que irá definir o candidato do partido para a disputa até o dia 27 de março.'''<ref>{{citar web|url=https://valor.globo.com/politica/noticia/2026/03/13/psd-avalia-antecipar-definio-do-candidato-para-a-prxima-semana-ratinho-junior-o-mais-cotado.ghtml|titulo=PSD avalia antecipar definição de candidato à Presidência; Ratinho Jr. é o mais cotado|data=13 de março de 2026|website=Valor|wayb=20260314145701}}</ref><ref>{{citar web|url=https://www.poder360.com.br/poder-eleicoes/pre-candidatos-do-psd-apoiarao-o-escolhido-pelo-partido/|titulo=Pré-candidatos do PSD apoiarão o escolhido pelo partido|data=13 de março de 2026|website=Poder360|wayb=20260314122756}}</ref>
+|-
+|Alfa Inteligência<ref name=":59">{{citar web|url=https://www.cnnbrasil.com.br/eleicoes/pesquisa-alfa-no-1o-turno-lula-tem-37-flavio-30-e-ratinho-7/?|titulo=Pesquisa Alfa: no 1o turno, Lula tem 37%, Flávio, 30%, e Ratinho, 7%|data=12 de março de 2026|website=CNN Brasil|wayb=20260523024411}}</ref>
+|06 Mar - 11 Mar
+|{{fmtn|1000}}
+|3,1
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''37%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''30%'''
+| -
+| -
+|7%
+|3%
+|4%
+|4%
+|1%
+|0%
+| -
+|
+|14%
+|-
+| rowspan="7" |Genial/Quaest<ref name=":58">{{citar web|url=https://www.cnnbrasil.com.br/eleicoes/quaest-lula-e-flavio-empatam-em-maioria-de-cenarios-de-1o-turno/|titulo=Genial/Quaest: Lula e Flávio empatam em maioria de cenários de 1º turno|data=11 de março de 2026|website=CNN Brasil|wayb=20260312161610}}</ref>
+| rowspan="7" |06 Mar - 09 Mar
+| rowspan="7" |{{fmtn|2004}}
+| rowspan="7" |2,0
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''36%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35%'''
+| -
+| -
+| -
+| -
+|3%
+| -
+|2%
+|2%
+| -
+|
+|22%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''36%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''34%'''
+| -
+| -
+| -
+|4%
+| -
+| -
+|2%
+|2%
+| -
+|
+|22%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''37%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''34%'''
+| -
+| -
+| -
+| -
+| -
+|3%
+|2%
+|2%
+| -
+|
+|22%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''36%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''33%'''
+| -
+| -
+|7%
+| -
+| -
+| -
+|2%
+|2%
+| -
+|
+|20%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''36%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''33%'''
+| -
+| -
+| -
+| -
+|3%
+|3%
+|2%
+|2%
+| -
+|
+|21%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''32%'''
+| -
+| -
+| -
+|4%
+| -
+|2%
+|1%
+|1%
+| -
+|
+|21%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''37%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''30%'''
+| -
+| -
+|7%
+| -
+| -
+|3%
+|1%
+|1%
+| -
+|
+|21%
+|-
+| rowspan="5" |Apex/Futura<ref name=":57">{{citar web|url=https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/futura-inteligencia-presidente-marco-2026/|titulo=Futura Inteligência divulga pesquisa de intenções de voto para presidente|data=11 de março de 2026|website=Gazeta do Povo|wayb=20260323233144}}</ref>
+| rowspan="5" |02 Mar - 06 Mar
+| rowspan="5" |{{fmtn|2000}}
+| rowspan="5" |2,2
+| -
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''38,1%'''
+| -
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''21,2%'''
+|12,6%
+| -
+| -
+|4,2%
+|2,7%
+|1,8%
+| -
+|
+|18,5%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''36,8%'''
+| -
+| style="color:white;background:{{Cor de partido político/BRA|prb}}" |'''24,4%'''
+| -
+| -
+| -
+|4,8%
+|5,7%
+|3,6%
+|4%
+| -
+|
+|20,7%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''35,2%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''41,2%'''
+| -
+| -
+| -
+| -
+|4,6%
+| -
+|3,8%
+|3,4%
+| -
+|
+|11,7%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''35,1%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''41,9%'''
+| -
+| -
+| -
+|5,7%
+| -
+| -
+|2%
+|2,1%
+| -
+|
+|13,1%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''37%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''37,6%'''
+| -
+| -
+|9,1%
+| -
+| -
+|2,7%
+|2,1%
+|0,7%
+| -
+|
+|10,9%
+|-
+| rowspan="4" |Meio/Ideia<ref name=":56">{{citar web|url=https://www.poder360.com.br/poder-eleicoes/lula-empata-com-flavio-e-tarcisio-no-2o-turno-diz-meio-ideia/|titulo=Lula empata com Flávio e Tarcísio no 2º turno, diz Meio/Ideia|data=11 de março de 2026|website=Poder360|wayb=20260312054414}}</ref>
+| rowspan="4" |06 Mar - 10 Mar
+| rowspan="4" |{{fmtn|1500}}
+| rowspan="4" |2,5
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40%'''
+| -
+| style="color:white;background:{{Cor de partido político/BRA|prb}}" |'''36%'''
+| -
+| -
+| -
+| -
+|5%
+|1%
+|0,5%
+| -
+|
+|17%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35%'''
+| -
+| -
+| -
+|5%
+| -
+|5%
+|2%
+|1%
+| -
+|
+|12%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''36%'''
+| -
+| -
+| -
+| -
+|4%
+|6%
+|1%
+|1%
+| -
+|
+|12%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35%'''
+| -
+| -
+|9%
+| -
+| -
+|5%
+|1%
+|1%
+| -
+|
+|9%
+|-
+| rowspan="5" |Datafolha<ref name=":55">{{citar web|url=https://g1.globo.com/politica/eleicoes/2026/noticia/2026/03/07/datafolha-lula-tem-46percent-e-flavio-bolsonaro-43percent-das-intencoes-de-voto-no-2o-turno-diz-pesquisa.ghtml|titulo=Datafolha: Lula tem 46% e Flávio Bolsonaro 43% das intenções de voto no 2º turno, diz pesquisa|data=7 de março de 2026|website=G1|wayb=20260406203536}}</ref>
+| rowspan="5" |03 Mar - 05 Mar
+| rowspan="5" |{{fmtn|2004}}
+| rowspan="5" |2,0
+| -
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''33%'''
+| -
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''21%'''
+|11%
+| -
+| -
+|5%
+|4%
+|2%
+| -
+|
+|24%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39%'''
+| -
+| style="color:white;background:{{Cor de partido político/BRA|prb}}" |'''21%'''
+| -
+|11%
+| -
+| -
+|5%
+|3%
+|2%
+| -
+|
+|19%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''38%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''32%'''
+| -
+| -
+|7%
+| -
+| -
+|4%
+|3%
+|2%
+| -
+|
+|14%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''33%'''
+| -
+| -
+| -
+|4%
+| -
+|5%
+|3%
+|2%
+| -
+|
+|15%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''34%'''
+| -
+| -
+| -
+| -
+|3%
+|4%
+|3%
+|2%
+| -
+|
+|15%
+|-
+|Vetor/Arrow<ref name=":54">{{citar web|url=https://agendadopoder.com.br/flavio-bolsonaro-aparece-a-frente-de-lula-e-venceria-com-folga-tambem-no-segundo-turno-aponta-nova-pesquisa/|titulo=Flávio Bolsonaro já aparece à frente de Lula e venceria com folga também no segundo turno, aponta pesquisa Arrow|data=6 de março de 2026|website=Agência do Poder|wayb=20260323233136}}</ref>
+|27 Fev - 02 Mar
+|{{fmtn|9000}}
+|1,3
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''36,3%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''44%'''
+| -
+| -
+|4,1%
+| -
+| -
+|2,3%
+|1,8%
+|1,4%
+| -
+|
+|10,1%
+|-
+| colspan="4" |04 Mar
+| colspan="13" |'''Psiquiatra [[Augusto Cury]] (sem partido) anuncia pré-candidatura à Presidência da República.'''<ref>{{citar web|url=https://exame.com/brasil/augusto-cury-escritor-se-lanca-como-possivel-pre-candidato-a-presidencia/|titulo=Augusto Cury, escritor, se lança como 'possível pré-candidato' à Presidência|data=4 de março de 2026|website=Exame|wayb=20260523024448}}</ref>
+|-
+| rowspan="3" |Real Time Big Data<ref name=":53">{{citar web|url=https://www.cnnbrasil.com.br/eleicoes/lula-lidera-cenarios-de-1o-turno-aponta-real-time-big-data/|titulo=Lula lidera cenários de 1º turno, aponta Real Time Big Data|data=3 de março de 2026|website=CNN Brasil|wayb=20260305144611}}</ref>
+| rowspan="3" |28 Fev - 2 Mar
+| rowspan="3" |{{fmtn|2000}}
+| rowspan="3" |2,0
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''33%'''
+| -
+| -
+| -
+|5%
+| -
+|3%
+|2%
+|2%
+| -
+|
+|15%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''34%'''
+| -
+| -
+| -
+| -
+|4%
+|3%
+|2%
+|2%
+| -
+|
+|15%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" | '''39%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" | '''32%'''
+| -
+| -
+| 9%
+| -
+| -
+| 2%
+| 2%
+| 2%
+| -
+|
+| 14%
+|}
+
+==== Janeiro - Fevereiro ====
+{| class="wikitable" style="text-align:center;font-size:85%"
+! rowspan="3" | Contratante / Pesquisa
+! rowspan="3" | Data(s) de<br>pesquisa
+! rowspan="3" | Tamanho<br>da amostra
+! rowspan="3" | Margem<br>de erro
+! [[Ficheiro:Foto oficial de Luiz Inácio Lula da Silva (mais estreita).jpg|semmoldura|82x82px]]
+![[Ficheiro:Foto oficial do senador Flávio Bolsonaro (v. AgSen) (3x4).jpg|semmoldura|82x82px]]
+![[Imagem:{{tmpv|Tarcísio de Freitas|Info/Político|1|imagem}}|x80px]]
+![[Imagem:{{tmpv|Predefinição:Info/Jair Bolsonaro|Info/Político/Presidente|1|imagem}}|x80px]]
+![[Imagem:{{tmpv|Michelle Bolsonaro|Info/Político|1|imagem}}|x80px]]
+![[Imagem:{{tmpv|Fernando Haddad|Info/Político|1|imagem}}|x80px]]
+! [[Ficheiro:Ratinho Júnior as governor of Paraná, January 2023 (cropped).jpg|semmoldura|84x84px]]
+![[Ficheiro:Foto oficial do governador de Goiás, Ronaldo Caiado em 2023 (ombros).jpg|x80px]]
+![[Imagem:{{tmpv|Eduardo Leite|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|Romeu Zema|Info/Político|1|imagem}}|x80px]]
+! [[Imagem:{{tmpv|Ciro Gomes|Info/Político|1|imagem}}|x80px]]
+! [[Ficheiro:Renan Santos.jpg|semmoldura|81x81px]]
+! [[Ficheiro:Aldo_Rebelo_(16654292721)_(cropped).jpg|semmoldura|82x82px]]
+! rowspan="3" |Outros
+! rowspan="3" |Indecisos e Absentos
+|-
+! [[Luiz Inácio Lula da Silva|Lula]]<br>{{small|[[Partido dos Trabalhadores|PT]]}}
+! [[Flávio Bolsonaro|Flávio]]<br>[[Partido Liberal (2006)|PL]]
+![[Tarcísio de Freitas|Tarcísio]]<br>{{small|[[Republicanos (partido político)|Republicanos]]}}
+![[Jair Messias Bolsonaro|Bolsonaro]]<br>{{small|[[Partido Liberal (2006)|PL]]}}
+![[Michelle Bolsonaro|Michelle]]<br>{{small|[[Partido Liberal (2006)|PL]]}}
+![[Fernando Haddad|Haddad]]<br>{{small|[[Partido dos Trabalhadores|PT]]}}
+! [[Ratinho Júnior|Ratinho]]<br>{{small|[[Partido Social Democrático (2011)|PSD]]}}
+![[Ronaldo Caiado|Caiado]]<br>{{small|[[Partido Social Democrático (2011)|PSD]]}}
+![[Eduardo Leite|Leite]]<br>{{small|[[Partido Social Democrático (2011)|PSD]]}}
+! [[Romeu Zema|Zema]]<br>{{small|[[Partido Novo|NOVO]]}}
+! [[Ciro Gomes|Gomes]]<br>[[Partido da Social Democracia Brasileira|PSDB]]
+! [[Renan Santos|Renan]]<br>{{small|[[Partido Missão|MISSÃO]]}}
+! [[Aldo Rebelo|Rebelo]]<br>{{small|[[Democracia Cristã (Brasil)|DC]]}}
+|-
+! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
+! style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |
+! style="color:white;background:{{Cor de partido político/BRA|prb}}" |
+! style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |
+! style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |
+! style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |
+! style="color:white;background:{{Cor de partido político/BRA|psd}}" |
+! style="color:white;background:{{Cor de partido político/BRA|psd}}" |
+! style="color:white;background:{{Cor de partido político/BRA|psd}}" |
+! style="color:white;background:{{Partido Novo/meta/cor}}" |
+! style="color:white;background:{{Partido da Social Democracia Brasileira/meta/cor}}" |
+! style="color:white;background:{{Partido Missão/meta/cor}}" |
+| style="color:white;background:{{Democracia Cristã/meta/cor}}" |
+|-
+| rowspan="2" |Paraná Pesquisas<ref name=":52">{{citar web|url=https://www.poder360.com.br/poder-eleicoes/lula-e-flavio-empatam-no-1o-turno-diz-parana-pesquisas/|titulo=Lula e Flávio empatam no 1º turno, diz Paraná Pesquisas|data=27 de fevereiro de 2026|website=Poder360|wayb=20260301055347}}</ref>
+| rowspan="2" |22 Fev - 25 Fev
+| rowspan="2" |{{fmtn|2080}}
+| rowspan="2" |2,2
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40,5%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''36,6%'''
+| -
+| -
+| -
+| -
+| -
+|3,7%
+| -
+|4,3%
+| -
+|1,5%
+|0,4%
+| -
+|13%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39,6%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35,3%'''
+| -
+| -
+| -
+| -
+|7,6%
+| -
+| -
+|3,8%
+| -
+|1,5%
+|0,5%
+| -
+|11,7%
+|-
+| colspan="4" |24 Fev
+| colspan="15" |'''[[Hertz Dias]], do [[Partido Socialista dos Trabalhadores Unificado]] (PSTU), anuncia sua pré-candidatura à Presidência da República.'''
+|-
+| rowspan="6" |AtlasIntel<ref name=":51">{{citar web|url=https://exame.com/brasil/no-1o-turno-lula-tem-45-e-flavio-379-diz-atlasintel/|titulo=No 1º turno, Lula tem 45% e Flávio, 37,9%, diz AtlasIntel|data=25 de fevereiro de 2026|website=Exame|wayb=20260308172340}}</ref>
+| rowspan="6" |19 Fev - 24 Fev
+| rowspan="6" |{{fmtn|4986}}
+| rowspan="6" |1,0
+| -
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''37,1%'''
+| -
+| -
+| -
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |39,1%
+| -
+|3,8%
+| -
+|4,1%
+| -
+|3,5%
+|1,4%
+| -
+|10,9%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''47,1%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''33,1%'''
+|7,4%
+| -
+| -
+| -
+| -
+|4,1%
+| -
+|1,5%
+| -
+|3,3%
+|1,4%
+| -
+|2,1%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''43,3%'''
+| -
+|style="color:white;background:{{Cor de partido político/BRA|prb}}" |'''36,2%'''
+| -
+| -
+| -
+| -
+|5,1%
+| -
+|8,5%
+| -
+|2,5%
+|0,9%
+| -
+|3,5%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''45,3%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''39,1%'''
+| -
+| -
+| -
+| -
+| -
+| -
+|1,6%
+|5,7%
+| -
+|3,7%
+|1,2%
+| -
+|3,5%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''45,1%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''39,5%'''
+| -
+| -
+| -
+| -
+|3,8%
+| -
+| -
+|3,9%
+| -
+|3,2%
+|1,1%
+| -
+|3,4%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''45%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''37,9%'''
+| -
+| -
+| -
+| -
+| -
+|4,9%
+| -
+|3,9%
+| -
+|2,9%
+|1,1%
+| -
+|4,3%
+|-
+| colspan="4" |21 Fev
+| colspan="15" |'''[[Ciro Gomes]] (PSDB) declara apoio à [[Aldo Rebelo]] (DC).<ref>{{citar web|url=https://www.poder360.com.br/poder-eleicoes/democracia-crista-de-aldo-rebelo-apoiara-ciro-gomes-ao-governo-do-ce/|titulo=Democracia Cristã, de Aldo Rebelo, apoiará Ciro Gomes ao governo do CE|data=21 de fevereiro de 2026|website=Poder360|wayb=20260228160218}}</ref>'''
+|-
+| rowspan="7" |Genial/Quaest<ref name=":50">{{citar web|url=https://exame.com/brasil/no-1o-turno-lula-tem-35-e-flavio-bolsonaro-29-diz-genial-quaest/|titulo=No 1º turno, Lula tem 35% e Flávio Bolsonaro, 29%, diz Genial/Quaest|data=11 de fevereiro de 2026|website=Exame|wayb=20260309024044}}</ref>
+| rowspan="7" |05 Fev - 09 Fev
+| rowspan="7" |{{fmtn|2004}}
+| rowspan="7" |2,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''37%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''33%'''
+| -
+| -
+| -
+| -
+| -
+| -
+|4%
+| -
+| -
+|2%
+|2%
+| -
+|22%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''32%'''
+| -
+| -
+| -
+| -
+| -
+|4%
+| -
+| -
+| -
+|2%
+|1%
+| -
+|22%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''32%'''
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|4%
+| -
+|2%
+|2%
+| -
+|21%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''37%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''31%'''
+| -
+| -
+| -
+| -
+|7%
+| -
+| -
+| -
+| -
+|2%
+|2%
+| -
+|21%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''38%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''31%'''
+| -
+| -
+| -
+| -
+| -
+| -
+|3%
+|4%
+| -
+|2%
+|1%
+| -
+|21%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''38%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''30%'''
+| -
+| -
+| -
+| -
+| -
+|4%
+| -
+|4%
+| -
+|1%
+|1%
+| -
+|22%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''35%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''29%'''
+| -
+| -
+| -
+| -
+|8%
+| -
+| -
+|4%
+| -
+|1%
+|1%
+| -
+|22%
+|-
+| rowspan="4" |Apex/Futura<ref name=":49">{{citar web|url=https://exame.com/brasil/flavio-tem-372-e-lula-359-no-1o-turno-diz-futura/|titulo=Flávio tem 37,2% e Lula, 35,9%, no 1º turno, diz Futura|data=10 de fevereiro de 2026|website=Exame|wayb=20260306000525}}</ref>
+| rowspan="4" |03 Fev - 07 Fev
+| rowspan="4" |{{fmtn|2000}}
+| rowspan="4" |2,2
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''36,7%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''34,2%'''
+|9,8%
+| -
+| -
+| -
+| -
+| -
+| -
+|4%
+| -
+|3,2%
+|1,8%
+| -
+|10,2%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''35,4%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''38,7%'''
+| -
+| -
+| -
+| -
+| -
+| -
+|3,6%
+|6,6%
+| -
+|3,3%
+|0,9%
+| -
+|11,6%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''35,3%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35,7%'''
+| -
+| -
+| -
+| -
+| -
+|6,6%
+| -
+|6,5%
+| -
+|2,1%
+|1,1%
+| -
+|12,7%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''35,9%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''37,2%'''
+| -
+| -
+| -
+| -
+|6,1%
+| -
+| -
+|4,9%
+| -
+|1,9%
+|1,2%
+| -
+|12,8%
+|-
+| rowspan="3" |Real Time Big Data<ref>{{citar web|url=https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-na-disputa-ao-planalto-tem-lula-tem-39-flavio-30/|titulo=Real Time Big Data: na disputa ao Planalto, Lula tem 39%; Flávio, 30%|data=9 de fevereiro de 2026|website=CNN Brasil|wayb=20260523024622}}</ref>
+| rowspan="3" |06 Fev - 07 Fev
+| rowspan="3" |{{fmtn|2000}}
+| rowspan="3" |2,0
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''32%'''
+| -
+| -
+| -
+| -
+| -
+|6%
+| -
+|4%
+| -
+|1%
+|2%
+| -
+|15%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''32%'''
+| -
+| -
+| -
+| -
+| -
+| -
+|5%
+|4%
+| -
+|1%
+|3%
+| -
+|15%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''30%'''
+| -
+| -
+| -
+| -
+|10%
+| -
+| -
+|3%
+| -
+|1%
+|2%
+| -
+|15%
+|-
+|Gerp<ref name=":48">{{citar web|url=https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/pesquisa-instituto-gerp-presidente-da-republica-fevereiro-2026/|titulo=Instituto Gerp divulga pesquisa para presidente da República; veja os números|data=4 de fevereiro de 2026|website=Gerp|wayb=20260323233135}}</ref>
+|28 Jan - 02 Fev
+|{{fmtn|2000}}
+|2,24
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35%'''
+| -
+| -
+| -
+| -
+|5%
+|2%
+| -
+|2%
+|4%
+|0%
+|0%
+| -
+|11%
+|-
+| rowspan="7" |Meio/Ideia<ref name=":47">{{citar web|url=https://www.poder360.com.br/poder-eleicoes/lula-lidera-em-5-de-7-cenarios-no-1o-turno-diz-pesquisa/|titulo=Lula lidera em 5 de 7 cenários no 1º turno, diz pesquisa|data=4 de fevereiro de 2026|website=Poder360|wayb=20260323233145}}</ref>
+| rowspan="7" |30 Jan - 02 Fev
+| rowspan="7" |{{fmtn|1500}}
+| rowspan="7" |2,5
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40%'''
+| -
+|style="color:white;background:{{Cor de partido político/BRA|prb}}" |'''35%'''
+| -
+| -
+| -
+| -
+| -
+| -
+|6,5%
+| -
+|1%
+|0,5%
+| -
+|17%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39,5%'''
+| -
+| -
+| -
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''32%'''
+| -
+| -
+|6,1%
+| -
+|6,5%
+| -
+|0,7%
+|0,5%
+| -
+|14,8%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''38,5%'''
+| -
+| -
+| -
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''33%'''
+| -
+| -
+| -
+|4,4%
+|6,5%
+| -
+|0,9%
+|0,5%
+| -
+|16,3%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39,5%'''
+| -
+| -
+| -
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''32,7%'''
+| -
+|8%
+| -
+| -
+|5,5%
+| -
+|0,5%
+|0,5%
+| -
+|13,4%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39,5%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''33%'''
+| -
+| -
+| -
+| -
+| -
+|5,1%
+| -
+|6%
+| -
+|0,7%
+|0,5%
+| -
+|15,1%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''38,7%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35,3%'''
+| -
+| -
+| -
+| -
+| -
+| -
+|3,4%
+|5.1%
+| -
+|0,7%
+|0,7%
+| -
+|15,5%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39,5%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''32%'''
+| -
+| -
+| -
+| -
+|8,8%
+| -
+| -
+|3%
+| -
+|0,7%
+|0,5%
+| -
+|15,5%
+|-
+| colspan="4" |01 Fev
+| colspan="15" |'''Samara Martins, do [[Unidade Popular (Brasil)|Unidade Popular]] (UP), anuncia sua pré-candidatura à Presidência da República.<ref>{{citar web|url=https://www.cnnbrasil.com.br/eleicoes/samara-martins-do-up-lanca-pre-candidatura-ao-planalto/|titulo=Samara Martins, do UP, lança pré-candidatura ao Planalto|data=1 de fevereiro de 2026|website=CNN Brasil|wayb=20260405203405}}</ref>'''
+|-
+| rowspan="2" |Paraná Pesquisas<ref name=":45">{{citar web|url=https://www.poder360.com.br/poder-eleicoes/lula-lidera-1o-turno-mas-empata-com-flavio-e-tarcisio-no-2o/|titulo=Lula lidera 1º turno, mas empata com Flávio e Tarcísio no 2º|data=29 de janeiro de 2026|website=Poder360|wayb=20260130051442}}</ref>
+| rowspan="2" |25 Jan - 28 Jan
+| rowspan="2" |{{fmtn|2080}}
+| rowspan="2" |2,2
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40,7%'''
+| -
+|style="color:white;background:{{Cor de partido político/BRA|prb}}" |'''27,5%'''
+| -
+| -
+| -
+| -
+|6,6%
+| -
+|4,4%
+| -
+|2%
+|1,4%
+| -
+|17,4%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39,8%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''33,1%'''
+| -
+| -
+| -
+| -
+|6,5%
+|3,7%
+| -
+|2,8%
+| -
+|1,5%
+|1,1%
+| -
+|11,5%
+|-
+| colspan="4" |27 Jan
+| colspan="15" |'''[[Ronaldo Caiado]] deixa o [[União Brasil]] (UNIÃO) e se filia ao [[Partido Social Democrático (2011)|Partido Social Democrático]] (PSD).<ref name=":46">{{citar web|url=https://g1.globo.com/politica/eleicoes/2026/noticia/2026/01/27/apos-sair-do-uniao-brasil-caiado-anuncia-filiacao-ao-psd.ghtml|titulo=Após sair do União Brasil, Caiado anuncia filiação ao PSD|data=27 de janeiro de 2026|website=G1|wayb=20260129073336}}</ref>'''
+|-
+| colspan="4" |22 Jan
+| colspan="15" |'''[[Tarcísio de Freitas]] (Republicanos) declara que não será candidato à Presidência da República e anuncia apoio à [[Flávio Bolsonaro]] (PL).''' <ref>{{citar web|url=https://g1.globo.com/sp/sao-paulo/noticia/2026/01/22/tarcisio-diz-que-sera-candidato-a-reeleicao-em-sp-e-anuncia-visita-a-bolsonaro-para-prestar-apoio.ghtml|titulo=Tarcísio diz que será candidato à reeleição em SP; Moraes autoriza visita do governador a Bolsonaro na próxima semana|data=22 de janeiro de 2026|website=G1|wayb=20260123064953}}</ref><ref>{{citar web|url=https://cbn.globo.com/sao-paulo/noticia/2026/01/23/tarcisio-reafirma-lealdade-a-familia-bolsonaro-e-confirma-que-sera-candidato-a-reeleicao-em-sp.ghtml|titulo=Tarcísio reafirma lealdade à família Bolsonaro e confirma que será candidato à reeleição em SP|data=23 de janeiro de 2026|website=CBN|wayb=20260523024809}}</ref>
+|-
+|Data Povo<ref>{{citar web|url=https://www.bradojornal.com/noticias/politica/2026/02/03/pesquisa-data-povo-divulgada-hoje-coloca-lula-na-lideranca-para-2026-com-renan-santos-em-4-lugar/|titulo=Pesquisa Data Povo divulgada hoje coloca Lula na liderança para 2026, com Renan Santos em 4° lugar|data=3 de fevereiro de 2026|website=Brado Jornal|wayb=20260323233134}}</ref>
+|18 Jan - 21 Jan
+|{{fmtn|1300}}
+|2,72%
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''23,12%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''19,15%'''
+|8,23%
+| -
+| -
+| -
+|4,54%
+|5,85%
+| -
+|4,92%
+|6,54%
+|7,08%
+|3,38%
+| -
+|17,15%
+|-
+| rowspan="6" |Apex/Futura<ref name=":44">{{citar web|url=https://www.cnnbrasil.com.br/eleicoes/apex-futura-lula-e-flavio-lideram-cenarios-de-1o-turno/|titulo=Apex/Futura: Lula e Flávio lideram cenários de 1º turno|data=22 de janeiro de 2026|website=CNN Brasil|wayb=20260316145454}}</ref>
+| rowspan="6" |15 Jan - 19 Jan
+| rowspan="6" |{{fmtn|2000}}
+| rowspan="6" |2,2
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''38,7%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''43,8%'''
+| -
+| -
+| -
+| -
+| -
+| -
+|4,2%
+| -
+| -
+|2,8%
+| -
+| -
+|10,4%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''38%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''39,6%'''
+| -
+| -
+| -
+| -
+|11%
+| -
+| -
+| -
+| -
+|2,3%
+| -
+| -
+|9,2%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''37,5%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35,1%'''
+|14,8%
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|2,7%
+| -
+| -
+|10%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''36,3%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''39,4%'''
+| -
+| -
+| -
+| -
+| -
+|4,9%
+|3,1%
+|4,8%
+| -
+| -
+| -
+| -
+|11,4%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''35,4%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''34,3%'''
+| -
+| -
+| -
+| -
+|9,1%
+|3,7%
+|0,1%
+|4,4%
+| -
+|1,7%
+|0,6%
+| -
+|10,7%
+|-
+|style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''37%'''
+|style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''33,3%'''
+|10,5%
+| -
+| -
+| -
+| -
+|3%
+| -
+|2,6%
+| -
+|1,2%
+|0,5%
+| -
+|11,9%
+|-
+| rowspan="8" |AtlasIntel<ref name=":43">{{citar web|url=https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/pesquisa-atlasintel-presidente-janeiro-2026/|titulo=AtlasIntel divulga pesquisa para presidente; veja os números|data=21 de janeiro de 2026|website=Gazeta do Povo|wayb=20260304135611}}</ref>
+| rowspan="8" |15 Jan - 20 Jan
+| rowspan="8" |{{fmtn|5418}}
+| rowspan="8" |1,0
+| -
+| -
+| style="color:white;background:{{Cor de partido político/BRA|prb}}" |'''28,9%'''
+| -
+| -
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''42%'''
+|4,9%
+|5%
+| -
+|3,8%
+| -
+|3,6%
+|0,7%
+| -
+|11,1%
+|-
+| -
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35,4%'''
+| -
+| -
+| -
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''41,5%'''
+| -
+|5,2%
+|2,6%
+|3,3%
+| -
+|3,4%
+|1,1%
+| -
+|7,4%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''48,8%'''
+| -
+| -
+| -
+| -
+| -
+|9,4%
+| style="color:white;background:{{União Brasil/meta/cor}}" |'''15,2%'''
+| -
+|11,4%
+| -
+|3,9%
+|1%
+| -
+|10,3%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''48,2%'''
+| -
+| -
+| -
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''30,9%'''
+| -
+| -
+|11,3%
+|1,7%
+| -
+| -
+|3,9%
+|0,7%
+| -
+|3,3%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''48,5%'''
+| -
+| style="color:white;background:{{Cor de partido político/BRA|prb}}" |'''28,4%'''
+| -
+| -
+| -
+|3,9%
+|5%
+| -
+|3,9%
+| -
+|3,2%
+|1,1%
+| -
+|6,1%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''48,8%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''35%'''
+| -
+| -
+| -
+| -
+|2,8%
+|4,3%
+| -
+|2,8%
+| -
+|3,4%
+|1%
+| -
+|1,9%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''48,4%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''28%'''
+|11%
+| -
+| -
+| -
+|1,7%
+|2,9%
+| -
+|1,7%
+| -
+|2,9%
+|1%
+| -
+|2,4%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''46,4%'''
+| -
+| -
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''43,4%'''
+| -
+| -
+| -
+| -
+| -
+| -
+|3,2%
+| -
+| -
+|4,1%
+|2,8%
+|-
+| rowspan="7" |Genial/Quaest<ref name=":42">{{citar web|url=https://g1.globo.com/politica/noticia/2026/01/14/quaest-cenarios-1o-turno-janeiro.ghtml?utm_source=twitter&utm_medium=social&utm_campaign=g1|titulo=Quaest, 1º turno: Lula segue à frente em 7 eventuais cenários, e Flávio se consolida na oposição, diz pesquisa|data=14 de janeiro de 2026|website=G1|wayb=20260523024909}}</ref>
+| rowspan="7" |08 Jan - 11 Jan
+| rowspan="7" |{{fmtn|2004}}
+| rowspan="7" |2
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''38%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''31%'''
+| -
+| -
+| -
+| -
+| 7%
+|5%
+| -
+| 5%
+| -
+|2%
+|2%
+| -
+|22%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''32%'''
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|5%
+| -
+|2%
+|2%
+| -
+|20%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''37%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''28%'''
+| -
+| -
+| -
+| -
+|11%
+| -
+| -
+| -
+| -
+|2%
+|2%
+| -
+|20%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''23%'''
+|14%
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|2%
+|2%
+| -
+|19%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39%'''
+| -
+| style="color:white;background:{{Cor de partido político/BRA|prb}}" |'''27%'''
+| -
+| -
+| -
+| -
+|5%
+| -
+| -
+| -
+|4%
+|3%
+| -
+|22%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''35%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''26%'''
+| -
+| -
+| -
+| -
+|9%
+|4%
+| -
+|3%
+| -
+|1%
+|2%
+| -
+|20%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''36%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''23%'''
+|9%
+| -
+| -
+| -
+|7%
+|3%
+| -
+|2%
+| -
+|1%
+|1%
+| -
+|18%
+|-
+| rowspan="5" |Meio/Ideia<ref name=":41">{{citar web|url=https://www.cnnbrasil.com.br/blogs/iuri-pitta/eleicoes/meio-ideia-lula-lidera-cenarios-de-1o-turno-e-empata-com-tarcisio-no-2o/|titulo=Meio/Ideia: Lula lidera cenários de 1º turno e empata com Tarcísio no 2º|data=13 de janeiro de 2026|website=CNN|wayb=20260207162337}}</ref>
+| rowspan="5" |08 Jan - 12 Jan
+| rowspan="5" |{{fmtn|2000}}
+| rowspan="5" |2,2
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40,1%'''
+| -
+| -
+| -
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''29,7%'''
+| -
+| -
+|5,1%
+|2,5%
+|5,8%
+| -
+|1,3%
+|0,3%
+| -
+|15,4%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''40%'''
+| -
+| -
+| -
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''29%'''
+| -
+|6%
+|4,3%
+| -
+|3,8%
+| -
+|0,7%
+|0,2%
+| -
+|16,2%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39,6%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''27,6%'''
+| -
+| -
+| -
+| -
+| -
+|5,5%
+|2,8%
+|5,4%
+| -
+|0,7%
+|0,2%
+| -
+|18,5%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" |'''39,7%'''
+| style="color:white;background:{{Partido Liberal (2006)/meta/cor}}" |'''26,5%'''
+| -
+| -
+| -
+| -
+|7%
+|4,2%
+| -
+|3,6%
+| -
+|0,4%
+|0,2%
+| -
+|18,5%
+|-
+| style="color:white;background:{{Partido dos Trabalhadores/meta/cor}}" | '''40,2%'''
+| -
+| style="color:white;background:{{Cor de partido político/BRA|prb}}" | '''32,7%'''
+| -
+| -
+| -
+| -
+|5,5%
+| -
+| 5,5%
+| -
+| 0,5%
+| 0,4%
+| -
+| 15,4%
+|}

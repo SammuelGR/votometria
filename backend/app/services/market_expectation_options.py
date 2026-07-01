@@ -1,27 +1,33 @@
-from sqlalchemy import func
-from sqlalchemy.orm import Session
+"""
+Options endpoint for the market-expectations module, backed by the gold (ouro)
+spreadsheet instead of PostgreSQL.
+"""
 
-from app.models import CandidateCatalog, PolymarketProbability
+import pandas as pd
+
 from app.schemas.market_expectation_options import (
     MarketExpectationDateRange,
     MarketExpectationOptionCandidate,
     MarketExpectationOptionsResponse,
 )
+from app.services import gold_sheets
 from app.services.market_expectations import SUPPORTED_MARKET_EXPECTATION_INTERVALS
-
 
 DEFAULT_MARKET_EXPECTATION_CANDIDATE_LIMIT = 5
 
 
-def get_market_expectation_options(db: Session) -> MarketExpectationOptionsResponse:
-    min_timestamp, max_timestamp = _get_market_expectation_date_range(db)
-    candidates = _get_market_expectation_candidates(db)
+def get_market_expectation_options(
+    df: pd.DataFrame | None = None,
+) -> MarketExpectationOptionsResponse:
+    if df is None:
+        df = gold_sheets.load_polymarket_gold()
+
+    min_timestamp = None if df.empty else df["timestamp"].min().to_pydatetime()
+    max_timestamp = None if df.empty else df["timestamp"].max().to_pydatetime()
+    candidates = _get_candidates(df)
 
     return MarketExpectationOptionsResponse(
-        date_range=MarketExpectationDateRange(
-            min=min_timestamp,
-            max=max_timestamp,
-        ),
+        date_range=MarketExpectationDateRange(min=min_timestamp, max=max_timestamp),
         intervals=list(SUPPORTED_MARKET_EXPECTATION_INTERVALS),
         candidates=candidates,
         default_candidate_catalog_ids=[
@@ -31,57 +37,20 @@ def get_market_expectation_options(db: Session) -> MarketExpectationOptionsRespo
     )
 
 
-def _get_market_expectation_date_range(db: Session):
-    return (
-        db.query(
-            func.min(PolymarketProbability.timestamp),
-            func.max(PolymarketProbability.timestamp),
-        )
-        .one()
-    )
+def _get_candidates(df: pd.DataFrame) -> list[MarketExpectationOptionCandidate]:
+    if df.empty:
+        return []
 
-
-def _get_market_expectation_candidates(
-    db: Session,
-) -> list[MarketExpectationOptionCandidate]:
-    latest_record_rank = func.row_number().over(
-        partition_by=PolymarketProbability.candidate_catalog_id,
-        order_by=PolymarketProbability.timestamp.desc(),
-    )
-    latest_records_by_candidate = (
-        db.query(
-            PolymarketProbability.id.label("probability_id"),
-            latest_record_rank.label("row_number"),
-        )
-        .subquery()
-    )
-    candidates = (
-        db.query(
-            CandidateCatalog.id,
-            CandidateCatalog.display_name,
-            PolymarketProbability.probability.label("latest_probability"),
-        )
-        .join(
-            latest_records_by_candidate,
-            latest_records_by_candidate.c.probability_id == PolymarketProbability.id,
-        )
-        .join(
-            CandidateCatalog,
-            CandidateCatalog.id == PolymarketProbability.candidate_catalog_id,
-        )
-        .filter(latest_records_by_candidate.c.row_number == 1)
-        .order_by(
-            PolymarketProbability.probability.desc(),
-            CandidateCatalog.display_name.asc(),
-        )
-        .all()
+    latest_idx = df.groupby("candidate_catalog_id")["timestamp"].idxmax()
+    latest = df.loc[latest_idx].sort_values(
+        ["probability", "display_name"], ascending=[False, True]
     )
 
     return [
         MarketExpectationOptionCandidate(
-            candidate_catalog_id=candidate.id,
-            display_name=candidate.display_name,
-            latest_probability=candidate.latest_probability,
+            candidate_catalog_id=int(row.candidate_catalog_id),
+            display_name=str(row.display_name),
+            latest_probability=float(row.probability),
         )
-        for candidate in candidates
+        for row in latest.itertuples(index=False)
     ]

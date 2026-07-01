@@ -1,15 +1,15 @@
 import sys
 
-from core.database import create_session
+from pipelines.enquetes import run_enquetes_pipeline
 from pipelines.google_trends import run_google_trends_pipeline
 from pipelines.polymarket import run_polymarket_pipeline
 from pipelines.tse import run_tse_pipeline
 
 
 def main() -> int:
-    # Google Trends is database-independent and publishes straight to Google
-    # Sheets. A failure here must not break the rest of the execution, so it is
-    # isolated before the PostgreSQL-dependent pipelines.
+    # Every pipeline now publishes straight to the medallion spreadsheets
+    # (bronze/prata/ouro) — no PostgreSQL. Each pipeline is isolated so a
+    # failure in one does not break the others.
     try:
         result = run_google_trends_pipeline()
         print(result)
@@ -20,25 +20,16 @@ def main() -> int:
         run_tse_pipeline()
     except Exception as exc:
         print(f"TSE pipeline failure: {exc}")
-        return 1
-
-    print("Initiating connection to PostgreSQL...")
 
     try:
-        session = create_session()
+        run_polymarket_pipeline()
     except Exception as exc:
-        print(f"Database connection failure: {exc}")
-        return 1
-
-    try:
-        run_polymarket_pipeline(session)
-    except Exception as exc:
-        session.rollback()
         print(f"Polymarket pipeline failure: {exc}")
-        return 1
 
-    finally:
-        session.close()
+    try:
+        run_enquetes_pipeline()
+    except Exception as exc:
+        print(f"Enquetes pipeline failure: {exc}")
 
     return 0
 
