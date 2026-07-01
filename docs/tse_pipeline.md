@@ -1,78 +1,62 @@
 # TSE Data Pipeline Documentation
 
-## Overview
+This document describes the current TSE ETL flow used to ingest presidential election results and voter profile data from the Tribunal Superior Eleitoral, clean them, and publish analysis-ready tables to Google Sheets for the dashboard.
 
-The TSE pipeline is responsible for extracting and transforming Brazilian election data from the Tribunal Superior Eleitoral (TSE). It is implemented to support presidential election analysis and is architected to accept future expansion for voter profile data.
+---
 
-This pipeline processes:
-- Presidential election results for 2018 and 2022
-- Voter profile data as a future domain, with a planned structural boundary already defined in the codebase
+## 1. Scope
 
-The architecture follows a standard ETL flow:
-1. Extraction
-2. Transformation
-3. Pipeline orchestration and storage
+The pipeline currently covers:
 
-The target output is parsed data in `data/parsed_tse`, with year-specific files generated for presidency data.
+- presidential election results for 2018 and 2022
+- voter profile datasets for 2018 and 2022
+- publication of processed tables into Google Sheets for frontend consumption
 
-## Data Extraction (`extractors/tse`)
+The implementation is organized as a standard ETL flow:
 
-### Purpose
+1. extraction
+2. transformation
+3. load to Google Sheets
 
-The extraction layer downloads raw TSE datasets from official open data sources and extracts only the target CSV files required for analysis.
+---
 
-### Source Data
+## 2. Extraction
 
-The pipeline uses official TSE open data URLs for both presidential and electorate datasets:
-- Presidential 2018: https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip
-- Presidential 2022: https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip
-- Electorate 2018: https://cdn.tse.jus.br/estatistica/sead/odsele/perfil_eleitorado/perfil_eleitorado_2018.zip
-- Electorate 2022: https://cdn.tse.jus.br/estatistica/sead/odsele/perfil_eleitorado/perfil_eleitorado_2022.zip
+The extractor downloads public ZIP archives from the official TSE open data repository and keeps only the target CSV files required for analysis.
 
-### Implementation
+### Source files
 
-The extraction module is located in `scripts/extractors/tse.py`.
-It includes:
-- `download_and_extract_tse(url_zip, target_filename)`
-  - downloads a ZIP archive using streaming download
-  - extracts only the required CSV file to `data/raw`
-  - skips extraction if the target file already exists
-  - cleans up temporary ZIP files after extraction
-- `extract_presidency_data()`
-  - orchestrates extraction of presidential files for 2018 and 2022
-- `extract_voter_profile_data()`
-  - orchestrates extraction of electorate files for 2018 and 2022
+Presidential vote sources:
 
-### Raw Data Structure
+- `votacao_candidato_munzona_2018.zip`
+- `votacao_candidato_munzona_2022.zip`
 
-Raw CSV files are stored in `data/raw`.
-The extraction layer focuses on national-level presidential CSV files only, avoiding governor, senator, or other non-presidential data.
+Voter profile sources:
 
-The targeted raw filenames are:
+- `perfil_eleitorado_2018.zip`
+- `perfil_eleitorado_2022.zip`
+
+### Extracted raw files
+
+The extractor writes the relevant CSV files to `scripts/data/raw`:
+
 - `votacao_candidato_munzona_2018_BR.csv`
 - `votacao_candidato_munzona_2022_BR.csv`
 - `perfil_eleitorado_2018.csv`
 - `perfil_eleitorado_2022.csv`
 
-### Extraction Responsibilities
+The implementation lives in `scripts/extractors/tse.py` and is orchestrated by `scripts/pipelines/tse.py`.
 
-The extractors are responsible for:
-- fetching data from the TSE open data repository
-- validating HTTP responses and download success
-- extracting only the relevant CSV files from ZIP archives
-- writing raw files to `data/raw`
-- avoiding repeated downloads when source files already exist locally
+---
 
-## Data Transformation (`transformers/tse`)
+## 3. Transformation
 
-### Purpose
+The transformation layer loads the raw CSVs, selects the relevant columns, cleans them, and saves analysis-ready files to disk.
 
-The transformation layer takes raw CSV input from `data/raw` and produces cleaned, analysis-ready datasets.
-This layer is designed to enforce column selection, clean text fields, remove invalid records, and preserve only the required presidential data.
+### Presidency transformation
 
-### Mandatory use of `INTEREST_COLUMNS_PRESIDENCY`
+The presidency workflow uses the columns defined in `scripts/constants_tse.py`:
 
-Transformation must use the columns defined in `constants_tse.INTEREST_COLUMNS_PRESIDENCY`:
 - `NR_TURNO`
 - `SG_UF`
 - `NM_URNA_CANDIDATO`
@@ -81,183 +65,115 @@ Transformation must use the columns defined in `constants_tse.INTEREST_COLUMNS_P
 - `QT_VOTOS_NOMINAIS`
 - `DS_SIT_TOT_TURNO`
 
-This list defines the only columns that are persisted for presidential analysis.
+The cleaning steps include:
 
-### Transformation Steps for Presidency Data
+- removing rows with null values in critical fields
+- trimming whitespace from text fields
+- dropping duplicate rows
+- filtering out negative vote counts
 
-The transformation module is located in `scripts/transformers/tse.py`.
-It includes the following responsibilities:
-- `load_presidency_csv(csv_filename)`
-  - loads the raw CSV from `data/raw`
-  - uses `latin-1` encoding and `;` separator
-- `select_interest_columns(df)`
-  - selects only the columns defined in `INTEREST_COLUMNS_PRESIDENCY`
-  - preserves column order and warns if expected columns are missing
-- `clean_presidency_data(df)`
-  - removes rows with null values in critical columns
-  - strips whitespace from text fields
-  - removes duplicate rows
-  - filters out rows with negative vote counts
-- `transform_presidency_year(csv_filename, year)`
-  - applies loading, selection, and cleaning for a single year
-- `save_presidency_data(df, year, format="csv")`
-  - saves the cleaned DataFrame to `data/parsed_tse`
-  - writes year-specific filenames for 2018 and 2022
+The transformed outputs are written to:
 
-### Separation of Domains
+- `scripts/data/parsed_tse/parsed_presidencia_2018.csv`
+- `scripts/data/parsed_tse/parsed_presidencia_2022.csv`
 
-The module keeps a clear separation between presidency transformations and electorate transformations.
-Current implementation fully supports presidency data. Electorate processing is not yet implemented, but the file contains a future-ready structure with documented TODO functions:
-- `load_voter_profile_csv()`
-- `select_voter_profile_columns()`
-- `clean_voter_profile_data()`
-- `transform_voter_profile_data()`
-- `save_voter_profile_data()`
-- `run_voter_profile_transformation()`
+### Voter profile transformation
 
-### Justification for Separation
+The voter profile workflow keeps the following columns:
 
-Keeping presidency and electorate logic separated enables:
-- easier maintenance of each domain
-- independent evolution of data models
-- future addition of new data types without breaking existing presidency processing
-- clearer architectural boundaries inside the same TSE module
+- `SG_UF`
+- `CD_MUNICIPIO`
+- `NR_ZONA`
+- `DS_FAIXA_ETARIA`
+- `QT_ELEITORES_PERFIL`
 
-## Pipeline Orchestration (`pipelines/tse.py`)
+The transformed outputs are written to:
 
-### Purpose
+- `scripts/data/parsed_tse/parsed_eleitorado_2018.csv`
+- `scripts/data/parsed_tse/parsed_eleitorado_2022.csv`
 
-The pipeline orchestrator coordinates extraction and transformation in a single end-to-end flow.
-It runs the raw data ingestion first, then cleans and persists parsed results.
+The transformation logic is implemented in `scripts/transformers/tse.py`.
 
-### Execution Flow
+---
 
-The orchestration is implemented in `scripts/pipelines/tse.py`.
-The steps are:
-1. `extract_presidency_data()`
-2. `extract_voter_profile_data()`
-3. `run_presidency_transformation()`
+## 4. Load to Google Sheets
 
-The pipeline is intentionally linear:
-- extraction must happen before transformation
-- transformation depends on extracted raw files in `data/raw`
-- load depends on parsed presidency CSVs in `data/parsed_tse`
-- persistence writes aggregated tables to `data/tables`
+The current load stage publishes the transformed data to Google Sheets instead of relying only on local CSV tables.
 
-### Responsibility of Each Stage
+### Worksheets written
 
-Extraction stage:
-- download and extract official TSE CSV files
-- save raw files in `data/raw`
+For each election year, the loader creates the following sheets:
 
-Transformation stage:
-- load raw CSVs
-- select only relevant columns
-- clean and standardize data
-- save parsed outputs by election year
+- `raw_tse_presidency_{year}`: the parsed presidency source data
+- `proc_tse_{year}_votes_t1`: candidate vote totals for round 1
+- `proc_tse_{year}_votes_t2`: candidate vote totals for round 2
+- `proc_tse_{year}_state_dist_t1`: state-level vote distribution for round 1
+- `proc_tse_{year}_state_dist_t2`: state-level vote distribution for round 2
+- `proc_tse_{year}_comparison`: comparison between rounds for runoff candidates
 
-Pipeline stage:
-- orchestrate stage order
-- guard against failure if extraction or transformation fails
-- report success and file generation status
+The loader implementation is in `scripts/loaders/tse_sheets.py`.
 
-### Persistence
+### Frontend consumption
 
-Transformed data is written to `data/parsed_tse`.
-The pipeline currently persists only presidency datasets, while voter profile persistence is prepared in the architecture.
+The React frontend reads the processed vote totals from the worksheets named:
 
-## Output Datasets
+- `proc_tse_{year}_votes_t1`
+- `proc_tse_{year}_votes_t2`
 
-### Generated Presidency Datasets
+This is handled by `frontend/src/services/tseVotes.ts`, which parses the Google Sheets CSV, normalizes vote counts, and feeds the chart component that renders valid-vote results.
 
-The pipeline generates year-specific presidency datasets:
-- `data/parsed_tse/parsed_presidencia_2018.csv`
-- `data/parsed_tse/parsed_presidencia_2022.csv`
+---
 
-Each file contains only the columns defined by `INTEREST_COLUMNS_PRESIDENCY`, cleaned and standardized for analysis.
+## 5. Pipeline orchestration
 
-### Future Electorate Dataset
+The orchestration entrypoint is `scripts/pipelines/tse.py`.
 
-The documentation and architecture reserve a place for a future dataset named:
-- `parsed_eleitorado`
+The pipeline runs in three phases:
 
-This dataset is not yet implemented, but the pipeline structure is prepared to support its addition.
+1. extraction of presidency and electorate ZIP files
+2. transformation of raw CSVs into cleaned parsed datasets
+3. load of the processed tables into Google Sheets
 
-### Output Format and Conventions
+The loader currently attempts both election years and reports warnings if any phase fails.
 
-Current output format:
-- CSV
-- encoding: `latin-1`
-- separator: `;`
+---
 
-Naming convention:
-- `parsed_presidencia_<year>.csv`
-- stored in `data/parsed_tse`
+## 6. Execution
 
-The year suffix clarifies the election cycle and keeps files isolated by cycle.
+From the `scripts` directory, run:
 
-## Constants and Configuration (`constants_tse`)
+```bash
+python main.py
+```
 
-### Role of `constants_tse`
+For a focused run of the TSE pipeline only:
 
-The `constants_tse` module centralizes pipeline configuration for:
+```bash
+python -c "from pipelines.tse import run_tse_pipeline; run_tse_pipeline()"
+```
+
+---
+
+## 7. Configuration
+
+Most pipeline settings are centralized in `scripts/constants_tse.py`, including:
+
 - source URLs
 - target filenames inside ZIP archives
 - CSV encoding and separator
-- local raw data directory path
-- column selection for transformation
+- local output directories
+- selected columns for transformation
 
-This centralized approach avoids hardcoding values in multiple modules and improves maintainability.
+This keeps the ETL logic consistent across extraction, transformation, and loading.
 
-### Importance of `INTEREST_COLUMNS_PRESIDENCY`
+---
 
-`INTEREST_COLUMNS_PRESIDENCY` defines the exact schema that the transformation layer persists.
-Using this constant ensures:
-- only relevant columns are kept
-- transformations remain consistent across years
-- future schema changes are explicit and controlled
+## 8. Notes
 
-### Safely Evolving Columns
+- The first execution can take longer because the TSE source files are large.
+- The pipeline is designed to be resilient to missing or partially downloaded inputs by logging warnings instead of failing immediately.
+- The frontend chart uses the processed vote tables and applies the same color pattern as the other dashboard modules: the top two candidates are highlighted, and the remainder use a neutral tone.
 
-To add or change columns safely:
-1. Update `INTEREST_COLUMNS_PRESIDENCY` in `scripts/constants_tse.py`
-2. Verify that raw CSV files include the new columns
-3. Confirm `select_interest_columns()` preserves the updated set
-4. Adjust downstream analysis expectations for the new column schema
-
-This strategy keeps the transformation layer stable while allowing controlled schema evolution.
-
-## Extensibility
-
-### Adding New Elections
-
-The pipeline can be extended to additional election cycles by:
-- defining new source URLs and target filenames in `constants_tse`
-- adding new extraction targets in `extractors/tse.py`
-- adding new year-specific transformation calls in `transformers/tse.py`
-- preserving the existing ETL orchestration in `pipelines/tse.py`
-
-### Adding Electorate Data
-
-The current architecture supports adding electorate transformation without structural refactor:
-- the extractor already downloads electorate files
-- the transformer module contains a future-ready TODO section for electorate processing
-- the pipeline can later invoke `run_voter_profile_transformation()` alongside `run_presidency_transformation()`
-
-This separation ensures new domain logic does not interfere with the existing presidency flow.
-
-### Maintenance and Scalability
-
-Best practices for this pipeline:
-- keep extraction URLs and target filenames in `constants_tse`
-- use year-specific output names for parsed data
-- avoid mixing raw data loading with transformation rules
-- preserve domain boundaries between presidency and electorate
-- keep pipeline orchestration simple and explicit
-
-## References
-
-Official TSE data URLs used by the project:
 - Presidential 2018: https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2018.zip
 - Presidential 2022: https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_2022.zip
 - Electorate 2018: https://cdn.tse.jus.br/estatistica/sead/odsele/perfil_eleitorado/perfil_eleitorado_2018.zip
