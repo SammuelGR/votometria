@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from tests.helpers import gold_dataframe, gold_row
+from tests.helpers import candidate_catalog, polymarket_probability
 
 
 def test_health_returns_ok(client):
@@ -29,7 +29,9 @@ def test_market_expectations_returns_empty_series_when_no_data_exists(client):
     assert response.status_code == 200
     assert response.json() == {
         "sources": ["polymarket"],
-        "metadata": {"latestTimestamp": None},
+        "metadata": {
+            "latestTimestamp": None,
+        },
         "summary": {
             "currentLeader": None,
             "leaderMargin": None,
@@ -39,26 +41,51 @@ def test_market_expectations_returns_empty_series_when_no_data_exists(client):
     }
 
 
-def test_market_expectations_returns_grouped_candidate_series(client, set_gold):
-    set_gold(
-        gold_dataframe(
+def test_market_expectations_returns_grouped_candidate_series(client, db_session_factory):
+    with db_session_factory() as session:
+        session.add_all(
             [
-                gold_row(1, "Candidate A", market_id="market-1", probability=0.25,
-                         timestamp=datetime(2024, 1, 1, 10)),
-                gold_row(1, "Candidate A", market_id="market-1", probability=0.50,
-                         timestamp=datetime(2024, 1, 1, 11)),
-                gold_row(2, "Candidate B", market_id="market-2", probability=0.125,
-                         timestamp=datetime(2024, 1, 1, 10)),
+                candidate_catalog(
+                    candidate_id=1,
+                    display_name="Candidate A",
+                    source_key="market-1",
+                ),
+                candidate_catalog(
+                    candidate_id=2,
+                    display_name="Candidate B",
+                    source_key="market-2",
+                ),
+                polymarket_probability(
+                    candidate_catalog_id=1,
+                    candidate_name="Candidate A",
+                    probability=0.25,
+                    timestamp=datetime(2024, 1, 1, 10),
+                ),
+                polymarket_probability(
+                    candidate_catalog_id=1,
+                    candidate_name="Candidate A",
+                    probability=0.50,
+                    timestamp=datetime(2024, 1, 1, 11),
+                ),
+                polymarket_probability(
+                    candidate_catalog_id=2,
+                    candidate_name="Candidate B",
+                    probability=0.125,
+                    timestamp=datetime(2024, 1, 1, 10),
+                    market_id="market-2",
+                ),
             ]
         )
-    )
+        session.commit()
 
     response = client.get("/api/current-election/market-expectations")
 
     assert response.status_code == 200
     assert response.json() == {
         "sources": ["polymarket"],
-        "metadata": {"latestTimestamp": "2024-01-01T11:00:00"},
+        "metadata": {
+            "latestTimestamp": "2024-01-01T11:00:00",
+        },
         "summary": {
             "currentLeader": {
                 "candidateCatalogId": 1,
@@ -84,8 +111,14 @@ def test_market_expectations_returns_grouped_candidate_series(client, set_gold):
                 "displayName": "Candidate A",
                 "marketId": "market-1",
                 "points": [
-                    {"timestamp": "2024-01-01T10:00:00", "probability": 0.25},
-                    {"timestamp": "2024-01-01T11:00:00", "probability": 0.5},
+                    {
+                        "timestamp": "2024-01-01T10:00:00",
+                        "probability": 0.25,
+                    },
+                    {
+                        "timestamp": "2024-01-01T11:00:00",
+                        "probability": 0.5,
+                    },
                 ],
             },
             {
@@ -94,24 +127,46 @@ def test_market_expectations_returns_grouped_candidate_series(client, set_gold):
                 "displayName": "Candidate B",
                 "marketId": "market-2",
                 "points": [
-                    {"timestamp": "2024-01-01T10:00:00", "probability": 0.125},
+                    {
+                        "timestamp": "2024-01-01T10:00:00",
+                        "probability": 0.125,
+                    },
                 ],
             },
         ],
     }
 
 
-def test_market_expectations_filters_by_candidate_catalog_ids(client, set_gold):
-    set_gold(
-        gold_dataframe(
+def test_market_expectations_filters_by_candidate_catalog_ids(client, db_session_factory):
+    with db_session_factory() as session:
+        session.add_all(
             [
-                gold_row(1, "Candidate A", market_id="market-1", probability=0.25,
-                         timestamp=datetime(2024, 1, 1, 10)),
-                gold_row(2, "Candidate B", market_id="market-2", probability=0.50,
-                         timestamp=datetime(2024, 1, 1, 10)),
+                candidate_catalog(
+                    candidate_id=1,
+                    display_name="Candidate A",
+                    source_key="market-1",
+                ),
+                candidate_catalog(
+                    candidate_id=2,
+                    display_name="Candidate B",
+                    source_key="market-2",
+                ),
+                polymarket_probability(
+                    candidate_catalog_id=1,
+                    candidate_name="Candidate A",
+                    probability=0.25,
+                    timestamp=datetime(2024, 1, 1, 10),
+                ),
+                polymarket_probability(
+                    candidate_catalog_id=2,
+                    candidate_name="Candidate B",
+                    probability=0.50,
+                    timestamp=datetime(2024, 1, 1, 10),
+                    market_id="market-2",
+                ),
             ]
         )
-    )
+        session.commit()
 
     response = client.get(
         "/api/current-election/market-expectations",
@@ -129,16 +184,26 @@ def test_market_expectations_filters_by_candidate_catalog_ids(client, set_gold):
 
 
 def test_market_expectations_returns_empty_series_for_unknown_candidate_catalog_id(
-    client, set_gold
+    client,
+    db_session_factory,
 ):
-    set_gold(
-        gold_dataframe(
+    with db_session_factory() as session:
+        session.add_all(
             [
-                gold_row(1, "Candidate A", market_id="market-1", probability=0.25,
-                         timestamp=datetime(2024, 1, 1, 10)),
+                candidate_catalog(
+                    candidate_id=1,
+                    display_name="Candidate A",
+                    source_key="market-1",
+                ),
+                polymarket_probability(
+                    candidate_catalog_id=1,
+                    candidate_name="Candidate A",
+                    probability=0.25,
+                    timestamp=datetime(2024, 1, 1, 10),
+                ),
             ]
         )
-    )
+        session.commit()
 
     response = client.get(
         "/api/current-election/market-expectations",
@@ -156,16 +221,36 @@ def test_market_expectations_returns_empty_series_for_unknown_candidate_catalog_
     assert response_body["series"] == []
 
 
-def test_market_expectations_filters_by_date_range(client, set_gold):
-    set_gold(
-        gold_dataframe(
+def test_market_expectations_filters_by_date_range(client, db_session_factory):
+    with db_session_factory() as session:
+        session.add_all(
             [
-                gold_row(1, "Candidate A", probability=0.20, timestamp=datetime(2024, 1, 1, 9)),
-                gold_row(1, "Candidate A", probability=0.30, timestamp=datetime(2024, 1, 1, 10)),
-                gold_row(1, "Candidate A", probability=0.40, timestamp=datetime(2024, 1, 1, 11)),
+                candidate_catalog(
+                    candidate_id=1,
+                    display_name="Candidate A",
+                    source_key="market-1",
+                ),
+                polymarket_probability(
+                    candidate_catalog_id=1,
+                    candidate_name="Candidate A",
+                    probability=0.20,
+                    timestamp=datetime(2024, 1, 1, 9),
+                ),
+                polymarket_probability(
+                    candidate_catalog_id=1,
+                    candidate_name="Candidate A",
+                    probability=0.30,
+                    timestamp=datetime(2024, 1, 1, 10),
+                ),
+                polymarket_probability(
+                    candidate_catalog_id=1,
+                    candidate_name="Candidate A",
+                    probability=0.40,
+                    timestamp=datetime(2024, 1, 1, 11),
+                ),
             ]
         )
-    )
+        session.commit()
 
     response = client.get(
         "/api/current-election/market-expectations",
@@ -179,18 +264,34 @@ def test_market_expectations_filters_by_date_range(client, set_gold):
     response_body = response.json()
     assert response_body["metadata"]["latestTimestamp"] == "2024-01-01T11:00:00"
     assert response_body["series"][0]["points"] == [
-        {"timestamp": "2024-01-01T10:00:00", "probability": 0.3}
+        {
+            "timestamp": "2024-01-01T10:00:00",
+            "probability": 0.3,
+        }
     ]
 
 
-def test_market_expectations_returns_empty_series_for_out_of_range_dates(client, set_gold):
-    set_gold(
-        gold_dataframe(
+def test_market_expectations_returns_empty_series_for_out_of_range_dates(
+    client,
+    db_session_factory,
+):
+    with db_session_factory() as session:
+        session.add_all(
             [
-                gold_row(1, "Candidate A", probability=0.20, timestamp=datetime(2024, 1, 1, 9)),
+                candidate_catalog(
+                    candidate_id=1,
+                    display_name="Candidate A",
+                    source_key="market-1",
+                ),
+                polymarket_probability(
+                    candidate_catalog_id=1,
+                    candidate_name="Candidate A",
+                    probability=0.20,
+                    timestamp=datetime(2024, 1, 1, 9),
+                ),
             ]
         )
-    )
+        session.commit()
 
     response = client.get(
         "/api/current-election/market-expectations",
@@ -250,24 +351,49 @@ def test_market_expectation_options_returns_empty_values_when_no_data_exists(cli
 
     assert response.status_code == 200
     assert response.json() == {
-        "dateRange": {"min": None, "max": None},
+        "dateRange": {
+            "min": None,
+            "max": None,
+        },
         "intervals": ["1h", "4h", "1d", "1w"],
         "candidates": [],
         "defaultCandidateCatalogIds": [],
     }
 
 
-def test_market_expectation_options_returns_available_values(client, set_gold):
-    set_gold(
-        gold_dataframe(
+def test_market_expectation_options_returns_available_values(
+    client,
+    db_session_factory,
+):
+    with db_session_factory() as session:
+        session.add_all(
             [
-                gold_row(1, "Candidate A", market_id="market-1", probability=0.25,
-                         timestamp=datetime(2024, 1, 1, 10)),
-                gold_row(2, "Candidate B", market_id="market-2", probability=0.50,
-                         timestamp=datetime(2024, 1, 3, 12)),
+                candidate_catalog(
+                    candidate_id=1,
+                    display_name="Candidate A",
+                    source_key="market-1",
+                ),
+                candidate_catalog(
+                    candidate_id=2,
+                    display_name="Candidate B",
+                    source_key="market-2",
+                ),
+                polymarket_probability(
+                    candidate_catalog_id=1,
+                    candidate_name="Candidate A",
+                    probability=0.25,
+                    timestamp=datetime(2024, 1, 1, 10),
+                ),
+                polymarket_probability(
+                    candidate_catalog_id=2,
+                    candidate_name="Candidate B",
+                    probability=0.50,
+                    timestamp=datetime(2024, 1, 3, 12),
+                    market_id="market-2",
+                ),
             ]
         )
-    )
+        session.commit()
 
     response = client.get("/api/current-election/market-expectations/options")
 
@@ -279,88 +405,185 @@ def test_market_expectation_options_returns_available_values(client, set_gold):
     }
     assert response_body["intervals"] == ["1h", "4h", "1d", "1w"]
     assert response_body["candidates"] == [
-        {"candidateCatalogId": 2, "displayName": "Candidate B", "latestProbability": 0.5},
-        {"candidateCatalogId": 1, "displayName": "Candidate A", "latestProbability": 0.25},
+        {
+            "candidateCatalogId": 2,
+            "displayName": "Candidate B",
+            "latestProbability": 0.5,
+        },
+        {
+            "candidateCatalogId": 1,
+            "displayName": "Candidate A",
+            "latestProbability": 0.25,
+        },
     ]
     assert response_body["defaultCandidateCatalogIds"] == [2, 1]
 
 
-def test_market_expectation_options_ignores_candidates_without_probabilities(client, set_gold):
-    # A candidate with no probability rows simply does not appear in the gold tab.
-    set_gold(
-        gold_dataframe(
+def test_market_expectation_options_ignores_candidates_without_probabilities(
+    client,
+    db_session_factory,
+):
+    with db_session_factory() as session:
+        session.add_all(
             [
-                gold_row(1, "Candidate A", market_id="market-1", probability=0.25,
-                         timestamp=datetime(2024, 1, 1, 10)),
+                candidate_catalog(
+                    candidate_id=1,
+                    display_name="Candidate A",
+                    source_key="market-1",
+                ),
+                candidate_catalog(
+                    candidate_id=2,
+                    display_name="Candidate B",
+                    source_key="market-2",
+                ),
+                polymarket_probability(
+                    candidate_catalog_id=1,
+                    candidate_name="Candidate A",
+                    probability=0.25,
+                    timestamp=datetime(2024, 1, 1, 10),
+                ),
             ]
         )
-    )
+        session.commit()
 
     response = client.get("/api/current-election/market-expectations/options")
 
     assert response.status_code == 200
     assert response.json()["candidates"] == [
-        {"candidateCatalogId": 1, "displayName": "Candidate A", "latestProbability": 0.25}
+        {
+            "candidateCatalogId": 1,
+            "displayName": "Candidate A",
+            "latestProbability": 0.25,
+        }
     ]
 
 
-def test_market_expectation_options_does_not_duplicate_candidates(client, set_gold):
-    set_gold(
-        gold_dataframe(
+def test_market_expectation_options_does_not_duplicate_candidates(
+    client,
+    db_session_factory,
+):
+    with db_session_factory() as session:
+        session.add_all(
             [
-                gold_row(1, "Candidate A", market_id="market-1", probability=0.25,
-                         timestamp=datetime(2024, 1, 1, 10)),
-                gold_row(1, "Candidate A", market_id="market-1", probability=0.50,
-                         timestamp=datetime(2024, 1, 1, 11)),
+                candidate_catalog(
+                    candidate_id=1,
+                    display_name="Candidate A",
+                    source_key="market-1",
+                ),
+                polymarket_probability(
+                    candidate_catalog_id=1,
+                    candidate_name="Candidate A",
+                    probability=0.25,
+                    timestamp=datetime(2024, 1, 1, 10),
+                ),
+                polymarket_probability(
+                    candidate_catalog_id=1,
+                    candidate_name="Candidate A",
+                    probability=0.50,
+                    timestamp=datetime(2024, 1, 1, 11),
+                ),
             ]
         )
-    )
+        session.commit()
 
     response = client.get("/api/current-election/market-expectations/options")
 
     assert response.status_code == 200
     assert response.json()["candidates"] == [
-        {"candidateCatalogId": 1, "displayName": "Candidate A", "latestProbability": 0.5}
+        {
+            "candidateCatalogId": 1,
+            "displayName": "Candidate A",
+            "latestProbability": 0.5,
+        }
     ]
 
 
-def test_market_expectation_options_orders_candidates_by_latest_probability(client, set_gold):
-    set_gold(
-        gold_dataframe(
+def test_market_expectation_options_orders_candidates_by_latest_probability(
+    client,
+    db_session_factory,
+):
+    with db_session_factory() as session:
+        session.add_all(
             [
-                gold_row(1, "Candidate A", market_id="market-1", probability=0.90,
-                         timestamp=datetime(2024, 1, 1, 10)),
-                gold_row(1, "Candidate A", market_id="market-1", probability=0.20,
-                         timestamp=datetime(2024, 1, 1, 11)),
-                gold_row(2, "Candidate B", market_id="market-2", probability=0.50,
-                         timestamp=datetime(2024, 1, 1, 10)),
+                candidate_catalog(
+                    candidate_id=1,
+                    display_name="Candidate A",
+                    source_key="market-1",
+                ),
+                candidate_catalog(
+                    candidate_id=2,
+                    display_name="Candidate B",
+                    source_key="market-2",
+                ),
+                polymarket_probability(
+                    candidate_catalog_id=1,
+                    candidate_name="Candidate A",
+                    probability=0.90,
+                    timestamp=datetime(2024, 1, 1, 10),
+                ),
+                polymarket_probability(
+                    candidate_catalog_id=1,
+                    candidate_name="Candidate A",
+                    probability=0.20,
+                    timestamp=datetime(2024, 1, 1, 11),
+                ),
+                polymarket_probability(
+                    candidate_catalog_id=2,
+                    candidate_name="Candidate B",
+                    probability=0.50,
+                    timestamp=datetime(2024, 1, 1, 10),
+                    market_id="market-2",
+                ),
             ]
         )
-    )
+        session.commit()
 
     response = client.get("/api/current-election/market-expectations/options")
 
     assert response.status_code == 200
     response_body = response.json()
     assert response_body["candidates"] == [
-        {"candidateCatalogId": 2, "displayName": "Candidate B", "latestProbability": 0.5},
-        {"candidateCatalogId": 1, "displayName": "Candidate A", "latestProbability": 0.2},
+        {
+            "candidateCatalogId": 2,
+            "displayName": "Candidate B",
+            "latestProbability": 0.5,
+        },
+        {
+            "candidateCatalogId": 1,
+            "displayName": "Candidate A",
+            "latestProbability": 0.2,
+        },
     ]
     assert response_body["defaultCandidateCatalogIds"] == [2, 1]
 
 
-def test_market_expectation_options_returns_top_five_default_candidates(client, set_gold):
-    rows = [
-        gold_row(
-            candidate_id_i,
-            f"Candidate {candidate_id_i}",
-            market_id=f"market-{candidate_id_i}",
-            probability=candidate_id_i * 0.1,
-            timestamp=datetime(2024, 1, 1, 10),
-        )
-        for candidate_id_i in range(1, 7)
-    ]
-    set_gold(gold_dataframe(rows))
+def test_market_expectation_options_returns_top_five_default_candidates(
+    client,
+    db_session_factory,
+):
+    with db_session_factory() as session:
+        records = []
+
+        for candidate_id in range(1, 7):
+            records.extend(
+                [
+                    candidate_catalog(
+                        candidate_id=candidate_id,
+                        display_name=f"Candidate {candidate_id}",
+                        source_key=f"market-{candidate_id}",
+                    ),
+                    polymarket_probability(
+                        candidate_catalog_id=candidate_id,
+                        candidate_name=f"Candidate {candidate_id}",
+                        probability=candidate_id * 0.1,
+                        timestamp=datetime(2024, 1, 1, 10),
+                        market_id=f"market-{candidate_id}",
+                    ),
+                ]
+            )
+
+        session.add_all(records)
+        session.commit()
 
     response = client.get("/api/current-election/market-expectations/options")
 

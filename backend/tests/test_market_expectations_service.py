@@ -9,27 +9,48 @@ from app.services.market_expectations import (
     get_market_expectations,
 )
 from tests.helpers import (
-    empty_gold_dataframe,
-    gold_dataframe,
-    gold_row,
+    candidate_catalog,
     market_expectation_point,
     market_expectation_series,
+    polymarket_probability,
 )
 
 
 def test_build_market_expectation_series_groups_records_by_candidate_and_market():
-    df = gold_dataframe(
-        [
-            gold_row(1, "Candidate A", market_id="market-1", probability=0.25,
-                     timestamp=datetime(2024, 1, 1, 10)),
-            gold_row(1, "Candidate A", market_id="market-1", probability=0.50,
-                     timestamp=datetime(2024, 1, 1, 11)),
-            gold_row(2, "Candidate B", market_id="market-2", probability=0.125,
-                     timestamp=datetime(2024, 1, 1, 10)),
-        ]
+    candidate_a = candidate_catalog(candidate_id=1, display_name="Candidate A")
+    candidate_b = candidate_catalog(
+        candidate_id=2,
+        display_name="Candidate B",
+        source_key="market-2",
     )
+    records = [
+        polymarket_probability(
+            candidate_catalog_id=1,
+            candidate_name="Candidate A",
+            probability=0.25,
+            timestamp=datetime(2024, 1, 1, 10),
+            market_id="market-1",
+        ),
+        polymarket_probability(
+            candidate_catalog_id=1,
+            candidate_name="Candidate A",
+            probability=0.50,
+            timestamp=datetime(2024, 1, 1, 11),
+            market_id="market-1",
+        ),
+        polymarket_probability(
+            candidate_catalog_id=2,
+            candidate_name="Candidate B",
+            probability=0.125,
+            timestamp=datetime(2024, 1, 1, 10),
+            market_id="market-2",
+        ),
+    ]
+    records[0].candidate_catalog = candidate_a
+    records[1].candidate_catalog = candidate_a
+    records[2].candidate_catalog = candidate_b
 
-    series = build_market_expectation_series(df)
+    series = build_market_expectation_series(records)
 
     assert [candidate_series.model_dump(by_alias=True) for candidate_series in series] == [
         {
@@ -63,28 +84,47 @@ def test_build_market_expectation_series_groups_records_by_candidate_and_market(
     ]
 
 
-def test_build_market_expectations_metadata_returns_latest_timestamp():
-    df = gold_dataframe(
-        [
-            gold_row(1, "Candidate A", probability=0.25, timestamp=datetime(2024, 1, 1, 10)),
-            gold_row(1, "Candidate A", probability=0.50, timestamp=datetime(2024, 1, 1, 12)),
-        ]
-    )
+def test_build_market_expectations_metadata_returns_latest_database_timestamp(
+    db_session_factory,
+):
+    with db_session_factory() as session:
+        session.add_all(
+            [
+                candidate_catalog(candidate_id=1, display_name="Candidate A"),
+                polymarket_probability(
+                    candidate_catalog_id=1,
+                    candidate_name="Candidate A",
+                    probability=0.25,
+                    timestamp=datetime(2024, 1, 1, 10),
+                ),
+                polymarket_probability(
+                    candidate_catalog_id=1,
+                    candidate_name="Candidate A",
+                    probability=0.50,
+                    timestamp=datetime(2024, 1, 1, 12),
+                ),
+            ]
+        )
+        session.commit()
 
-    metadata = build_market_expectations_metadata(df)
+        metadata = build_market_expectations_metadata(session)
 
-    assert metadata.latest_timestamp == datetime(2024, 1, 1, 12)
-
-
-def test_build_market_expectations_metadata_returns_none_without_records():
-    metadata = build_market_expectations_metadata(empty_gold_dataframe())
-
-    assert metadata.latest_timestamp is None
+        assert metadata.latest_timestamp == datetime(2024, 1, 1, 12)
 
 
-def test_get_market_expectations_rejects_unsupported_interval():
-    with pytest.raises(ValueError, match="Unsupported market expectation interval"):
-        get_market_expectations(interval="weekly")
+def test_build_market_expectations_metadata_returns_none_without_database_records(
+    db_session_factory,
+):
+    with db_session_factory() as session:
+        metadata = build_market_expectations_metadata(session)
+
+        assert metadata.latest_timestamp is None
+
+
+def test_get_market_expectations_rejects_unsupported_interval(db_session_factory):
+    with db_session_factory() as session:
+        with pytest.raises(ValueError, match="Unsupported market expectation interval"):
+            get_market_expectations(session, interval="weekly")
 
 
 def test_build_market_expectations_summary_returns_leader_margin_and_largest_change():
