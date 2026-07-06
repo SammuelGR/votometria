@@ -3,6 +3,7 @@ import AttentionVsPolling from '~/pages/Dashboard/AttentionVsPolling/AttentionVs
 import MarketExpectations from '~/pages/Dashboard/MarketExpectations/MarketExpectations';
 import PublicAttention from '~/pages/Dashboard/PublicAttention/PublicAttention';
 import ShareOfSearch from '~/pages/Dashboard/ShareOfSearch/ShareOfSearch';
+import TseComparison from '~/pages/Dashboard/TseComparison/TseComparison';
 
 export default function Dashboard() {
   return (
@@ -14,6 +15,8 @@ export default function Dashboard() {
       <AttentionVsPolling />
 
       <ShareOfSearch />
+
+      <TseComparison />
 
       <AttentionMarketComparison />
     </section>
