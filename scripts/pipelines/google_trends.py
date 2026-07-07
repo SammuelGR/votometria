@@ -21,6 +21,7 @@ from loaders.google_trends import (
     save_raw_google_trends_batch,
 )
 from transformers.google_trends import (
+    filter_by_min_date,
     rescale_batches_by_anchor,
     transform_batch_interest_over_time,
 )
@@ -32,7 +33,9 @@ def _process_election_group(
     """
     Collects, transforms and rescales every batch of a single election group,
     publishing raw batches to the bronze layer and the consolidated (rescaled)
-    year dataset to the prata (silver) layer.
+    year dataset to the prata (silver) layer. When ``config`` has a ``min_date``,
+    rows dated earlier than that are dropped before publishing (bronze keeps the
+    unfiltered raw batches regardless).
 
     Returns a tuple ``(year_df, summary)`` where ``year_df`` is the consolidated,
     rescaled long DataFrame (or ``None`` when there is nothing to collect).
@@ -101,6 +104,18 @@ def _process_election_group(
 
     # Transformer output (rescaled long) -> prata (silver) layer.
     year_df = rescale_batches_by_anchor(batch_long_dfs, anchor_term)
+
+    # Some groups (e.g. "current", collected with a rolling "today 12-m" window)
+    # need trimming to the actual election cycle before publishing.
+    min_date = config.get("min_date")
+    rows_before_filter = len(year_df)
+    year_df = filter_by_min_date(year_df, min_date)
+    if min_date and rows_before_filter != len(year_df):
+        print(
+            f"-> {election_year}: dropped {rows_before_filter - len(year_df)} rows "
+            f"before {min_date}"
+        )
+
     processed_tab = save_processed_google_trends_year(
         layers["prata"], year_df, election_year
     )

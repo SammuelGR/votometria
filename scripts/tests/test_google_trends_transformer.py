@@ -4,6 +4,7 @@ import pandas as pd
 
 from transformers.google_trends import (
     BATCH_LONG_COLUMNS,
+    filter_by_min_date,
     transform_batch_interest_over_time,
 )
 
@@ -80,3 +81,34 @@ def test_transform_batch_handles_empty_frame():
 
     assert list(result.columns) == BATCH_LONG_COLUMNS
     assert result.empty
+
+
+def _dated_frame():
+    return pd.DataFrame(
+        {
+            "date": ["2025-10-01", "2025-12-31", "2026-01-01", "2026-03-01"],
+            "term": ["Lula", "Lula", "Lula", "Lula"],
+        }
+    )
+
+
+def test_filter_by_min_date_drops_rows_before_threshold():
+    result = filter_by_min_date(_dated_frame(), "2026-01-01")
+
+    assert list(result["date"]) == ["2026-01-01", "2026-03-01"]
+
+
+def test_filter_by_min_date_returns_unchanged_when_min_date_is_none():
+    df = _dated_frame()
+
+    result = filter_by_min_date(df, None)
+
+    assert list(result["date"]) == list(df["date"])
+
+
+def test_filter_by_min_date_returns_unchanged_when_min_date_is_empty_string():
+    df = _dated_frame()
+
+    result = filter_by_min_date(df, "")
+
+    assert list(result["date"]) == list(df["date"])

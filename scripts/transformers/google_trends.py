@@ -152,3 +152,18 @@ def rescale_batches_by_anchor(
     combined = combined[~drop_anchor_dupes].reset_index(drop=True)
 
     return combined[PROCESSED_COLUMNS]
+
+
+def filter_by_min_date(df: pd.DataFrame, min_date: Optional[str]) -> pd.DataFrame:
+    """
+    Drops rows dated before ``min_date`` (inclusive lower bound), when given.
+
+    Used to scope a rolling collection window (e.g. "today 12-m") down to the
+    actual election cycle before publishing to prata/ouro. Relies on ``date``
+    always being an ISO ``YYYY-MM-DD`` string, so lexicographic comparison is
+    equivalent to chronological comparison.
+    """
+    if not min_date:
+        return df
+
+    return df[df["date"] >= min_date].reset_index(drop=True)

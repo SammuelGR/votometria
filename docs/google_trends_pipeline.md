@@ -93,6 +93,7 @@ Tudo em `scripts/constants.py`, no dicionário `GOOGLE_TRENDS_ELECTION_GROUPS`:
 | Possíveis candidatos atuais  | `GOOGLE_TRENDS_ELECTION_GROUPS["current"]["terms"]`         |
 | Período/janela de um ano     | `GOOGLE_TRENDS_ELECTION_GROUPS["<ano>"]["timeframe"]`       |
 | Termo-âncora de um ano       | `GOOGLE_TRENDS_ELECTION_GROUPS["<ano>"]["anchor_term"]`     |
+| Data mínima publicada (grupo `current`) | `GOOGLE_TRENDS_ELECTION_GROUPS["current"]["min_date"]` |
 | Região                       | `GOOGLE_TRENDS_GEO`                                         |
 | Idioma / fuso                | `GOOGLE_TRENDS_HL`, `GOOGLE_TRENDS_TZ`                      |
 | Termos por consulta / lote   | `GOOGLE_TRENDS_MAX_TERMS_PER_REQUEST`, `GOOGLE_TRENDS_TERMS_PER_BATCH` |
@@ -102,6 +103,11 @@ Tudo em `scripts/constants.py`, no dicionário `GOOGLE_TRENDS_ELECTION_GROUPS`:
 > automaticamente no início de cada lote.
 > A lista de candidatos atuais é configurável e **não** é definitiva — ver
 > `google_trends_candidatos.md`.
+> O grupo `current` usa `timeframe: "today 12-m"` (janela móvel dos últimos 12
+> meses), que sempre inclui alguns meses do ano anterior ao ciclo eleitoral. Por
+> isso `min_date` corta as linhas publicadas nas abas prata/ouro (`proc_*`) para
+> a data configurada — as abas `raw_*` (bronze) continuam com a janela completa,
+> sem corte, para auditoria.
 
 ## Uso futuro no dashboard React
 

@@ -89,3 +89,9 @@ date,election_year,term,interest_raw,interest_scaled,geo,timeframe,source,batch_
 - O termo-âncora aparece **apenas** com `batch_id = batch_01` (deduplicado dos demais lotes).
 - `is_partial = True` indica período mais recente ainda em formação — tratar com cautela.
 - `date` está em formato ISO (`YYYY-MM-DD`).
+- Para o grupo `current`, `timeframe` reflete a janela de coleta consultada no
+  Google Trends (`today 12-m`), não necessariamente o intervalo de datas
+  publicado: quando `GOOGLE_TRENDS_ELECTION_GROUPS["current"]["min_date"]` está
+  configurado, linhas anteriores a essa data são descartadas antes da
+  publicação nas abas `proc_*` (prata/ouro) — ver `google_trends_pipeline.md`.
+  A aba `raw_*` (bronze) do mesmo grupo preserva a janela completa sem corte.
