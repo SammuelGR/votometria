@@ -1,6 +1,5 @@
 from extractors.tse import extract_presidency_data, extract_voter_profile_data
 from loaders.tse_sheets import run_tse_load_to_sheets
-from scripts.loaders.tse import run_tse_load
 from transformers.tse import (
     run_presidency_transformation,
     run_voter_profile_transformation,
@@ -42,15 +41,14 @@ def run_tse_pipeline() -> int:
         print("Warning: Voter profile transformation failed.")
 
     if not presidency_transform_success or not electorate_transform_success:
-        print("Transformation completed with warnings.")
-        return total_extracted
+        print("Transformation completed with warnings; loading whatever parsed data exists.")
+    else:
+        print("Transformation completed successfully.")
 
-    print("Transformation completed successfully.")
-
+    # Always attempt the load: run_tse_load_to_sheets skips any year whose parsed
+    # CSV is missing, so a partial transformation (e.g. one year failed to
+    # download) still publishes the years that succeeded.
     print("\n--- Phase 3: Load ---")
-    # load_sucess = run_tse_load()
-
-    # lógica para carregar os dados transformados para o Google Sheets
     load_success = run_tse_load_to_sheets()
     if not load_success:
         print("Warning: TSE load stage failed.")

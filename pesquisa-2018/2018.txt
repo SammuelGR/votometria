@@ -1,0 +1,4360 @@
+=== Pesquisas ===
+{| class="wikitable collapsible" style="text-align: center; font-size: 85%; line-height: 14px; margin-bottom: 10px;"
+! rowspan="2" style="width:130px;" |Período da pesquisa
+! rowspan="2" style="width:115px;" |Contratante/Instituto
+Referência
+Número de registro
+! rowspan="2" style="width:50px;" |Total de entrevistados
+! rowspan="2" style="width:60px;" |Margem de erro ([[Ponto percentual|pontos percentuais]])
+! style="width:60px;" |[[Partido dos Trabalhadores|PT]]
+! style="width:60px;" |[[Partido Democrático Trabalhista|PDT]]
+! style="width:60px;" |[[Partido Socialista Brasileiro|PSB]]
+! style="width:60px;" |[[Rede Sustentabilidade|REDE]]
+! style="width:60px;" |[[Movimento Democrático Brasileiro (1980)|MDB]]
+! style="width:60px;" |[[Podemos (Brasil)|PODE]]
+! style="width:60px;" |[[PSDB]]
+! style="width:60px;" |[[NOVO]]
+! style="width:60px;" |[[Partido Social Liberal|PSL]]
+! rowspan="2" style="width:60px;" |Outros
+! rowspan="2" style="width:40px;" |Abst./<br />Não decid.
+|-
+| style="background:{{Partido dos Trabalhadores/meta/cor}};" |
+| style="background:{{Partido Democrático Trabalhista/meta/cor}};" |
+| style="background:{{Partido Socialista Brasileiro/meta/cor}};" |
+| style="background:{{Rede Sustentabilidade/meta/cor}};" |
+| style="background:{{Movimento Democrático Brasileiro/meta/cor}};" |
+| style="background:{{Podemos (Brasil)/meta/cor}};" |
+| style="background:{{Partido da Social Democracia Brasileira/meta/cor}};" |
+| style="background:{{Partido_Novo/meta/cor}};" |
+| style="background:{{Partido Social Liberal/meta/cor}};" |
+|-
+|5–6 de outubro de 2018
+|[https://g1.globo.com/politica/eleicoes/2018/noticia/2018/10/06/ibope-para-presidente-votos-validos-bolsonaro-41-haddad-25-ciro-13-alckmin-8.ghtml Globo e O Estado de S. Paulo/IBOPE]
+BR-01537/2018
+|3.010
+|2
+|'''22%'''<br /><small>(Haddad)</small>
+|11%<br /><small>(Gomes)</small>
+|–
+|3%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|1%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|2%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''36%'''<small><br />(Bolsonaro)</small>
+|3%
+|''12%''
+|-
+|5–6 de outubro de 2018
+|[https://g1.globo.com/politica/eleicoes/2018/noticia/2018/10/06/datafolha-para-presidente-votos-validos-bolsonaro-40-haddad-25-ciro-15-alckmin-8.ghtml Globo e Folha/Datafolha]
+BR-01584/2018
+|19.552
+|2
+|'''22%'''<br /><small>(Haddad)</small>
+|13%<br /><small>(Gomes)</small>
+|–
+|3%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|2%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|3%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''36%'''<small><br />(Bolsonaro)</small>
+|2%
+|''10%''
+|-
+|4–5 de outubro de 2018
+|[http://cms.cnt.org.br/Imagens%20CNT/PDFs%20CNT/Pesquisa%20CNT%20MDA/cntmda_140_resultados.pdf CNT/MDA]
+BR-04819/2018
+|2.002
+|2,2
+|'''24,0%'''<br /><small>(Haddad)</small>
+|9,9%<br /><small>(Gomes)</small>
+|–
+|2,2%<br /><small>(Silva)</small>
+|1,6%<br /><small>(Meirelles)</small>
+|1,7%<br /><small>(Dias)</small>
+|5,8%<br /><small>(Alckmin)</small>
+|2,3%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''36,7%'''<small><br />(Bolsonaro)</small>
+|1,9%
+|''13,8%''
+|-
+|2–5 de outubro de 2018
+|[http://www.institutoverita.com.br/ver.php?id=3361&secao=3935 Veritá]
+BR-03229/2018
+|5.208
+|2
+|'''18,8%'''<br /><small>(Haddad)</small>
+|8,4%<br /><small>(Gomes)</small>
+|–
+|1,4%<br /><small>(Silva)</small>
+|0,8%<br /><small>(Meirelles)</small>
+|1,0%<br /><small>(Dias)</small>
+|4,2%<br /><small>(Alckmin)</small>
+|2,9%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''41,5%'''<small><br />(Bolsonaro)</small>
+|2,0%
+|''19,0%''
+|-
+|3–4 de outubro de 2018
+|[https://www.infomoney.com.br/mercados/politica/noticia/7655559/bolsonaro-chega-a-41-dos-votos-validos-e-vantagem-sobre-haddad-sobe-para-16-pontos-mostra-xpipespe XP/Ipespe]
+BR-06509/2018
+|2.000
+|2,2
+|'''22%'''<br /><small>(Haddad)</small>
+|11%<br /><small>(Gomes)</small>
+|–
+|4%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|2%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|3%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''36%'''<small><br />(Bolsonaro)</small>
+|1%
+|''12%''
+|-
+|3–4 de outubro de 2018
+|[https://noticias.r7.com/eleicoes-2018/realtime-big-data-bolsonaro-tem-40-dos-votos-validos-haddad-28-05102018 RecordTV/RealTime Big Data]
+BR-05770/2018
+|10.000
+|2
+|'''24%'''<br /><small>(Haddad)</small>
+|12%<br /><small>(Gomes)</small>
+|–
+|4%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|1%<br /><small>(Dias)</small>
+|6%<br /><small>(Alckmin)</small>
+|2%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''34%'''<small><br />(Bolsonaro)</small>
+|1%
+|''15%''
+|-
+|3–4 de outubro de 2018
+|[https://www.poder360.com.br/datapoder360/datapoder360-nos-votos-validos-bolsonaro-tem-33-e-haddad-vai-a-27/ DataPoder360]
+BR-07142/2018
+|4.000
+|2
+|'''25%'''<br /><small>(Haddad)</small>
+|15%<br /><small>(Gomes)</small>
+|–
+|2%<br /><small>(Silva)</small>
+|3%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|2%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''30%'''<small><br />(Bolsonaro)</small>
+|5%
+|''7%''
+|-
+|3–4 de outubro de 2018
+|[https://g1.globo.com/politica/eleicoes/2018/noticia/2018/10/04/pesquisa-datafolha-para-presidente-bolsonaro-35-haddad-22-ciro-11-alckmin-8-marina-4.ghtml Globo e Folha/Datafolha]
+BR-02581/2018
+|10.930
+|2
+|'''22%'''<br /><small>(Haddad)</small>
+|11%<br /><small>(Gomes)</small>
+|–
+|4%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|2%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|3%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''35%'''<small><br />(Bolsonaro)</small>
+|1%
+|''11%''
+|-
+|2–4 de outubro de 2018
+|[http://www.paranapesquisas.com.br/wp-content/uploads/2018/10/Brasil-M%C3%ADdia.pdf Empiricus/Paraná Pesquisas]
+BR-08437/2018
+|2.080
+|2,0
+|'''21,8%'''<br /><small>(Haddad)</small>
+|9,4%<br /><small>(Gomes)</small>
+|–
+|3,5%<br /><small>(Silva)</small>
+|1,7%<br /><small>(Meirelles)</small>
+|1,4%<br /><small>(Dias)</small>
+|7,4%<br /><small>(Alckmin)</small>
+|3,1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''34,9%'''<small><br />(Bolsonaro)</small>
+|2,1%
+|''14,7%''
+|-
+|28 de setembro–3 de outubro de 2018
+|[http://www.parlamentarismo.com.br/adm/documentos/456/documento.doc Movimento Parlamentarista Brasileiro/Amostra]
+BR-09143/2018
+|2.500
+|2
+|'''22%'''<br /><small>(Haddad)</small>
+|10%<br /><small>(Gomes)</small>
+|–
+|6%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|1%<br /><small>(Dias)</small>
+|6%<br /><small>(Alckmin)</small>
+|2%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''30%'''<small><br />(Bolsonaro)</small>
+|0%
+|''18%''
+|-
+|2 de outubro de 2018
+|[https://g1.globo.com/politica/eleicoes/2018/noticia/2018/10/02/pesquisa-datafolha-para-presidente-bolsonaro-32-haddad-21-ciro-11-alckmin-9-marina-4.ghtml Folha/Datafolha]
+BR-03147/2018
+|3.240
+|2
+|'''21%'''<br /><small>(Haddad)</small>
+|11%<br /><small>(Gomes)</small>
+|–
+|4%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|2%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|3%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''32%'''<small><br />(Bolsonaro)</small>
+|2%
+|''13%''
+|-
+|1–2 de outubro de 2018
+|[https://g1.globo.com/politica/eleicoes/2018/noticia/2018/10/03/pesquisa-ibope-para-presidente-bolsonaro-32-haddad-23-ciro-10-alckmin-7-marina-4.ghtml Globo e O Estado de S. Paulo/IBOPE]
+BR-08245/2018
+|3.010
+|2
+|'''23%'''<br /><small>(Haddad)</small>
+|10%<br /><small>(Gomes)</small>
+|–
+|4%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|1%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|2%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''32%'''<small><br />(Bolsonaro)</small>
+|1%
+|''17%''
+|-
+|29–30 de setembro de 2018
+|[https://static.poder360.com.br/2018/10/pesquisa-BTG-Pactual-1out.pdf BTG Pactual/FSB Pesquisa]
+BR-05879/2018
+|2.000
+|2
+|'''24%'''<br /><small>(Haddad)</small>
+|9%<br /><small>(Gomes)</small>
+|–
+|4%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|2%<br /><small>(Dias)</small>
+|11%<br /><small>(Alckmin)</small>
+|5%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''31%'''<small><br />(Bolsonaro)</small>
+|1%
+|''12%''
+|-
+|29–30 de setembro de 2018
+|[https://g1.globo.com/politica/eleicoes/2018/noticia/2018/10/01/pesquisa-ibope-para-presidente-bolsonaro-31-haddad-21-ciro-11-alckmin-8-marina-4.ghtml Globo e O Estado de S. Paulo/IBOPE]
+BR-08650/2018
+|3.010
+|2
+|'''21%'''<br /><small>(Haddad)</small>
+|11%<br /><small>(Gomes)</small>
+|–
+|4%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|2%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|3%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''31%'''<small><br />(Bolsonaro)</small>
+|1%
+|''17%''
+|-
+|28–29 de setembro de 2018
+|[https://noticias.r7.com/eleicoes-2018/realtime-big-data-bolsonaro-tem-29-haddad-24-e-ciro-11-01102018 RecordTV/RealTime Big Data]
+BR-06298/2018
+|3.200 
+|2
+|'''24%'''<br /><small>(Haddad)</small>
+|11%<br /><small>(Gomes)</small>
+|–
+|5%<br /><small>(Silva)</small>
+|3%<br /><small>(Meirelles)</small>
+|2%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|3%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''29%'''<small><br />(Bolsonaro)</small>
+|1%
+|''15%''
+|-
+|27–28 de setembro de 2018
+|[http://cms.cnt.org.br/Imagens%20CNT/PDFs%20CNT/Pesquisa%20CNT%20MDA/resultados_cnt_mda_139.pdf CNT/MDA]
+BR-03303/2018
+|2.000
+|2,2
+|'''25,2%'''<br /><small>(Haddad)</small>
+|9,4%<br /><small>(Gomes)</small>
+|–
+|2,6%<br /><small>(Silva)</small>
+|2,0%<br /><small>(Meirelles)</small>
+|1,7%<br /><small>(Dias)</small>
+|7,3%<br /><small>(Alckmin)</small>
+|2,0%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''28,2%'''<small><br />(Bolsonaro)</small>
+|1,6%
+|''20,0%''
+|-
+|26–28 de setembro de 2018
+|[https://g1.globo.com/politica/eleicoes/2018/noticia/2018/09/28/pesquisa-datafolha-para-presidente-bolsonaro-28-haddad-22-ciro-11-alckmin-10-marina-5.ghtml Globo e Folha/Datafolha]
+BR-08687/2018
+|9.000
+|2
+|'''22%'''<br /><small>(Haddad)</small>
+|11%<br /><small>(Gomes)</small>
+|–
+|5%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|2%<br /><small>(Dias)</small>
+|10%<br /><small>(Alckmin)</small>
+|3%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''28%'''<small><br />(Bolsonaro)</small>
+|3%
+|''15%''
+|-
+|25–26 de setembro de 2018
+|[https://www.infomoney.com.br/mercados/politica/noticia/7634773/bolsonaro-e-haddad-entram-em-empate-tecnico-no-1-turno-enquanto-petista-vence-no-2-diz-pesquisa Genial Investimentos/Brasilis]
+BR-00592/2018
+|1.000
+|3,5
+|'''22%'''<br /><small>(Haddad)</small>
+|8%<br /><small>(Gomes)</small>
+|–
+|5%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|3%<br /><small>(Dias)</small>
+|10%<br /><small>(Alckmin)</small>
+|3%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''27%'''<small><br />(Bolsonaro)</small>
+|4%
+|''18%''
+|-
+|24–26 de setembro de 2018
+|[https://www.infomoney.com.br/mercados/politica/noticia/7636547/bolsonaro-lidera-com-28-mas-ve-rejeicao-subir-e-desempenho-piorar-no-2-turno-mostra-xpipespe XP/Ipespe]
+BR-00526/2018
+|2.000
+|2,2
+|'''21%'''<br /><small>(Haddad)</small>
+|11%<br /><small>(Gomes)</small>
+|–
+|5%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|2%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|3%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''28%'''<small><br />(Bolsonaro)</small>
+|1%
+|''17%''
+|-
+|23–25 de setembro de 2018
+|[http://www.paranapesquisas.com.br/wp-content/uploads/2018/09/BRSet18-M%C3%ADdia.pdf Empiricus/Paraná Pesquisas]
+BR-03512/2018
+|2.020
+|2,0
+|'''20,2%'''<br /><small>(Haddad)</small>
+|10,1%<br /><small>(Gomes)</small>
+|–
+|4,3%<br /><small>(Silva)</small>
+|1,3%<br /><small>(Meirelles)</small>
+|1,9%<br /><small>(Dias)</small>
+|7,6%<br /><small>(Alckmin)</small>
+|3,8%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''31,2%'''<small><br />(Bolsonaro)</small>
+|1,2%
+|''18,2%''
+|-
+|22–24 de setembro de 2018
+|[https://g1.globo.com/politica/eleicoes/2018/noticia/2018/09/26/pesquisa-ibope-para-presidente-bolsonaro-27-haddad-21-ciro-12-alckmin-8-marina-6.ghtml CNI/IBOPE]
+BR-04669/2018
+|2.000
+|2
+|'''21%'''<br /><small>(Haddad)</small>
+|12%<br /><small>(Gomes)</small>
+|–
+|6%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|2%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|3%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''27%'''<small><br />(Bolsonaro)</small>
+|1%
+|''18%''
+|-
+|21–24 de setembro de 2018
+|[https://istoe.com.br/vamos-mesmo-por-esse-caminho/ IstoÉ/Sensus]
+BR-02407/2018
+|2.000
+|2,2
+|'''24,5%'''<br /><small>(Haddad)</small>
+|7,7%<br /><small>(Gomes)</small>
+|–
+|2,7%<br /><small>(Silva)</small>
+|1,6%<br /><small>(Meirelles)</small>
+|1,7%<br /><small>(Dias)</small>
+|5,6%<br /><small>(Alckmin)</small>
+|1,9%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''30,6%'''<small><br />(Bolsonaro)</small>
+|1,3%
+|''22,4%''
+|-
+|22–23 de setembro de 2018
+|[https://g1.globo.com/politica/eleicoes/2018/noticia/2018/09/24/pesquisa-ibope-bolsonaro-28-haddad-22-ciro-11-alckmin-8-marina-5-dia-24-09.ghtml Globo e O Estado de S. Paulo/IBOPE]
+BR-06630/2018
+|2.506
+|2
+|'''22%'''<br /><small>(Haddad)</small>
+|11%<br /><small>(Gomes)</small>
+|–
+|5%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|2%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|3%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''28%'''<small><br />(Bolsonaro)</small>
+|1%
+|''18%''
+|-
+|22–23 de setembro de 2018
+|[https://static.poder360.com.br/2018/09/BTG-Pactual-Rodada-FS5-divulgacao-24.09.pdf BTG Pactual/FSB Pesquisa]
+
+BR-03861/2018
+|2.000
+|2
+|'''23%'''<br /><small>(Haddad)</small>
+|10%<br /><small>(Gomes)</small>
+|–
+|5%<br /><small>(Silva)</small>
+|3%<br /><small>(Meirelles)</small>
+|2%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|3%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''33%'''<small><br />(Bolsonaro)</small>
+|1%
+|''13%''
+|-
+|19–20 de setembro de 2018
+|[https://www.poder360.com.br/datapoder360/datapoder360-bolsonaro-tem-26-e-haddad-22-os-2-empatam-no-2o-turno/ DataPoder360]
+BR-02039/2018
+|4.000
+|2
+|'''22%'''<br /><small>(Haddad)</small>
+|14%<br /><small>(Gomes)</small>
+|–
+|4%<br /><small>(Silva)</small>
+|3%<br /><small>(Meirelles)</small>
+|3%<br /><small>(Dias)</small>
+|6%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''26%'''<small><br />(Bolsonaro)</small>
+|5%
+|''15%''
+|-
+|18–19 de setembro de 2018
+|[https://g1.globo.com/politica/eleicoes/2018/noticia/2018/09/20/pesquisa-datafolha-para-presidente-bolsonaro-28-haddad-16-ciro-13-alckmin-9-marina-7.ghtml Globo e Folha/Datafolha]
+BR-06919/2018
+|8.601
+|2
+|'''16%'''<br /><small>(Haddad)</small>
+|13%<br /><small>(Gomes)</small>
+|–
+|7%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|3%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|3%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''28%'''<small><br />(Bolsonaro)</small>
+|2%
+|''17%''
+|-
+|[https://www.infomoney.com.br/mercados/politica/noticia/7625936/bolsonaro-lidera-no-1-turno-com-30-e-empata-com-haddad-alckmin-e-ciro-no-2-diz-pesquisa 17–19 de setembro de 2018]
+|[https://blog.genialinvestimentos.com.br/pesquisa-presidencial-2018 Genial Investimentos/Brasilis]
+BR-01687/2018
+|1.000
+|3,5
+|'''17%'''<br /><small>(Haddad)</small>
+|7%<br /><small>(Gomes)</small>
+|–
+|6%<br /><small>(Silva)</small>
+|3%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|5%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''30%'''<small><br />(Bolsonaro)</small>
+|4%
+|''18%''
+|-
+| rowspan="2" |17–19 de setembro de 2018
+| rowspan="2" |[https://www.infomoney.com.br/mercados/politica/noticia/7625044/haddad-salta-6-pontos-e-deixa-ciro-para-tras-mas-ve-rejeicao-chegar-a-60-bolsonaro-sobe-para-28-mostra-xpipespe XP/Ipespe]
+BR-02995/2018
+| rowspan="2" |2.000
+| rowspan="2" |2,2
+|'''16%'''<br /><small>(Haddad)</small>
+|11%<br /><small>(Gomes)</small>
+|–
+|6%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|3%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|3%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''28%'''<small><br />(Bolsonaro)</small>
+|1%
+|''23%''
+|-
+|'''17%'''<br /><small>(Haddad, apoiado por Lula)</small>
+|10%<br /><small>(Gomes)</small>
+|–
+|4%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|3%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|3%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''27%'''<small><br />(Bolsonaro)</small>
+|1%
+|''26%''
+|-
+|16–18 de setembro de 2018
+|[https://g1.globo.com/politica/eleicoes/2018/noticia/2018/09/18/pesquisa-ibope-bolsonaro-28-haddad-19-ciro-11-alckmin-7-marina-6.ghtml? Globo e O Estado de S. Paulo/IBOPE]
+BR-09678/2018
+|2.506
+|2
+|'''19%'''<br /><small>(Haddad)</small>
+|11%<br /><small>(Gomes)</small>
+|–
+|6%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|3%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|2%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''28%'''<small><br />(Bolsonaro)</small>
+|1%
+|''21%''
+|-
+|15–16 de setembro de 2018
+|[https://static.poder360.com.br/2018/09/BTG-Pactual-17.set_.2018.pdf BTG Pactual/FSB Pesquisa]
+BR-06478/2018
+|2.000
+|2
+|'''16%'''<br /><small>(Haddad)</small>
+|14%<br /><small>(Gomes)</small>
+|–
+|5%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|2%<br /><small>(Dias)</small>
+|6%<br /><small>(Alckmin)</small>
+|4%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''33%'''<small><br />(Bolsonaro)</small>
+|2%
+|''16%''
+|-
+|12–15 de setembro de 2018
+|[http://cms.cnt.org.br/Imagens%20CNT/PDFs%20CNT/Pesquisa%20CNT%20MDA/CNT-MDA-138-RELATORIO-FINAL.pdf CNT/MDA]
+BR-04362/2018
+|2.002
+|2,2
+|'''17,6%'''<br /><small>(Haddad)</small>
+|10,8%<br /><small>(Gomes)</small>
+|–
+|4,1%<br /><small>(Silva)</small>
+|1,7%<br /><small>(Meirelles)</small>
+|1,9%<br /><small>(Dias)</small>
+|6,1%<br /><small>(Alckmin)</small>
+|2,8%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''28,2%'''<small><br />(Bolsonaro)</small>
+|1,1%
+|25,7%
+|-
+|13–14 de setembro de 2018
+|[https://g1.globo.com/politica/eleicoes/2018/noticia/2018/09/14/pesquisa-datafolha-bolsonaro-26-ciro-13-haddad-13-alckmin-9-marina-8.ghtml Globo e Folha/Datafolha]
+BR-05596/2018
+|2.820
+|2
+|13%<br /><small>(Haddad)</small>
+|13%<br /><small>(Gomes)</small>
+|–
+|8%<br /><small>(Silva)</small>
+|3%<br /><small>(Meirelles)</small>
+|3%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|3%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''26%'''<small><br />(Bolsonaro)</small>
+|3%
+|''19%''
+|-
+| rowspan="2" |10–12 de setembro de 2018
+| rowspan="2" |[https://www.infomoney.com.br/mercados/politica/noticia/7615911/bolsonaro-derruba-rejeicao-e-vai-a-26-haddad-empata-com-ciro-no-nordeste-e-chega-a-10-mostra-xpipespe XP/Ipespe]
+BR-07277/2018
+| rowspan="2" |2.000
+| rowspan="2" |2,2
+|10%<br /><small>(Haddad)</small>
+|'''12%'''<br /><small>(Gomes)</small>
+|–
+|8%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|4%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''26%'''<small><br />(Bolsonaro)</small>
+|1%
+|''23%''
+|-
+|'''16%'''<br /><small>(Haddad, apoiado por Lula)</small>
+|11%<br /><small>(Gomes)</small>
+|–
+|6%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|4%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''23%'''<small><br />(Bolsonaro)</small>
+|1%
+|''23%''
+|-
+| colspan="15" style="background:#D0D0D0; color:black" |'''Em 12 de setembro de 2018, o Tribunal Superior Eleitoral formalizou a substituição de Luiz Inácio Lula da Silva por Fernando Haddad como candidato do PT a presidente.'''<ref name=":2">{{citar web|url=https://noticias.uol.com.br/politica/eleicoes/2018/noticias/reuters/2018/09/12/tse-formaliza-haddad-na-vaga-de-lula-e-abre-prazo-para-impugnacao.htm|titulo=TSE formaliza Haddad na vaga de Lula e abre prazo para impugnação|data=12 de setembro de 2018|acessodata=15 de setembro de 2018|publicado=Terra|ultimo=Brito|primeiro=Ricardo}}</ref>
+|-
+| rowspan="2" |7–11 de setembro de 2018
+| rowspan="2" |[https://admin.cut.org.br/system/uploads/ck/Vox%20-%20setembro%202018%20-%20Portal%20CUT.pdf CUT/Vox Populi]
+BR-01669/2018
+| rowspan="2" |2.000
+| rowspan="2" |2,2
+| style="background:#FFE3E3" |'''22%'''<br /><small>(Haddad, apoiado por Lula)</small>
+|10%<br /><small>(Gomes)</small>
+|–
+|5%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|1%<br /><small>(Dias)</small>
+|4%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|18%<small><br />(Bolsonaro)</small>
+|1%
+|37''%''
+|-
+| style="background:#FFE3E3" |'''38%'''<small><br />(Lula)</small>
+|7%<br /><small>(Gomes)</small>
+|–
+|4%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|1%<br /><small>(Dias)</small>
+|3%<br /><small>(Alckmin)</small>
+|2%<br /><small>(Amoêdo)</small>
+|18%<small><br />(Bolsonaro)</small>
+|1%
+|25''%''
+|-
+|7–11 de setembro de 2018
+|[https://www.tribunapr.com.br/noticias/politica/bolsonaro-lidera-com-266-aponta-levantamento-do-parana-pesquisas/ Empiricus/Paraná Pesquisas]
+BR-02410/2018
+|2.010
+|2,0
+|8,3%<br /><small>(Haddad)</small>
+|'''11,9%'''<br /><small>(Gomes)</small>
+|–
+|10,6%<br /><small>(Silva)</small>
+|2,4%<br /><small>(Meirelles)</small>
+|3,7%<br /><small>(Dias)</small>
+|8,7%<br /><small>(Alckmin)</small>
+|3,3%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''26,6%'''<small><br />(Bolsonaro)</small>
+|2,7%
+|21,8''%''
+|-
+|10 de setembro de 2018
+|[https://g1.globo.com/politica/eleicoes/2018/noticia/2018/09/10/pesquisa-datafolha-bolsonaro-24-ciro-13-marina-11-alckmin-10-haddad-9.ghtml Globo e Folha/Datafolha]
+BR-02376/2018
+|2.804
+|2
+|9%<br /><small>(Haddad)</small>
+|'''13%'''<br /><small>(Gomes)</small>
+|–
+|11%<br /><small>(Silva)</small>
+|3%<br /><small>(Meirelles)</small>
+|3%<br /><small>(Dias)</small>
+|10%<br /><small>(Alckmin)</small>
+|3%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''24%'''<small><br />(Bolsonaro)</small>
+|3%
+|''22%''
+|-
+|8–10 de setembro de 2018
+|[https://g1.globo.com/politica/eleicoes/2018/noticia/2018/09/11/pesquisa-ibope-bolsonaro-26-ciro-11-marina-9-alckmin-9-haddad-8.ghtml IBOPE]
+BR-05221/2018
+|2.002
+|2
+|8%<br /><small>(Haddad)</small>
+|'''11%'''<br /><small>(Gomes)</small>
+|–
+|9%<br /><small>(Silva)</small>
+|3%<br /><small>(Meirelles)</small>
+|3%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|3%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''26%'''<small><br />(Bolsonaro)</small>
+|2%
+|''26%''
+|-
+|8–9 de setembro de 2018
+|[https://especiais.gazetadopovo.com.br/eleicoes/2018/pesquisas-eleitorais/fsb-pesquisa/btg-fsb-bolsonaro-chega-30-quatro-nomes-empatam-em-2a-lugar/ BTG Pactual/FSB Pesquisa]
+BR-01522/2018
+|2.000
+|2
+|8%<br /><small>(Haddad)</small>
+|'''12%'''<br /><small>(Gomes)</small>
+|–
+|8%<br /><small>(Silva)</small>
+|3%<br /><small>(Meirelles)</small>
+|3%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|3%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''30%'''<small><br />(Bolsonaro)</small>
+|2%
+|''24%''
+|-
+|7–9 de setembro de 2018
+|[https://noticias.r7.com/brasil/pesquisa-reforca-empate-tecnico-entre-4-presidenciaveis-em-2-lugar-12092018 RecordTV/RealTime Big Data]
+BR-05291/2018
+|3.200
+|2
+|7%<br /><small>(Haddad)</small>
+|11%<br /><small>(Gomes)</small>
+|–
+|11%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|3%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''25%'''<small><br />(Bolsonaro)</small>
+|2%
+|''26%''
+|-
+| rowspan="3" |3–5 de setembro de 2018
+| rowspan="3" |[https://www.infomoney.com.br/mercados/politica/noticia/7605005/bolsonaro-lidera-mas-e-rejeitado-por-62-enquanto-4-candidatos-aparecem-empatados-mostra-xpipespe XP/Ipespe]
+BR-00339/2018
+| rowspan="3" |2.000
+| rowspan="3" |2,2
+|8%<br /><small>(Haddad)</small>
+|11%<br /><small>(Gomes)</small>
+|–
+|11%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|4%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''23%'''<small><br />(Bolsonaro)</small>
+|2%
+|''27%''
+|-
+|'''14%'''<br /><small>(Haddad, apoiado por Lula)</small>
+|10%<br /><small>(Gomes)</small>
+|–
+|8%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|4%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''20%'''<small><br />(Bolsonaro)</small>
+|1%
+|''28%''
+|-
+| style="background:#FFE3E3" |'''33%'''<small><br />(Lula)</small>
+|8%<br /><small>(Gomes)</small>
+|–
+|6%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|3%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|5%<br /><small>(Amoêdo)</small>
+|'''22%'''<small><br />(Bolsonaro)</small>
+|2%
+|''12%''
+|-
+|1–3 de setembro de 2018
+|[https://g1.globo.com/politica/eleicoes/2018/noticia/2018/09/05/pesquisa-ibope-bolsonaro-22-marina-12-ciro-12-alckmin-9-haddad-6.ghtml Globo e O Estado de S. Paulo/IBOPE]
+BR‐05003/2018
+|2.002
+|2
+|6%<br /><small>(Haddad)</small>
+|12%<br /><small>(Gomes)</small>
+|–
+|12%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|3%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|3%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''22%'''<small><br />(Bolsonaro)</small>
+|3%
+|''28%''
+|-
+| rowspan="2" |1–2 de setembro de 2018
+| rowspan="2" |[https://www.poder360.com.br/pesquisas/lula-cai-e-empata-com-bolsonaro-em-21-no-voto-espontaneo-diz-btg-pactual/ BTG Pactual/FSB Pesquisa]
+BR-01057/2018
+| rowspan="2" |2.000
+| rowspan="2" |2
+|6%<br /><small>(Haddad)</small>
+|'''12%'''<br /><small>(Gomes)</small>
+|–
+|11%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|3%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|4%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''26%'''<small><br />(Bolsonaro)</small>
+|2%
+|''28%''
+|-
+| style="background:#FFE3E3" |'''37%'''<small><br />(Lula)</small>
+|7%<br /><small>(Gomes)</small>
+|–
+|5%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|3%<br /><small>(Dias)</small>
+|6%<br /><small>(Alckmin)</small>
+|4%<br /><small>(Amoêdo)</small>
+|'''22%'''<small><br />(Bolsonaro)</small>
+|2%
+|''13%''
+|-
+| colspan="15" style="background:#D0D0D0; color:black" |'''Em 31 de agosto de 2018, o Tribunal Superior Eleitoral indeferiu a candidatura de Luiz Inácio Lula da Silva, do PT.'''<ref name=":0">{{citar web|url=https://www1.folha.uol.com.br/poder/2018/09/tse-barra-candidatura-de-lula-e-pt-tem-dez-dias-para-indicar-substituto.shtml|titulo=TSE barra candidatura de Lula e PT tem dez dias para indicar substituto|data=1º de setembro de 2018|acessodata=1º de setembro de 2018|publicado=Folha de S.Paulo|ultimo=Casado|primeiro=Letícia|ultimo2=Turollo Jr.|primeiro2=Reynaldo}}</ref>
+|-
+| rowspan="3" |27–29 de agosto de 2018
+| rowspan="3" |[https://www.infomoney.com.br/mercados/politica/noticia/7597438/bolsonaro-ve-rejeicao-chegar-a-61-e-risco-de-voto-util-contrario-crescer-mostra-xpipespe XP/Ipespe]
+BR-07252/2018
+| rowspan="3" |1.000
+| rowspan="3" |3,2
+|6%<br /><small>(Haddad)</small>
+|10%<br /><small>(Gomes)</small>
+|–
+|'''13%'''<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|4%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''23%'''<small><br />(Bolsonaro)</small>
+|2%
+|''27%''
+|-
+|'''13%'''<br /><small>(Haddad, apoiado por Lula)</small>
+|10%<br /><small>(Gomes)</small>
+|–
+|10%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|4%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''21%'''<small><br />(Bolsonaro)</small>
+|6%
+|''28%''
+|-
+| style="background:#FFE3E3" |'''33%'''<small><br />(Lula)</small>
+|8%<br /><small>(Gomes)</small>
+|–
+|7%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|3%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''21%'''<small><br />(Bolsonaro)</small>
+|4%
+|''15%''
+|-
+|24–27 de agosto de 2018
+|[https://www.poder360.com.br/datapoder360/datapoder360-potencial-de-voto-de-haddad-apoiado-por-lula-e-de-ate-34/ DataPoder360]
+BR-04538/2018
+|5.500
+|2
+| style="background:#FFE3E3" |'''30%'''<small><br />(Lula)</small>
+|7%<br /><small>(Gomes)</small>
+|–
+|6%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|3%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''21%'''<small><br />(Bolsonaro)</small>
+|6%
+|''18%''
+|-
+| rowspan="2" |25–26 de agosto de 2018
+| rowspan="2" |[https://especiais.gazetadopovo.com.br/eleicoes/2018/pesquisas-eleitorais/fsb-pesquisa/pesquisa-btg-fsb-bolsonaro-lidera-e-marina-aparece-em-2o-lugar-amoedo-surpreende/ BTG Pactual/FSB Pesquisa]
+
+BR-06062/2018
+| rowspan="2" |2.000
+| rowspan="2" |2
+|5%<br /><small>(Haddad)</small>
+|8%<br /><small>(Gomes)</small>
+|–
+|'''15%'''<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|3%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|4%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''24%'''<small><br />(Bolsonaro)</small>
+|4%
+|''28%''
+|-
+| style="background:#FFE3E3" |'''35%'''<small><br />(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+|–
+|9%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|2%<br /><small>(Dias)</small>
+|6%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''22%'''<small><br />(Bolsonaro)</small>
+|5%
+|''15%''
+|-
+| rowspan="3" |20–22 de agosto de 2018
+| rowspan="3" |[https://www.infomoney.com.br/mercados/politica/noticia/7584442/lula-alcanca-seu-maior-patamar-mas-transferencia-a-haddad-ainda-e-baixa-mostra-xpipespe XP/Ipespe]
+BR-07829/2018
+| rowspan="3" |1.000
+| rowspan="3" |3,2
+|6%<br /><small>(Haddad)</small>
+|8%<br /><small>(Gomes)</small>
+|–
+|'''12%'''<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|2%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''23%'''<small><br />(Bolsonaro)</small>
+|3%
+|''30%''
+|-
+|'''13%'''<br /><small>(Haddad, apoiado por Lula)</small>
+|8%<br /><small>(Gomes)</small>
+|–
+|9%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|2%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''20%'''<small><br />(Bolsonaro)</small>
+|2%
+|''31%''
+|-
+| style="background:#FFE3E3" |'''32%'''<small><br />(Lula)</small>
+|7%<br /><small>(Gomes)</small>
+|–
+|7%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|0%<br /><small>(Amoêdo)</small>
+|'''20%'''<small><br />(Bolsonaro)</small>
+|3%
+|''18%''
+|-
+| rowspan="2" |20–21 de agosto de 2018
+| rowspan="2" |[https://www1.folha.uol.com.br/poder/2018/08/lula-chega-a-39-aponta-datafolha-sem-ele-bolsonaro-lidera.shtml Globo e Folha/Datafolha]
+BR-04023/2018
+| rowspan="2" |8.433
+| rowspan="2" |2
+|4%<br /><small>(Haddad)</small>
+|10%<br /><small>(Gomes)</small>
+|–
+|'''16%'''<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|2%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''22%'''<small><br />(Bolsonaro)</small>
+|4%
+|''28%''
+|-
+| style="background:#FFE3E3" |'''39%'''<small><br />(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+|–
+|8%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|3%<br /><small>(Dias)</small>
+|6%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''19%'''<small><br />(Bolsonaro)</small>
+|4%
+|''14%''
+|-
+| rowspan="2" |17–19 de agosto de 2018
+| rowspan="2" |[https://g1.globo.com/politica/eleicoes/2018/noticia/2018/08/20/pesquisa-ibope-lula-37-bolsonaro-18-marina-6-ciro-5-alckmin-5.ghtml Globo e O Estado de S. Paulo/IBOPE]
+BR‐01665/2018
+| rowspan="2" |2.002
+| rowspan="2" |2
+|4%<br /><small>(Haddad)</small>
+|9%<br /><small>(Gomes)</small>
+| –
+|'''12%'''<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|3%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''20%'''<small><br />(Bolsonaro)</small>
+|7%
+|''38%''
+|-
+| style="background:#FFE3E3" |'''37%'''<small><br />(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+| –
+|6%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|3%<br /><small>(Dias)</small>
+|5%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''18%'''<small><br />(Bolsonaro)</small>
+|2%
+|''22%''
+|-
+|15–18 de agosto de 2018
+|[http://www.cnt.org.br/imprensa/noticia/cnt-divulga-resultados-137-pesquisa-cnt-mda CNT/MDA]
+BR-09086/2018
+|2.002
+|2,2
+| style="background:#FFE3E3" |'''37,3%'''<small><br />(Lula)</small>
+|4,1%<br /><small>(Gomes)</small>
+| –
+|5,6%<br /><small>(Silva)</small>
+|0,8%<br /><small>(Meirelles)</small>
+|2,7%<br /><small>(Dias)</small>
+|4,9%<br /><small>(Alckmin)</small>
+|0,9%<br /><small>(Amoêdo)</small>
+|'''18,8%'''<small><br />(Bolsonaro)</small>
+|1,3%
+|''23,1%''
+|-
+| rowspan="3" |13–15 de agosto de 2018
+| rowspan="3" |[https://www.infomoney.com.br/mercados/politica/noticia/7575025/haddad-chega-a-15-com-apoio-de-lula-e-divide-lideranca-com-bolsonaro-mostra-xpipespe XP/Ipespe]
+BR-02075/2018
+| rowspan="3" |1.000
+| rowspan="3" |3,2
+|7%<br /><small>(Haddad)</small>
+|8%<br /><small>(Gomes)</small>
+| –
+|'''11%'''<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''23%'''<small><br />(Bolsonaro)</small>
+|3%
+|''31%''
+|-
+|'''15%'''<br /><small>(Haddad, apoiado por Lula)</small>
+|7%<br /><small>(Gomes)</small>
+| –
+|9%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|6%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''21%'''<small><br />(Bolsonaro)</small>
+|3%
+|''28%''
+|-
+| style="background:#FFE3E3" |'''31%'''<small><br />(Lula)</small>
+|7%<br /><small>(Gomes)</small>
+| –
+|8%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|0%<br /><small>(Amoêdo)</small>
+|'''20%'''<small><br />(Bolsonaro)</small>
+|3%
+|''16%''
+|-
+| rowspan="2" |9–13 de agosto de 2018
+| rowspan="2" |[http://www.paranapesquisas.com.br/wp-content/uploads/2018/08/Brasil-M%C3%ADdia.pdf Paraná Pesquisas]
+BR-02891/2018
+| rowspan="2" |2.002
+| rowspan="2" |2,0
+|3,8%<br /><small>(Haddad)</small>
+|10,2%<br /><small>(Gomes)</small>
+| –
+|'''13,2%'''<br /><small>(Silva)</small>
+|0,9%<br /><small>(Meirelles)</small>
+|4,9%<br /><small>(Dias)</small>
+|8,5%<br /><small>(Alckmin)</small>
+|1,1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''23,9%'''<small><br />(Bolsonaro)</small>
+|3,8%
+|''29,9%''
+|-
+| style="background:#FFE3E3" |'''30,8%'''<small><br />(Lula)</small>
+|5,9%<br /><small>(Gomes)</small>
+| –
+|8,1%<br /><small>(Silva)</small>
+|0,7%<br /><small>(Meirelles)</small>
+|4,0%<br /><small>(Dias)</small>
+|6,6%<br /><small>(Alckmin)</small>
+|0,4%<br /><small>(Amoêdo)</small>
+|'''22,0%'''<small><br />(Bolsonaro)</small>
+|2,8%
+|''18,9%''
+|-
+| rowspan="2" |10–12 de agosto de 2018
+| rowspan="2" |[https://www.correiodopovo.com.br/Noticias/Politica/2018/8/658611/Pesquisa-mostra-que-53-dos-eleitores-votariam-mesmo-nao-sendo-obrigatorio RealTime Big Data]
+BR-09102/2018
+| rowspan="2" |3.200
+| rowspan="2" |2
+|6%<br /><small>(Haddad)</small>
+|8%<br /><small>(Gomes)</small>
+|–
+|'''11%'''<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|6%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''21%'''<small><br />(Bolsonaro)</small>
+|1%
+|''36%''
+|-
+| style="background:#FFE3E3" |'''29%'''<small><br />(Lula)</small>
+|7%<br /><small>(Gomes)</small>
+|–
+|8%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|6%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''19%'''<small><br />(Bolsonaro)</small>
+|1%
+|''19%''
+|-
+| rowspan="4" |6–8 de agosto de 2018
+| rowspan="4" |[https://www.infomoney.com.br/mercados/politica/noticia/7565756/sem-lula-bolsonaro-mantem-lideranca-com-mas-rejeicao-mostra-ipespe XP/Ipespe]
+BR-08988/2018
+| rowspan="4" |1.000
+| rowspan="4" |3,2
+|3%<br /><small>(Haddad)</small>
+|8%<br /><small>(Gomes)</small>
+| –
+|'''12%'''<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|10%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''23%'''<small><br />(Bolsonaro)</small>
+|3%
+|''34%''
+|-
+|'''13%'''<br /><small>(Haddad, apoiado por Lula)</small>
+|7%<br /><small>(Gomes)</small>
+| –
+|10%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''21%'''<small><br />(Bolsonaro)</small>
+|3%
+|''30%''
+|-
+| style="background:#FFE3E3" |'''31%'''<small><br />(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|8%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|0%<br /><small>(Amoêdo)</small>
+|'''19%'''<small><br />(Bolsonaro)</small>
+|3%
+|''17%''
+|-
+| –
+|9%<br /><small>(Gomes)</small>
+| –
+|'''12%'''<br /><small>(Silva)</small>
+|3%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|10%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''23%'''<small><br />(Bolsonaro)</small>
+|4%
+|''34%''
+|-
+| rowspan="4" |30 de julho–1 de agosto de 2018
+| rowspan="4" |[https://www.infomoney.com.br/mercados/politica/noticia/7545523/bolsonaro-sobe-pesquisa-espontanea-mas-rejeicao-chega-maior-patamar-mostra XP/Ipespe]
+BR-06820/2018
+| rowspan="4" |1.000
+| rowspan="4" |3,2
+|2%<br /><small>(Haddad)</small>
+|10%<br /><small>(Gomes)</small>
+| –
+|'''11%'''<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|10%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''22%'''<small><br />(Bolsonaro)</small>
+|3%
+|''34%''
+|-
+|'''13%'''<br /><small>(Haddad, apoiado por Lula)</small>
+|8%<br /><small>(Gomes)</small>
+| –
+|9%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''20%'''<small><br />(Bolsonaro)</small>
+|3%
+|''31%''
+|-
+| style="background:#FFE3E3" |'''31%'''<small><br />(Lula)</small>
+|7%<br /><small>(Gomes)</small>
+| –
+|8%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''19%'''<small><br />(Bolsonaro)</small>
+|2%
+|''18%''
+|-
+| –
+|10%<br /><small>(Gomes)</small>
+| –
+|'''11%'''<br /><small>(Silva)</small>
+|3%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|10%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''22%'''<small><br />(Bolsonaro)</small>
+|3%
+|''35%''
+|-
+| rowspan="3" |25–30 de julho de 2018
+| rowspan="3" |[http://www.paranapesquisas.com.br/wp-content/uploads/2018/07/Brasil-M%C3%ADdia.pdf Paraná Pesquisas]
+BR-00884/2018
+| rowspan="3" |2.240
+| rowspan="3" |2,0
+|2,8%<br /><small>(Haddad)</small>
+|10,7%<br /><small>(Gomes)</small>
+| –
+|'''14,4%'''<br /><small>(Silva)</small>
+|1,1%<br /><small>(Meirelles)</small>
+|5,0%<br /><small>(Dias)</small>
+|7,8%<br /><small>(Alckmin)</small>
+|1,0%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''23,6%'''<small><br />(Bolsonaro)</small>
+|4,3%
+|''29,4%''
+|-
+| style="background:#FFE3E3" |'''29,0%'''<small><br />(Lula)</small>
+|6,0%<br /><small>(Gomes)</small>
+| –
+|9,2%<br /><small>(Silva)</small>
+|0,8%<br /><small>(Meirelles)</small>
+|4,2%<br /><small>(Dias)</small>
+|6,2%<br /><small>(Alckmin)</small>
+|0,5%<br /><small>(Amoêdo)</small>
+|'''21,8%'''<small><br />(Bolsonaro)</small>
+|3,1%
+|''19,2%''
+|-
+|2,8%<br /><small>([[Jaques Wagner|Wagner]])</small>
+|10,8%<br /><small>(Gomes)</small>
+| –
+|'''14,3%'''<br /><small>(Silva)</small>
+|1,2%<br /><small>(Meirelles)</small>
+|4,9%<br /><small>(Dias)</small>
+|7,9%<br /><small>(Alckmin)</small>
+|1,1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''23,5%'''<small><br />(Bolsonaro)</small>
+|4,8%
+|''28,9%''
+|-
+|25–28 de julho de 2018
+|[https://www.poder360.com.br/datapoder360/datapoder360-bolsonaro-lidera-com-20-mas-tem-65-de-rejeicao/ DataPoder360]
+BR-09828/2018
+|3.000
+|2,2
+|5%<br /><small>(Haddad)</small>
+|'''13%'''<br /><small>(Gomes)</small>
+| –
+|6%<br /><small>(Silva)</small>
+| –
+|4%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''20%'''<small><br />(Bolsonaro)</small>
+| –
+|''43%''
+|-
+| rowspan="4" |23–25 de julho de 2018
+| rowspan="4" |[https://images.infomoney.com.br/uploads/eleicoes2018/semana_2707/xppoll2707profile.pdf XP/Ipespe]
+BR-07756/2018
+| rowspan="4" |1.000
+| rowspan="4" |3,2
+|2%<br /><small>(Haddad)</small>
+|10%<br /><small>(Gomes)</small>
+| –
+|'''13%'''<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|10%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''23%'''<small><br />(Bolsonaro)</small>
+|2%
+|''30%''
+|-
+|'''12%'''<br /><small>(Haddad, apoiado por Lula)</small>
+|9%<br /><small>(Gomes)</small>
+| –
+|10%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''22%'''<small><br />(Bolsonaro)</small>
+|3%
+|''29%''
+|-
+| style="background:#FFE3E3" |'''30%'''<small><br />(Lula)</small>
+|8%<br /><small>(Gomes)</small>
+| –
+|8%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''20%'''<small><br />(Bolsonaro)</small>
+|1%
+|''17%''
+|-
+| –
+|10%<br /><small>(Gomes)</small>
+| –
+|'''12%'''<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|10%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''23%'''<small><br />(Bolsonaro)</small>
+|3%
+|''34%''
+|-
+| rowspan="4" |20–23 de julho de 2018
+| rowspan="4" |[https://www.poder360.com.br/eleicoes/ideia-big-data-lula-lidera-mas-bolsonaro-empata-no-cenario-espontaneo/ Veja/Ideia Big Data]
+BR-04178/2018
+| rowspan="4" |2.036
+| rowspan="4" |2,67
+|3%<br /><small>(Haddad)</small>
+|8%<br /><small>(Gomes)</small>
+| –
+|'''13%'''<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''19%'''<small><br />(Bolsonaro)</small>
+|2%
+|''39%''
+|-
+| style="background:#FFE3E3" |'''29%'''<small><br />(Lula)</small>
+|7%<br /><small>(Gomes)</small>
+| –
+|10%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''17%'''<small><br />(Bolsonaro)</small>
+|3%
+|''20%''
+|-
+|3%<br /><small>([[Jaques Wagner|Wagner]])</small>
+|8%<br /><small>(Gomes)</small>
+| –
+|'''14%'''<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''19%'''<small><br />(Bolsonaro)</small>
+|2%
+|''37%''
+|-
+|9%<br /><small>(algum candidato apoiado por Lula)</small>
+|7%<br /><small>(Gomes)</small>
+| –
+|'''11%'''<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|6%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''19%'''<small><br />(Bolsonaro)</small>
+|4%
+|''37%''
+|-
+| rowspan="2" |18–20 de julho de 2018
+| rowspan="2" |[https://admin.cut.org.br/system/uploads/ck/CUT_Brasil/VOX_POPULI_ELEICOES_PRESIDENCIAIS_DIVULGACAO_26_07_1.pdf CUT/Vox Populi]
+BR-02205/2018
+| rowspan="2" |2.000
+| rowspan="2" |2,2
+| style="background:#FFE3E3" |'''41%'''<small><br />(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+| –
+|4%<br /><small>(Silva)</small>
+|–
+|1%<br /><small>(Dias)</small>
+|4%<br /><small>(Alckmin)</small>
+|–
+|'''12%'''<small><br />(Bolsonaro)</small>
+|3%
+|''30%''
+|-
+| style="background:#FFE3E3" |'''44%'''<small><br />(Lula)</small>
+|4%<br /><small>(Gomes)</small>
+| –
+|5%<br /><small>(Silva)</small>
+| – || –
+|4%<br /><small>(Alckmin)</small>
+|–
+|'''14%'''<small><br />(Bolsonaro)</small>
+| –
+|''28%''
+|-
+| rowspan="4" |16–18 de julho de 2018
+| rowspan="4" |[https://images.infomoney.com.br/uploads/voterprofile_(1).pdf XP/Ipespe]
+BR-02843/2018
+| rowspan="4" |1.000
+| rowspan="4" |3,2
+|2%<br /><small>(Haddad)</small>
+|10%<br /><small>(Gomes)</small>
+| –
+|'''12%'''<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''23%'''<small><br />(Bolsonaro)</small>
+|3%
+|''33%''
+|-
+|'''13%'''<br /><small>(Haddad, apoiado por Lula)</small>
+|8%<br /><small>(Gomes)</small>
+| –
+|10%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''21%'''<small><br />(Bolsonaro)</small>
+|3%
+|''31%''
+|-
+| style="background:#FFE3E3" |'''29%'''<small><br />(Lula)</small>
+|7%<br /><small>(Gomes)</small>
+| –
+|8%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''20%'''<small><br />(Bolsonaro)</small>
+|2%
+|''19%''
+|-
+| –
+|10%<br /><small>(Gomes)</small>
+| –
+|'''12%'''<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''23%'''<small><br />(Bolsonaro)</small>
+|3%
+|''36%''
+|-
+| rowspan="4" |9–11 de julho de 2018
+| rowspan="4" |[https://images.infomoney.com.br/uploads/eleicoes2018/xp_poll__2018_07_02.pdf XP/Ipespe]
+BR-09898/2018
+| rowspan="4" |1.000
+| rowspan="4" |3,2
+|2%<br /><small>(Haddad)</small>
+|9%<br /><small>(Gomes)</small>
+| –
+|'''14%'''<br /><small>(Silva)</small>
+|3%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''24%'''<small><br />(Bolsonaro)</small>
+|4%
+|''31%''
+|-
+|'''12%'''<br /><small>(Haddad, apoiado por Lula)</small>
+|8%<br /><small>(Gomes)</small>
+| –
+|11%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''21%'''<small><br />(Bolsonaro)</small>
+|4%
+|''31%''
+|-
+| style="background:#FFE3E3" |'''30%'''<small><br />(Lula)</small>
+|7%<br /><small>(Gomes)</small>
+| –
+|10%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''20%'''<small><br />(Bolsonaro)</small>
+|2%
+|''15%''
+|-
+| –
+|9%<br /><small>(Gomes)</small>
+| –
+|'''13%'''<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''23%'''<small><br />(Bolsonaro)</small>
+|5%
+|''35%''
+|-
+| rowspan="4" |2–4 de julho de 2018
+| rowspan="4" |[https://www.infomoney.com.br/mercados/politica/noticia/7506526/bolsonaro-mantem-lideranca-sem-lula-mas-empata-todos-cenarios-turno XP/Ipespe]
+BR-04338/2018
+| rowspan="4" |1.000
+| rowspan="4" |3,2
+|2%<br /><small>(Haddad)</small>
+|10%<br /><small>(Gomes)</small>
+| –
+|'''13%'''<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''23%'''<small><br />(Bolsonaro)</small>
+|4%
+|''33%''
+|-
+|11%<br /><small>(Haddad, apoiado por Lula)</small>
+|8%<br /><small>(Gomes)</small>
+| –
+|11%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''21%'''<small><br />(Bolsonaro)</small>
+|4%
+|''29%''
+|-
+| style="background:#FFE3E3" |'''28%'''<small><br />(Lula)</small>
+|7%<br /><small>(Gomes)</small>
+| –
+|9%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''20%'''<small><br />(Bolsonaro)</small>
+|2%
+|''19%''
+|-
+| –
+|10%<br /><small>(Gomes)</small>
+| –
+|'''12%'''<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''23%'''<small><br />(Bolsonaro)</small>
+|4%
+|''35%''
+|-
+| rowspan="2" |25–29 de junho de 2018
+| rowspan="2" |[https://www.poder360.com.br/datapoder360/datapoder360-a-3-meses-da-eleicao-bolsonaro-e-lider-e-nao-voto-tem-42/ DataPoder360]
+BR-05297/2018
+| rowspan="2" |5.500
+| rowspan="2" |2
+|5%<br /><small>(Haddad)</small>
+|'''12%'''<br /><small>(Gomes)</small>
+| –
+|7%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|0%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''18%'''<small><br />(Bolsonaro)</small>
+|5%
+|''42%''
+|-
+|6%<br /><small>(Haddad)</small>
+|'''13%'''<br /><small>(Gomes)</small>
+| –
+|7%<br /><small>(Silva)</small>
+| –
+|5%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''21%'''<small><br />(Bolsonaro)</small>
+| –
+|''40%''
+|-
+| rowspan="4" |25–27 de junho de 2018
+| rowspan="4" |[https://www.infomoney.com.br/mercados/politica/noticia/7497610/apoiam-prisao-domiciliar-lula-marina-silva-lidera-como-plano-dos XP/Ipespe]
+BR-03362/2018
+| rowspan="4" |1.000
+| rowspan="4" |3,2
+|2%<br /><small>(Haddad)</small>
+|11%<br /><small>(Gomes)</small>
+| –
+|'''12%'''<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''22%'''<small><br />(Bolsonaro)</small>
+|4%
+|''34%''
+|-
+|'''11%'''<br /><small>(Haddad, apoiado por Lula)</small>
+|8%<br /><small>(Gomes)</small>
+| –
+|10%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''20%'''<small><br />(Bolsonaro)</small>
+|4%
+|''33%''
+|-
+| style="background:#FFE3E3" |'''29%'''<small><br />(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|9%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''19%'''<small><br />(Bolsonaro)</small>
+|2%
+|''21%''
+|-
+| –
+|10%<br /><small>(Gomes)</small>
+| –
+|'''12%'''<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''22%'''<small><br />(Bolsonaro)</small>
+|4%
+|''39%''
+|-
+| rowspan="2" |21–24 de junho de 2018
+| rowspan="2" |[http://www.portaldaindustria.com.br/estatisticas/pesquisa-cniI-ibope-avaliacao-do-governo/ CNI/IBOPE]
+BR-02265/2018
+| rowspan="2" |2.000
+| rowspan="2" |2
+|2%<br /><small>(Haddad)</small>
+|8%<br /><small>(Gomes)</small>
+| –
+|'''13%'''<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|3%<br /><small>(Dias)</small>
+|6%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''17%'''<small><br />(Bolsonaro)</small>
+|9%
+|''41%''
+|-
+| style="background:#FFE3E3" |'''33%'''<small><br />(Lula)</small>
+|4%<br /><small>(Gomes)</small>
+| –
+|7%<br /><small>(Silva)</small>
+|0%<br /><small>(Meirelles)</small>
+|2%<br /><small>(Dias)</small>
+|4%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''15%'''<small><br />(Bolsonaro)</small>
+|6%
+|''28%''
+|-
+| rowspan="4" |18–20 de junho de 2018
+| rowspan="4" |[http://www.infomoney.com.br/mercados/politica/noticia/7486538/ciro-marina-alckmin-empatam-com-lula-rejeicao-nao-tem-interesse XP/Ipespe]
+BR-06647/2018
+| rowspan="4" |1.000
+| rowspan="4" |3,2
+|3%<br /><small>(Haddad)</small>
+|10%<br /><small>(Gomes)</small>
+| –
+|'''14%'''<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''21%'''<small><br />(Bolsonaro)</small>
+|4%
+|''33%''
+|-
+|'''12%'''<br /><small>(Haddad, apoiado por Lula)</small>
+|8%<br /><small>(Gomes)</small>
+| –
+|11%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''19%'''<small><br />(Bolsonaro)</small>
+|4%
+|''31%''
+|-
+| style="background:#FFE3E3" |'''28%'''<small><br />(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+| –
+|10%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''19%'''<small><br />(Bolsonaro)</small>
+|2%
+|''23%''
+|-
+| –
+|10%<br /><small>(Gomes)</small>
+| –
+|'''13%'''<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''22%'''<small><br />(Bolsonaro)</small>
+|4%
+|''36%''
+|-
+| rowspan="4" |11–13 de junho de 2018
+| rowspan="4" |[https://media.infomoney.com.br/infomoney/XP%20Poll_%202018_06_02.pdf XP/Ipespe]
+BR-07273/2018
+| rowspan="4" |1.000
+| rowspan="4" |3,2
+|2%<br /><small>(Haddad)</small>
+|10%<br /><small>(Gomes)</small>
+| –
+|'''13%'''<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|6%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''21%'''<small><br />(Bolsonaro)</small>
+|4%
+|''33%''
+|-
+|'''11%'''<br /><small>(Haddad, apoiado por Lula)</small>
+|9%<br /><small>(Gomes)</small>
+| –
+|10%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|6%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''20%'''<small><br />(Bolsonaro)</small>
+|2%
+|''31%''
+|-
+| style="background:#FFE3E3" |'''29%'''<small><br />(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|10%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|6%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''19%'''<small><br />(Bolsonaro)</small>
+|1%
+|''18%''
+|-
+| –
+|11%<br /><small>(Gomes)</small>
+| –
+|'''13%'''<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|6%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''22%'''<small><br />(Bolsonaro)</small>
+|4%
+|''34%''
+|-
+| rowspan="4" |6–7 de junho de 2018
+| rowspan="4" |[http://media.folha.uol.com.br/datafolha/2018/06/11/fc43efb087ca1342cdf284c5bf27f343iv2.pdf Datafolha]
+BR-05110/2018
+| rowspan="4" |2.824
+| rowspan="4" |2
+|1%<br /><small>(Haddad)</small>
+|10%<br /><small>(Gomes)</small>
+| –
+|'''15%'''<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''19%'''<small><br />(Bolsonaro)</small>
+|9%
+|''33%''
+|-
+| style="background:#FFE3E3" |'''30%'''<small><br />(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|10%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|6%<br /><small>(Alckmin)</small>
+|0%<br /><small>(Amoêdo)</small>
+|'''17%'''<small><br />(Bolsonaro)</small>
+|5%
+|''21%''
+|-
+|1%<br /><small>([[Jaques Wagner|Wagner]])</small>
+|10%<br /><small>(Gomes)</small>
+| –
+|'''14%'''<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|0%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''19%'''<small><br />(Bolsonaro)</small>
+|10%
+|''33%''
+|-
+| –
+|11%<br /><small>(Gomes)</small>
+| –
+|'''15%'''<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|0%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''19%'''<small><br />(Bolsonaro)</small>
+|9%
+|''34%''
+|-
+| rowspan="4" |4–6 de junho de 2018
+| rowspan="4" |[https://www.poder360.com.br/wp-content/uploads/2018/06/XP-Poll_-2018_06_01.pdf XP/Ipespe]
+BR-05997/2018
+| rowspan="4" |1.000
+| rowspan="4" |3,2
+|3%<br /><small>(Haddad)</small>
+|11%<br /><small>(Gomes)</small>
+| –
+|'''13%'''<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|6%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''22%'''<small><br />(Bolsonaro)</small>
+|3%
+|''32%''
+|-
+|11%<br /><small>(Haddad, apoiado por Lula)</small>
+|9%<br /><small>(Gomes)</small>
+| –
+|11%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|6%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''21%'''<small><br />(Bolsonaro)</small>
+|4%
+|''27%''
+|-
+| style="background:#FFE3E3" |'''30%'''<small><br />(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|10%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|2%<br /><small>(Amoêdo)</small>
+|'''20%'''<small><br />(Bolsonaro)</small>
+|2%
+|''16%''
+|-
+| –
+|11%<br /><small>(Gomes)</small>
+| –
+|'''13%'''<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|7%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''23%'''<small><br />(Bolsonaro)</small>
+|3%
+|''32%''
+|-
+| rowspan="3" |25–31 de maio de 2018
+| rowspan="3" |[https://www.poder360.com.br/datapoder360/bolsonaro-e-lider-doria-decepciona-e-empata-com-alckmin-diz-datapoder360/ DataPoder360]
+BR-09186/2018
+| rowspan="3" |10.500
+| rowspan="3" |1,8
+|6%<br /><small>(Haddad)</small>
+|'''11%'''<br /><small>(Gomes)</small>
+| –
+|7%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|6%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''21%'''<small><br />(Bolsonaro)</small>
+|5,8%
+|''39%''
+|-
+|8%<br /><small>(Haddad)</small>
+|'''12%'''<br /><small>(Gomes)</small>
+| –
+|6%<br /><small>(Silva)</small>
+| –
+|6%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''25%'''<small><br />(Bolsonaro)</small>
+| –
+|''36%''
+|-
+|8%<br /><small>(Haddad)</small>
+|'''12%'''<br /><small>(Gomes)</small>
+| –
+|7%<br /><small>(Silva)</small>
+| –
+|6%<br /><small>(Dias)</small>
+|6%<br /><small>([[João Doria|Doria]])</small>
+|–
+| style="background:#FeFFE3" |'''22%'''<small><br />(Bolsonaro)</small>
+| –
+|''40%''
+|-
+|19–23 de maio de 2018
+|[https://www.cut.org.br/noticias/cut-vox-com-39-das-intencoes-de-voto-lula-vence-no-primeiro-turno-9eff CUT/Vox Populi]
+[https://www.valor.com.br/politica/5555483/vox-populicut-indica-lula-na-lideranca-com-39-em-cenario-unico BR-08042/2018]
+|2.000
+|2,2
+| style="background:#FFE3E3" |'''39%'''<small><br />(Lula)</small>
+|4%<br /><small>(Gomes)</small>
+| –
+|6%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|2%<br /><small>(Dias)</small>
+|3%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''12%'''<small><br />(Bolsonaro)</small>
+|1%
+|''30%''
+|-
+| rowspan="3" |15–18 e 21–23 de maio de 2018
+| rowspan="3" |[https://poder360.com.br/wp-content/uploads/2018/05/XP-Poll_-2018_05_1.pdf XP/Ipespe]
+BR-09600/2018, BR-05699/2018
+| rowspan="3" |2.000
+| rowspan="3" |2,2
+|3%<br /><small>(Haddad)</small>
+|10%<br /><small>(Gomes)</small>
+| –
+|'''14%'''<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''24%'''<small><br />(Bolsonaro)</small>
+|2%
+|''32%''
+|-
+| style="background:#FFE3E3" |'''29%'''<small><br />(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|9%<br /><small>(Silva)</small>
+|1%<br /><small>([[Michel Temer|Temer]])</small>
+|4%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''24%'''<small><br />(Bolsonaro)</small>
+|2%
+|''17%''
+|-
+| –
+|10%<br /><small>(Gomes)</small>
+| –
+|'''13%'''<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''24%'''<small><br />(Bolsonaro)</small>
+|3%
+|''36%''
+|-
+| rowspan="5" |9–12 de maio de 2018
+| rowspan="5" |CNT/[http://cms.cnt.org.br/Imagens%20CNT/PDFs%20CNT/Pesquisa%20CNT%20MDA/resultados_relatorio_cnt_mda_136.pdf MDA]
+BR-09430/2018
+| rowspan="5" |2.002
+| rowspan="5" |2,2
+|2,3%<br /><small>(Haddad)</small>
+|9,0%<br /><small>(Gomes)</small>
+| –
+|'''11,2%'''<br /><small>(Silva)</small>
+|0,5%<br /><small>(Meirelles)</small>
+|3,0%<br /><small>(Dias)</small>
+|5,3%<br /><small>(Alckmin)</small>
+|0,6%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''18,3%'''<small><br />(Bolsonaro)</small>
+|3,8%
+|''45,7%''
+|-
+|4,4%<br /><small>(Haddad)</small>
+|12,0%<br /><small>(Gomes)</small>
+| –
+|'''16,4%'''<br /><small>(Silva)</small>
+|1,4%<br /><small>(Meirelles)</small>
+| – || –
+|–
+| style="background:#FeFFE3" |'''20,7%'''<small><br />(Bolsonaro)</small>
+| –
+|''45,1%''
+|-
+|3,8%<br /><small>(Haddad)</small>
+|11,1%<br /><small>(Gomes)</small>
+| –
+|'''15,1%'''<br /><small>(Silva)</small>
+| – || –
+|8,1%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''19,7%'''<small><br />(Bolsonaro)</small>
+| –
+|''42,2%''
+|-
+| rowspan="2" style="background:#FFE3E3" |'''32,4%'''<small><br />(Lula)</small>
+| rowspan="2" |5,4%<br /><small>(Gomes)</small>
+| rowspan="2" | –
+| rowspan="2" |7,6%<br /><small>(Silva)</small>
+|0,3%<br /><small>(Meirelles)</small>
+| rowspan="2" |2,5%<br /><small>(Dias)</small>
+| rowspan="2" |4,0%<br /><small>(Alckmin)</small>
+| rowspan="2" |0,4%<br /><small>(Amoêdo)</small>
+| rowspan="2" |'''16,7%'''<small><br />(Bolsonaro)</small>
+| rowspan="2" |2,6%
+| rowspan="2" |''26,7%''
+|-
+|0,9%<br /><small>([[Michel Temer|Temer]])</small>
+|-
+| rowspan="3" |27 de abril–2 de maio de 2018
+| rowspan="3" |[http://www.paranapesquisas.com.br/wp-content/uploads/2018/05/BR_Mai18-M%C3%ADdia.pdf Paraná Pesquisas]
+BR- 02853/2018
+| rowspan="3" |2.002
+| rowspan="3" |2,0
+|2,7%<br /><small>(Haddad)</small>
+|9,7%<br /><small>(Gomes)</small>
+|11,0%<br /><small>([[Joaquim Barbosa|Barbosa]])</small>
+|'''12,0%'''<br /><small>(Silva)</small>
+|1,7%<br /><small>([[Michel Temer|Temer]])</small>
+|5,9%<br /><small>(Dias)</small>
+|8,1%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''20,5%'''<small><br />(Bolsonaro)</small>
+|6,0%
+|''22,2%''
+|-
+| style="background:#FFE3E3" |'''27,6%'''<small><br />(Lula)</small>
+|5,5%<br /><small>(Gomes)</small>
+|9,2%<br /><small>([[Joaquim Barbosa|Barbosa]])</small>
+|7,7%<br /><small>(Silva)</small>
+|1,1%<br /><small>([[Michel Temer|Temer]])</small>
+|5,4%<br /><small>(Dias)</small>
+|6,9%<br /><small>(Alckmin)</small>
+|–
+|'''19,5%'''<small><br />(Bolsonaro)</small>
+|4,2%
+|''12,8%''
+|-
+| –
+|10,1%<br /><small>(Gomes)</small>
+|11,2%<br /><small>([[Joaquim Barbosa|Barbosa]])</small>
+|'''13,3%'''<br /><small>(Silva)</small>
+|1,7%<br /><small>([[Michel Temer|Temer]])</small>
+|6,1%<br /><small>(Dias)</small>
+|8,4%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''20,7%'''<small><br />(Bolsonaro)</small>
+|6,4%
+|''22,0%''
+|-
+| rowspan="2" |16–19 de abril de 2018
+| rowspan="2" |[https://www.poder360.com.br/datapoder360/bolsonaro-e-lider-sem-lula-mas-barbosa-vence-no-2o-turno-diz-datapoder360/ DataPoder360]
+BR-06596/2018
+| rowspan="2" |2.000
+| rowspan="2" |2,2
+|3,9%<br /><small>(Haddad)</small>
+|9,0%<br /><small>(Gomes)</small>
+|'''12,9%'''<small><br />([[Joaquim Barbosa|Barbosa]])</small>
+|10,0%<br /><small>(Silva)</small>
+| –
+|6,0%<br /><small>(Dias)</small>
+|8,0%<br /><small>(Alckmin)</small>
+|0,5%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''20,0%'''<small><br />(Bolsonaro)</small>
+|5,0%
+|''24,7%''
+|-
+|7,4%<br /><small>(Haddad)</small>
+|8,4%<br /><small>(Gomes)</small>
+|'''16,3%'''<small><br />([[Joaquim Barbosa|Barbosa]])</small>
+|8,2%<br /><small>(Silva)</small>
+| –
+|6,3%<br /><small>(Dias)</small>
+|5,5%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''22,4%'''<small><br />(Bolsonaro)</small>
+| –
+|''25;5%''
+|-
+| rowspan="2" |13–15 de abril de 2018
+| rowspan="2" |[http://www.jb.com.br/pais/noticias/2018/04/17/em-pesquisa-encomendada-pelo-pt-lula-lidera-com-47-das-intencoes-de-voto-2/ PT/Vox Populi]
+BR-02039/2018
+| rowspan="2" |2.000
+| rowspan="2" |2,2
+| style="background:#FFE3E3" |'''47%'''<small><br />(Lula)</small>
+|2%<br /><small>(Gomes)</small>
+|9%<br /><small>([[Joaquim Barbosa|Barbosa]])</small>
+|7%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|2%<br /><small>(Dias)</small>
+|3%<br /><small>(Alckmin)</small>
+|–
+|'''11%'''<small><br />(Bolsonaro)</small>
+|0%
+|''18%''
+|-
+| style="background:#FFE3E3" |'''47%'''<small><br />(Lula)</small>
+|2%<br /><small>(Gomes)</small>
+|9%<br /><small>([[Joaquim Barbosa|Barbosa]])</small>
+|7%<br /><small>(Silva)</small>
+|1%<br /><small>([[Michel Temer|Temer]])</small>
+|2%<br /><small>(Dias)</small>
+|3%<br /><small>(Alckmin)</small>
+|–
+|'''12%'''<small><br />(Bolsonaro)</small>
+|0%
+|''18%''
+|-
+| rowspan="9" |11–13 de abril de 2018
+| rowspan="9" |[http://media.folha.uol.com.br/datafolha/2018/04/16/3416374d208f7def05d1476d05ede73e.pdf Datafolha]
+BR-08510/2018
+| rowspan="9" |4.194
+| rowspan="9" |2
+|2%<br /><small>(Haddad)</small>
+|9%<br /><small>(Gomes)</small>
+|9%<br /><small>([[Joaquim Barbosa|Barbosa]])</small>
+|'''15%'''<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''17%'''<small><br />(Bolsonaro)</small>
+|6%
+|''26%''
+|-
+|2%<br /><small>(Haddad)</small>
+|9%<br /><small>(Gomes)</small>
+|9%<br /><small>([[Joaquim Barbosa|Barbosa]])</small>
+|'''15%'''<br /><small>(Silva)</small>
+|2%<br /><small>([[Michel Temer|Temer]])</small>
+|4%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''17%'''<small><br />(Bolsonaro)</small>
+|7%
+|''28%''
+|-
+|2%<br /><small>(Haddad)</small>
+|9%<br /><small>(Gomes)</small>
+|10%<br /><small>([[Joaquim Barbosa|Barbosa]])</small>
+|'''15%'''<br /><small>(Silva)</small>
+| –
+|5%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''17%'''<small><br />(Bolsonaro)</small>
+|7%
+|''27%''
+|-
+| style="background:#FFE3E3" |'''31%'''<small><br />(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+|8%<br /><small>([[Joaquim Barbosa|Barbosa]])</small>
+|10%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|3%<br /><small>(Dias)</small>
+|6%<br /><small>(Alckmin)</small>
+|0%<br /><small>(Amoêdo)</small>
+|'''15%'''<small><br />(Bolsonaro)</small>
+|5%
+|''16%''
+|-
+| style="background:#FFE3E3" |'''30%'''<small><br />(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+|8%<br /><small>([[Joaquim Barbosa|Barbosa]])</small>
+|10%<br /><small>(Silva)</small>
+|1%<br /><small>([[Michel Temer|Temer]])</small>
+|3%<br /><small>(Dias)</small>
+|6%<br /><small>(Alckmin)</small>
+|0%<br /><small>(Amoêdo)</small>
+|'''15%'''<small><br />(Bolsonaro)</small>
+|5%
+|''16%''
+|-
+| style="background:#FFE3E3" |'''31%'''<small><br />(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+|8%<br /><small>([[Joaquim Barbosa|Barbosa]])</small>
+|10%<br /><small>(Silva)</small>
+| –
+|4%<br /><small>(Dias)</small>
+|6%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''16%'''<small><br />(Bolsonaro)</small>
+|3%
+|''15%''
+|-
+|1%<br /><small>([[Jaques Wagner|Wagner]])</small>
+|9%<br /><small>(Gomes)</small>
+|9%<br /><small>([[Joaquim Barbosa|Barbosa]])</small>
+|'''15%'''<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''17%'''<small><br />(Bolsonaro)</small>
+|8%
+|''27%''
+|-
+|1%<br /><small>([[Jaques Wagner|Wagner]])</small>
+|9%<br /><small>(Gomes)</small>
+|9%<br /><small>(Barbosa)</small>
+|'''15%'''<br /><small>(Silva)</small>
+|1%<br /><small>([[Michel Temer|Temer]])</small>
+|4%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''17%'''<small><br />(Bolsonaro)</small>
+|6%
+|''26%''
+|-
+| –
+|9%<br /><small>(Gomes)</small>
+|9%<br /><small>([[Joaquim Barbosa|Barbosa]])</small>
+|'''16%'''<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''17%'''<small><br />(Bolsonaro)</small>
+|7%
+|''26%''
+|-
+| rowspan="4" |28 de fevereiro–3 de março de 2018
+| rowspan="4" |[http://cms.cnt.org.br/Imagens%20CNT/PDFs%20CNT/Pesquisa%20CNT%20MDA/relatorio_sintese_completo_cntmda_135.pdf CNT/MDA]
+BR-06600/2018
+| rowspan="4" |2.002
+| rowspan="4" |2,2
+|2,3%<br /><small>(Haddad)</small>
+|8,1%<br /><small>(Gomes)</small>
+| –
+|'''12,8%'''<br /><small>(Silva)</small>
+|1,3%<br /><small>([[Michel Temer|Temer]])</small>
+|4,0%<br /><small>(Dias)</small>
+|8,6%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''20,0%'''<br /><small>(Bolsonaro)</small>
+|4,2%
+|''38,7%''
+|-
+|2,9%<br /><small>(Haddad)</small>
+|9,0%<br /><small>(Gomes)</small>
+| –
+|'''13,9%'''<br /><small>(Silva)</small>
+|1,3%<br /><small>([[Michel Temer|Temer]])</small>
+|4,7%<br /><small>(Dias)</small>
+| –
+|–
+| style="background:#FeFFE3" |'''20,9%'''<br /><small>(Bolsonaro)</small>
+|5,2%
+|''42,1%''
+|-
+|2,4%<br /><small>(Haddad)</small>
+|8,1%<br /><small>(Gomes)</small>
+| –
+|'''13,4%'''<br /><small>(Silva)</small>
+| –
+|4,1%<br /><small>(Dias)</small>
+|8,7%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''20,2%'''<br /><small>(Bolsonaro)</small>
+|4,6%
+|''38,5%''
+|-
+| style="background:#FFE3E3" |'''33,4%'''<small><br />(Lula)</small>
+|4,3%<br /><small>(Gomes)</small>
+| –
+|7,8%<br /><small>(Silva)</small>
+|0,9%<br /><small>([[Michel Temer|Temer]])</small>
+|3,3%<br /><small>(Dias)</small>
+|6,4%<br /><small>(Alckmin)</small>
+|–
+|'''16,8%'''<br /><small>(Bolsonaro)</small>
+|2,5%
+|''24,6%''
+|-
+| rowspan="2" |2–7 de fevereiro de 2018
+| rowspan="2" |[http://www.pesquisa365.com.br/eleicoes2018/1-pesquisa-nacional-fevereiro.pdf #PESQUISA365]
+BR-05162/2018
+| rowspan="2" |2.000
+| rowspan="2" |2,2
+|2,5%<br /><small>(Haddad)</small>
+|9,6%<br /><small>(Gomes)</small>
+|5,6%<br /><small>([[Joaquim Barbosa|Barbosa]])</small>
+|'''9,7%'''<br /><small>(Silva)</small>
+| –
+|3,0%<br /><small>(Dias)</small>
+|4,4%<br /><small>(Alckmin)</small>
+|0,1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''15,9%'''<br /><small>(Bolsonaro)</small>
+|5,2%
+|''44,5%''
+|-
+|2,2%<br /><small>([[Jaques Wagner|Wagner]])</small>
+|10,1%<br /><small>(Gomes)</small>
+| –
+|'''10,4%'''<br /><small>(Silva)</small>
+|0,6%<br /><small>(Meirelles)</small>
+|3,4%<br /><small>(Dias)</small>
+|1,1%<br /><small>([[Arthur Virgílio Neto|Virgílio]])</small>
+|0,1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''17,0%'''<br /><small>(Bolsonaro)</small>
+|5,0%
+|''50,7%''
+|-
+| rowspan="10" |29–30 de janeiro de 2018
+| rowspan="10" |[http://media.folha.uol.com.br/datafolha/2018/01/31/62d85b7b11e52c8fccbb96bcd5ca71b9.pdf Datafolha]
+BR-05351/2018
+| rowspan="10" |2.826
+| rowspan="10" |2
+| rowspan="2" style="background:#FFE3E3" |'''34%'''<small><br />(Lula)</small>
+| rowspan="2" |6%<br /><small>(Gomes)</small>
+| rowspan="2" |3%<br /><small>([[Joaquim Barbosa|Barbosa]])</small>
+| rowspan="2" |7%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+| rowspan="2" |3%<br /><small>(Dias)</small>
+| rowspan="2" |6%<br /><small>(Alckmin)</small>
+| rowspan="2" |0%<br /><small>(Amoêdo)</small>
+| rowspan="2" |'''15%'''<br /><small>(Bolsonaro)</small>
+| rowspan="2" |8%
+| rowspan="2" |''15%''
+|-
+|1%<br /><small>([[Michel Temer|Temer]])</small>
+|-
+| style="background:#FFE3E3" |'''34%'''<small><br />(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|8%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|3%<br /><small>(Dias)</small>
+|6%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''16%'''<br /><small>(Bolsonaro)</small>
+|9%
+|''16%''
+|-
+| style="background:#FFE3E3" |'''35%'''<small><br />(Lula)</small>
+|7%<br /><small>(Gomes)</small>
+| –
+|10%<br /><small>(Silva)</small>
+| –
+|4%<br /><small>(Dias)</small>
+|4%<br /><small>([[João Doria|Doria]])</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''17%'''<br /><small>(Bolsonaro)</small>
+|4%
+|''18%''
+|-
+| style="background:#FFE3E3" |'''37%'''<small><br />(Lula)</small>
+|7%<br /><small>(Gomes)</small>
+|5%<br /><small>([[Joaquim Barbosa|Barbosa]])</small>
+| – || –
+|4%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''16%'''<br /><small>(Bolsonaro)</small>
+|4%
+|''20%''
+|-
+| style="background:#FFE3E3" |'''36%'''<small><br />(Lula)</small>
+|7%<br /><small>(Gomes)</small>
+| – || –
+|1%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''18%'''<br /><small>(Bolsonaro)</small>
+|5%
+|''22%''
+|-
+|2%<br /><small>([[Jaques Wagner|Wagner]])</small>
+|10%<br /><small>(Gomes)</small>
+| –
+|'''13%'''<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''18%'''<br /><small>(Bolsonaro)</small>
+|13%
+|''28%''
+|-
+|2%<br /><small>([[Jaques Wagner|Wagner]])</small>
+|12%<br /><small>(Gomes)</small>
+| –
+|'''16%'''<br /><small>(Silva)</small>
+| –
+|6%<br /><small>(Dias)</small>
+|5%<br /><small>([[João Doria|Doria]])</small>
+|1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''20%'''<br /><small>(Bolsonaro)</small>
+|6%
+|''32%''
+|-
+|2%<br /><small>([[Jaques Wagner|Wagner]])</small>
+|'''12%'''<br /><small>(Gomes)</small>
+|5%<br /><small>([[Joaquim Barbosa|Barbosa]])</small>
+| – || –
+|6%<br /><small>(Dias)</small>
+|11%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''19%'''<br /><small>(Bolsonaro)</small>
+|8%
+|''35%''
+|-
+|2%<br /><small>([[Jaques Wagner|Wagner]])</small>
+|'''13%'''<br /><small>(Gomes)</small>
+| – || –
+|2%<br /><small>(Meirelles)</small>
+|6%<br /><small>(Dias)</small>
+|11%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''20%'''<br /><small>(Bolsonaro)</small>
+|8%
+|''36%''
+|-
+| rowspan="3" |18–21 de dezembro de 2017
+| rowspan="3" |[http://www.paranapesquisas.com.br/wp-content/uploads/2018/01/BR_M%C3%ADdiaFederal.pdf Paraná Pesquisas]
+| rowspan="3" |2.020
+| rowspan="3" |2,0
+| style="background:#FFE3E3" |'''29,2%'''<small><br />(Lula)</small>
+|5,2%<br /><small>(Gomes)</small>
+|6,8%<br /><small>([[Joaquim Barbosa|Barbosa]])</small>
+|8,6%<br /><small>(Silva)</small>
+|0,9%<br /><small>(Meirelles)</small>
+|3,5%<br /><small>(Dias)</small>
+|7,9%<br /><small>(Alckmin)</small>
+|0,3%<br /><small>(Amoêdo)</small>
+|'''21,1%'''<br /><small>(Bolsonaro)</small>
+|0,6%
+|''15,9%''
+|-
+|'''13,4%'''<br /><small>([[Dilma Rousseff|Rousseff]])</small>
+|7,7%<br /><small>(Gomes)</small>
+|7,6%<br /><small>([[Joaquim Barbosa|Barbosa]])</small>
+|12,2%<br /><small>(Silva)</small>
+|1,1%<br /><small>(Meirelles)</small>
+|4,0%<br /><small>(Dias)</small>
+|8,7%<br /><small>(Alckmin)</small>
+|0,4%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''22,8%'''<br /><small>(Bolsonaro)</small>
+|0,7%
+|''21,4%''
+|-
+|3,9%<br /><small>([[Jaques Wagner|Wagner]])</small>
+|8,2%<br /><small>(Gomes)</small>
+|9,6%<br /><small>([[Joaquim Barbosa|Barbosa]])</small>
+|'''14,8%'''<small><br />(Silva)</small>
+|1,3%<br /><small>(Meirelles)</small>
+|4,3%<br /><small>(Dias)</small>
+|9,5%<br /><small>(Alckmin)</small>
+|0,4%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''23,2%'''<br /><small>(Bolsonaro)</small>
+|1,1%
+|''23,7%''
+|-
+| rowspan="2" |9–12 de dezembro de 2017
+| rowspan="2" |[https://www.poder360.com.br/wp-content/uploads/2018/02/Brasil-presidente-1T-2018.pdf CUT/Vox Populi]
+| rowspan="2" |2.000
+| rowspan="2" |2,2
+| style="background:#FFE3E3" |'''43%'''<small><br />(Lula)</small>
+|2%<br /><small>(Gomes)</small>
+|7%<br /><small>([[Joaquim Barbosa|Barbosa]])</small>
+|5%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|1%<br /><small>(Dias)</small>
+|4%<br /><small>(Alckmin)</small>
+|0%<br /><small>(Amoêdo)</small>
+|'''13%'''<br /><small>(Bolsonaro)</small>
+|0%
+|''24%''
+|-
+| style="background:#FFE3E3" |'''45%'''<small><br />(Lula)</small>
+|3%<br /><small>(Gomes)</small>
+| –
+|7%<br /><small>(Silva)</small>
+| – || –
+|6%<br /><small>(Alckmin)</small>
+|–
+|'''15%'''<br /><small>(Bolsonaro)</small>|| –
+|''25%''
+|-
+| rowspan="3" |8–11 de dezembro de 2017
+| rowspan="3" |[https://www.poder360.com.br/datapoder360/alckmin-e-bolsonaro-tem-desempenho-igual-e-perdem-para-lula-no-2o-turno/ DataPoder360]
+| rowspan="3" |2.210
+| rowspan="3" |2,6
+|5%<br /><small>(Haddad)</small>
+|10%<br /><small>(Gomes)</small>
+| –
+|10%<br /><small>(Silva)</small>
+| – || –
+|7%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''23%'''<br /><small>(Bolsonaro)</small>|| –
+|''46%''
+|-
+| style="background:#FFE3E3" |'''26%'''<small><br />(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+| –
+|7%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|2%<br /><small>(Dias)</small>
+|4%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''21%'''<br /><small>(Bolsonaro)</small>
+|13%
+|''21%''
+|-
+| style="background:#FFE3E3" |'''30%'''<small><br />(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|10%<br /><small>(Silva)</small>
+| – || –
+|8%<br /><small>(Alckmin)</small>
+|–
+|'''22%'''<br /><small>(Bolsonaro)</small>|| –
+|''26%''
+|-
+| rowspan="10" |29–30 de novembro de 2017
+| rowspan="10" |[http://media.folha.uol.com.br/datafolha/2017/12/04/4c20823b9d511594f43a6557cc76bb46.pdf Datafolha]
+| rowspan="10" |2.765
+| rowspan="10" |2
+|3%<br /><small>(Haddad)</small>
+|12%<br /><small>(Gomes)</small>
+| –
+|'''16%'''<br /><small>(Silva)</small>
+| –
+|5%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''21%'''<br /><small>(Bolsonaro)</small>
+|4%
+|''28%''
+|-
+|3%<br /><small>(Haddad)</small>
+|13%<br /><small>(Gomes)</small>
+| –
+|'''17%'''<br /><small>(Silva)</small>
+| –
+|6%<br /><small>(Dias)</small>
+|6%<br /><small>(Doria)</small>
+|1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''21%'''<br /><small>(Bolsonaro)</small>
+|4%
+|''30%''
+|-
+|3%<br /><small>(Haddad)</small>
+|'''12%'''<br /><small>(Gomes)</small>
+|8%<br /><small>(Barbosa)</small>
+| – || –
+|6%<br /><small>(Dias)</small>
+|11%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''21%'''<br /><small>(Bolsonaro)</small>
+|4%
+|''32%''
+|-
+|3%<br /><small>(Haddad)</small>
+|'''13%'''<br /><small>(Gomes)</small>
+| – || –
+|2%<br /><small>(Meirelles)</small>
+|6%<br /><small>(Dias)</small>
+|12%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+| style="background:#FeFFE3" |'''22%'''<br /><small>(Bolsonaro)</small>
+|6%
+|''35%''
+|-
+| rowspan="2" style="background:#FFE3E3" |'''34%'''<small><br />(Lula)</small>
+| rowspan="2" |6%<br /><small>(Gomes)</small>
+| rowspan="2" |5%<br /><small>(Barbosa)</small>
+| rowspan="2" |9%<br /><small>(Silva)</small>
+|1%<br /><small>([[Michel Temer|Temer]])</small>
+| rowspan="2" |3%<br /><small>(Dias)</small>
+| rowspan="2" |6%<br /><small>(Alckmin)</small>
+| rowspan="2" |0%<br /><small>(Amoêdo)</small>
+| rowspan="2" |'''17%'''<br /><small>(Bolsonaro)</small>
+| rowspan="2" |2%
+| rowspan="2" |''14%''
+|-
+|1%<br /><small>(Meirelles)</small>
+|-
+| style="background:#FFE3E3" |'''36%'''<small><br />(Lula)</small>
+|7%<br /><small>(Gomes)</small>
+| –
+|10%<br /><small>(Silva)</small>
+| –
+|4%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|0%<br /><small>(Amoêdo)</small>
+|'''18%'''<br /><small>(Bolsonaro)</small>
+|3%
+|''15%''
+|-
+| style="background:#FFE3E3" |'''36%'''<small><br />(Lula)</small>
+|7%<br /><small>(Gomes)</small>
+| –
+|11%<br /><small>(Silva)</small>
+| –
+|4%<br /><small>(Dias)</small>
+|5%<br /><small>(Doria)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''18%'''<br /><small>(Bolsonaro)</small>
+|3%
+|''16%''
+|-
+| style="background:#FFE3E3" |'''37%'''<small><br />(Lula)</small>
+|7%<br /><small>(Gomes)</small>
+|6%<br /><small>(Barbosa)</small>
+| – || –
+|4%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|0%<br /><small>(Amoêdo)</small>
+|'''18%'''<br /><small>(Bolsonaro)</small>
+|3%
+|''17%''
+|-
+| style="background:#FFE3E3" |'''37%'''<small><br />(Lula)</small>
+|7%<br /><small>(Gomes)</small>
+| – || –
+|1%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|0%<br /><small>(Amoêdo)</small>
+|'''19%'''<br /><small>(Bolsonaro)</small>
+|4%
+|''17%''
+|-
+| rowspan="4" |16–18 de novembro de 2017
+| rowspan="4" |[https://www.poder360.com.br/wp-content/uploads/2017/11/DataPoder360-novembro2017.pdf DataPoder360]
+| rowspan="4" |2.171
+| rowspan="4" |2,9
+|4%<br /><small>(Haddad)</small>
+|12%<br /><small>(Gomes)</small>
+| –
+|12%<br /><small>(Silva)</small>
+| – || –
+|9%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''22%'''<br /><small>(Bolsonaro)</small>|| –
+|''42%''
+|-
+|5%<br /><small>(Haddad)</small>
+|14%<br /><small>(Gomes)</small>
+| –
+|14%<br /><small>(Silva)</small>
+| – || –
+|3%<br /><small>(Doria)</small>
+|–
+| style="background:#FeFFE3" |'''22%'''<br /><small>(Bolsonaro)</small>|| –
+|''43%''
+|-
+| style="background:#FFE3E3" |'''26%'''<small><br />(Lula)</small>
+|4%<br /><small>(Gomes)</small>
+| –
+|8%<br /><small>(Silva)</small>
+| – || –
+|7%<br /><small>(Alckmin)</small>
+|–
+|'''25%'''<br /><small>(Bolsonaro)</small>|| –
+|''29%''
+|-
+| style="background:#FFE3E3" |'''26%'''<small><br />(Lula)</small>
+|8%<br /><small>(Gomes)</small>
+| –
+|8%<br /><small>(Silva)</small>
+| – || –
+|9%<br /><small>(Doria)</small>
+|–
+|'''18%'''<br /><small>(Bolsonaro)</small>|| –
+|''32%''
+|-
+| rowspan="4" |27–30 de outubro de 2017
+| rowspan="4" |[https://static.poder360.com.br/2018/06/Brasil-%E2%80%93-Presidente-2turno-1.pdf CUT/Vox Populi]
+| rowspan="4" |2.000
+| rowspan="4" |2,2
+| style="background:#FFE3E3" |'''42%'''<small><br />(Lula)</small>
+|4%<br /><small>(Gomes)</small>
+| –
+|7%<br /><small>(Silva)</small>
+|0%<br /><small>([[Michel Temer|Temer]])</small>
+|1%<br /><small>(Dias)</small>
+|5%<br /><small>(Alckmin)</small>
+|–
+|'''16%'''<br /><small>(Bolsonaro)</small>
+|1%
+|''23%''
+|-
+| style="background:#FFE3E3" |'''41%'''<small><br />(Lula)</small>
+|4%<br /><small>(Gomes)</small>
+| –
+|7%<br /><small>(Silva)</small>
+| –
+|1%<br /><small>(Dias)</small>
+|5%<br /><small>(Alckmin)</small>
+|–
+|'''16%'''<br /><small>(Bolsonaro)</small>
+|4%
+|''22%''
+|-
+| style="background:#FFE3E3" |'''42%'''<small><br />(Lula)</small>
+|4%<br /><small>(Gomes)</small>
+| –
+|8%<br /><small>(Silva)</small>
+| – || –
+|5%<br /><small>(Alckmin)</small>
+|–
+|'''17%'''<br /><small>(Bolsonaro)</small>|| –
+|''24%''
+|-
+| style="background:#FFE3E3" |'''43%'''<small><br />(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+| –
+|8%<br /><small>(Silva)</small>
+| – || –
+|3%<br /><small>(Doria)</small>
+|–
+|'''16%'''<br /><small>(Bolsonaro)</small>|| –
+|''24%''
+|-
+| rowspan="4" |26–29 de outubro de 2017
+| rowspan="4" |[https://www.poder360.com.br/datapoder360/a-1-ano-da-eleicao-lula-e-bolsonaro-se-consolidam-a-frente-na-disputa/ DataPoder360]
+| rowspan="4" |2.016
+| rowspan="4" |2,9
+|4%<br /><small>(Haddad)</small>
+|'''14%'''<br /><small>(Gomes)</small>
+| –
+|9%<br /><small>(Silva)</small>
+| – || –
+|10%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''23%'''<br /><small>(Bolsonaro)</small>|| –
+|''40%''
+|-
+|7%<br /><small>(Haddad)</small>
+|11%<br /><small>(Gomes)</small>
+| –
+|'''13%'''<br /><small>(Silva)</small>
+| – || –
+|8%<br /><small>(Doria)</small>
+|–
+| style="background:#FeFFE3" |'''24%'''<br /><small>(Bolsonaro)</small>|| –
+|''37%''
+|-
+| style="background:#FFE3E3" |'''28%'''<small><br />(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+| –
+|6%<br /><small>(Silva)</small>
+| – || –
+|7%<br /><small>(Alckmin)</small>
+|–
+|'''25%'''<br /><small>(Bolsonaro)</small>|| –
+|''29%''
+|-
+| style="background:#FFE3E3" |'''32%'''<small><br />(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|5%<br /><small>(Silva)</small>
+| – || –
+|9%<br /><small>(Doria)</small>
+|–
+|'''20%'''<br /><small>(Bolsonaro)</small>|| –
+|''28%''
+|-
+| rowspan="8" |18–22 de outubro de 2017
+| rowspan="8" |[https://www.poder360.com.br/wp-content/uploads/2018/02/Brasil-presidente-1T-2018.pdf IBOPE]
+| rowspan="8" |2.002
+| rowspan="8" |2
+| rowspan="2" |1%<br /><small>(Haddad)</small>
+| rowspan="2" |7%<br /><small>(Gomes)</small>
+| rowspan="2" | –
+| rowspan="2" |'''15%'''<br /><small>(Silva)</small>
+| rowspan="2" |1%<br /><small>(Meirelles)</small>
+| rowspan="2" |3%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+| rowspan="2" |1%<br /><small>(Amoêdo)</small>
+| rowspan="2" |'''15%'''<br /><small>(Bolsonaro)</small>
+| rowspan="2" |10%
+| rowspan="2" |''34%''
+|-
+|5%<br /><small>(Doria)</small>
+|-
+|2%<br /><small>(Haddad)</small>
+|9%<br /><small>(Gomes)</small>
+| –
+|'''18%'''<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''18%'''<br /><small>(Bolsonaro)</small>
+|3%
+|''36%''
+|-
+|2%<br /><small>(Haddad)</small>
+|11%<br /><small>(Gomes)</small>
+| –
+| style="background:#E6F2EA" |'''19%'''<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|6%<br /><small>(Doria)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''17%'''<br /><small>(Bolsonaro)</small>
+|2%
+|''37%''
+|-
+| rowspan="2" style="background:#FFE3E3" |'''35%'''<small><br />(Lula)</small>
+| rowspan="2" |3%<br /><small>(Gomes)</small>
+| rowspan="2" | –
+| rowspan="2" |8%<br /><small>(Silva)</small>
+| rowspan="2" |0%<br /><small>(Meirelles)</small>
+| rowspan="2" |2%<br /><small>(Dias)</small>
+|5%<br /><small>(Alckmin)</small>
+| rowspan="2" |0%<br /><small>(Amoêdo)</small>
+| rowspan="2" |'''13%'''<br /><small>(Bolsonaro)</small>
+| rowspan="2" |7%
+| rowspan="2" |''23%''
+|-
+|4%<br /><small>(Doria)</small>
+|-
+| style="background:#FFE3E3" |'''35%'''<small><br />(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+| –
+|11%<br /><small>(Silva)</small>
+|0%<br /><small>(Meirelles)</small>
+|3%<br /><small>(Dias)</small>
+|7%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''15%'''<br /><small>(Bolsonaro)</small>
+|2%
+|''23%''
+|-
+| style="background:#FFE3E3" |'''36%'''<small><br />(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+| –
+|11%<br /><small>(Silva)</small>
+|1%<br /><small>(Meirelles)</small>
+|3%<br /><small>(Dias)</small>
+|5%<br /><small>(Doria)</small>
+|0%<br /><small>(Amoêdo)</small>
+|'''15%'''<br /><small>(Bolsonaro)</small>
+|2%
+|''22%''
+|-
+| rowspan="10" |27–28 de setembro de 2017
+| rowspan="10" |[http://media.folha.uol.com.br/datafolha/2017/10/02/0fd1b3a0cedd68ba47456fb25bc91299.pdf Datafolha]
+| rowspan="10" |2.772
+| rowspan="10" |2
+|3%<br /><small>(Haddad)</small>
+|9%<br /><small>(Gomes)</small>
+| –
+| style="background:#E6F2EA" |'''22%'''<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''19%'''<br /><small>(Bolsonaro)</small>
+|2%
+|''28%''
+|-
+| rowspan="2" |2%<br /><small>(Haddad)</small>
+| rowspan="2" |7%<br /><small>(Gomes)</small>
+| rowspan="2" |5%<br /><small>(Barbosa)</small>
+| rowspan="2" style="background:#E6F2EA" |'''17%'''<br /><small>(Silva)</small>
+| rowspan="2" |2%<br /><small>(Meirelles)</small>
+| rowspan="2" |3%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+| rowspan="2" |1%<br /><small>(Amoêdo)</small>
+| rowspan="2" |'''15%'''<br /><small>(Bolsonaro)</small>
+| rowspan="2" |11%
+| rowspan="2" |''23%''
+|-
+|6%<br /><small>(Doria)</small>
+|-
+| rowspan="2" |2%<br /><small>(Haddad)</small>
+| rowspan="2" |9%<br /><small>(Gomes)</small>
+| rowspan="2" | –
+| rowspan="2" style="background:#E6F2EA" |'''20%'''<br /><small>(Silva)</small>
+| rowspan="2" |2%<br /><small>(Meirelles)</small>
+| rowspan="2" |5%<br /><small>(Dias)</small>
+|9%<br /><small>(Alckmin)</small>
+| rowspan="2" |1%<br /><small>(Amoêdo)</small>
+| rowspan="2" |'''17%'''<br /><small>(Bolsonaro)</small>
+| rowspan="2" |1%
+| rowspan="2" |''27%''
+|-
+|7%<br /><small>(Doria)</small>
+|-
+| style="background:#FFE3E3" |'''35%'''<small><br />(Lula)</small>
+|4%<br /><small>(Gomes)</small>
+| –
+|13%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|–
+|'''17%'''<br /><small>(Bolsonaro)</small>
+|1%
+|''17%''
+|-
+| style="background:#FFE3E3" |'''35%'''<small><br />(Lula)</small>
+| – || –
+|13%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|8%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''17%'''<br /><small>(Bolsonaro)</small>
+|1%
+|''18%''
+|-
+| style="background:#FFE3E3" |'''36%'''<small><br />(Lula)</small>
+| – || –
+|14%<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|4%<br /><small>(Dias)</small>
+|8%<br /><small>(Doria)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''16%'''<br /><small>(Bolsonaro)</small>
+|1%
+|''18%''
+|-
+| –
+|10%<br /><small>(Gomes)</small>
+| –
+| style="background:#E6F2EA" |'''22%'''<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|10%<br /><small>(Alckmin)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''19%'''<br /><small>(Bolsonaro)</small>
+|2%
+|''29%''
+|-
+| –
+|10%<br /><small>(Gomes)</small>
+| –
+| style="background:#E6F2EA" |'''23%'''<br /><small>(Silva)</small>
+|2%<br /><small>(Meirelles)</small>
+|5%<br /><small>(Dias)</small>
+|10%<br /><small>(Doria)</small>
+|1%<br /><small>(Amoêdo)</small>
+|'''18%'''<br /><small>(Bolsonaro)</small>
+|2%
+|''29%''
+|-
+| rowspan="4" |18–22 de setembro de 2017
+| rowspan="4" |[http://www.paranapesquisas.com.br/wp-content/uploads/2017/09/BR_M%C3%ADdia.pdf Paraná Pesquisas]
+| rowspan="4" |2.040
+| rowspan="4" |2,0
+|4,0%<br /><small>(Haddad)</small>
+|7,5%<br /><small>(Gomes)</small>
+|9,7%<br /><small>(Barbosa)</small>
+|'''15,3%'''<br /><small>(Silva)</small>
+|2,2%<br /><small>(Meirelles)</small>
+|4,6%<br /><small>(Dias)</small>
+|9,7%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''20,9%'''<br /><small>(Bolsonaro)</small>|| –
+|''26,2%''
+|-
+|3,4%<br /><small>(Haddad)</small>
+|7,4%<br /><small>(Gomes)</small>
+|8,9%<br /><small>(Barbosa)</small>
+|'''15,4%'''<br /><small>(Silva)</small>
+|2,3%<br /><small>(Meirelles)</small>
+|4,4%<br /><small>(Dias)</small>
+|13,5%<br /><small>(Doria)</small>
+|–
+| style="background:#FeFFE3" |'''19,6%'''<br /><small>(Bolsonaro)</small>|| –
+|''25,3%''
+|-
+| style="background:#FFE3E3" |'''26,5%'''<small><br />(Lula)</small>
+|4,5%<br /><small>(Gomes)</small>
+|8,3%<br /><small>(Barbosa)</small>
+|9,8%<br /><small>(Silva)</small>
+|1,6%<br /><small>(Meirelles)</small>
+|3,9%<br /><small>(Dias)</small>
+|8,4%<br /><small>(Alckmin)</small>
+|–
+|'''20,0%'''<br /><small>(Bolsonaro)</small>|| –
+|''17,0%''
+|-
+| style="background:#FFE3E3" |'''26,6%'''<small><br />(Lula)</small>
+|4,3%<br /><small>(Gomes)</small>
+|7,5%<br /><small>(Barbosa)</small>
+|9,7%<br /><small>(Silva)</small>
+|1,5%<br /><small>(Meirelles)</small>
+|3,8%<br /><small>(Dias)</small>
+|11,5%<br /><small>(Doria)</small>
+|–
+|'''18,5%'''<br /><small>(Bolsonaro)</small>|| –
+|''16,5%''
+|-
+| rowspan="4" |15–17 de setembro de 2017
+| rowspan="4" |[https://www.poder360.com.br/datapoder360/lula-alckmin-e-doria-tem-recuos-bolsonaro-se-mantem-diz-datapoder360/ DataPoder360]
+| rowspan="4" |2.280
+| rowspan="4" |2,8
+|4%<br /><small>(Haddad)</small>
+|11%<br /><small>(Gomes)</small>
+| –
+|'''12%'''<br /><small>(Silva)</small>
+| – || –
+|7%<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''26%'''<br /><small>(Bolsonaro)</small>|| –
+|''41%''
+|-
+|3%<br /><small>(Haddad)</small>
+|11%<br /><small>(Gomes)</small>
+| –
+|'''13%'''<br /><small>(Silva)</small>
+| – || –
+|8%<br /><small>(Doria)</small>
+|–
+| style="background:#FeFFE3" |'''26%'''<br /><small>(Bolsonaro)</small>|| –
+|''40%''
+|-
+| style="background:#FFE3E3" |'''27%'''<small><br />(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|6%<br /><small>(Silva)</small>
+| – || –
+|5%<br /><small>(Alckmin)</small>
+|–
+|'''24%'''<br /><small>(Bolsonaro)</small>|| –
+|''32%''
+|-
+| style="background:#FFE3E3" |'''28%'''<small><br />(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|7%<br /><small>(Silva)</small>
+| – || –
+|10%<br /><small>(Doria)</small>
+|–
+|'''20%'''<br /><small>(Bolsonaro)</small>|| –
+|''28%''
+|-
+| rowspan="3" |13–16 de setembro de 2017
+| rowspan="3" |[http://www.cnt.org.br/Imprensa/noticia/resultados-pesquisa-cnt-mda-134 CNT/MDA]
+| rowspan="3" |2.002
+| rowspan="3" |2,2
+| style="background:#FFE3E3" |'''32,0%'''<small><br />(Lula)</small>
+|4,6%<br /><small>(Gomes)</small>
+| –
+|11,4%<br /><small>(Silva)</small>
+| – || –
+|8,7%<br /><small>(Alckmin)</small>
+|–
+|'''19,4%'''<br /><small>(Bolsonaro)</small>|| –
+|''23,9%''
+|-
+| style="background:#FFE3E3" |'''32,7%'''<small><br />(Lula)</small>
+|5,2%<br /><small>(Gomes)</small>
+| –
+|12,0%<br /><small>(Silva)</small>
+| – || –
+|9,4%<br /><small>(Doria)</small>
+|–
+|'''18,4%'''<br /><small>(Bolsonaro)</small>|| –
+|''22;3%''
+|-
+| style="background:#FFE3E3" |'''32,4%'''<small><br />(Lula)</small>
+|5,3%<br /><small>(Gomes)</small>
+| –
+|12,1%<br /><small>(Silva)</small>
+| – || –
+|3,2%<br /><small>(Neves)</small>
+|–
+|'''19,8%'''<br /><small>(Bolsonaro)</small>|| –
+|''27.2%''
+|-
+| rowspan="4" |12–14 de agosto de 2017
+| rowspan="4" |[https://www.poder360.com.br/datapoder360/sem-lula-brancos-e-nulos-disparam-e-bolsonaro-lidera-isolado-para-2018/ DataPoder360]
+| rowspan="4" |2.088
+| rowspan="4" |3
+|3%<br /><small>(Haddad)</small>
+|8%<br /><small>(Gomes)</small>
+| –
+|8%<br /><small>(Silva)</small>
+| – || –
+|'''9%'''<br /><small>(Alckmin)</small>
+|–
+| style="background:#FeFFE3" |'''27%'''<br /><small>(Bolsonaro)</small>|| –
+|''45%''
+|-
+|5%<br /><small>(Haddad)</small>
+|9%<br /><small>(Gomes)</small>
+| –
+|6%<br /><small>(Silva)</small>
+| – || –
+|'''12%'''<br /><small>(Doria)</small>
+|–
+| style="background:#FeFFE3" |'''25%'''<br /><small>(Bolsonaro)</small>|| –
+|''44%''
+|-
+| style="background:#FFE3E3" |'''32%'''<br /><small>(Lula)</small>
+|4%<br /><small>(Gomes)</small>
+| –
+|3%<br /><small>(Silva)</small>
+| – || –
+|4%<br /><small>(Alckmin)</small>
+|–
+|'''25%'''<br /><small>(Bolsonaro)</small>|| –
+|''33%''
+|-
+| style="background:#FFE3E3" |'''31%'''<br /><small>(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|3%<br /><small>(Silva)</small>
+| – || –
+|12%<br /><small>(Doria)</small>
+|–
+|'''18%'''<br /><small>(Bolsonaro)</small>|| –
+|''30%''
+|-
+| rowspan="3" |29–31 de julho de 2017
+| rowspan="3" |[https://static.poder360.com.br/2018/02/Brasil-presidente-1T-2018.pdf CNT/Vox Populi]
+| rowspan="3" |1.999
+| rowspan="3" |2,2
+| style="background:#FFE3E3" |'''47%'''<br /><small>(Lula)</small>
+|3%<br /><small>(Gomes)</small>
+| –
+|6%<br /><small>(Silva)</small>
+|1%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|5%<br /><small>(Alckmin)</small>
+|–
+|'''13%'''<br /><small>(Bolsonaro)</small>
+|2%
+|''22%''
+|-
+| style="background:#FFE3E3" |'''47%'''<br /><small>(Lula)</small>
+|3%<br /><small>(Gomes)</small>
+| –
+|7%<br /><small>(Silva)</small>
+| – || –
+|6%<br /><small>(Alckmin)</small>
+|–
+|'''13%'''<br /><small>(Bolsonaro)</small>|| –
+|''23%''
+|-
+| style="background:#FFE3E3" |'''48%'''<br /><small>(Lula)</small>
+|4%<br /><small>(Gomes)</small>
+| –
+|8%<br /><small>(Silva)</small>
+| – || –
+|4%<br /><small>(Doria)</small>
+|–
+|'''13%'''<br /><small>(Bolsonaro)</small>|| –
+|''24%''
+|-
+| rowspan="2" |24–27 de julho de 2017
+| rowspan="2" |[http://www.paranapesquisas.com.br/wp-content/uploads/2017/07/BRAJul17-M%C3%ADdia.pdf Paraná Pesquisas]
+| rowspan="2" |2.020
+| rowspan="2" |2,0
+| style="background:#FFE3E3" |'''26,1%'''<br /><small>(Lula)</small>
+|4,5%<br /><small>(Gomes)</small>
+|9,8%<br /><small>(Barbosa)</small>
+|7,0%<br /><small>(Silva)</small>
+| –
+|4,1%<br /><small>(Dias)</small>
+|7,3%<br /><small>(Alckmin)</small>
+|–
+|'''20,8%'''<br /><small>(Bolsonaro)</small>|| –
+|''20,5%''
+|-
+| style="background:#FFE3E3" |'''25,8%'''<br /><small>(Lula)</small>
+|4,5%<br /><small>(Gomes)</small>
+|8,7%<br /><small>(Barbosa)</small>
+|7,1%<br /><small>(Silva)</small>
+| –
+|3,5%<br /><small>(Dias)</small>
+|12,3%<br /><small>(Doria)</small>
+|–
+|'''18,7%'''<br /><small>(Bolsonaro)</small>|| –
+|''19,6%''
+|-
+| rowspan="2" |9–10 de julho de 2017
+| rowspan="2" |[https://www.poder360.com.br/datapoder360/bolsonaro-cresce-e-encosta-em-lula-na-corrida-presidencial-de-2018/ DataPoder360]
+| rowspan="2" |2.178
+| rowspan="2" |3
+| style="background:#FFE3E3" |'''26%'''<br /><small>(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+| –
+|6%<br /><small>(Silva)</small>
+| – || –
+|10%<br /><small>(Alckmin)</small>
+|–
+|'''21%'''<br /><small>(Bolsonaro)</small>|| –
+|''34%''
+|-
+| style="background:#FFE3E3" |'''23%'''<br /><small>(Lula)</small>
+|4%<br /><small>(Gomes)</small>
+| –
+|12%<br /><small>(Silva)</small>
+| – || –
+|13%<br /><small>(Doria)</small>
+|–
+|'''21%'''<br /><small>(Bolsonaro)</small>|| –
+|''27%''
+|-
+| rowspan="8" |21–23 de junho de 2017
+| rowspan="8" |[http://media.folha.uol.com.br/datafolha/2017/06/26/7dc91a8ea3000ca1527842e54ad93476f41aafd9.pdf Datafolha]
+| rowspan="8" |2.771
+| rowspan="8" |2
+|3%<br /><small>(Haddad)</small>
+| –
+|13%<br /><small>(Barbosa)</small>
+| style="background:#E6F2EA" |'''22%'''<small><br />(Silva)</small>
+| – || –
+|10%<br /><small>(Alckmin)</small>
+|–
+|'''16%'''<br /><small>(Bolsonaro)</small>
+|8%
+|''28%''
+|-
+| style="background:#FFE3E3" |'''30%'''<br /><small>(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+| –
+|15%<br /><small>(Silva)</small>
+| – || –
+|8%<br /><small>(Alckmin)</small>
+|–
+|'''16%'''<br /><small>(Bolsonaro)</small>
+|6%
+|''20%''
+|-
+| style="background:#FFE3E3" |'''30%'''<br /><small>(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|15%<br /><small>(Silva)</small>
+| – || –
+|10%<br /><small>(Doria)</small>
+|–
+|15%<br /><small>(Bolsonaro)</small>
+|6%
+|''18%''
+|-
+| style="background:#FFE3E3" |'''30%'''<br /><small>(Lula)</small>
+| –
+|11%<br /><small>(Barbosa)</small>
+|15%<br /><small>(Silva)</small>
+| – || –
+|8%<br /><small>(Alckmin)</small>
+|–
+|15%<br /><small>(Bolsonaro)</small>
+|6%
+|''16%''
+|-
+| style="background:#FFE3E3" |'''29%'''<br /><small>(Lula)</small>
+| –
+|10%<br /><small>(Barbosa)</small>
+|'''15%'''<small><br />(Silva)</small>
+| – || –
+|9%<br /><small>(Doria)</small>
+|–
+|13%<br /><small>(Bolsonaro)</small>
+|5%
+|''17%''
+|-
+| style="background:#FFE3E3" |'''29%'''<br /><small>(Lula)</small>
+| – || –
+|14%<br /><small>(Silva)</small>
+| – || –
+|6%<br /><small>(Alckmin)</small>
+|–
+|13%<br /><small>(Bolsonaro)</small>
+|19%
+|''17%''
+|-
+| –
+|9%<br /><small>(Gomes)</small>
+|12%<br /><small>(Barbosa)</small>
+| style="background:#E6F2EA" |'''22%'''<small><br />(Silva)</small>
+| – || –
+|9%<br /><small>(Alckmin)</small>
+|–
+|'''16%'''<br /><small>(Bolsonaro)</small>
+|7%
+|''26%''
+|-
+| –
+|12%<br /><small>(Gomes)</small>
+| –
+| style="background:#E6F2EA" |'''27%'''<small><br />(Silva)</small>
+| – || –
+|14%<br /><small>(Doria)</small>
+|–
+|'''18%'''<br /><small>(Bolsonaro)</small>|| –
+|''29%''
+|-
+| rowspan="2" |17–19 de junho de 2017
+| rowspan="2" |[http://www.poder360.com.br/datapoder360/43-dos-eleitores-ainda-nao-escolheram-nenhum-presidenciavel-para-2018/ DataPoder360]
+| rowspan="2" |2.096
+| rowspan="2" |3
+| style="background:#FFE3E3" |'''27%'''<br /><small>(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+| –
+|5%<br /><small>(Silva)</small>
+| – || –
+|7%<br /><small>(Alckmin)</small>
+|–
+|'''14%'''<br /><small>(Bolsonaro)</small>|| –
+|''43%''
+|-
+| style="background:#FFE3E3" |'''27%'''<br /><small>(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|6%<br /><small>(Silva)</small>
+| – || –
+|11%<br /><small>(Doria)</small>
+|–
+|'''15%'''<br /><small>(Bolsonaro)</small>|| –
+|''35%''
+|-
+| rowspan="3" |25–29 de maio de 2017
+| rowspan="3" |[http://www.paranapesquisas.com.br/wp-content/uploads/2017/05/BR_Mai17-M%C3%ADdia.pdf Paraná Pesquisas]
+| rowspan="3" |2.022
+| rowspan="3" |2,0
+|3,1%<br /><small>(Haddad)</small>
+|6,7%<br /><small>(Gomes)</small>
+|8,7%<br /><small>(Barbosa)</small>
+|'''14,9%'''<small><br />(Silva)</small>
+| – || –
+|13,6%<br /><small>(Doria)</small>
+|–
+| style="background:#FeFFE3" |'''17,2%'''<br /><small>(Bolsonaro)</small>
+|7,4%
+|''28,3%''
+|-
+| style="background:#FFE3E3" |'''25,4%'''<br /><small>(Lula)</small>
+|4,2%<br /><small>(Gomes)</small>
+|8,1%<br /><small>(Barbosa)</small>
+|10,4%<br /><small>(Silva)</small>
+| – || –
+|6,4%<br /><small>(Alckmin)</small>
+|–
+|'''16,8%'''<br /><small>(Bolsonaro)</small>
+|10,2%
+|''18,5%''
+|-
+| style="background:#FFE3E3" |'''25,8%'''<br /><small>(Lula)</small>
+|4,3%<br /><small>(Gomes)</small>
+|8,1%<br /><small>(Barbosa)</small>
+|11,1%<br /><small>(Silva)</small>
+| – || –
+|12,1%<br /><small>(Doria)</small>
+|–
+|'''16,1%'''<br /><small>(Bolsonaro)</small>
+|3,1%
+|''19,4%''
+|-
+| rowspan="2" |7–8 de maio de 2017
+| rowspan="2" |[http://poder360.com.br/wp-content/uploads/2017/06/pesquisa-DataPoder360-mai2017.pdf DataPoder360]
+| rowspan="2" |2.157
+| rowspan="2" |3
+| style="background:#FFE3E3" |'''25%'''<br /><small>(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+| –
+|7%<br /><small>(Silva)</small>
+| – || –
+|4%<br /><small>(Alckmin)</small>
+|–
+|'''21%'''<br /><small>(Bolsonaro)</small>|| –
+|''38%''
+|-
+| style="background:#FFE3E3" |'''27%'''<br /><small>(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|6%<br /><small>(Silva)</small>
+| – || –
+|13%<br /><small>(Doria)</small>
+|–
+|'''17%'''<br /><small>(Bolsonaro)</small>|| –
+|''32%''
+|-
+| rowspan="5" |26–27 de abril de 2017
+| rowspan="5" |[http://media.folha.uol.com.br/datafolha/2017/05/02/b8d42bb131ff55216cdb7f23071edebe7f3cdab3.pdf Datafolha]
+| rowspan="5" |2.781
+| rowspan="5" |2
+| style="background:#FFE3E3" |'''30%'''<br /><small>(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|'''16%'''<small><br />(Silva)</small>
+|2%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|6%<br /><small>(Alckmin)</small>
+|–
+|14%<br /><small>(Bolsonaro)</small>
+|5%
+|''26%''
+|-
+| style="background:#FFE3E3" |'''31%'''<br /><small>(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|'''16%'''<small><br />(Silva)</small>
+|2%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|9%<br /><small>(Doria)</small>
+|–
+|13%<br /><small>(Bolsonaro)</small>
+|4%
+|''26%''
+|-
+| style="background:#FFE3E3" |'''30%'''<br /><small>(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+| –
+|14%<br /><small>(Silva)</small>
+|2%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|8%<br /><small>(Neves)</small>
+|–
+|'''15%'''<br /><small>(Bolsonaro)</small>
+|4%
+|''21%''
+|-
+| –
+|11%<br /><small>(Gomes)</small>
+| –
+| style="background:#E6F2EA" |'''25%'''<small><br />(Silva)</small>
+| – || –
+|8%<br /><small>(Alckmin)</small>
+|–
+|'''16%'''<br /><small>(Bolsonaro)</small>
+|8%
+|''33%''
+|-
+| –
+|12%<br /><small>(Gomes)</small>
+| –
+| style="background:#E6F2EA" |'''25%'''<small><br />(Silva)</small>
+| – || –
+|11%<br /><small>(Doria)</small>
+|–
+|'''14%'''<br /><small>(Bolsonaro)</small>
+|7%
+|''31%''
+|-
+| rowspan="3" |16–17 de abril de 2017
+| rowspan="3" |[http://www.poder360.com.br/wp-content/uploads/2017/04/DataPoder360-abr2017.pdf DataPoder360]
+| rowspan="3" |2.058
+| rowspan="3" |3
+| style="background:#FFE3E3" |'''24%'''<br /><small>(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+| –
+|11%<br /><small>(Silva)</small>
+| – || –
+|8%<br /><small>(Alckmin)</small>
+|–
+|'''18%'''<br /><small>(Bolsonaro)</small>|| –
+|''34%''
+|-
+| style="background:#FFE3E3" |'''25%'''<br /><small>(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+| –
+|9%<br /><small>(Silva)</small>
+| – || –
+|13%<br /><small>(Doria)</small>
+|–
+|'''14%'''<br /><small>(Bolsonaro)</small>|| –
+|''33%''
+|-
+| style="background:#FFE3E3" |'''25%'''<br /><small>(Lula)</small>
+|4%<br /><small>(Gomes)</small>
+| –
+|11%<br /><small>(Silva)</small>
+| – || –
+|7%<br /><small>(Neves)</small>
+|–
+|'''19%'''<br /><small>(Bolsonaro)</small>|| –
+|''35%''
+|-
+| rowspan="3" |6–10 de abril de 2017
+| rowspan="3" |[http://cut.org.br/noticias/cut-vox-lula-vence-no-primeiro-e-segundo-turnos-em-todos-os-cenarios-pesquisados-e208/ CUT/Vox Populi]
+| rowspan="3" |2.000
+| rowspan="3" |2,2
+| style="background:#FFE3E3" |'''45%'''<br /><small>(Lula)</small>
+|4%<br /><small>(Gomes)</small>
+| –
+|11%<br /><small>(Silva)</small>
+| – || –
+|6%<br /><small>(Alckmin)</small>
+|–
+|'''12%'''<br /><small>(Bolsonaro)</small>|| –
+|''23%''
+|-
+| style="background:#FFE3E3" |'''45%'''<br /><small>(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+| –
+|11%<br /><small>(Silva)</small>
+| – || –
+|6%<br /><small>(Doria)</small>
+|–
+|11%<br /><small>(Bolsonaro)</small>|| –
+|''23%''
+|-
+| style="background:#FFE3E3" |'''44%'''<br /><small>(Lula)</small>
+|4%<br /><small>(Gomes)</small>
+| –
+|10%<br /><small>(Silva)</small>
+| – || –
+|9%<br /><small>(Neves)</small>
+|–
+|'''11%'''<br /><small>(Bolsonaro)</small>|| –
+|''22%''
+|-
+| rowspan="3" |12–15 de fevereiro de 2017
+| rowspan="3" |[http://www.paranapesquisas.com.br/wp-content/uploads/2017/02/BRFev17-Caderno-M%C3%ADdia-5.pdf Paraná Pesquisas]
+| rowspan="3" |2.020
+| rowspan="3" |2,0
+| style="background:#FFE3E3" |'''22,9%'''<br /><small>(Lula)</small>
+|4,7%<br /><small>(Gomes)</small>
+|11,5%<br /><small>(Barbosa)</small>
+|'''12,8%'''<small><br />(Silva)</small>
+|3,8%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|11,9%<br /><small>(Alckmin)</small>
+|–
+|12,2%<br /><small>(Bolsonaro)</small>
+|1,9%
+|''18,1%''
+|-
+| style="background:#FFE3E3" |'''23,3%'''<br /><small>(Lula)</small>
+|5,6%<br /><small>(Gomes)</small>
+|11,3%<br /><small>(Barbosa)</small>
+|'''13,7%'''<small><br />(Silva)</small>
+|4,3%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|9,1%<br /><small>(Doria)</small>
+|–
+|11,9%<br /><small>(Bolsonaro)</small>
+|1,6%
+|''19,1%''
+|-
+| style="background:#FFE3E3" |'''22,6%'''<br /><small>(Lula)</small>
+|4,9%<br /><small>(Gomes)</small>
+|11,7%<br /><small>(Barbosa)</small>
+|12,6%<br /><small>(Silva)</small>
+|3,8%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|'''12,9%'''<small><br />(Neves)</small>
+|–
+|12,0%<br /><small>(Bolsonaro)</small>
+|2,0%
+|''17,6%''
+|-
+| rowspan="3" |8–11 de fevereiro de 2017
+| rowspan="3" |[http://cms.cnt.org.br/Imagens%20CNT/PDFs%20CNT/Pesquisa%20CNT%20MDA/Integra%20CNTMDA%20Fevereiro%202017.pdf CNT/MDA]
+| rowspan="3" |2.002
+| rowspan="3" |2,2
+| style="background:#FFE3E3" |'''31,8%'''<br /><small>(Lula)</small>
+|5,3%<br /><small>(Gomes)</small>
+| –
+|'''12,1%'''<br /><small>(Silva)</small>
+| – || –
+|9,1%<br /><small>(Alckmin)</small>
+|–
+|11,7%<br /><small>(Bolsonaro)</small>|| –
+|''29%''
+|-
+| style="background:#FFE3E3" |'''30,5%'''<br /><small>(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+| –
+|'''11,8%'''<br /><small>(Silva)</small>
+|3,7%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|10,1%<br /><small>(Neves)</small>
+|–
+|11,3%<br /><small>(Bolsonaro)</small>|| –
+|''26,6%''
+|-
+| style="background:#FFE3E3" |'''32,8%'''<br /><small>(Lula)</small>
+| – || –
+|'''13,9%'''<br /><small>(Silva)</small>
+| – || –
+|12,1%<br /><small>(Neves)</small>
+|–
+|12%<br /><small>(Bolsonaro)</small>|| –
+|''29,2%''
+|-
+| rowspan="2" |[http://www.redebrasilatual.com.br/politica/2016/12/para-pesquisa-vox-populi-lula-e-o-melhor-presidente-do-brasil-4605.html 10–14 de dezembro de 2016]
+| rowspan="2" |[http://cut.org.br/noticias/cut-vox-lula-vence-no-primeiro-e-segundo-turnos-em-todos-os-cenarios-pesquisados-e208/ CUT/Vox Populi]
+| rowspan="2" |[http://www.redebrasilatual.com.br/politica/2016/12/para-pesquisa-vox-populi-lula-e-o-melhor-presidente-do-brasil-4605.html 2.500]
+| rowspan="2" |2,2
+| style="background:#FFE3E3" |'''38%'''<br /><small>(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+| –
+|'''12%'''<br /><small>(Silva)</small>
+| – || –
+|10%<br /><small>(Alckmin)</small>
+|–
+|7%<br /><small>(Bolsonaro)</small>|| –
+|''28%''
+|-
+| style="background:#FFE3E3" |'''37%'''<br /><small>(Lula)</small>
+|4%<br /><small>(Gomes)</small>
+| –
+|10%<br /><small>(Silva)</small>
+| – || –
+|'''13%'''<br /><small>(Neves)</small>
+|–
+|7%<br /><small>(Bolsonaro)</small>|| –
+|''29%''
+|-
+| rowspan="3" |7–8 de dezembro de 2016
+| rowspan="3" |[http://media.folha.uol.com.br/datafolha/2016/12/12/cd23e33607007a1b8a52e6f2b28266af2db3a4ac.pdf Datafolha]
+| rowspan="3" |2.828
+| rowspan="3" |2
+| style="background:#FFE3E3" |'''26%'''<br /><small>(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|'''17%'''<br /><small>(Silva)</small>
+|4%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|8%<br /><small>(Alckmin)</small>
+|–
+|8%<br /><small>(Bolsonaro)</small>
+|5%
+|''26%''
+|-
+| style="background:#FFE3E3" |'''25%'''<br /><small>(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+| –
+|'''15%'''<br /><small>(Silva)</small>
+|4%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|11%<br /><small>(Neves)</small>
+|–
+|9%<br /><small>(Bolsonaro)</small>
+|5%
+|''26%''
+|-
+| style="background:#FFE3E3" |'''25%'''<br /><small>(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|'''16%'''<br /><small>(Silva)</small>
+|4%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|9%<br /><small>(Serra)</small>
+|–
+|9%<br /><small>(Bolsonaro)</small>
+|5%
+|''26%''
+|-
+| rowspan="3" |13–16 de outubro de 2016
+| rowspan="3" |[http://cms.cnt.org.br/Imagens%20CNT/PDFs%20CNT/Pesquisa%20CNT%20MDA/pesquisadeopiniao-relatoriosintese.pdf CNT/MDA]
+| rowspan="3" |2.002
+| rowspan="3" |2,2
+| style="background:#FFE3E3" |'''25,3%'''<br /><small>(Lula)</small>
+|8,4%<br /><small>(Gomes)</small>
+| –
+|'''14,0%'''<br /><small>(Silva)</small>
+|6,1%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|13,4%<br /><small>(Alckmin)</small>
+|–
+|6,9%<br /><small>(Bolsonaro)</small>|| –
+|''25,9%''
+|-
+| style="background:#FFE3E3" |'''24,8%'''<br /><small>(Lula)</small>
+|7,4%<br /><small>(Gomes)</small>
+| –
+|13,3%<br /><small>(Silva)</small>
+|6,2%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|'''15,7%'''<br /><small>(Neves)</small>
+|–
+|6,5%<br /><small>(Bolsonaro)</small>|| –
+|''26,1%''
+|-
+| style="background:#FFE3E3" |'''27,6%'''<br /><small>(Lula)</small>
+| – || –
+|16,5%<br /><small>(Silva)</small>
+| – || –
+|'''18,9%'''<br /><small>(Neves)</small>
+|–
+|7,9%<br /><small>(Bolsonaro)</small>|| –
+|''29,1%''
+|-
+| rowspan="2" |9–13 de outubro de 2016
+| rowspan="2" |[http://cut.org.br/system/uploads/ck/files/Relatorio-completo-pesquisaCUTOut16R5VF-3.pdf CUT/Vox Populi]
+| rowspan="2" |2.000
+| rowspan="2" |2,2
+| style="background:#FFE3E3" |'''35%'''<br /><small>(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|'''13%'''<br /><small>(Silva)</small>
+| – || –
+|12%<br /><small>(Alckmin)</small>
+|–
+|7%<br /><small>(Bolsonaro)</small>|| –
+|''28%''
+|-
+| style="background:#FFE3E3" |'''34%'''<br /><small>(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+| –
+|11%<br /><small>(Silva)</small>
+| – || –
+|'''15%'''<br /><small>(Neves)</small>
+|–
+|7%<br /><small>(Bolsonaro)</small>|| –
+|''27%''
+|-
+| rowspan="3" |29 de julho–1 de agosto de 2016
+| rowspan="3" |[http://www.cartacapital.com.br/politica/vox-populi-lula-lidera-1o-turno-de-2018-em-todos-os-cenarios Carta Capital/Vox Populi]
+| rowspan="3" |1.500
+| rowspan="3" |2
+| style="background:#FFE3E3" |'''29%'''<br /><small>(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|'''18%'''<br /><small>(Silva)</small>
+| – || –
+|11%<br /><small>(Alckmin)</small>
+|–
+|7%<br /><small>(Bolsonaro)</small>|| –
+|''29%''
+|-
+| style="background:#FFE3E3" |'''28%'''<br /><small>(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|15%<br /><small>(Silva)</small>
+| – || –
+|'''18%'''<br /><small>(Neves)</small>
+|–
+|7%<br /><small>(Bolsonaro)</small>|| –
+|''27%''
+|-
+| style="background:#FFE3E3" |'''29%'''<br /><small>(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|'''19%'''<br /><small>(Silva)</small>
+| – || –
+|13%<br /><small>(Serra)</small>
+|–
+|7%<br /><small>(Bolsonaro)</small>|| –
+|''27%''
+|-
+| rowspan="3" |14–15 de julho de 2016
+| rowspan="3" |[http://media.folha.uol.com.br/datafolha/2016/07/18/intencao_de_voto_presidente.pdf Datafolha]
+| rowspan="3" |2.792
+| rowspan="3" |2
+| style="background:#FFE3E3" |'''23%'''<br /><small>(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|'''18%'''<br /><small>(Silva)</small>
+|6%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|8%<br /><small>(Alckmin)</small>
+|–
+|8%<br /><small>(Bolsonaro)</small>
+|5%
+|''27%''
+|-
+| style="background:#FFE3E3" |'''22%'''<br /><small>(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+| –
+|'''17%'''<br /><small>(Silva)</small>
+|5%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|14%<br /><small>(Neves)</small>
+|–
+|7%<br /><small>(Bolsonaro)</small>
+|4%
+|''25%''
+|-
+| style="background:#FFE3E3" |'''23%'''<br /><small>(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|'''17%'''<br /><small>(Silva)</small>
+|6%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|11%<br /><small>(Serra)</small>
+|–
+|7%<br /><small>(Bolsonaro)</small>
+|5%
+|''26%''
+|-
+|junho de 2016
+|[http://cut.org.br/noticias/cut-vox-lula-vence-no-primeiro-e-segundo-turnos-em-todos-os-cenarios-pesquisados-e208/ CUT/Vox Populi]
+| –
+|2,2
+| style="background:#FFE3E3" |'''29%'''<br /><small>(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|'''18%'''<br /><small>(Silva)</small>
+| – || –
+|16%<br /><small>(Neves)</small>
+|–
+|6%<br /><small>(Bolsonaro)</small>|| –
+|''25%''
+|-
+| rowspan="2" |2–5 de junho de 2016
+| rowspan="2" |[http://www.cnt.org.br/Imprensa/noticia/resultados-da-131-pesquisa-cnt-mda CNT/MDA]
+| rowspan="2" |2.002
+| rowspan="2" |2,2
+| style="background:#FFE3E3" |'''22,3%'''<br /><small>(Lula)</small>
+|6,3%<br /><small>(Gomes)</small>
+| –
+|'''16,6%'''<br /><small>(Silva)</small>
+|6,2%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|9,6%<br /><small>(Alckmin)</small>
+|–
+|6,2%<br /><small>(Bolsonaro)</small>|| –
+|''32,8%''
+|-
+| style="background:#FFE3E3" |'''22%'''<br /><small>(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|14,8%<br /><small>(Silva)</small>
+|5,4%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|'''15,9%'''<br /><small>(Neves)</small>
+|–
+|5,8%<br /><small>(Bolsonaro)</small>|| –
+|''30,1%''
+|-
+| rowspan="2" |9–12 de abril de 2016
+| rowspan="2" |[http://www.brasil247.com/pt/247/brasil/228187/VoxCUT-Lula-lidera-com-31-sobre-Marina-e-A%C3%A9cio.htm CUT/Vox Populi]
+| rowspan="2" |2.000
+| rowspan="2" |2,2
+| style="background:#FFE3E3" |'''29%'''<br /><small>(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+| –
+|'''18%'''<br /><small>(Silva)</small>
+| – || –
+|17%<br /><small>(Neves)</small>
+|–
+|7%<br /><small>(Bolsonaro)</small>|| –
+|''23%''
+|-
+| style="background:#FFE3E3" |'''31%'''<br /><small>(Lula)</small>
+| – || –
+|'''23%'''<br /><small>(Silva)</small>
+| – || –
+|20%<br /><small>(Neves)</small>
+|–
+| –
+| –
+|''26%''
+|-
+| rowspan="3" |7–8 de abril de 2016
+| rowspan="3" |[https://www1.folha.uol.com.br/poder/2016/04/1759342-lula-e-marina-lideram-corrida-para-2018-tucanos-despencam.shtml Datafolha]
+| rowspan="3" |2.779
+| rowspan="3" |2
+|'''22%'''<br /><small>(Lula)</small>
+|8%<br /><small>(Gomes)</small>
+| –
+| style="background:#E6F2EA" |'''23%'''<br /><small>(Silva)</small>
+|2%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|9%<br /><small>(Alckmin)</small>
+|–
+|8%<br /><small>(Bolsonaro)</small>
+|4%
+|''24%''
+|-
+| style="background:#FFE3E3" |'''21%'''<br /><small>(Lula)</small>
+|7%<br /><small>(Gomes)</small>
+| –
+|'''19%'''<br /><small>(Silva)</small>
+|2%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|17%<br /><small>(Neves)</small>
+|–
+|8%<br /><small>(Bolsonaro)</small>
+|4%
+|''22%''
+|-
+|'''22%'''<br /><small>(Lula)</small>
+|7%<br /><small>(Gomes)</small>
+| –
+|'''22%'''<br /><small>(Silva)</small>
+|2%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|11%<br /><small>(Serra)</small>
+|–
+|7%<br /><small>(Bolsonaro)</small>
+|4%
+|''24%''
+|-
+| rowspan="3" |3–6 de abril de 2016
+| rowspan="3" |[http://www.paranapesquisas.com.br/wp-content/uploads/2016/04/BrasilAbril16.pdf Paraná Pesquisas]
+| rowspan="3" |2.044
+| rowspan="3" |2,0
+|15,4%<br /><small>(Lula)</small>
+|6,7%<br /><small>(Gomes)</small>
+| –
+| style="background:#E6F2EA" |'''24,7%'''<br /><small>(Silva)</small>
+|1,9%<br /><small>([[Michel Temer|Temer]])</small>
+|3,2%<br /><small>(Dias)</small>
+|'''18,3%'''<small><br />(Alckmin)</small>
+|–
+|8,3%<br /><small>(Bolsonaro)</small>
+|2,9''%''
+|''18,6%''
+|-
+|15,7%<br /><small>(Lula)</small>
+|6,4%<br /><small>(Gomes)</small>
+| –
+|'''21,0%'''<br /><small>(Silva)</small>
+|1,9%<br /><small>([[Michel Temer|Temer]])</small>
+|2,7%<br /><small>(Dias)</small>
+| style="background:#E3E3FF" |'''23,5%'''<br /><small>(Neves)</small>
+|–
+|8,4%<br /><small>(Bolsonaro)</small>
+|2,9''%''
+|''17,6%''
+|-
+|15,4%<br /><small>(Lula)</small>
+|6,9%<br /><small>(Gomes)</small>
+| –
+| style="background:#E6F2EA" |'''24,8%'''<br /><small>(Silva)</small>
+|1,9%<br /><small>([[Michel Temer|Temer]])</small>
+|2,9%<br /><small>(Dias)</small>
+|'''18,0%'''<small><br />(Serra)</small>
+|–
+|8,5%<br /><small>(Bolsonaro)</small>
+|2,9''%''
+|''18,7%''
+|-
+| rowspan="3" |17–18 de março de 2016
+| rowspan="3" |[https://www1.folha.uol.com.br/poder/2016/03/1751951-pesquisa-datafolha-mostra-marina-a-frente-em-todos-os-cenarios-para-2018.shtml Datafolha]
+| rowspan="3" |2.794
+| rowspan="3" |2
+|'''17%'''<br /><small>(Lula)</small>
+|7%<br /><small>(Gomes)</small>
+| –
+| style="background:#E6F2EA" |'''23%'''<br /><small>(Silva)</small>
+|2%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|11%<br /><small>(Alckmin)</small>
+|–
+|6%<br /><small>(Bolsonaro)</small>
+|6''%''
+|''27%''
+|-
+|17%<br /><small>(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+| style="background:#E6F2EA" |'''21%'''<br /><small>(Silva)</small>
+|1%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|'''19%'''<br /><small>(Neves)</small>
+|–
+|6%<br /><small>(Bolsonaro)</small>
+|7''%''
+|''24%''
+|-
+|'''17%'''<br /><small>(Lula)</small>
+|7%<br /><small>(Gomes)</small>
+| –
+| style="background:#E6F2EA" |'''24%'''<br /><small>(Silva)</small>
+|1%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|13%<br /><small>(Serra)</small>
+|–
+|7%<br /><small>(Bolsonaro)</small>
+|7''%''
+|''25%''
+|-
+| rowspan="2" |28 de fevereiro–2 de março de 2016
+| rowspan="2" |[http://www.paranapesquisas.com.br/wp-content/uploads/2016/03/BR_PesquisaNacional2_Mar16.pdf Paraná Pesquisas]
+| rowspan="2" |2.022
+| rowspan="2" |2,0
+|'''16,9%'''<br /><small>(Lula)</small>
+|6,5%<br /><small>(Gomes)</small>
+| –
+| style="background:#E6F2EA" |'''22,3%'''<br /><small>(Silva)</small>
+| –
+|3,1%<br /><small>(Dias)</small>
+|16,6%<br /><small>(Alckmin)</small>
+|–
+|8,7%<br /><small>(Bolsonaro)</small>
+|6,0''%''
+|''19,9%''
+|-
+|16,8%<br /><small>(Lula)</small>
+|4,7%<br /><small>(Gomes)</small>
+| –
+|'''18,2%'''<br /><small>(Silva)</small>
+| –
+|2,7%<br /><small>(Dias)</small>
+| style="background:#E3E3FF" |'''27,6%'''<br /><small>(Neves)</small>
+|–
+|8,4%<br /><small>(Bolsonaro)</small>
+|4,9''%''
+|''16,7%''
+|-
+| rowspan="3" |24–25 de fevereiro de 2016
+| rowspan="3" |[https://www.pragmatismopolitico.com.br/2016/02/datafolha-divulga-nova-pesquisa-para-eleicao-presidencial-de-2018.html Datafolha]
+| rowspan="3" |2.768
+| rowspan="3" |2
+|'''20%'''<br /><small>(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+| style="background:#E6F2EA" |'''23%'''<br /><small>(Silva)</small>
+|2%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|12%<br /><small>(Alckmin)</small>
+|–
+|7%<br /><small>(Bolsonaro)</small>
+|5''%''
+|''25%''
+|-
+|'''20%'''<small><br />(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+| –
+|19%<br /><small>(Silva)</small>
+|1%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+| style="background:#E3E3FF" |'''24%'''<br /><small>(Neves)</small>
+|–
+|6%<br /><small>(Bolsonaro)</small>
+|4''%''
+|''21%''
+|-
+|'''21%'''<small><br />(Lula)</small>
+|5%<br /><small>(Gomes)</small>
+| –
+| style="background:#E6F2EA" |'''23%'''<br /><small>(Silva)</small>
+|2%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|15%<br /><small>(Serra)</small>
+|–
+|6%<br /><small>(Bolsonaro)</small>
+|5''%''
+|''24%''
+|-
+| rowspan="3" |18–21 de fevereiro de 2016
+| rowspan="3" |[http://cms.cnt.org.br/Imagens%20CNT/PDFs%20CNT/Pesquisa%20CNT%20MDA/cntmda130_relatoriosintese.pdf CNT/MDA]
+| rowspan="3" |2.002
+| rowspan="3" |2,2
+| style="background:#FFE3E3" |'''19,7%'''<small><br />(Lula)</small>
+|7,4%<br /><small>(Gomes)</small>
+| –
+|'''18,0%'''<br /><small>(Silva)</small>
+| – || –
+|13,8%<br /><small>(Alckmin)</small>
+|–
+|6,3%<br /><small>(Bolsonaro)</small>|| –
+|''34,8%''
+|-
+|'''19,1%'''<small><br />(Lula)</small>
+|5,8%<br /><small>(Gomes)</small>
+| –
+|14,7%<br /><small>(Silva)</small>
+| – || –
+| style="background:#E3E3FF" |'''24,6%'''<br /><small>(Neves)</small>
+|–
+|6,1%<br /><small>(Bolsonaro)</small>|| –
+|''29,7%''
+|-
+| style="background:#FFE3E3" |'''19,7%'''<small><br />(Lula)</small>
+|7,2%<br /><small>(Gomes)</small>
+| –
+|'''17,8%'''<br /><small>(Silva)</small>
+| – || –
+|14,5%<br /><small>(Serra)</small>
+|–
+|6,4%<br /><small>(Bolsonaro)</small>|| –
+|''34,4%''
+|-
+| rowspan="2" |16–17 de dezembro de 2015
+| rowspan="2" |[http://media.folha.uol.com.br/datafolha/2016/04/11/intencao_de_voto_presidente.pdf Datafolha]
+| rowspan="2" | –
+| rowspan="2" |2
+|'''22%'''<br /><small>(Lula)</small>
+|7%<br /><small>(Gomes)</small>
+| –
+| style="background:#E6F2EA" |'''24%'''<br /><small>(Silva)</small>
+|1%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|14%<br /><small>(Alckmin)</small>
+|–
+|5%<br /><small>(Bolsonaro)</small>
+|4''%''
+|''23%''
+|-
+|'''20%'''<br /><small>(Lula)</small>
+|6%<br /><small>(Gomes)</small>
+| –
+|19%<br /><small>(Silva)</small>
+|2%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+| style="background:#E3E3FF" |'''27%'''<br /><small>(Neves)</small>
+|–
+|4%<br /><small>(Bolsonaro)</small>
+|3''%''
+|''19%''
+|-
+| rowspan="4" |25–26 de novembro de 2015
+| rowspan="4" |[http://media.folha.uol.com.br/datafolha/2015/11/30/intencao_de_voto_presidente.pdf Datafolha]
+| rowspan="4" |3.541
+| rowspan="4" |2
+|'''22%'''<br /><small>(Lula)</small>
+| – || –
+| style="background:#E6F2EA" |'''28%'''<small><br />(Silva)</small>
+| – || –
+|18%<br /><small>(Alckmin)</small>
+|–
+| –
+|8''%''
+|''23%''
+|-
+|'''22%'''<br /><small>(Lula)</small>
+| – || –
+|21%<br /><small>(Silva)</small>
+| – || –
+| style="background:#E3E3FF" |'''31%'''<br /><small>(Neves)</small>
+|–
+| –
+|7''%''
+|''19%''
+|-
+|'''22%'''<br /><small>(Lula)</small>
+| – || –
+| style="background:#E6F2EA" |'''28%'''<small><br />(Silva)</small>
+|2%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|18%<br /><small>(Alckmin)</small>
+|–
+| –
+|7''%''
+|''24%''
+|-
+|'''22%'''<br /><small>(Lula)</small>
+| – || –
+|21%<br /><small>(Silva)</small>
+|2%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+| style="background:#E3E3FF" |'''31%'''<br /><small>(Neves)</small>
+|–
+| –
+|5''%''
+|''19%''
+|-
+| rowspan="3" |28 de outubro–2 de novembro de 2015
+| rowspan="3" |[http://www.paranapesquisas.com.br/wp-content/uploads/2015/11/BRNov2015_M%C3%ADdia.pdf Paraná Pesquisas]
+| rowspan="3" |2.085
+| rowspan="3" |2,0
+|18,2%<br /><small>(Lula)</small>
+|6,1%<br /><small>(Gomes)</small>
+| –
+| style="background:#E6F2EA" |'''24,3%'''<small><br />(Silva)</small>
+|1,6%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+|'''22,6%'''<small><br />(Alckmin)</small>
+|–
+|5,7%<br /><small>(Bolsonaro)</small>
+|1,4''%''
+|''20,1%''
+|-
+|17,1%<br /><small>(Lula)</small>
+|5,2%<br /><small>(Gomes)</small>
+| –
+|'''19,7%'''<small><br />(Silva)</small>
+|1,5%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+| style="background:#E3E3FF" |'''34,2%'''<br /><small>(Neves)</small>
+|–
+|5,3%<br /><small>(Bolsonaro)</small>
+|1,0''%''
+|''16,0%''
+|-
+|17,7%<br /><small>(Lula)</small>
+|6,0%<br /><small>(Gomes)</small>
+| –
+|'''23,8%'''<small><br />(Silva)</small>
+|2,0%<br /><small>([[Michel Temer|Temer]])</small>
+| –
+| style="background:#E3E3FF" |'''25,5%'''<small><br />(Serra)</small>
+|–
+|5,8%<br /><small>(Bolsonaro)</small>
+|1,4''%''
+|''17,8%''
+|-
+| rowspan="3" |20–24 de outubro de 2015
+| rowspan="3" |[http://cms.cnt.org.br/Imagens%20CNT/PDFs%20CNT/Pesquisa%202015/Relatorio%20SINTESE%20-%20CNTMDA%20129.pdf CNT/MDA]
+| rowspan="3" |2.002
+| rowspan="3" |2,2
+|'''23,1%'''<br /><small>(Lula)</small>
+| – || –
+| style="background:#E6F2EA" |'''27,8%'''<small><br />(Silva)</small>
+| – || –
+|19,9%<br /><small>(Alckmin)</small>
+|–
+| – || –
+|''29,2%''
+|-
+|'''21,6%'''<br /><small>(Lula)</small>
+| – || –
+|21,3%<br /><small>(Silva)</small>
+| – || –
+| style="background:#E3E3FF" |'''32,0%'''<br /><small>(Neves)</small>
+|–
+| – || –
+|''25,1%''
+|-
+|'''23,5%'''<br /><small>(Lula)</small>
+| – || –
+| style="background:#E6F2EA" |'''27,9%'''<small><br />(Silva)</small>
+| – || –
+|19,6%<br /><small>(Serra)</small>
+|–
+| – || –
+|''29,0%''
+|-
+| rowspan="3" |12–16 de julho de 2015
+| rowspan="3" |[http://cms.cnt.org.br/Imagens%20CNT/PDFs%20CNT/pesquisa-cntmda-128-relatorio-sintese.pdf CNT/MDA]
+| rowspan="3" |2.002
+| rowspan="3" |2,2
+| style="background:#FFE3E3" |'''24,9%'''<br /><small>(Lula)</small>
+| – || –
+|'''23,1%'''<small><br />(Silva)</small>
+| – || –
+|21,5%<br /><small>(Alckmin)</small>
+|–
+|5,1%<br /><small>(Bolsonaro)</small>|| –
+|''25,4%''
+|-
+|'''22,8%'''<br /><small>(Lula)</small>
+| – || –
+|15,6%<br /><small>(Silva)</small>
+| – || –
+| style="background:#E3E3FF" |'''35,1%'''<br /><small>(Neves)</small>
+|–
+|4,6%<br /><small>(Bolsonaro)</small>|| –
+|''21,9%''
+|-
+| style="background:#FFE3E3" |'''25,0%'''<br /><small>(Lula)</small>
+| – || –
+|'''23,3%'''<small><br />(Silva)</small>
+| – || –
+|21,2%<br /><small>(Serra)</small>
+|–
+|5,5%<br /><small>(Bolsonaro)</small>|| –
+|''25,0%''
+|-
+| rowspan="2" |17–18 de junho de 2015
+| rowspan="2" |[http://media.folha.uol.com.br/datafolha/2015/06/22/avaliacao-dilma-intencao-de-voto-v2.pdf Datafolha]
+| rowspan="2" |2.840
+| rowspan="2" |2
+| style="background:#FFE3E3" |'''26%'''<br /><small>(Lula)</small>
+| – || –
+|'''25%'''<small><br />(Silva)</small>
+| – || –
+|20%<br /><small>(Alckmin)</small>
+|–
+| –
+|8''%''
+|''21%''
+|-
+|'''25%'''<br /><small>(Lula)</small>
+| – || –
+|18%<br /><small>(Silva)</small>
+| – || –
+| style="background:#E3E3FF" |'''35%'''<br /><small>(Neves)</small>
+|–
+| –
+|6''%''
+|''16%''
+|-
+|9–10 de abril de 2015
+|[http://www1.folha.uol.com.br/poder/2015/04/1616227-crise-de-dilma-corroi-imagem-de-lula.shtml Datafolha]
+|2.834
+|2
+|'''29%'''<br /><small>(Lula)</small>
+| –
+|13%<br /><small>(Barbosa)</small>
+|14%<br /><small>(Silva)</small>
+| – || –
+| style="background:#E3E3FF" |'''33%'''<br /><small>(Neves)</small>
+|–
+| –
+|3''%''
+|''9%''
+|-
+| rowspan="2" |26–31 de março de 2015
+| rowspan="2" |[http://epoca.globo.com/colunas-e-blogs/blog-do-fucs/noticia/2015/04/aecio-venceria-lula-se-eleicoes-fossem-hoje-diz-pesquisa.html Paraná Pesquisas]
+| rowspan="2" |2.022
+| rowspan="2" |2,0
+|17,9%<br /><small>(Lula)</small>
+| – || –
+|'''24,3%'''<small><br />(Silva)</small>
+| – || –
+| style="background:#E3E3FF" |'''37,1%'''<br /><small>(Neves)</small>
+|–
+| – || –
+|''20,6%''
+|-
+|16,4%<br /><small>(Rousseff)</small>
+| – || –
+|'''27,6%'''<small><br />(Silva)</small>
+| – || –
+| style="background:#E3E3FF" |'''39,2%'''<br /><small>(Neves)</small>
+|–
+| – || –
+|''16,8%''
+|-
+!5 de outubro de 2014
+![[Eleição_presidencial_no_Brasil_em_2014|Eleições de 2014]]
+!115.122.611!!–
+! style="background:#FFE3E3" |41,6%<br /><small>(Rousseff)</small>
+!–
+!21,3%<br /><small>(Silva)</small>
+!– !!–
+!–
+!33,6%<br /><small>(Neves)</small>
+!–
+!–
+!24,8%
+!''19,4%''
+|}

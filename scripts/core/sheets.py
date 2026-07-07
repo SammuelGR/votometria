@@ -74,6 +74,36 @@ def load_sheets_settings() -> tuple[str, Path]:
     return sheets_id, service_account_file
 
 
+def _resolve_service_account_file() -> Path:
+    """
+    Reads and validates ``GOOGLE_SERVICE_ACCOUNT_FILE`` (shared by every layer),
+    resolving relative paths against the project root.
+    """
+    dotenv_path = find_dotenv(usecwd=True)
+    if dotenv_path:
+        load_dotenv(dotenv_path)
+
+    service_account_value = os.getenv("GOOGLE_SERVICE_ACCOUNT_FILE")
+    if not service_account_value:
+        raise RuntimeError(
+            "GOOGLE_SERVICE_ACCOUNT_FILE is not set. Add it to your '.env' file "
+            "pointing to the service account JSON key file."
+        )
+
+    service_account_file = Path(service_account_value)
+    if not service_account_file.is_absolute():
+        service_account_file = PROJECT_ROOT / service_account_file
+
+    if not service_account_file.is_file():
+        raise RuntimeError(
+            "Service account JSON file was not found at "
+            f"'{service_account_file}'. Check GOOGLE_SERVICE_ACCOUNT_FILE in "
+            "your '.env' (the path may be relative to the project root)."
+        )
+
+    return service_account_file
+
+
 def open_spreadsheet(sheets_id: str, service_account_file: Path):
     """
     Authenticates with the service account and opens a spreadsheet by its ID.
@@ -92,6 +122,75 @@ def get_spreadsheet():
     is missing or invalid.
     """
     return open_spreadsheet(*load_sheets_settings())
+
+
+# --- Medallion architecture (bronze / prata / ouro) -----------------------
+#
+# Each layer is a separate spreadsheet, configured in the ``.env`` file:
+#
+#     SHEET_ID_bronze   raw extractor output
+#     SHEET_ID_prata    cleaned transformer output
+#     SHEET_ID_ouro     final loader output (consumed by the frontend)
+#
+# The service account (GOOGLE_SERVICE_ACCOUNT_FILE) is shared across layers and
+# must be granted Editor access on all three spreadsheets.
+
+LAYER_SHEET_ENV = {
+    "bronze": "SHEET_ID_bronze",
+    "prata": "SHEET_ID_prata",
+    "ouro": "SHEET_ID_ouro",
+}
+
+# Cache one open spreadsheet handle per layer so a pipeline run authenticates
+# and opens each spreadsheet only once.
+_LAYER_CACHE: dict[str, object] = {}
+
+
+def load_layer_sheet_id(layer: str) -> str:
+    """
+    Reads the spreadsheet ID for a medallion layer from the environment.
+    """
+    if layer not in LAYER_SHEET_ENV:
+        raise ValueError(
+            f"Unknown layer '{layer}'. Expected one of {sorted(LAYER_SHEET_ENV)}."
+        )
+
+    dotenv_path = find_dotenv(usecwd=True)
+    if dotenv_path:
+        load_dotenv(dotenv_path)
+
+    env_key = LAYER_SHEET_ENV[layer]
+    sheet_id = os.getenv(env_key)
+    if not sheet_id:
+        raise RuntimeError(
+            f"{env_key} is not set. Add it to your '.env' file with the ID of "
+            f"the '{layer}' spreadsheet (see docs/google_sheets_sync.md)."
+        )
+    return sheet_id
+
+
+def get_layer_spreadsheet(layer: str):
+    """
+    Opens (and caches) the spreadsheet for a medallion layer: ``bronze``,
+    ``prata`` or ``ouro``. Fails fast with a clear message when the layer's
+    ``SHEET_ID_*`` variable or the service account JSON is missing.
+    """
+    if layer in _LAYER_CACHE:
+        return _LAYER_CACHE[layer]
+
+    spreadsheet = open_spreadsheet(load_layer_sheet_id(layer), _resolve_service_account_file())
+    _LAYER_CACHE[layer] = spreadsheet
+    return spreadsheet
+
+
+def get_layer_spreadsheets(*layers: str) -> dict:
+    """
+    Opens several layers at once and returns a ``{layer: spreadsheet}`` mapping.
+    Defaults to all three layers when called with no arguments.
+    """
+    if not layers:
+        layers = ("bronze", "prata", "ouro")
+    return {layer: get_layer_spreadsheet(layer) for layer in layers}
 
 
 def _dataframe_to_values(df: pd.DataFrame) -> list[list[str]]:

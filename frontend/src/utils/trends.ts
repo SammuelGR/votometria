@@ -149,7 +149,7 @@ export function highestPeak(peaks: Peak[]): Peak | null {
   return peaks.reduce<Peak | null>((best, peak) => (best && best.value >= peak.value ? best : peak), null);
 }
 
-function isWithinRange(date: string, range: DateRange): boolean {
+export function isWithinRange(date: string, range: DateRange): boolean {
   if (range.start && date < range.start) {
     return false;
   }

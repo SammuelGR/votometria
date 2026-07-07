@@ -42,8 +42,13 @@ def _patch_pipeline(monkeypatch):
 
     monkeypatch.setattr(gt_pipeline, "GOOGLE_TRENDS_ELECTION_GROUPS", GROUPS)
     monkeypatch.setattr(gt_pipeline, "fetch_interest_over_time_batch", _fake_fetch)
-    # The spreadsheet object is opaque to the pipeline; a sentinel is enough.
-    monkeypatch.setattr(gt_pipeline, "get_spreadsheet", lambda: object())
+    # The spreadsheet objects are opaque to the pipeline; sentinels are enough.
+    # raw -> bronze, rescaled -> prata, consolidated -> ouro.
+    monkeypatch.setattr(
+        gt_pipeline,
+        "get_layer_spreadsheets",
+        lambda *layers: {"bronze": object(), "prata": object(), "ouro": object()},
+    )
     monkeypatch.setattr(gt_pipeline, "save_raw_google_trends_batch", fake_save_raw)
     monkeypatch.setattr(gt_pipeline, "save_processed_google_trends_year", fake_save_year)
     monkeypatch.setattr(gt_pipeline, "save_processed_google_trends_all", fake_save_all)

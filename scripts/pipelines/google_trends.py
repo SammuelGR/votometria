@@ -10,7 +10,7 @@ from constants import (
     GOOGLE_TRENDS_SOURCE_NAME,
     GOOGLE_TRENDS_TZ,
 )
-from core.sheets import get_spreadsheet
+from core.sheets import get_layer_spreadsheets
 from extractors.google_trends import (
     build_trends_batches,
     fetch_interest_over_time_batch,
@@ -27,12 +27,12 @@ from transformers.google_trends import (
 
 
 def _process_election_group(
-    election_year: str, config: dict, collected_at: datetime, spreadsheet
+    election_year: str, config: dict, collected_at: datetime, layers: dict
 ):
     """
     Collects, transforms and rescales every batch of a single election group,
-    publishing each raw batch and the consolidated year dataset to the
-    spreadsheet.
+    publishing raw batches to the bronze layer and the consolidated (rescaled)
+    year dataset to the prata (silver) layer.
 
     Returns a tuple ``(year_df, summary)`` where ``year_df`` is the consolidated,
     rescaled long DataFrame (or ``None`` when there is nothing to collect).
@@ -81,7 +81,8 @@ def _process_election_group(
             )
             continue
 
-        save_raw_google_trends_batch(spreadsheet, raw_df, election_year, batch_id)
+        # Extractor output -> bronze layer.
+        save_raw_google_trends_batch(layers["bronze"], raw_df, election_year, batch_id)
 
         long_df = transform_batch_interest_over_time(
             raw_df,
@@ -98,9 +99,10 @@ def _process_election_group(
         print(f"Warning: election group '{election_year}' yielded no data; skipping.")
         return None, {**empty_summary, "batches_count": len(batches)}
 
+    # Transformer output (rescaled long) -> prata (silver) layer.
     year_df = rescale_batches_by_anchor(batch_long_dfs, anchor_term)
     processed_tab = save_processed_google_trends_year(
-        spreadsheet, year_df, election_year
+        layers["prata"], year_df, election_year
     )
 
     print(
@@ -132,16 +134,17 @@ def run_google_trends_pipeline() -> dict:
     """
     collected_at = datetime.now()
 
-    # Open the spreadsheet once up front; this also fails fast with a clear
-    # message when the .env / service account configuration is missing.
-    spreadsheet = get_spreadsheet()
+    # Open the three medallion spreadsheets once up front; this also fails fast
+    # with a clear message when the .env / service account configuration is
+    # missing. raw -> bronze, rescaled long -> prata, consolidated -> ouro.
+    layers = get_layer_spreadsheets("bronze", "prata", "ouro")
 
     groups_summary = {}
     year_dfs = []
 
     for election_year, config in GOOGLE_TRENDS_ELECTION_GROUPS.items():
         year_df, summary = _process_election_group(
-            election_year, config, collected_at, spreadsheet
+            election_year, config, collected_at, layers
         )
         groups_summary[election_year] = summary
         if year_df is not None and not year_df.empty:
@@ -150,7 +153,8 @@ def run_google_trends_pipeline() -> dict:
     all_processed_tab = None
     if year_dfs:
         all_df = pd.concat(year_dfs, ignore_index=True)
-        all_processed_tab = save_processed_google_trends_all(spreadsheet, all_df)
+        # Loader output (consolidated) -> ouro (gold) layer; read by the frontend.
+        all_processed_tab = save_processed_google_trends_all(layers["ouro"], all_df)
         print(
             f"-> Consolidated all elections: {len(all_df)} rows -> "
             f"tab '{all_processed_tab}'"

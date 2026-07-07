@@ -3,7 +3,7 @@ from typing import Optional
 
 import pandas as pd
 
-from core.sheets import get_spreadsheet, write_dataframe_to_tab
+from core.sheets import get_layer_spreadsheets, write_dataframe_to_tab
 from constants_tse import (
     CSV_ENCODING,
     CSV_SEPARATOR,
@@ -108,6 +108,20 @@ def save_raw_presidency_to_sheets(spreadsheet, df: pd.DataFrame, year: int) -> s
     return title
 
 
+def save_presidency_round_to_sheets(
+    spreadsheet,
+    df: pd.DataFrame,
+    year: int,
+    turno: int,
+) -> str:
+    """
+    Writes the cleaned, per-round presidency rows to a worksheet (silver layer).
+    """
+    title = f"{PROCESSED_TAB_PREFIX}{TSE_BASE_NAME}_{year}_presidency_t{turno}"
+    write_dataframe_to_tab(spreadsheet, title, df)
+    return title
+
+
 def save_candidate_votes_by_round_to_sheets(
     spreadsheet,
     df: pd.DataFrame,
@@ -160,14 +174,18 @@ def save_round_comparison_to_sheets(
     return title
 
 
-def run_tse_load_to_sheets(spreadsheet=None) -> bool:
+def run_tse_load_to_sheets(layers: dict | None = None) -> bool:
     """
-    Orchestrates the TSE load stage to Google Sheets.
-    """
-    print("\nLoading TSE tables to Google Sheets...")
+    Orchestrates the TSE load stage across the medallion layers:
 
-    if spreadsheet is None:
-        spreadsheet = get_spreadsheet()
+        bronze -> raw parsed presidency source rows
+        prata  -> cleaned, per-round presidency rows
+        ouro   -> business aggregations (votes, state distribution, comparison)
+    """
+    print("\nLoading TSE tables to Google Sheets (bronze/prata/ouro)...")
+
+    if layers is None:
+        layers = get_layer_spreadsheets("bronze", "prata", "ouro")
 
     success = True
     for year in [2018, 2022]:
@@ -177,14 +195,18 @@ def run_tse_load_to_sheets(spreadsheet=None) -> bool:
             if df is None:
                 continue
 
-            save_raw_presidency_to_sheets(spreadsheet, df, year)
+            # Extractor output -> bronze.
+            save_raw_presidency_to_sheets(layers["bronze"], df, year)
 
             for turno in sorted(df["NR_TURNO"].unique()):
                 round_df = df[df["NR_TURNO"] == turno]
-                save_candidate_votes_by_round_to_sheets(spreadsheet, round_df, year, int(turno))
-                save_state_vote_distribution_by_round_to_sheets(spreadsheet, round_df, year, int(turno))
+                # Transformer output (cleaned, per-round) -> prata.
+                save_presidency_round_to_sheets(layers["prata"], round_df, year, int(turno))
+                # Loader output (aggregations) -> ouro.
+                save_candidate_votes_by_round_to_sheets(layers["ouro"], round_df, year, int(turno))
+                save_state_vote_distribution_by_round_to_sheets(layers["ouro"], round_df, year, int(turno))
 
-            save_round_comparison_to_sheets(spreadsheet, df, year)
+            save_round_comparison_to_sheets(layers["ouro"], df, year)
         except Exception as exc:
             print(f"Error loading TSE tables to sheets for {year}: {exc}")
             success = False

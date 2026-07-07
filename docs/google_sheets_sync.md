@@ -8,16 +8,28 @@ A mecânica de autenticação e escrita fica em `scripts/core/sheets.py`
 (`get_spreadsheet()` + `write_dataframe_to_tab()`), usada pelo pipeline em
 `scripts/loaders/google_trends.py` e acionada por `python scripts/main.py`.
 
-## Separação por camada (prefixos das abas)
+## Arquitetura medalhão (bronze / prata / ouro)
 
-As abas são prefixadas para manter dados brutos e processados visivelmente
-separados:
+Os dados são organizados em **três planilhas separadas**, uma por camada,
+configuradas no `.env` (`SHEET_ID_bronze`, `SHEET_ID_prata`, `SHEET_ID_ouro`).
+A mesma service account (`GOOGLE_SERVICE_ACCOUNT_FILE`) precisa ter permissão de
+**Editor** nas três.
 
-| Camada                | Prefixo  | Exemplos de aba                                      |
-| --------------------- | -------- | ---------------------------------------------------- |
-| Brutos (batches)      | `raw_`   | `raw_google_trends_2018_batch_01`                    |
-| Processados (long)    | `proc_`  | `proc_google_trends_2022_interest_long`              |
-| Consolidado           | `proc_`  | `proc_google_trends_all_elections_interest_long`     |
+| Camada | Estágio do pipeline | `.env`            | Conteúdo                                              |
+| ------ | ------------------- | ----------------- | ----------------------------------------------------- |
+| Bronze | extractors          | `SHEET_ID_bronze` | dados brutos (batches Trends, presidência TSE, mercados/preços Polymarket) |
+| Prata  | transformers        | `SHEET_ID_prata`  | dados limpos/normalizados (Trends long rescalado, presidência por turno, probabilidades long) |
+| Ouro   | loaders             | `SHEET_ID_ouro`   | dados finais consolidados — **consumidos pelo frontend e pela API** |
+
+Abas por fonte (exemplos):
+
+| Fonte         | Bronze                              | Prata                                        | Ouro                                             |
+| ------------- | ----------------------------------- | -------------------------------------------- | ------------------------------------------------ |
+| Google Trends | `raw_google_trends_<ano>_batch_NN`  | `proc_google_trends_<ano>_interest_long`     | `proc_google_trends_all_elections_interest_long` |
+| TSE           | `raw_tse_presidency_<ano>`          | `proc_tse_<ano>_presidency_tN`               | `proc_tse_<ano>_votes_tN`, `..._state_dist_tN`, `..._comparison` |
+| Polymarket    | `raw_polymarket_markets`, `raw_polymarket_price_history` | `proc_polymarket_probabilities_long` | `proc_polymarket_probabilities` |
+
+O prefixo `raw_`/`proc_` das abas é mantido dentro de cada planilha.
 
 A cada execução a aba correspondente é **limpa** e reescrita por completo
 (cabeçalho + linhas), usando `value_input_option="RAW"` (os valores entram na
@@ -60,17 +72,21 @@ um erro de permissão (`PermissionError` / `403`) ao tentar escrever.
 
 ## 3. Configurar o `.env`
 
-Crie um arquivo `.env` na raiz do projeto (veja `.env.example`) com:
+Crie um arquivo `.env` na raiz do projeto (veja `.env.example`) com **uma ID por
+camada**:
 
 ```dotenv
-GOOGLE_SHEETS_ID=175BnX6bAgzDqOECpcXhxiAtship5FQ0OS5-A8elnkY0
+SHEET_ID_bronze=<id da planilha bronze>
+SHEET_ID_prata=<id da planilha prata>
+SHEET_ID_ouro=<id da planilha ouro>
 GOOGLE_SERVICE_ACCOUNT_FILE=secrets/service_account.json
 ```
 
-- `GOOGLE_SHEETS_ID`: o ID da planilha — o trecho longo da URL entre `/d/` e
+- `SHEET_ID_*`: o ID de cada planilha — o trecho longo da URL entre `/d/` e
   `/edit` (`https://docs.google.com/spreadsheets/d/<ID>/edit`).
-- `GOOGLE_SERVICE_ACCOUNT_FILE`: caminho do JSON da chave. Caminhos relativos
-  são resolvidos a partir da raiz do projeto.
+- `GOOGLE_SERVICE_ACCOUNT_FILE`: caminho do JSON da chave (Editor nas três
+  planilhas). Caminhos relativos são resolvidos a partir da raiz do projeto.
+- Compartilhe as **três** planilhas com o `client_email` da service account.
 
 O `.env` também está no `.gitignore` e não deve ser commitado.
 
@@ -103,11 +119,21 @@ A abertura da planilha **falha cedo e com mensagem explicativa** quando:
 Como o Google Trends é isolado em `main.py`, uma falha de configuração do Sheets
 **não interrompe** os demais pipelines.
 
-## 5. Consumir uma aba publicada como CSV no React
+## 5. Consumir a camada ouro no frontend
 
-Para o dashboard ler os dados sem credenciais, **publique** a aba (uma vez por
-planilha): no Google Sheets, **Arquivo → Compartilhar → Publicar na web**, ou
-deixe a planilha acessível por link. Cada aba pode ser exportada como CSV via:
+O frontend consome **sempre a camada ouro**:
+
+- **Google Trends**: lido direto da planilha ouro. Defina
+  `VITE_GOOGLE_SHEETS_ID` (em `frontend/.env`) com o mesmo valor de
+  `SHEET_ID_ouro`. A aba lida é `proc_google_trends_all_elections_interest_long`.
+- **Market expectations (Polymarket)**: servido pela **API do backend**
+  (`VITE_API_BASE_URL`), que agora lê a aba `proc_polymarket_probabilities` da
+  planilha ouro (via gviz CSV, com cache de 5 min) em vez do PostgreSQL. O
+  contrato da API é o mesmo, então o frontend não muda.
+
+Para o dashboard/ backend lerem sem credenciais, **publique** a planilha ouro
+(uma vez): no Google Sheets, **Arquivo → Compartilhar → Publicar na web**, ou
+deixe-a acessível por link. Cada aba é exportada como CSV via:
 
 ```
 https://docs.google.com/spreadsheets/d/<GOOGLE_SHEETS_ID>/gviz/tq?tqx=out:csv&sheet=<NOME_DA_ABA>
