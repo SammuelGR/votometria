@@ -39,8 +39,16 @@ originais e acrescenta linhagem:
 Formato longo, uma linha por candidato por cenário. **Escopo Datafolha**: a
 prata mantém apenas pesquisas cujo `instituto_pesquisa` contém "Datafolha"
 (case-insensitive) — inclui `Datafolha`, `Globo/Datafolha`, `Folha/Datafolha`,
-`Globo e Folha/Datafolha`. O bronze permanece completo (todos os institutos).
-Colunas:
+`Globo e Folha/Datafolha`. **Escopo do ciclo 2018**: a prata mantém apenas
+pesquisas do ciclo `ano_eleicao = 2018` cuja `data_referencia` esteja
+efetivamente em 2018 — a pasta `pesquisa-2018` também traz pesquisas
+hipotéticas pré-corrida de 2015–2017 (e um resultado de 2014), que ficam de
+fora da prata/ouro (permanecem íntegras no bronze). Linhas sem
+`data_referencia` interpretável não são descartadas por essa regra (já ficam
+fora de toda tabela ouro pelo filtro existente de `data_referencia != ""`).
+Os ciclos 2022 e 2026 não têm esse desvio (100% das linhas já caem dentro do
+próprio ano do ciclo). O bronze permanece completo (todos os institutos e
+anos). Colunas:
 
 `pesquisa_id`, `cenario_id`, `ano_eleicao`, `mes_referencia`,
 `instituto_pesquisa`, `contratante_pesquisa`, `data_referencia`,
@@ -99,6 +107,29 @@ não-nulo e `data_referencia` válida (o restante permanece íntegro na prata).
 - **`gold_pesquisas_comparativo_candidatos`**: pivô por cenário
   (`ano_eleicao`, `pesquisa_id`, `cenario_id`, `instituto_pesquisa`,
   `data_referencia`) × candidato normalizado (valor = `percentual_numero`).
+- **`gold_pesquisas_media_mensal_candidato`**: tabela dedicada a **gráficos
+  temporais** — uma linha por (`ano_eleicao`, `nome_candidato_normalizado`,
+  mês), pronta para consumo direto sem agregação adicional no frontend.
+  Colunas: `ano_eleicao`, `data_referencia` (primeiro dia do mês agregado,
+  ISO, ex. `2026-06-01` — garante ordenação cronológica), `mes_referencia`
+  (nome do mês em português), `nome_candidato_normalizado`,
+  `percentual_agregado`. O mês é agrupado pelo ano-mês **real** derivado de
+  `data_referencia` (não pelo nome de `mes_referencia` isolado nem por
+  `ano_eleicao`), para não misturar, por exemplo, "Setembro" de anos civis
+  diferentes dentro do mesmo ciclo eleitoral (a pasta 2018 também carrega
+  linhas hipotéticas de 2014–2017).
+  - **Peso da média**: `percentual_agregado` é a **média ponderada por
+    `tamanho_amostra`** (tamanho da amostra da pesquisa, parseado a partir do
+    texto bruto — aceita separador de milhar em ponto ou espaço). Quando
+    nenhuma pesquisa do mês tem `tamanho_amostra` parseável (placeholder `–`),
+    usa-se **média aritmética simples** como *fallback* documentado para
+    aquele mês — o peso nunca é inventado.
+  - **Limitação herdada**: pesquisas com múltiplos cenários (`cenario_id`,
+    ex. "com fulano" vs. "sem fulano") compartilham o mesmo `tamanho_amostra`
+    da pesquisa original, então cada cenário pesa o total da amostra
+    independentemente — mesmo efeito que `gold_pesquisas_media_movel_candidato`
+    já tem via média simples por cenário; não é uma distorção nova desta
+    tabela.
 
 ## Como executar
 
@@ -138,10 +169,12 @@ Testes unitários (sem rede):
 - **Escopo Datafolha**: a prata e a ouro cobrem apenas pesquisas do instituto
   Datafolha; outros institutos ficam disponíveis só no bronze.
 - **`ano_eleicao` vs ano da linha**: a pasta 2018 contém pesquisas hipotéticas
-  de 2015–2017 e o resultado de 2014; `ano_eleicao=2018` (ciclo da tabela),
-  mas `data_referencia` reflete a data real de cada linha.
-- **Sem `fonte_url`** em 2 pesquisas (linhas de evento/resultado, ex. "Eleições
-  de 2014", "Grupo 6Sigma") e **sem data** em 1 — sinalizadas, não descartadas.
+  de 2015–2017 e o resultado de 2014, além das pesquisas do próprio ano de
+  2018. Diferente dos outros ciclos, a prata **descarta** as linhas do ciclo
+  2018 cuja `data_referencia` não caia em 2018 (486 de 765 linhas antes do
+  filtro) — o restante do pipeline (2022, 2026) não precisa dessa regra
+  porque já não tem esse desvio nos dados reais. As linhas descartadas
+  continuam íntegras no bronze (`raw_enquetes_2018`).
 - **`nome_candidato_normalizado`** cruza anos: `bolsonaro` = Jair (2018/2022 e
   cenários hipotéticos de 2026); `flavio` = Flávio (2026). Não há reconciliação
   de identidade entre anos.
@@ -169,4 +202,10 @@ FROM gold_pesquisas_candidato_temporal
 WHERE ano_eleicao = 2026
 GROUP BY instituto_pesquisa, nome_candidato_normalizado
 ORDER BY instituto_pesquisa, media_percentual DESC;
+
+-- Gráfico temporal mensal (pronto para consumo direto, sem agregação no frontend)
+SELECT data_referencia, nome_candidato_normalizado, percentual_agregado
+FROM gold_pesquisas_media_mensal_candidato
+WHERE ano_eleicao = 2026
+ORDER BY data_referencia, nome_candidato_normalizado;
 ```

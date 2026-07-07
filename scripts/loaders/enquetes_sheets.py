@@ -6,13 +6,15 @@ pipeline is idempotent.
     bronze -> raw_enquetes_<ano>
     prata  -> proc_enquetes_long + validacao_enquetes
     ouro   -> gold_pesquisas_candidato_temporal / _ultima_por_candidato /
-              _media_movel_candidato / _comparativo_candidatos
+              _media_movel_candidato / _media_mensal_candidato /
+              _comparativo_candidatos
 """
 
 from core.sheets import write_dataframe_to_tab
 from constants_enquetes import (
     BRONZE_TAB_TEMPLATE,
     GOLD_COMPARATIVO_TAB,
+    GOLD_MEDIA_MENSAL_TAB,
     GOLD_MEDIA_MOVEL_TAB,
     GOLD_TEMPORAL_TAB,
     GOLD_ULTIMA_TAB,
@@ -43,6 +45,7 @@ def save_gold(spreadsheet, gold: dict) -> list:
         ("temporal", GOLD_TEMPORAL_TAB),
         ("ultima", GOLD_ULTIMA_TAB),
         ("media_movel", GOLD_MEDIA_MOVEL_TAB),
+        ("media_mensal", GOLD_MEDIA_MENSAL_TAB),
         ("comparativo", GOLD_COMPARATIVO_TAB),
     ):
         df = gold.get(key)

@@ -28,6 +28,7 @@ VALIDACAO_TAB = "validacao_enquetes"
 GOLD_TEMPORAL_TAB = "gold_pesquisas_candidato_temporal"
 GOLD_ULTIMA_TAB = "gold_pesquisas_ultima_por_candidato"
 GOLD_MEDIA_MOVEL_TAB = "gold_pesquisas_media_movel_candidato"
+GOLD_MEDIA_MENSAL_TAB = "gold_pesquisas_media_mensal_candidato"
 GOLD_COMPARATIVO_TAB = "gold_pesquisas_comparativo_candidatos"
 
 # Rolling-average window (number of consecutive field dates) used by the moving
