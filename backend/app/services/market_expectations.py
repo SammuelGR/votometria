@@ -252,17 +252,19 @@ def _get_largest_change(
         if len(candidate_series.points) < 2:
             continue
 
-        first_point = candidate_series.points[0]
-        last_point = candidate_series.points[-1]
-        value = last_point.probability - first_point.probability
-        changes.append((candidate_series, value, abs(value)))
+        for from_point, to_point in zip(
+            candidate_series.points,
+            candidate_series.points[1:],
+        ):
+            value = to_point.probability - from_point.probability
+            changes.append((candidate_series, from_point, to_point, value, abs(value)))
 
     if not changes:
         return None
 
-    selected_series, value, absolute_value = max(
+    selected_series, from_point, to_point, value, absolute_value = max(
         changes,
-        key=lambda item: item[2],
+        key=lambda item: item[4],
     )
 
     return MarketExpectationLargestChange(
@@ -270,4 +272,6 @@ def _get_largest_change(
         display_name=selected_series.display_name,
         value=value,
         absolute_value=absolute_value,
+        from_timestamp=from_point.timestamp,
+        to_timestamp=to_point.timestamp,
     )

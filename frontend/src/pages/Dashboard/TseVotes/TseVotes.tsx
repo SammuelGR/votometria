@@ -1,7 +1,14 @@
 import { useEffect, useMemo, useState } from 'react';
 
 import TseVotesChart from '~/components/charts/TseVotesChart';
-import { MetricCard, ModuleHeader, ModulePanel, PlaceholderChart, SegmentedControl, SourceBadge } from '~/components/ui';
+import {
+  MetricCard,
+  ModuleHeader,
+  ModulePanel,
+  PlaceholderChart,
+  SegmentedControl,
+  SourceBadge,
+} from '~/components/ui';
 import { useTseVotes } from '~/fetchers/hooks/useTseVotes';
 import { fetchTseComparisonRows, type TseComparisonRow } from '~/services/tseComparison';
 import type { TseElectionYear, TseVoteRound } from '~/services/tseVotes';
@@ -142,7 +149,10 @@ export default function TseVotes() {
 
         <div className="grid gap-3 sm:grid-cols-3">
           <MetricCard title="Votos válidos" value={totalVotes.toLocaleString('pt-BR')} />
-          <MetricCard title="Líder" value={topCandidate ? `${topCandidate} · ${topVotes.toLocaleString('pt-BR')}` : '—'} />
+          <MetricCard
+            title="Líder"
+            value={topCandidate ? `${topCandidate} · ${topVotes.toLocaleString('pt-BR')}` : '—'}
+          />
 
           {firstComparison ? (
             <MetricCard
@@ -150,20 +160,22 @@ export default function TseVotes() {
               text={
                 <div className="space-y-4">
                   <div>
-                    <p className="font-semibold text-foreground">
-                      {firstComparison.candidate}
-                    </p>
+                    <p className="font-semibold text-foreground">{firstComparison.candidate}</p>
                     <p className="text-sm text-emerald-600">
-                      Variação 1º → 2º turno: {firstComparison.deltaVotes >= 0 ? '+' : ''}{firstComparison.deltaVotes.toLocaleString('pt-BR')} votos ({firstComparison.deltaPercent >= 0 ? '+' : ''}{firstComparison.deltaPercent.toLocaleString('pt-BR', { maximumFractionDigits: 1 })}% )
+                      Variação 1º → 2º turno: {firstComparison.deltaVotes >= 0 ? '+' : ''}
+                      {firstComparison.deltaVotes.toLocaleString('pt-BR')} votos (
+                      {firstComparison.deltaPercent >= 0 ? '+' : ''}
+                      {firstComparison.deltaPercent.toLocaleString('pt-BR', { maximumFractionDigits: 1 })}% )
                     </p>
                   </div>
                   {secondComparison ? (
                     <div>
-                      <p className="font-semibold text-foreground">
-                        {secondComparison.candidate}
-                      </p>
+                      <p className="font-semibold text-foreground">{secondComparison.candidate}</p>
                       <p className="text-sm text-emerald-600">
-                        Variação 1º → 2º turno: {secondComparison.deltaVotes >= 0 ? '+' : ''}{secondComparison.deltaVotes.toLocaleString('pt-BR')} votos ({secondComparison.deltaPercent >= 0 ? '+' : ''}{secondComparison.deltaPercent.toLocaleString('pt-BR', { maximumFractionDigits: 1 })}% )
+                        Variação 1º → 2º turno: {secondComparison.deltaVotes >= 0 ? '+' : ''}
+                        {secondComparison.deltaVotes.toLocaleString('pt-BR')} votos (
+                        {secondComparison.deltaPercent >= 0 ? '+' : ''}
+                        {secondComparison.deltaPercent.toLocaleString('pt-BR', { maximumFractionDigits: 1 })}% )
                       </p>
                     </div>
                   ) : null}
