@@ -11,6 +11,7 @@ import {
 } from '~/components/ui';
 import { activePresetKey, periodsForYear } from '~/data/electionPeriods';
 import { useGoogleTrendsMonthly } from '~/fetchers/hooks/useGoogleTrendsMonthly';
+import { useMonthlyMarketExpectations } from '~/fetchers/hooks/useMonthlyMarketExpectations';
 import { usePesquisasMensais } from '~/fetchers/hooks/usePesquisasMensais';
 import type { ElectionYear } from '~/services/googleTrends';
 import {
@@ -63,6 +64,10 @@ export default function AttentionVsPolling() {
   const activeCandidate =
     selection.year === electionYear && selection.candidate ? selection.candidate : (orderedTerms[0] ?? null);
 
+  const marketExpectations = useMonthlyMarketExpectations(activeCandidate, {
+    enabled: electionYear === 'current' && Boolean(activeCandidate),
+  });
+
   const yearPollRows = useMemo(
     () => filterPollMonthlyByYear(polls.data ?? [], electionYear),
     [polls.data, electionYear],
@@ -73,8 +78,15 @@ export default function AttentionVsPolling() {
       return [];
     }
 
-    return buildAttentionVsPollingMonthlySeries(yearTrendsRows, yearPollRows, activeCandidate, electionYear, range);
-  }, [yearTrendsRows, yearPollRows, activeCandidate, electionYear, range]);
+    return buildAttentionVsPollingMonthlySeries(
+      yearTrendsRows,
+      yearPollRows,
+      activeCandidate,
+      electionYear,
+      range,
+      electionYear === 'current' ? (marketExpectations.data?.points ?? []) : [],
+    );
+  }, [yearTrendsRows, yearPollRows, activeCandidate, electionYear, range, marketExpectations.data?.points]);
 
   const hasData = points.some((point) => point.attention != null || point.polling != null);
   const hasPolls = points.some((point) => point.polling != null);
