@@ -51,6 +51,8 @@ export type MarketExpectationLargestChange = {
   absoluteValue: number;
   candidateCatalogId: number;
   displayName: string;
+  fromTimestamp: string;
+  toTimestamp: string;
   value: number;
 };
 

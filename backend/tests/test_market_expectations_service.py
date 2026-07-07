@@ -136,7 +136,8 @@ def test_build_market_expectations_summary_returns_leader_margin_and_largest_cha
             market_id="market-1",
             points=[
                 market_expectation_point(probability=0.25, timestamp=datetime(2024, 1, 1, 10)),
-                market_expectation_point(probability=0.50, timestamp=datetime(2024, 1, 1, 11)),
+                market_expectation_point(probability=0.75, timestamp=datetime(2024, 1, 1, 11)),
+                market_expectation_point(probability=0.50, timestamp=datetime(2024, 1, 1, 12)),
             ],
         ),
         market_expectation_series(
@@ -166,8 +167,10 @@ def test_build_market_expectations_summary_returns_leader_margin_and_largest_cha
         "largestChange": {
             "candidateCatalogId": 1,
             "displayName": "Candidate A",
-            "value": 0.25,
-            "absoluteValue": 0.25,
+            "value": 0.50,
+            "absoluteValue": 0.50,
+            "fromTimestamp": datetime(2024, 1, 1, 10),
+            "toTimestamp": datetime(2024, 1, 1, 11),
         },
     }
 
@@ -203,6 +206,8 @@ def test_build_market_expectations_summary_preserves_negative_largest_change():
         "displayName": "Candidate A",
         "value": -0.50,
         "absoluteValue": 0.50,
+        "fromTimestamp": datetime(2024, 1, 1, 10),
+        "toTimestamp": datetime(2024, 1, 1, 11),
     }
 
 

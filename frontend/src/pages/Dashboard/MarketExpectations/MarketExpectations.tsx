@@ -5,7 +5,7 @@ import { ELECTION_EVENTS } from '~/data/electionEvents';
 import { useMarketExpectationOptions } from '~/fetchers/hooks/useMarketExpectationOptions';
 import { useMarketExpectations } from '~/fetchers/hooks/useMarketExpectations';
 import type { MarketExpectationInterval } from '~/models/marketExpectations';
-import { EMPTY_VALUE, formatProbability } from '~/utils/format';
+import { EMPTY_VALUE, formatDateTime, formatProbability } from '~/utils/format';
 import MarketExpectationsChart from './MarketExpectationsChart';
 
 const DEFAULT_INTERVALS: MarketExpectationInterval[] = ['1h', '4h', '1d', '1w'];
@@ -69,7 +69,9 @@ export default function MarketExpectations() {
   const leaderMarginValue = formatProbability(summary?.leaderMargin?.value);
   const largestChange = summary?.largestChange;
   const largestChangeText = largestChange?.displayName ?? EMPTY_VALUE;
-  const largestChangeValue = formatProbability(largestChange?.value, { signDisplay: 'exceptZero' });
+  const largestChangeValue = largestChange
+    ? `${formatProbability(largestChange.value, { signDisplay: 'exceptZero' })} · ${formatDateTime(largestChange.toTimestamp)}`
+    : EMPTY_VALUE;
   const largestChangeVariant =
     largestChange && largestChange.value > 0
       ? 'positive'

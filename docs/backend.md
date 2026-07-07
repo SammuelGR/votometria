@@ -79,7 +79,7 @@ The response includes:
 - `metadata.latestTimestamp`: latest available Polymarket timestamp in the database.
 - `summary.currentLeader`: candidate with the highest latest probability in the returned series.
 - `summary.leaderMargin`: difference between the leader and runner-up latest probabilities in the returned series.
-- `summary.largestChange`: largest absolute probability variation in the returned series, preserving the signed variation.
+- `summary.largestChange`: largest absolute sequential probability variation between consecutive points in the returned series, preserving the signed variation and returning the `fromTimestamp` and `toTimestamp` where the variation occurred.
 - `series`: time series grouped by candidate catalog entry and market.
 
 Probability values are returned in their stored analytical range from `0.0` to `1.0`.
