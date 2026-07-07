@@ -1,9 +1,10 @@
+import type { ReactNode } from 'react';
 import { cn } from '~/utils/cn';
 
 type MetricCardVariant = 'default' | 'negative' | 'positive';
 
 type MetricCardProps = {
-  text?: string;
+  text?: ReactNode;
   title: string;
   value?: string;
   variant?: MetricCardVariant;
@@ -21,9 +22,7 @@ export default function MetricCard({ text, title, value, variant = 'default' }: 
       <p className="font-medium text-muted text-xs uppercase">{title}</p>
 
       {text ? (
-        <p className="line-clamp-2 mt-2 font-semibold leading-snug text-foreground text-sm" title={text}>
-          {text}
-        </p>
+        <div className="mt-2 text-sm leading-snug text-foreground">{text}</div>
       ) : null}
 
       {value ? (

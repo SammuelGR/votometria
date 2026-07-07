@@ -1,8 +1,9 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
 import TseVotesChart from '~/components/charts/TseVotesChart';
 import { MetricCard, ModuleHeader, ModulePanel, PlaceholderChart, SegmentedControl, SourceBadge } from '~/components/ui';
 import { useTseVotes } from '~/fetchers/hooks/useTseVotes';
+import { fetchTseComparisonRows, type TseComparisonRow } from '~/services/tseComparison';
 import type { TseElectionYear, TseVoteRound } from '~/services/tseVotes';
 
 const yearOptions = [
@@ -18,9 +19,34 @@ const roundOptions = [
 export default function TseVotes() {
   const [electionYear, setElectionYear] = useState<TseElectionYear>('2022');
   const [round, setRound] = useState<TseVoteRound>('1');
+  const [comparisonRows, setComparisonRows] = useState<TseComparisonRow[]>([]);
   const { data, isLoading, isError } = useTseVotes(electionYear, round);
 
-  // Programação defensiva: criamos uma cópia do array [...data] e forçamos 
+  useEffect(() => {
+    let isActive = true;
+
+    async function loadComparisonRows() {
+      try {
+        const nextRows = await fetchTseComparisonRows(electionYear);
+
+        if (isActive) {
+          setComparisonRows(nextRows);
+        }
+      } catch {
+        if (isActive) {
+          setComparisonRows([]);
+        }
+      }
+    }
+
+    void loadComparisonRows();
+
+    return () => {
+      isActive = false;
+    };
+  }, [electionYear]);
+
+  // Programação defensiva: criamos uma cópia do array [...data] e forçamos
   // a ordenação aqui para garantir que o topCandidate nunca quebre
   const rows = useMemo(() => {
     if (!data) return [];
@@ -30,6 +56,58 @@ export default function TseVotes() {
   const totalVotes = rows.reduce((sum, row) => sum + row.votes, 0);
   const topCandidate = rows[0]?.candidate ?? '—';
   const topVotes = rows[0]?.votes ?? 0;
+
+  const firstComparison = useMemo(() => {
+    if (rows.length === 0 || comparisonRows.length === 0) {
+      return null;
+    }
+
+    const leader = rows[0];
+    const comparisonRow = comparisonRows.find((row) => row.NM_URNA_CANDIDATO === leader?.candidate);
+
+    if (!leader || !comparisonRow) {
+      return null;
+    }
+
+    const firstTurnVotes = comparisonRow.QT_VOTOS_1T;
+    const secondTurnVotes = comparisonRow.QT_VOTOS_2T;
+    const deltaVotes = secondTurnVotes - firstTurnVotes;
+    const deltaPercent = firstTurnVotes === 0 ? 0 : (deltaVotes / firstTurnVotes) * 100;
+
+    return {
+      candidate: leader.candidate,
+      firstTurnVotes,
+      secondTurnVotes,
+      deltaVotes,
+      deltaPercent,
+    };
+  }, [comparisonRows, rows]);
+
+  const secondComparison = useMemo(() => {
+    if (rows.length < 2 || comparisonRows.length === 0) {
+      return null;
+    }
+
+    const runnerUp = rows[1];
+    const comparisonRow = comparisonRows.find((row) => row.NM_URNA_CANDIDATO === runnerUp?.candidate);
+
+    if (!runnerUp || !comparisonRow) {
+      return null;
+    }
+
+    const firstTurnVotes = comparisonRow.QT_VOTOS_1T;
+    const secondTurnVotes = comparisonRow.QT_VOTOS_2T;
+    const deltaVotes = secondTurnVotes - firstTurnVotes;
+    const deltaPercent = firstTurnVotes === 0 ? 0 : (deltaVotes / firstTurnVotes) * 100;
+
+    return {
+      candidate: runnerUp.candidate,
+      firstTurnVotes,
+      secondTurnVotes,
+      deltaVotes,
+      deltaPercent,
+    };
+  }, [comparisonRows, rows]);
 
   return (
     <ModulePanel>
@@ -62,9 +140,39 @@ export default function TseVotes() {
           <TseVotesChart rows={rows} />
         )}
 
-        <div className="gap-3 grid sm:grid-cols-2">
+        <div className="grid gap-3 sm:grid-cols-3">
           <MetricCard title="Votos válidos" value={totalVotes.toLocaleString('pt-BR')} />
           <MetricCard title="Líder" value={topCandidate ? `${topCandidate} · ${topVotes.toLocaleString('pt-BR')}` : '—'} />
+
+          {firstComparison ? (
+            <MetricCard
+              title="Comparativo de turnos"
+              text={
+                <div className="space-y-4">
+                  <div>
+                    <p className="font-semibold text-foreground">
+                      {firstComparison.candidate}
+                    </p>
+                    <p className="text-sm text-emerald-600">
+                      {firstComparison.deltaVotes >= 0 ? '+' : ''}{firstComparison.deltaVotes.toLocaleString('pt-BR')} votos ({firstComparison.deltaPercent >= 0 ? '+' : ''}{firstComparison.deltaPercent.toLocaleString('pt-BR', { maximumFractionDigits: 1 })}%)
+                    </p>
+                  </div>
+                  {secondComparison ? (
+                    <div>
+                      <p className="font-semibold text-foreground">
+                        {secondComparison.candidate}
+                      </p>
+                      <p className="text-sm text-emerald-600">
+                        {secondComparison.deltaVotes >= 0 ? '+' : ''}{secondComparison.deltaVotes.toLocaleString('pt-BR')} votos ({secondComparison.deltaPercent >= 0 ? '+' : ''}{secondComparison.deltaPercent.toLocaleString('pt-BR', { maximumFractionDigits: 1 })}%)
+                      </p>
+                    </div>
+                  ) : null}
+                </div>
+              }
+            />
+          ) : (
+            <MetricCard title="Comparativo de turnos" value="Sem comparação disponível" />
+          )}
         </div>
 
         <p className="font-mono text-[11px] text-muted">
