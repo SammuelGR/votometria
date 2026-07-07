@@ -147,7 +147,7 @@ export default function TseVotes() {
           <TseVotesChart rows={rows} />
         )}
 
-        <div className="grid gap-3 sm:grid-cols-3">
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           <MetricCard title="Votos válidos" value={totalVotes.toLocaleString('pt-BR')} />
           <MetricCard
             title="Líder"
@@ -156,35 +156,43 @@ export default function TseVotes() {
 
           {firstComparison ? (
             <MetricCard
-              title="Comparativo de turnos"
+              title="Variação 1º → 2º turno"
               text={
                 <div className="space-y-4">
                   <div>
                     <p className="font-semibold text-foreground">{firstComparison.candidate}</p>
                     <p className="text-sm text-emerald-600">
-                      Variação 1º → 2º turno: {firstComparison.deltaVotes >= 0 ? '+' : ''}
+                      {firstComparison.deltaVotes >= 0 ? '+' : ''}
                       {firstComparison.deltaVotes.toLocaleString('pt-BR')} votos (
                       {firstComparison.deltaPercent >= 0 ? '+' : ''}
                       {firstComparison.deltaPercent.toLocaleString('pt-BR', { maximumFractionDigits: 1 })}% )
                     </p>
                   </div>
-                  {secondComparison ? (
-                    <div>
-                      <p className="font-semibold text-foreground">{secondComparison.candidate}</p>
-                      <p className="text-sm text-emerald-600">
-                        Variação 1º → 2º turno: {secondComparison.deltaVotes >= 0 ? '+' : ''}
-                        {secondComparison.deltaVotes.toLocaleString('pt-BR')} votos (
-                        {secondComparison.deltaPercent >= 0 ? '+' : ''}
-                        {secondComparison.deltaPercent.toLocaleString('pt-BR', { maximumFractionDigits: 1 })}% )
-                      </p>
-                    </div>
-                  ) : null}
                 </div>
               }
             />
           ) : (
-            <MetricCard title="Comparativo de turnos" value="Sem comparação disponível" />
+            <MetricCard title="Variação 1º → 2º turno" value="Sem comparação disponível" />
           )}
+
+          {secondComparison ? (
+            <MetricCard
+              title="Variação 1º → 2º turno"
+              text={
+                <div className="space-y-4">
+                  <div>
+                    <p className="font-semibold text-foreground">{secondComparison.candidate}</p>
+                    <p className="text-sm text-emerald-600">
+                      {secondComparison.deltaVotes >= 0 ? '+' : ''}
+                      {secondComparison.deltaVotes.toLocaleString('pt-BR')} votos (
+                      {secondComparison.deltaPercent >= 0 ? '+' : ''}
+                      {secondComparison.deltaPercent.toLocaleString('pt-BR', { maximumFractionDigits: 1 })}% )
+                    </p>
+                  </div>
+                </div>
+              }
+            />
+          ) : null}
         </div>
 
         <p className="font-mono text-[11px] text-muted">

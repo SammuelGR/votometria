@@ -21,9 +21,7 @@ export default function MetricCard({ text, title, value, variant = 'default' }: 
     <div className="bg-navigation rounded-md p-4">
       <p className="font-medium text-muted text-xs uppercase">{title}</p>
 
-      {text ? (
-        <div className="mt-2 text-sm leading-snug text-foreground">{text}</div>
-      ) : null}
+      {text ? <div className="line-clamp-2 mt-2 font-semibold leading-snug text-foreground text-sm">{text}</div> : null}
 
       {value ? (
         <p className={cn('font-semibold text-sm', text ? 'mt-1' : 'mt-2', valueVariantClassNames[variant])}>{value}</p>
