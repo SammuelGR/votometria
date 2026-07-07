@@ -134,7 +134,7 @@ export default function ElectoralPanoramaChart({ points, candidate, year }: Elec
         <Line
           connectNulls
           dataKey="polling"
-          dot={{ fill: POLLING_COLOR, r: 2.5, strokeWidth: 0 }}
+          dot={false}
           isAnimationActive={false}
           name={POLLING_LEGEND}
           stroke={POLLING_COLOR}
@@ -146,7 +146,7 @@ export default function ElectoralPanoramaChart({ points, candidate, year }: Elec
           <Line
             connectNulls
             dataKey="marketExpectation"
-            dot={{ fill: MARKET_EXPECTATION_COLOR, r: 2.5, strokeWidth: 0 }}
+            dot={false}
             isAnimationActive={false}
             name={MARKET_EXPECTATION_LABEL}
             stroke={MARKET_EXPECTATION_COLOR}
