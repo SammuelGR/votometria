@@ -102,6 +102,8 @@ def test_market_expectations_returns_grouped_candidate_series(client, db_session
                 "displayName": "Candidate A",
                 "value": 0.25,
                 "absoluteValue": 0.25,
+                "fromTimestamp": "2024-01-01T10:00:00",
+                "toTimestamp": "2024-01-01T11:00:00",
             },
         },
         "series": [
