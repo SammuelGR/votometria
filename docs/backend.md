@@ -86,6 +86,32 @@ Probability values are returned in their stored analytical range from `0.0` to `
 
 For aggregated intervals, the backend returns the latest real record inside each time bucket. It does not create synthetic points or interpolate missing data.
 
+### Current Election: Monthly Market Expectations
+
+```text
+GET /api/current-election/monthly-market-expectations
+```
+
+Returns a monthly Polymarket series for one candidate label.
+
+Supported query parameters:
+
+- `candidate`: frontend candidate label or search term, such as `Lula`, `Flávio Bolsonaro` or `Bolsonaro`.
+
+The backend normalizes the received label and matches it against normalized Polymarket candidate catalog names. When multiple catalog candidates match the same label, the endpoint selects the candidate with the highest latest probability, using display name order as a deterministic tie-breaker.
+
+The endpoint only considers Polymarket records from `2026-01-01` onward.
+
+The response includes:
+
+- `points`: monthly market expectation points for the selected catalog candidate.
+- `points[].date`: canonical month date in `YYYY-MM-01` format.
+- `points[].probability`: latest real Polymarket probability available inside that month, returned as a percentage from `0.0` to `100.0`.
+
+Monthly values are calculated from the last available Polymarket record inside each month.
+
+If no candidate or records match, the endpoint returns an empty `points` list. It does not create synthetic points or interpolate missing months.
+
 ### Current Election: Market Expectation Options
 
 ```text

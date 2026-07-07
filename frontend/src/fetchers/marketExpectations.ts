@@ -32,3 +32,18 @@ export function getMarketExpectations(params?: MarketExpectationsParams) {
     queryParams: params,
   });
 }
+
+export type MonthlyMarketExpectationPoint = {
+  date: string;
+  probability: number;
+};
+
+type MonthlyMarketExpectationsResponse = {
+  points: MonthlyMarketExpectationPoint[];
+};
+
+export function getMonthlyMarketExpectations(candidate: string) {
+  return fetcher<MonthlyMarketExpectationsResponse>('current-election/monthly-market-expectations', {
+    queryParams: { candidate },
+  });
+}

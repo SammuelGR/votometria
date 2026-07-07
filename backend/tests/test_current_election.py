@@ -41,6 +41,123 @@ def test_market_expectations_returns_empty_series_when_no_data_exists(client):
     }
 
 
+def test_monthly_market_expectations_returns_empty_points_for_unknown_candidate(client):
+    response = client.get(
+        "/api/current-election/monthly-market-expectations",
+        params={"candidate": "Unknown"},
+    )
+
+    assert response.status_code == 200
+    assert response.json() == {"points": []}
+
+
+def test_monthly_market_expectations_returns_monthly_closing_points(
+    client,
+    db_session_factory,
+):
+    with db_session_factory() as session:
+        session.add(
+            candidate_catalog(
+                candidate_id=1,
+                display_name="Luiz Inácio Lula da Silva",
+                source_key="market-1",
+            )
+        )
+        session.add_all(
+            [
+                polymarket_probability(
+                    candidate_catalog_id=1,
+                    candidate_name="Luiz Inácio Lula da Silva",
+                    probability=0.21,
+                    timestamp=datetime(2026, 1, 2, 10),
+                ),
+                polymarket_probability(
+                    candidate_catalog_id=1,
+                    candidate_name="Luiz Inácio Lula da Silva",
+                    probability=0.31,
+                    timestamp=datetime(2026, 1, 30, 18),
+                ),
+                polymarket_probability(
+                    candidate_catalog_id=1,
+                    candidate_name="Luiz Inácio Lula da Silva",
+                    probability=0.37,
+                    timestamp=datetime(2026, 2, 3, 9),
+                ),
+                polymarket_probability(
+                    candidate_catalog_id=1,
+                    candidate_name="Luiz Inácio Lula da Silva",
+                    probability=0.99,
+                    timestamp=datetime(2025, 12, 31, 23),
+                ),
+            ]
+        )
+        session.commit()
+
+    response = client.get(
+        "/api/current-election/monthly-market-expectations",
+        params={"candidate": "Lula"},
+    )
+
+    assert response.status_code == 200
+    assert response.json() == {
+        "points": [
+            {"date": "2026-01-01", "probability": 31.0},
+            {"date": "2026-02-01", "probability": 37.0},
+        ]
+    }
+
+
+def test_monthly_market_expectations_picks_highest_latest_probability_match(
+    client,
+    db_session_factory,
+):
+    with db_session_factory() as session:
+        session.add_all(
+            [
+                candidate_catalog(
+                    candidate_id=1,
+                    display_name="Flávio Bolsonaro",
+                    source_key="market-1",
+                ),
+                candidate_catalog(
+                    candidate_id=2,
+                    display_name="Michelle Bolsonaro",
+                    source_key="market-2",
+                ),
+            ]
+        )
+        session.add_all(
+            [
+                polymarket_probability(
+                    candidate_catalog_id=1,
+                    candidate_name="Flávio Bolsonaro",
+                    probability=0.41,
+                    timestamp=datetime(2026, 3, 15, 10),
+                ),
+                polymarket_probability(
+                    candidate_catalog_id=2,
+                    candidate_name="Michelle Bolsonaro",
+                    market_id="market-2",
+                    probability=0.22,
+                    timestamp=datetime(2026, 3, 15, 10),
+                ),
+            ]
+        )
+        session.commit()
+
+    response = client.get(
+        "/api/current-election/monthly-market-expectations",
+        params={"candidate": "Bolsonaro"},
+    )
+
+    assert response.status_code == 200
+    assert response.json() == {
+        "points": [
+            {"date": "2026-03-01", "probability": 41.0},
+        ]
+    }
+
+
 def test_market_expectations_returns_grouped_candidate_series(client, db_session_factory):
     with db_session_factory() as session:
         session.add_all(

@@ -60,7 +60,6 @@ src/pages/
       PublicAttention.tsx
     ShareOfSearch/
       ShareOfSearch.tsx
-    AttentionMarketComparison/
 ```
 
 Use explicit component file names instead of generic `index.tsx` files for pages and feature-level components.
@@ -145,10 +144,6 @@ When writing Tailwind classes, keep classes in a consistent logical order. Prefe
 Avoid unnecessary decorative text in analytical modules. Module titles, controls, metrics and visualizations should carry the interface unless additional interpretation text is explicitly needed.
 
 ## Current implementation notes
-
-The dashboard uses temporary chart placeholder images for modules that do not have data integration.
-
-Real charts should replace those placeholders when data and chart components are implemented.
 
 Temporal range selection for charts should be handled by the chart implementation, such as Recharts Brush, not by a separate application-level period filter.
 

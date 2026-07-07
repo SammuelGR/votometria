@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 
-import AttentionVsPollingChart from '~/components/charts/AttentionVsPollingChart';
+import ElectoralPanoramaChart from '~/components/charts/ElectoralPanoramaChart';
 import {
   ModuleHeader,
   ModulePanel,
@@ -11,13 +11,14 @@ import {
 } from '~/components/ui';
 import { activePresetKey, periodsForYear } from '~/data/electionPeriods';
 import { useGoogleTrendsMonthly } from '~/fetchers/hooks/useGoogleTrendsMonthly';
+import { useMonthlyMarketExpectations } from '~/fetchers/hooks/useMonthlyMarketExpectations';
 import { usePesquisasMensais } from '~/fetchers/hooks/usePesquisasMensais';
 import type { ElectionYear } from '~/services/googleTrends';
 import {
-  buildAttentionVsPollingMonthlySeries,
+  buildElectoralPanoramaMonthlySeries,
   filterTrendsMonthlyByYear,
   trendsTermsByMeanMonthly,
-} from '~/utils/attentionVsPolling';
+} from '~/utils/electoralPanorama';
 import { filterPollMonthlyByYear } from '~/utils/pesquisasMensais';
 import { type DateRange, isWithinRange } from '~/utils/trends';
 
@@ -29,7 +30,7 @@ const yearOptions = [
 
 const EMPTY_RANGE: DateRange = {};
 
-export default function AttentionVsPolling() {
+export default function ElectoralPanorama() {
   const trends = useGoogleTrendsMonthly();
   const polls = usePesquisasMensais();
 
@@ -63,6 +64,10 @@ export default function AttentionVsPolling() {
   const activeCandidate =
     selection.year === electionYear && selection.candidate ? selection.candidate : (orderedTerms[0] ?? null);
 
+  const marketExpectations = useMonthlyMarketExpectations(activeCandidate, {
+    enabled: electionYear === 'current' && Boolean(activeCandidate),
+  });
+
   const yearPollRows = useMemo(
     () => filterPollMonthlyByYear(polls.data ?? [], electionYear),
     [polls.data, electionYear],
@@ -73,8 +78,15 @@ export default function AttentionVsPolling() {
       return [];
     }
 
-    return buildAttentionVsPollingMonthlySeries(yearTrendsRows, yearPollRows, activeCandidate, electionYear, range);
-  }, [yearTrendsRows, yearPollRows, activeCandidate, electionYear, range]);
+    return buildElectoralPanoramaMonthlySeries(
+      yearTrendsRows,
+      yearPollRows,
+      activeCandidate,
+      electionYear,
+      range,
+      electionYear === 'current' ? (marketExpectations.data?.points ?? []) : [],
+    );
+  }, [yearTrendsRows, yearPollRows, activeCandidate, electionYear, range, marketExpectations.data?.points]);
 
   const hasData = points.some((point) => point.attention != null || point.polling != null);
   const hasPolls = points.some((point) => point.polling != null);
@@ -106,9 +118,11 @@ export default function AttentionVsPolling() {
               <SourceBadge label="Google Trends" tone="attention" />
 
               <SourceBadge label="Pesquisas eleitorais" tone="positive" />
+
+              <SourceBadge label="Polymarket" tone="market" />
             </>
           }
-          title="Atenção pública × pesquisa eleitoral"
+          title="Panorama eleitoral"
         />
 
         <div className="flex flex-wrap items-end gap-4">
@@ -146,7 +160,7 @@ export default function AttentionVsPolling() {
         ) : !activeCandidate || !hasData ? (
           <PlaceholderChart label="Selecione um candidato com dados de atenção ou pesquisa no período." />
         ) : (
-          <AttentionVsPollingChart candidate={activeCandidate} points={points} year={electionYear} />
+          <ElectoralPanoramaChart candidate={activeCandidate} points={points} year={electionYear} />
         )}
 
         <div className="flex flex-col gap-1">

@@ -1,27 +1,30 @@
 import type { ElectionYear } from '~/services/googleTrends';
 import type { TrendsMonthlyRow } from '~/services/googleTrendsMonthly';
 import type { PollMonthlyRow } from '~/services/pesquisasMensais';
+import type { MonthlyMarketExpectationPoint } from '~/fetchers/marketExpectations';
 import { candidatesMatchForElection } from '~/utils/candidateNormalization';
 import { isWithinRange, type DateRange } from '~/utils/trends';
 
 /** One month of the crossed series: attention index and poll percentage. */
-export type AttentionVsPollingPoint = {
+export type ElectoralPanoramaPoint = {
   date: string;
   ts: number;
   attention: number | null;
   polling: number | null;
+  marketExpectation: number | null;
 };
 
 type Bucket = {
   attention: number | null;
   polling: number | null;
+  marketExpectation: number | null;
 };
 
 function bucketFor(byDate: Map<string, Bucket>, date: string): Bucket {
   let bucket = byDate.get(date);
 
   if (!bucket) {
-    bucket = { attention: null, polling: null };
+    bucket = { attention: null, polling: null, marketExpectation: null };
     byDate.set(date, bucket);
   }
 
@@ -69,13 +72,14 @@ export function trendsTermsByMeanMonthly(rows: TrendsMonthlyRow[]): string[] {
  * Missing sides stay `null` (never 0 or interpolated), and the result is
  * sorted ascending by month so the time axis stays continuous.
  */
-export function buildAttentionVsPollingMonthlySeries(
+export function buildElectoralPanoramaMonthlySeries(
   trendsMonthlyRows: TrendsMonthlyRow[],
   pollMonthlyRows: PollMonthlyRow[],
   candidate: string,
   year: ElectionYear,
   range: DateRange = {},
-): AttentionVsPollingPoint[] {
+  monthlyMarketExpectationRows: MonthlyMarketExpectationPoint[] = [],
+): ElectoralPanoramaPoint[] {
   const byDate = new Map<string, Bucket>();
 
   for (const row of pollMonthlyRows) {
@@ -113,12 +117,21 @@ export function buildAttentionVsPollingMonthlySeries(
     bucketFor(byDate, row.date).attention = row.interestMean;
   }
 
+  for (const row of monthlyMarketExpectationRows) {
+    if (!isWithinRange(row.date, range)) {
+      continue;
+    }
+
+    bucketFor(byDate, row.date).marketExpectation = row.probability;
+  }
+
   return Array.from(byDate.entries())
     .map(([date, bucket]) => ({
       date,
       ts: Date.parse(date),
       attention: bucket.attention,
       polling: bucket.polling,
+      marketExpectation: bucket.marketExpectation,
     }))
     .sort((a, b) => a.date.localeCompare(b.date));
 }
