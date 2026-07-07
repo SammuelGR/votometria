@@ -154,7 +154,7 @@ export default function TseVotes() {
                       {firstComparison.candidate}
                     </p>
                     <p className="text-sm text-emerald-600">
-                      {firstComparison.deltaVotes >= 0 ? '+' : ''}{firstComparison.deltaVotes.toLocaleString('pt-BR')} votos ({firstComparison.deltaPercent >= 0 ? '+' : ''}{firstComparison.deltaPercent.toLocaleString('pt-BR', { maximumFractionDigits: 1 })}%)
+                      Variação 1º → 2º turno: {firstComparison.deltaVotes >= 0 ? '+' : ''}{firstComparison.deltaVotes.toLocaleString('pt-BR')} votos ({firstComparison.deltaPercent >= 0 ? '+' : ''}{firstComparison.deltaPercent.toLocaleString('pt-BR', { maximumFractionDigits: 1 })}% )
                     </p>
                   </div>
                   {secondComparison ? (
@@ -163,7 +163,7 @@ export default function TseVotes() {
                         {secondComparison.candidate}
                       </p>
                       <p className="text-sm text-emerald-600">
-                        {secondComparison.deltaVotes >= 0 ? '+' : ''}{secondComparison.deltaVotes.toLocaleString('pt-BR')} votos ({secondComparison.deltaPercent >= 0 ? '+' : ''}{secondComparison.deltaPercent.toLocaleString('pt-BR', { maximumFractionDigits: 1 })}%)
+                        Variação 1º → 2º turno: {secondComparison.deltaVotes >= 0 ? '+' : ''}{secondComparison.deltaVotes.toLocaleString('pt-BR')} votos ({secondComparison.deltaPercent >= 0 ? '+' : ''}{secondComparison.deltaPercent.toLocaleString('pt-BR', { maximumFractionDigits: 1 })}% )
                       </p>
                     </div>
                   ) : null}
