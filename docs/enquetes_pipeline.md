@@ -158,7 +158,7 @@ deliberadamente multi-institucional:
     tabela.
   - **Alinhamento com Google Trends (só nesta tabela)**: como
     `gold_pesquisas_media_mensal_candidato` é a tabela cruzada com
-    `proc_google_trends_all_elections_interest_monthly` nos gráficos de
+    `proc_google_trends_all_elections_interest_long` nos gráficos de
     atenção vs. intenção de voto, `nome_candidato_normalizado` aqui é
     reescrito, dentro de `build_gold()` (`_apply_media_mensal_candidate_names`
     em `transformers/enquetes.py`), para o mesmo texto usado como termo de

@@ -1,11 +1,10 @@
-import type { ElectionYear } from '~/services/googleTrends';
-import type { TrendsMonthlyRow } from '~/services/googleTrendsMonthly';
+import type { ElectionYear, TrendsRow } from '~/services/googleTrends';
 import type { PollMonthlyRow } from '~/services/pesquisasMensais';
 import type { MonthlyMarketExpectationPoint } from '~/fetchers/marketExpectations';
 import { candidatesMatchForElection } from '~/utils/candidateNormalization';
 import { isWithinRange, type DateRange } from '~/utils/trends';
 
-/** One month of the crossed series: attention index and poll percentage. */
+/** One date of the crossed series: attention index (weekly) and poll percentage (monthly). */
 export type ElectoralPanoramaPoint = {
   date: string;
   ts: number;
@@ -31,49 +30,28 @@ function bucketFor(byDate: Map<string, Bucket>, date: string): Bucket {
   return bucket;
 }
 
-export function filterTrendsMonthlyByYear(rows: TrendsMonthlyRow[], year: ElectionYear): TrendsMonthlyRow[] {
-  return rows.filter((row) => row.electionYear === year);
-}
-
-/** Trends terms ordered by mean monthly interest (descending) — candidate options for this chart's filter. */
-export function trendsTermsByMeanMonthly(rows: TrendsMonthlyRow[]): string[] {
-  const totals = new Map<string, { sum: number; count: number }>();
-
-  for (const row of rows) {
-    if (row.interestMean == null) {
-      continue;
-    }
-
-    const entry = totals.get(row.term) ?? { sum: 0, count: 0 };
-    entry.sum += row.interestMean;
-    entry.count += 1;
-    totals.set(row.term, entry);
-  }
-
-  return Array.from(totals.entries())
-    .map(([term, { sum, count }]) => ({ term, mean: count > 0 ? sum / count : 0 }))
-    .sort((a, b) => b.mean - a.mean)
-    .map((entry) => entry.term);
-}
-
 /**
  * Crosses public attention (Google Trends) with poll percentage for a single
- * candidate, month by month. Both inputs are already month-aggregated gold
- * tables (`proc_google_trends_all_elections_interest_monthly` and
- * `gold_pesquisas_media_mensal_candidato`), so this only needs to join them by
- * (candidate, month) — no further averaging.
+ * candidate. Attention comes from the Trends long table
+ * (`proc_google_trends_all_elections_interest_long`, `interest_raw`, one row
+ * per collection date — weekly cadence, not aligned to month boundaries)
+ * while polling comes from the month-aggregated gold table
+ * (`gold_pesquisas_media_mensal_candidato`, one row per month's first day).
+ * The two are merged by exact date into the same series, so most months a
+ * poll point sits on its own date alongside — not on top of — the nearest
+ * attention points; each keeps its own line on the chart's shared time axis.
  *
- * - Attention: `interestMean` of the Trends term matching `candidate`,
- *   **clipped to the month span covered by that candidate's polls** so the
+ * - Attention: `interestRaw` of the Trends term matching `candidate`,
+ *   **clipped to the date span covered by that candidate's polls** so the
  *   chart never stretches the Trends line over months where no poll exists.
  *   When the candidate has no poll in scope, the window falls back to the
  *   full range and only the attention line is shown.
  *
  * Missing sides stay `null` (never 0 or interpolated), and the result is
- * sorted ascending by month so the time axis stays continuous.
+ * sorted ascending by date so the time axis stays continuous.
  */
-export function buildElectoralPanoramaMonthlySeries(
-  trendsMonthlyRows: TrendsMonthlyRow[],
+export function buildElectoralPanoramaSeries(
+  trendsRows: TrendsRow[],
   pollMonthlyRows: PollMonthlyRow[],
   candidate: string,
   year: ElectionYear,
@@ -105,8 +83,8 @@ export function buildElectoralPanoramaMonthlySeries(
   const pollWindow: DateRange =
     pollDates.length > 0 ? { start: pollDates[0], end: pollDates[pollDates.length - 1] } : range;
 
-  for (const row of trendsMonthlyRows) {
-    if (row.electionYear !== year || row.term !== candidate || row.interestMean == null) {
+  for (const row of trendsRows) {
+    if (row.electionYear !== year || row.term !== candidate) {
       continue;
     }
 
@@ -114,7 +92,7 @@ export function buildElectoralPanoramaMonthlySeries(
       continue;
     }
 
-    bucketFor(byDate, row.date).attention = row.interestMean;
+    bucketFor(byDate, row.date).attention = row.interestRaw;
   }
 
   for (const row of monthlyMarketExpectationRows) {

@@ -14,6 +14,7 @@ import {
 import ChartTooltip from '~/components/charts/ChartTooltip';
 import type { ElectionYear } from '~/services/googleTrends';
 import type { ElectoralPanoramaPoint } from '~/utils/electoralPanorama';
+import { formatDayMonthUTC } from '~/utils/format';
 
 const GRID_COLOR = '#d2dae3';
 const AXIS_COLOR = '#5c6b7a';
@@ -26,13 +27,6 @@ const MARKET_EXPECTATION_LABEL = 'Expectativa de mercado';
 // Source-explicit names used in the legend so the two series are never confused.
 const ATTENTION_LEGEND = 'Atenção pública (índice 0–100)';
 const POLLING_LEGEND = 'Pesquisas eleitorais (% de intenção de voto)';
-const MONTHS_ABBR = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez'];
-
-function formatMonth(ts: number): string {
-  const date = new Date(ts);
-
-  return `${MONTHS_ABBR[date.getUTCMonth()]}/${String(date.getUTCFullYear()).slice(2)}`;
-}
 
 function formatFullDate(date: string): string {
   const [year, month, day] = date.split('-');
@@ -103,10 +97,11 @@ export default function ElectoralPanoramaChart({ points, candidate, year }: Elec
         <XAxis
           dataKey="ts"
           domain={['dataMin', 'dataMax']}
+          minTickGap={24}
           scale="time"
           stroke={AXIS_COLOR}
           tick={{ fill: AXIS_COLOR, fontFamily: 'monospace', fontSize: 11 }}
-          tickFormatter={formatMonth}
+          tickFormatter={formatDayMonthUTC}
           type="number"
         />
 
@@ -126,7 +121,7 @@ export default function ElectoralPanoramaChart({ points, candidate, year }: Elec
         />
 
         <Line
-          connectNulls={false}
+          connectNulls
           dataKey="attention"
           dot={false}
           isAnimationActive={false}
@@ -160,7 +155,7 @@ export default function ElectoralPanoramaChart({ points, candidate, year }: Elec
           />
         ) : null}
 
-        <Brush dataKey="ts" height={22} stroke={AXIS_COLOR} tickFormatter={formatMonth} travellerWidth={8} />
+        <Brush dataKey="ts" height={22} stroke={AXIS_COLOR} tickFormatter={formatDayMonthUTC} travellerWidth={8} />
       </LineChart>
     </ResponsiveContainer>
   );

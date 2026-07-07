@@ -18,17 +18,11 @@ import { eventsForYear } from '~/data/electionEvents';
 import type { ElectionYear, TrendsMetric, TrendsRow } from '~/services/googleTrends';
 import { candidateColor } from '~/utils/candidateColors';
 import { EVENT_FLAG_COLOR, EVENT_LINE_COLOR, groupEventsByNearestTs } from '~/utils/events';
+import { formatDayMonthUTC } from '~/utils/format';
 import { buildTimeline, detectPeaks, termsByMean } from '~/utils/trends';
 
 const GRID_COLOR = '#d2dae3';
 const AXIS_COLOR = '#5c6b7a';
-const MONTHS_ABBR = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez'];
-
-function formatMonth(ts: number): string {
-  const date = new Date(ts);
-
-  return `${MONTHS_ABBR[date.getUTCMonth()]}/${String(date.getUTCFullYear()).slice(2)}`;
-}
 
 function formatFullDate(date: string): string {
   const [year, month, day] = date.split('-');
@@ -154,10 +148,11 @@ export default function AttentionTimelineChart({ rows, terms, metric, year, show
         <XAxis
           dataKey="ts"
           domain={['dataMin', 'dataMax']}
+          minTickGap={24}
           scale="time"
           stroke={AXIS_COLOR}
           tick={{ fill: AXIS_COLOR, fontFamily: 'monospace', fontSize: 11 }}
-          tickFormatter={formatMonth}
+          tickFormatter={formatDayMonthUTC}
           type="number"
         />
 
@@ -193,7 +188,7 @@ export default function AttentionTimelineChart({ rows, terms, metric, year, show
           );
         })}
 
-        <Brush dataKey="ts" height={22} stroke={AXIS_COLOR} tickFormatter={formatMonth} travellerWidth={8} />
+        <Brush dataKey="ts" height={22} stroke={AXIS_COLOR} tickFormatter={formatDayMonthUTC} travellerWidth={8} />
       </LineChart>
     </ResponsiveContainer>
   );
