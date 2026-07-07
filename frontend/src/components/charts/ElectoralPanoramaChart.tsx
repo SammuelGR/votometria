@@ -13,7 +13,7 @@ import {
 
 import ChartTooltip from '~/components/charts/ChartTooltip';
 import type { ElectionYear } from '~/services/googleTrends';
-import type { AttentionVsPollingPoint } from '~/utils/attentionVsPolling';
+import type { ElectoralPanoramaPoint } from '~/utils/electoralPanorama';
 
 const GRID_COLOR = '#d2dae3';
 const AXIS_COLOR = '#5c6b7a';
@@ -44,13 +44,13 @@ function electionYearLabel(year: ElectionYear): string {
   return year === 'current' ? '2026' : year;
 }
 
-type AttentionVsPollingChartProps = {
-  points: AttentionVsPollingPoint[];
+type ElectoralPanoramaChartProps = {
+  points: ElectoralPanoramaPoint[];
   candidate: string;
   year: ElectionYear;
 };
 
-export default function AttentionVsPollingChart({ points, candidate, year }: AttentionVsPollingChartProps) {
+export default function ElectoralPanoramaChart({ points, candidate, year }: ElectoralPanoramaChartProps) {
   const hasMarketExpectation = points.some((point) => point.marketExpectation != null);
 
   const renderTooltip = ({ active, payload, label }: TooltipContentProps) => {
@@ -58,7 +58,7 @@ export default function AttentionVsPollingChart({ points, candidate, year }: Att
       return null;
     }
 
-    const datum = payload[0]?.payload as AttentionVsPollingPoint | undefined;
+    const datum = payload[0]?.payload as ElectoralPanoramaPoint | undefined;
     const date = datum?.date;
     const attention = datum?.attention;
     const polling = datum?.polling;

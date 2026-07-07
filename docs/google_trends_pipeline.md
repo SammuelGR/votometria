@@ -133,7 +133,7 @@ a aba como CSV: ver `google_sheets_sync.md`):
 - **Nunca** comparar `interest_raw` entre lotes diferentes; **não** comparar
   `interest_scaled` entre anos diferentes sem sinalizar que as janelas são
   independentes (ver `google_trends_metodologia.md`).
-- O gráfico "Atenção pública × pesquisa eleitoral" consome
+- O gráfico "Panorama eleitoral" consome
   `proc_google_trends_all_elections_interest_monthly` (não o diário), cruzando
   por mês com `gold_pesquisas_media_mensal_candidato` (enquetes) — ambos já
   agregados por mês, então o eixo X do gráfico tem um tick por mês.

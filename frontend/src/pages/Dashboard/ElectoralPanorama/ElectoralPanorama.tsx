@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 
-import AttentionVsPollingChart from '~/components/charts/AttentionVsPollingChart';
+import ElectoralPanoramaChart from '~/components/charts/ElectoralPanoramaChart';
 import {
   ModuleHeader,
   ModulePanel,
@@ -15,10 +15,10 @@ import { useMonthlyMarketExpectations } from '~/fetchers/hooks/useMonthlyMarketE
 import { usePesquisasMensais } from '~/fetchers/hooks/usePesquisasMensais';
 import type { ElectionYear } from '~/services/googleTrends';
 import {
-  buildAttentionVsPollingMonthlySeries,
+  buildElectoralPanoramaMonthlySeries,
   filterTrendsMonthlyByYear,
   trendsTermsByMeanMonthly,
-} from '~/utils/attentionVsPolling';
+} from '~/utils/electoralPanorama';
 import { filterPollMonthlyByYear } from '~/utils/pesquisasMensais';
 import { type DateRange, isWithinRange } from '~/utils/trends';
 
@@ -30,7 +30,7 @@ const yearOptions = [
 
 const EMPTY_RANGE: DateRange = {};
 
-export default function AttentionVsPolling() {
+export default function ElectoralPanorama() {
   const trends = useGoogleTrendsMonthly();
   const polls = usePesquisasMensais();
 
@@ -78,7 +78,7 @@ export default function AttentionVsPolling() {
       return [];
     }
 
-    return buildAttentionVsPollingMonthlySeries(
+    return buildElectoralPanoramaMonthlySeries(
       yearTrendsRows,
       yearPollRows,
       activeCandidate,
@@ -160,7 +160,7 @@ export default function AttentionVsPolling() {
         ) : !activeCandidate || !hasData ? (
           <PlaceholderChart label="Selecione um candidato com dados de atenção ou pesquisa no período." />
         ) : (
-          <AttentionVsPollingChart candidate={activeCandidate} points={points} year={electionYear} />
+          <ElectoralPanoramaChart candidate={activeCandidate} points={points} year={electionYear} />
         )}
 
         <div className="flex flex-col gap-1">

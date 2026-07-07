@@ -6,7 +6,7 @@ import { candidatesMatchForElection } from '~/utils/candidateNormalization';
 import { isWithinRange, type DateRange } from '~/utils/trends';
 
 /** One month of the crossed series: attention index and poll percentage. */
-export type AttentionVsPollingPoint = {
+export type ElectoralPanoramaPoint = {
   date: string;
   ts: number;
   attention: number | null;
@@ -72,14 +72,14 @@ export function trendsTermsByMeanMonthly(rows: TrendsMonthlyRow[]): string[] {
  * Missing sides stay `null` (never 0 or interpolated), and the result is
  * sorted ascending by month so the time axis stays continuous.
  */
-export function buildAttentionVsPollingMonthlySeries(
+export function buildElectoralPanoramaMonthlySeries(
   trendsMonthlyRows: TrendsMonthlyRow[],
   pollMonthlyRows: PollMonthlyRow[],
   candidate: string,
   year: ElectionYear,
   range: DateRange = {},
   monthlyMarketExpectationRows: MonthlyMarketExpectationPoint[] = [],
-): AttentionVsPollingPoint[] {
+): ElectoralPanoramaPoint[] {
   const byDate = new Map<string, Bucket>();
 
   for (const row of pollMonthlyRows) {
