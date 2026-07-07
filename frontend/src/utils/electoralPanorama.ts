@@ -80,10 +80,9 @@ function latestPollingAtOrBefore(pollObservations: PollObservation[], date: stri
  * same weekly buckets using the latest stored monthly value.
  *
  * - Attention: `interestRaw` of the Trends term matching `candidate`,
- *   **clipped to the date span covered by that candidate's polls** so the
- *   chart never stretches the Trends line over months where no poll exists.
- *   When the candidate has no poll in scope, the window falls back to the
- *   full range and only the attention line is shown.
+ *   clipped only to the selected date range, so every available public
+ *   attention point in scope can be shown even when the poll table ends
+ *   earlier.
  *
  * Missing sides stay `null` (never 0 or interpolated), and the result is sorted
  * ascending by date so the time axis stays continuous.
@@ -117,19 +116,12 @@ export function buildElectoralPanoramaSeries(
 
   pollObservations.sort((a, b) => a.date.localeCompare(b.date));
 
-  // The poll months are the temporal base: the Trends line is clipped to
-  // their span so both series cover the exact same period. With no polls in
-  // scope, the whole range stays open (attention-only view).
-  const pollDates = pollObservations.map((observation) => observation.date).sort();
-  const pollWindow: DateRange =
-    pollDates.length > 0 ? { start: pollDates[0], end: pollDates[pollDates.length - 1] } : range;
-
   for (const row of trendsRows) {
     if (row.electionYear !== year || row.term !== candidate) {
       continue;
     }
 
-    if (!isWithinRange(row.date, range) || !isWithinRange(row.date, pollWindow)) {
+    if (!isWithinRange(row.date, range)) {
       continue;
     }
 
