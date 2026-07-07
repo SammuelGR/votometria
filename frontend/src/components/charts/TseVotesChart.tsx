@@ -41,12 +41,23 @@ export default function TseVotesChart({ rows }: TseVotesChartProps) {
       return null;
     }
 
+    const totalVotes = chartRows.reduce((sum, row) => sum + row.votes, 0);
+    const sharePercent = totalVotes === 0 ? 0 : (entry.votes / totalVotes) * 100;
+
     return (
       <ChartTooltip title={entry.candidate}>
         <div className="flex items-center justify-between gap-4">
           <span className="text-muted">votos</span>
 
           <span className="tabular-nums">{entry.votes.toLocaleString('pt-BR')}</span>
+        </div>
+
+        <div className="flex items-center justify-between gap-4">
+          <span className="text-muted">participação</span>
+
+          <span className="tabular-nums">
+            {sharePercent.toLocaleString('pt-BR', { minimumFractionDigits: 1, maximumFractionDigits: 1 })}%
+          </span>
         </div>
       </ChartTooltip>
     );
