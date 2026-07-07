@@ -22,19 +22,14 @@ const yearOptions = [
   { label: '2026', value: 'current' },
 ];
 
-const metricOptions = [
-  { label: 'Reescalado', value: 'interestScaled' },
-  { label: 'Bruto', value: 'interestRaw' },
-];
-
 const EMPTY_RANGE: DateRange = {};
+const METRIC: TrendsMetric = 'interestRaw';
 
 export default function AttentionVsPolling() {
   const trends = useGoogleTrends();
   const polls = usePesquisas();
 
   const [electionYear, setElectionYear] = useState<ElectionYear>('current');
-  const [metric, setMetric] = useState<TrendsMetric>('interestScaled');
   const [selection, setSelection] = useState<{ candidate: string | null; year: ElectionYear | null }>({
     candidate: null,
     year: null,
@@ -52,7 +47,7 @@ export default function AttentionVsPolling() {
 
   const yearTrendsRows = useMemo(() => filterByYear(trends.data ?? [], electionYear), [trends.data, electionYear]);
   const scopedTrendsRows = useMemo(() => filterByRange(yearTrendsRows, range), [yearTrendsRows, range]);
-  const orderedTerms = useMemo(() => termsByMean(scopedTrendsRows, metric), [scopedTrendsRows, metric]);
+  const orderedTerms = useMemo(() => termsByMean(scopedTrendsRows, METRIC), [scopedTrendsRows]);
   const candidateOptions = orderedTerms.map((term) => ({ label: term, value: term }));
 
   const activeCandidate =
@@ -68,10 +63,10 @@ export default function AttentionVsPolling() {
       polls.data ?? [],
       activeCandidate,
       electionYear,
-      metric,
+      METRIC,
       range,
     );
-  }, [trends.data, polls.data, activeCandidate, electionYear, metric, range]);
+  }, [trends.data, polls.data, activeCandidate, electionYear, range]);
 
   const hasData = points.some((point) => point.attention != null || point.polling != null);
   const hasPolls = points.some((point) => point.polling != null);
@@ -129,13 +124,6 @@ export default function AttentionVsPolling() {
             onChange={handleCandidateChange}
             options={candidateOptions}
             value={activeCandidate ? [activeCandidate] : []}
-          />
-
-          <SegmentedControl
-            label="Índice"
-            onChange={(value) => setMetric(value as TrendsMetric)}
-            options={metricOptions}
-            value={metric}
           />
 
           {presets.length > 1 ? (

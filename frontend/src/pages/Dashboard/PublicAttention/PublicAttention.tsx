@@ -32,18 +32,13 @@ const yearOptions = [
   { label: '2026', value: 'current' },
 ];
 
-const metricOptions = [
-  { label: 'Reescalado', value: 'interestScaled' },
-  { label: 'Bruto', value: 'interestRaw' },
-];
-
 const EMPTY_RANGE: DateRange = {};
 const INITIAL_SELECTED_CANDIDATE_LIMIT = 4;
+const METRIC: TrendsMetric = 'interestRaw';
 
 export default function PublicAttention() {
   const { data, isLoading, isError } = useGoogleTrends();
   const [electionYear, setElectionYear] = useState<ElectionYear>('current');
-  const [metric, setMetric] = useState<TrendsMetric>('interestScaled');
   const [showEvents, setShowEvents] = useState(true);
   const [selection, setSelection] = useState<{ terms: string[]; year: ElectionYear | null }>({
     terms: [],
@@ -59,21 +54,18 @@ export default function PublicAttention() {
   const range = rangeState.year === electionYear ? rangeState.range : EMPTY_RANGE;
   const rows = useMemo(() => filterByRange(yearRows, range), [yearRows, range]);
 
-  const orderedTerms = useMemo(() => termsByMean(rows, metric), [rows, metric]);
+  const orderedTerms = useMemo(() => termsByMean(rows, METRIC), [rows]);
   const candidateOptions = orderedTerms.map((term) => ({ label: term, value: term }));
-  const initialSelection = useMemo(
-    () => topCandidatesByMean(rows, metric, INITIAL_SELECTED_CANDIDATE_LIMIT),
-    [rows, metric],
-  );
+  const initialSelection = useMemo(() => topCandidatesByMean(rows, METRIC, INITIAL_SELECTED_CANDIDATE_LIMIT), [rows]);
   const selectedValues = selection.year === electionYear ? selection.terms : initialSelection;
   const selectedTerms = selectedValues.length > 0 ? selectedValues : orderedTerms;
 
   const topAttention = orderedTerms.find((term) => selectedTerms.includes(term)) ?? '—';
   const peak = useMemo(() => {
-    const timeline = buildTimeline(rows, selectedTerms, metric);
+    const timeline = buildTimeline(rows, selectedTerms, METRIC);
 
     return highestPeak(detectPeaks(timeline, selectedTerms, electionYear));
-  }, [rows, selectedTerms, metric, electionYear]);
+  }, [rows, selectedTerms, electionYear]);
 
   function handleSelectionChange(terms: string[]) {
     setSelection({ terms, year: electionYear });
@@ -107,13 +99,6 @@ export default function PublicAttention() {
             onChange={handleSelectionChange}
             options={candidateOptions}
             value={selectedValues}
-          />
-
-          <SegmentedControl
-            label="Índice"
-            onChange={(value) => setMetric(value as TrendsMetric)}
-            options={metricOptions}
-            value={metric}
           />
 
           {presets.length > 1 ? (
@@ -150,7 +135,7 @@ export default function PublicAttention() {
           <PlaceholderChart label="Selecione ao menos um candidato com dados no período." />
         ) : (
           <AttentionTimelineChart
-            metric={metric}
+            metric={METRIC}
             rows={rows}
             showEvents={showEvents}
             terms={selectedTerms}
@@ -166,8 +151,8 @@ export default function PublicAttention() {
 
         <div className="flex flex-col gap-1">
           <p className="font-mono text-[11px] text-muted">
-            Índice relativo, reescalado por candidato para comparação aproximada no mesmo ano. Não comparar entre anos
-            diferentes.
+            Índice bruto de interesse (Google Trends), normalizado por lote de coleta; comparável apenas entre
+            candidatos do mesmo lote. Não comparar entre anos diferentes.
           </p>
 
           {electionYear === 'current' ? (
