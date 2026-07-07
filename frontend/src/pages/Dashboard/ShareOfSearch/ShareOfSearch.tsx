@@ -32,13 +32,9 @@ const YEAR_OPTIONS = [
   { label: '2026', value: 'current' },
 ];
 
-// Default to the anchor-rescaled metric. The raw toggle is an audit aid: for
-// candidates collected in the same batch (e.g. Lula and Bolsonaro, both in
-// batch_01) raw and scaled coincide and are directly comparable.
-const METRIC_OPTIONS = [
-  { label: 'Reescalado', value: 'interestScaled' },
-  { label: 'Bruto', value: 'interestRaw' },
-];
+// Raw Google Trends interest, comparable only across candidates collected in
+// the same batch (see docs/google_trends_metodologia.md).
+const METRIC: TrendsMetric = 'interestRaw';
 
 const formatFullDate = (date?: string): string => {
   if (!date) {
@@ -53,7 +49,6 @@ const formatFullDate = (date?: string): string => {
 export default function ShareOfSearch() {
   const { data, isLoading, isError } = useGoogleTrends();
   const [electionYear, setElectionYear] = useState<ElectionYear>('current');
-  const [metric, setMetric] = useState<TrendsMetric>('interestScaled');
   const [candidateSelection, setCandidateSelection] = useState<{ terms: string[]; year: ElectionYear | null }>({
     terms: [],
     year: null,
@@ -64,7 +59,7 @@ export default function ShareOfSearch() {
   });
 
   const yearRows = useMemo(() => filterByYear(data ?? [], electionYear), [data, electionYear]);
-  const orderedCandidateTerms = useMemo(() => termsByMean(yearRows, metric), [yearRows, metric]);
+  const orderedCandidateTerms = useMemo(() => termsByMean(yearRows, METRIC), [yearRows]);
   const dateRangeExtent = useMemo(() => dateExtent(yearRows), [yearRows]);
   const periodPresets = periodsForYear(electionYear);
 
@@ -85,8 +80,8 @@ export default function ShareOfSearch() {
           : orderedCandidateTerms
         : orderedCandidateTerms.slice(0, INITIAL_SELECTED_CANDIDATE_LIMIT);
 
-    return shareOfSearch(yearRows, termsForShare, metric, { start: periodStartDate, end: periodEndDate });
-  }, [candidateSelection, electionYear, metric, orderedCandidateTerms, periodEndDate, periodStartDate, yearRows]);
+    return shareOfSearch(yearRows, termsForShare, METRIC, { start: periodStartDate, end: periodEndDate });
+  }, [candidateSelection, electionYear, orderedCandidateTerms, periodEndDate, periodStartDate, yearRows]);
 
   const concentration = top2Concentration(candidateShares);
   const concentrationLabel = classifyConcentration(concentration);
@@ -122,13 +117,6 @@ export default function ShareOfSearch() {
             onChange={(value) => setElectionYear(value as ElectionYear)}
             options={YEAR_OPTIONS}
             value={electionYear}
-          />
-
-          <SegmentedControl
-            label="Índice"
-            onChange={(value) => setMetric(value as TrendsMetric)}
-            options={METRIC_OPTIONS}
-            value={metric}
           />
 
           {periodPresets.length > 1 ? (
@@ -194,8 +182,8 @@ export default function ShareOfSearch() {
         </div>
 
         <p className="font-mono text-[11px] text-muted">
-          Share = média de interesse do candidato no período ÷ soma das médias de todos os selecionados. Índice
-          relativo; não comparar entre anos diferentes.
+          Share = média de interesse bruto do candidato no período ÷ soma das médias de todos os selecionados. Índice
+          relativo, comparável apenas entre candidatos do mesmo lote de coleta; não comparar entre anos diferentes.
         </p>
       </div>
     </ModulePanel>

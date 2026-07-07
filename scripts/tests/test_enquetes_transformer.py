@@ -1,6 +1,7 @@
 from datetime import datetime
 
 import pandas as pd
+import pytest
 
 from transformers.enquetes import (
     build_gold,
@@ -8,6 +9,7 @@ from transformers.enquetes import (
     normalize_name,
     parse_percent,
     parse_pt_date,
+    parse_sample_size,
     to_bronze,
     to_prata,
 )
@@ -23,6 +25,14 @@ def test_parse_percent_handles_formats_and_absence():
     assert parse_percent("-") is None
     # 'não pontuou' -> 0.0 (but caller keeps the original text separately)
     assert parse_percent("não pontuou") == 0.0
+
+
+def test_parse_sample_size_handles_separators_and_absence():
+    assert parse_sample_size("19.552") == 19552
+    assert parse_sample_size("2 009") == 2009
+    assert parse_sample_size("–") is None
+    assert parse_sample_size("") is None
+    assert parse_sample_size(None) is None
 
 
 def test_parse_pt_date_variants():
@@ -114,17 +124,18 @@ def test_to_prata_normalizes_and_borrows_start_month():
     assert prata["cenario_id"].nunique() == 1
 
 
-def test_to_prata_keeps_only_datafolha():
+def test_to_prata_keeps_every_institute():
+    # Unlike earlier versions of the pipeline, prata is no longer restricted to
+    # Datafolha: a non-Datafolha row must be kept (institute scoping now
+    # happens per-table inside build_gold, not at the prata stage).
     df = _raw_frame()
-    # Turn the second row into a non-Datafolha institute; it must be dropped.
     df.loc[1, "instituto_pesquisa"] = "Paraná Pesquisas"
     df.loc[1, "nome_candidato"] = "Ciro"
     bronze = to_bronze(df, 2026, "pesquisa-2026", "f.csv", datetime(2026, 6, 30))
     prata = to_prata(bronze)
 
-    assert len(prata) == 1
-    assert prata["instituto_pesquisa"].tolist() == ["Globo/Datafolha"]
-    assert prata["nome_candidato"].tolist() == ["Lula"]
+    assert len(prata) == 2
+    assert set(prata["instituto_pesquisa"]) == {"Globo/Datafolha", "Paraná Pesquisas"}
 
 
 def test_to_prata_rewrites_2022_trimester_to_month():
@@ -153,3 +164,252 @@ def test_build_gold_temporal_and_moving_average():
     # comparativo has one row (one scenario) with candidate columns
     assert len(gold["comparativo"]) == 1
     assert "lula" in gold["comparativo"].columns
+
+
+def _poll_row(
+    *,
+    cenario_id="cenario_1",
+    data_fim="28 Jun",
+    tamanho_amostra="2 009",
+    nome_candidato="Lula",
+    percentual="42%",
+    ano="2026",
+    mes="Junho",
+    instituto="Globo/Datafolha",
+):
+    return {
+        "ano": ano, "mes": mes, "instituto_pesquisa": instituto,
+        "contratante_pesquisa_original": "Globo", "data_inicio_pesquisa": "26",
+        "data_fim_pesquisa": data_fim, "tamanho_amostra": tamanho_amostra, "margem_erro": "2,00",
+        "cenario_id": cenario_id, "nome_candidato": nome_candidato, "partido": "PT",
+        "percentual": percentual, "outros": "N/A", "indecisos_absentos": "8%",
+        "fonte_titulo": "t", "fonte_url": "http://x", "fonte_website": "Carta",
+        "fonte_data_publicacao": "", "fonte_data_acesso": "",
+        "linha_original_wikitext": "raw", "observacoes_extracao": "",
+    }
+
+
+def _build_gold_from_rows(rows, ano_eleicao=2026):
+    df = pd.DataFrame(rows)
+    bronze = to_bronze(df, ano_eleicao, f"pesquisa-{ano_eleicao}", "f.csv", datetime(2026, 6, 30))
+    prata = to_prata(bronze)
+    return build_gold(prata)
+
+
+def test_media_mensal_columns_match_expected_schema():
+    gold = _build_gold_from_rows([_poll_row()])
+    mensal = gold["media_mensal"]
+
+    assert list(mensal.columns) == [
+        "ano_eleicao", "data_referencia", "mes_referencia",
+        "nome_candidato_normalizado", "percentual_agregado",
+    ]
+    assert mensal["data_referencia"].tolist() == ["2026-06-01"]
+    assert mensal["mes_referencia"].tolist() == ["Junho"]
+    assert mensal["percentual_agregado"].tolist() == [42.0]
+
+
+def test_media_mensal_uses_weighted_average_by_sample_size():
+    rows = [
+        _poll_row(cenario_id="cenario_1", data_fim="5 Jun", tamanho_amostra="1000", percentual="40%"),
+        _poll_row(cenario_id="cenario_2", data_fim="20 Jun", tamanho_amostra="3000", percentual="50%"),
+    ]
+    gold = _build_gold_from_rows(rows)
+    mensal = gold["media_mensal"]
+
+    assert len(mensal) == 1
+    # weighted: (40*1000 + 50*3000) / 4000 = 47.5; simple mean would be 45.0
+    assert mensal["percentual_agregado"].iloc[0] == pytest.approx(47.5)
+
+
+def test_media_mensal_falls_back_to_simple_mean_without_any_weight():
+    rows = [
+        _poll_row(cenario_id="cenario_1", data_fim="5 Jun", tamanho_amostra="–", percentual="40%"),
+        _poll_row(cenario_id="cenario_2", data_fim="20 Jun", tamanho_amostra="–", percentual="50%"),
+    ]
+    gold = _build_gold_from_rows(rows)
+    mensal = gold["media_mensal"]
+
+    assert len(mensal) == 1
+    assert mensal["percentual_agregado"].iloc[0] == pytest.approx(45.0)
+
+
+def test_media_mensal_excludes_unweighted_row_when_others_have_weight():
+    rows = [
+        _poll_row(cenario_id="cenario_1", data_fim="5 Jun", tamanho_amostra="1000", percentual="40%"),
+        _poll_row(cenario_id="cenario_2", data_fim="15 Jun", tamanho_amostra="3000", percentual="50%"),
+        _poll_row(cenario_id="cenario_3", data_fim="25 Jun", tamanho_amostra="–", percentual="90%"),
+    ]
+    gold = _build_gold_from_rows(rows)
+    mensal = gold["media_mensal"]
+
+    assert len(mensal) == 1
+    # the unweighted 90% row is excluded from the weighted computation
+    assert mensal["percentual_agregado"].iloc[0] == pytest.approx(47.5)
+
+
+def test_media_mensal_single_record_group_degenerates_to_its_own_value():
+    gold = _build_gold_from_rows([_poll_row(percentual="33%", tamanho_amostra="–")])
+    mensal = gold["media_mensal"]
+
+    assert mensal["percentual_agregado"].tolist() == [33.0]
+
+
+def test_media_mensal_does_not_merge_same_month_across_different_years():
+    # ano_eleicao=2022 (not 2018) so the row isn't affected by the 2018-only
+    # out-of-cycle-year filter tested separately below.
+    rows = [
+        _poll_row(cenario_id="cenario_1", data_fim="5 de setembro de 2021", percentual="10%"),
+        _poll_row(cenario_id="cenario_2", data_fim="5 de setembro de 2022", percentual="90%"),
+    ]
+    gold = _build_gold_from_rows(rows, ano_eleicao=2022)
+    mensal = gold["media_mensal"]
+
+    # same ano_eleicao cycle and same month name, but different calendar years:
+    # must produce two distinct monthly points, never averaged together.
+    assert sorted(mensal["data_referencia"].tolist()) == ["2021-09-01", "2022-09-01"]
+    assert sorted(mensal["percentual_agregado"].tolist()) == [10.0, 90.0]
+
+
+def test_to_prata_drops_2018_cycle_rows_outside_2018():
+    rows = [
+        _poll_row(cenario_id="cenario_1", data_fim="5 de setembro de 2017", nome_candidato="Bolsonaro", percentual="10%"),
+        _poll_row(cenario_id="cenario_2", data_fim="5 de setembro de 2018", nome_candidato="Bolsonaro", percentual="20%"),
+    ]
+    df = pd.DataFrame(rows)
+    bronze = to_bronze(df, 2018, "pesquisa-2018", "f.csv", datetime(2018, 9, 30))
+    prata = to_prata(bronze)
+
+    assert len(prata) == 1
+    assert prata["data_referencia"].tolist() == ["2018-09-05"]
+    assert prata["percentual_numero"].tolist() == [20.0]
+
+
+def test_to_prata_keeps_2018_rows_without_parseable_date():
+    # A row whose date can't be parsed at all is not dropped by the 2018-year
+    # filter (it's already excluded from every gold table by the existing
+    # data_referencia != "" rule in build_gold).
+    df = pd.DataFrame([_poll_row(data_fim="não interpretável")])
+    df.loc[0, "data_inicio_pesquisa"] = ""
+    bronze = to_bronze(df, 2018, "pesquisa-2018", "f.csv", datetime(2018, 9, 30))
+    prata = to_prata(bronze)
+
+    assert len(prata) == 1
+    assert prata["data_referencia"].tolist() == [""]
+
+
+def test_build_gold_datafolha_tables_exclude_other_institutes():
+    rows = [
+        _poll_row(cenario_id="cenario_1", data_fim="5 Jun", instituto="Globo/Datafolha", percentual="40%"),
+        _poll_row(cenario_id="cenario_2", data_fim="20 Jun", instituto="PoderData", percentual="60%"),
+    ]
+    gold = _build_gold_from_rows(rows)
+
+    # temporal/ultima/media_movel/comparativo stay Datafolha-only, even though
+    # prata now carries every institute.
+    assert gold["temporal"]["instituto_pesquisa"].tolist() == ["Globo/Datafolha"]
+    assert gold["ultima"]["instituto_pesquisa"].tolist() == ["Globo/Datafolha"]
+    assert len(gold["comparativo"]) == 1
+
+
+def test_media_mensal_pools_every_institute():
+    rows = [
+        _poll_row(cenario_id="cenario_1", data_fim="5 Jun", instituto="Globo/Datafolha", percentual="40%"),
+        _poll_row(cenario_id="cenario_2", data_fim="20 Jun", instituto="PoderData", percentual="60%"),
+    ]
+    gold = _build_gold_from_rows(rows)
+    mensal = gold["media_mensal"]
+
+    # unlike the Datafolha-only tables, media_mensal pools both institutes for
+    # the same month.
+    assert len(mensal) == 1
+    assert mensal["percentual_agregado"].iloc[0] == pytest.approx(50.0)
+
+
+def test_media_mensal_fills_month_missing_from_datafolha_using_other_institute():
+    rows = [
+        _poll_row(cenario_id="cenario_1", data_fim="10 Mai", instituto="Globo/Datafolha", percentual="35%"),
+        # Datafolha has no poll in June; PoderData does. media_mensal must
+        # still have a June point (Datafolha-only tables would have a gap).
+        _poll_row(cenario_id="cenario_2", data_fim="15 Jun", instituto="PoderData", percentual="45%"),
+    ]
+    gold = _build_gold_from_rows(rows)
+    mensal = gold["media_mensal"]
+    temporal = gold["temporal"]
+
+    assert sorted(mensal["data_referencia"].tolist()) == ["2026-05-01", "2026-06-01"]
+    junho = mensal[mensal["data_referencia"] == "2026-06-01"]
+    assert junho["percentual_agregado"].iloc[0] == pytest.approx(45.0)
+    # confirms the gap is real for the Datafolha-only table (the point of the fix)
+    assert temporal["data_referencia"].tolist() == ["2026-05-10"]
+
+
+def test_build_gold_folds_haddad_2018_alias_scenarios_into_haddad():
+    rows = [
+        _poll_row(cenario_id="cenario_1", data_fim="10 Jun", ano="2018", nome_candidato="Haddad", percentual="30%"),
+        _poll_row(
+            cenario_id="cenario_2",
+            data_fim="15 Jun",
+            ano="2018",
+            nome_candidato="algum candidato apoiado por Lula",
+            percentual="35%",
+        ),
+        _poll_row(
+            cenario_id="cenario_3",
+            data_fim="20 Jun",
+            ano="2018",
+            nome_candidato="Haddad, apoiado por Lula",
+            percentual="40%",
+        ),
+        _poll_row(cenario_id="cenario_4", data_fim="10 Jun", ano="2018", nome_candidato="Lula", percentual="25%"),
+    ]
+    gold = _build_gold_from_rows(rows, ano_eleicao=2018)
+    temporal = gold["temporal"]
+
+    haddad_rows = temporal[temporal["nome_candidato_normalizado"] == "haddad"]
+    assert len(haddad_rows) == 3
+    assert set(haddad_rows["nome_candidato"]) == {"Haddad"}
+    assert sorted(haddad_rows["percentual_numero"].tolist()) == [30.0, 35.0, 40.0]
+
+    # "Lula" himself is a distinct candidate and must not be merged in.
+    assert temporal[temporal["nome_candidato_normalizado"] == "lula"]["percentual_numero"].tolist() == [25.0]
+    assert "algum candidato apoiado por lula" not in temporal["nome_candidato_normalizado"].tolist()
+    assert "haddad, apoiado por lula" not in temporal["nome_candidato_normalizado"].tolist()
+
+
+def test_build_gold_haddad_alias_reconciliation_feeds_media_mensal():
+    rows = [
+        _poll_row(cenario_id="cenario_1", data_fim="10 Jun", ano="2018", nome_candidato="Haddad", percentual="30%"),
+        _poll_row(
+            cenario_id="cenario_2",
+            data_fim="20 Jun",
+            ano="2018",
+            nome_candidato="Haddad, apoiado por Lula",
+            percentual="40%",
+        ),
+    ]
+    gold = _build_gold_from_rows(rows, ano_eleicao=2018)
+    mensal = gold["media_mensal"]
+
+    haddad_mensal = mensal[mensal["nome_candidato_normalizado"] == "haddad"]
+    assert len(haddad_mensal) == 1
+    assert haddad_mensal["data_referencia"].iloc[0] == "2018-06-01"
+    # both rows share the same tamanho_amostra (2 009), so the weighted mean
+    # collapses to the simple mean of 30 and 40.
+    assert haddad_mensal["percentual_agregado"].iloc[0] == pytest.approx(35.0)
+
+
+def test_build_gold_does_not_apply_haddad_2018_alias_outside_2018():
+    rows = [
+        _poll_row(
+            cenario_id="cenario_1",
+            data_fim="10 Jun",
+            ano="2022",
+            nome_candidato="algum candidato apoiado por Lula",
+            percentual="20%",
+        ),
+    ]
+    gold = _build_gold_from_rows(rows, ano_eleicao=2022)
+    temporal = gold["temporal"]
+
+    assert temporal["nome_candidato_normalizado"].tolist() == ["algum candidato apoiado por lula"]

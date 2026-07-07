@@ -1,6 +1,6 @@
 import { cn } from '~/utils/cn';
 
-type SourceTone = 'attention' | 'market' | 'neutral' | 'election';
+type SourceTone = 'attention' | 'election' | 'market' | 'neutral' | 'positive';
 
 type SourceBadgeProps = {
   label: string;
@@ -9,9 +9,10 @@ type SourceBadgeProps = {
 
 const dotToneClass: Record<SourceTone, string> = {
   attention: 'bg-accent-2',
+  election: 'bg-[#7b61ff]',
   market: 'bg-accent',
   neutral: 'bg-muted',
-  election: 'bg-[#7b61ff]',
+  positive: 'bg-positive',
 };
 
 export default function SourceBadge({ label, tone = 'neutral' }: SourceBadgeProps) {

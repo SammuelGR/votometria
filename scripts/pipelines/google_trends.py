@@ -17,10 +17,13 @@ from extractors.google_trends import (
 )
 from loaders.google_trends import (
     save_processed_google_trends_all,
+    save_processed_google_trends_monthly,
     save_processed_google_trends_year,
     save_raw_google_trends_batch,
 )
 from transformers.google_trends import (
+    build_monthly_interest,
+    filter_by_min_date,
     rescale_batches_by_anchor,
     transform_batch_interest_over_time,
 )
@@ -32,7 +35,9 @@ def _process_election_group(
     """
     Collects, transforms and rescales every batch of a single election group,
     publishing raw batches to the bronze layer and the consolidated (rescaled)
-    year dataset to the prata (silver) layer.
+    year dataset to the prata (silver) layer. When ``config`` has a ``min_date``,
+    rows dated earlier than that are dropped before publishing (bronze keeps the
+    unfiltered raw batches regardless).
 
     Returns a tuple ``(year_df, summary)`` where ``year_df`` is the consolidated,
     rescaled long DataFrame (or ``None`` when there is nothing to collect).
@@ -101,6 +106,18 @@ def _process_election_group(
 
     # Transformer output (rescaled long) -> prata (silver) layer.
     year_df = rescale_batches_by_anchor(batch_long_dfs, anchor_term)
+
+    # Some groups (e.g. "current", collected with a rolling "today 12-m" window)
+    # need trimming to the actual election cycle before publishing.
+    min_date = config.get("min_date")
+    rows_before_filter = len(year_df)
+    year_df = filter_by_min_date(year_df, min_date)
+    if min_date and rows_before_filter != len(year_df):
+        print(
+            f"-> {election_year}: dropped {rows_before_filter - len(year_df)} rows "
+            f"before {min_date}"
+        )
+
     processed_tab = save_processed_google_trends_year(
         layers["prata"], year_df, election_year
     )
@@ -151,6 +168,7 @@ def run_google_trends_pipeline() -> dict:
             year_dfs.append(year_df)
 
     all_processed_tab = None
+    all_processed_monthly_tab = None
     if year_dfs:
         all_df = pd.concat(year_dfs, ignore_index=True)
         # Loader output (consolidated) -> ouro (gold) layer; read by the frontend.
@@ -158,6 +176,15 @@ def run_google_trends_pipeline() -> dict:
         print(
             f"-> Consolidated all elections: {len(all_df)} rows -> "
             f"tab '{all_processed_tab}'"
+        )
+
+        # Month-aggregated companion table, dedicated to crossing with other
+        # month-granularity sources (e.g. electoral polls) -> ouro layer too.
+        monthly_df = build_monthly_interest(all_df)
+        all_processed_monthly_tab = save_processed_google_trends_monthly(layers["ouro"], monthly_df)
+        print(
+            f"-> Consolidated all elections (monthly): {len(monthly_df)} rows -> "
+            f"tab '{all_processed_monthly_tab}'"
         )
     else:
         print("Warning: no election group produced data; consolidated tab not written.")
@@ -167,4 +194,5 @@ def run_google_trends_pipeline() -> dict:
         "status": "success",
         "groups": groups_summary,
         "all_processed_tab": all_processed_tab,
+        "all_processed_monthly_tab": all_processed_monthly_tab,
     }

@@ -47,3 +47,7 @@ Thumbs.db
 # Data
 scripts/data/*
 data/*
+
+# Claude
+.claude/
+CLAUDE.md

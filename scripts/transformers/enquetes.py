@@ -26,11 +26,14 @@ from constants_enquetes import (
     PT_MONTHS,
 )
 
-# The prata layer is scoped to a single institute: only polls whose
-# ``instituto_pesquisa`` contains this token (case-insensitive) are kept. This
+# Token used to scope specific gold tables (temporal/ultima/media_movel/
+# comparativo) to a single institute, case-insensitive substring match. This
 # covers every Datafolha label ("Datafolha", "Globo/Datafolha",
-# "Folha/Datafolha", "Globo e Folha/Datafolha").
-PRATA_INSTITUTO_FILTER = "datafolha"
+# "Folha/Datafolha", "Globo e Folha/Datafolha"). The prata layer itself is NOT
+# scoped to Datafolha (it keeps every institute from bronze) so that the
+# multi-institutional monthly aggregation (``media_mensal``) has full month
+# coverage to draw from; only the per-institute gold tables apply this filter.
+DATAFOLHA_INSTITUTO_FILTER = "datafolha"
 
 # Columns of the normalized (prata) long table, in order.
 PRATA_COLUMNS = [
@@ -78,6 +81,16 @@ GOLD_TEMPORAL_COLUMNS = [
     "fonte_website",
 ]
 
+# Dedicated time-series columns: one row per (ano_eleicao, candidato, mês),
+# ready for direct chart consumption (no further aggregation needed).
+GOLD_MEDIA_MENSAL_COLUMNS = [
+    "ano_eleicao",
+    "data_referencia",
+    "mes_referencia",
+    "nome_candidato_normalizado",
+    "percentual_agregado",
+]
+
 
 # --------------------------------------------------------------------------
 # bronze
@@ -113,6 +126,19 @@ def to_bronze(df, ano_eleicao, source_folder, source_file, ingestion_ts) -> pd.D
 # --------------------------------------------------------------------------
 # value parsing
 # --------------------------------------------------------------------------
+def parse_sample_size(raw):
+    """
+    Returns an int sample size parsed from the raw ``tamanho_amostra`` text
+    (thousands separator may be a space or a dot, e.g. "2 009"/"19.552"), or
+    ``None`` when missing/unparseable (e.g. the "–" placeholder). Never
+    invents a number for absence.
+    """
+    digits = re.sub(r"\D", "", raw or "")
+    if not digits:
+        return None
+    return int(digits)
+
+
 def parse_percent(raw):
     """Returns a float, ``0.0`` for 'não pontuou', or ``None`` for absence."""
     s = (raw or "").strip()
@@ -207,9 +233,6 @@ def to_prata(bronze_all: pd.DataFrame) -> pd.DataFrame:
         row_year = (r.get("ano") or "").strip() or str(ano_eleicao)
 
         instituto = (r.get("instituto_pesquisa") or "").strip()
-        # prata is Datafolha-only; drop every other institute (bronze keeps all).
-        if PRATA_INSTITUTO_FILTER not in instituto.lower():
-            continue
         contratante = (r.get("contratante_pesquisa_original") or "").strip()
         di_raw = r.get("data_inicio_pesquisa") or ""
         df_raw = r.get("data_fim_pesquisa") or ""
@@ -233,6 +256,14 @@ def to_prata(bronze_all: pd.DataFrame) -> pd.DataFrame:
             notes.append(f"data_inicio: {ini_note}")
 
         data_referencia = fim_iso or ini_iso
+
+        # The 2018 folder also carries hypothetical pre-race polls dated
+        # 2015-2017 (and an even earlier 2014 result); the 2018 cycle table
+        # must only represent calendar year 2018 itself. Rows without a parsed
+        # date are left alone here (they are already excluded from every gold
+        # table by the existing `data_referencia != ""` filter in build_gold).
+        if ano_eleicao == 2018 and data_referencia and not data_referencia.startswith("2018"):
+            continue
 
         # 2022 rows carry a trimester in ``mes`` instead of a month; rewrite it to
         # the actual month name taken from the poll end date (data_referencia).
@@ -293,19 +324,60 @@ def to_prata(bronze_all: pd.DataFrame) -> pd.DataFrame:
 # --------------------------------------------------------------------------
 # gold
 # --------------------------------------------------------------------------
+
+# 2018-only candidate identity reconciliation: before Haddad was confirmed as
+# PT's candidate (after Lula's candidacy was blocked by the TSE), some
+# institutes polled placeholder/hypothetical scenarios naming him indirectly
+# instead of by name. These are the same candidate for analytical purposes and
+# are folded into Haddad's own identity here (gold layer only — prata keeps
+# the original, distinct labels for audit). "Lula" itself is untouched; only
+# the two scenarios that stand in for Haddad are merged.
+HADDAD_2018_ALIAS_NORMALIZED = {
+    "haddad, apoiado por lula",
+    "algum candidato apoiado por lula",
+}
+
+
+def _reconcile_haddad_2018_aliases(df: pd.DataFrame) -> pd.DataFrame:
+    is_alias = (df["ano_eleicao"] == 2018) & (df["nome_candidato_normalizado"].isin(HADDAD_2018_ALIAS_NORMALIZED))
+
+    if not is_alias.any():
+        return df
+
+    df = df.copy()
+    df.loc[is_alias, "nome_candidato"] = "Haddad"
+    df.loc[is_alias, "nome_candidato_normalizado"] = "haddad"
+    return df
+
+
 def build_gold(prata: pd.DataFrame) -> dict:
     """
     Builds the gold analytical tables from the prata long table. Rows without a
     candidate name, without a numeric percentual or without a reference date are
-    excluded from the gold layer (they remain fully preserved in prata).
+    excluded from the gold layer (they remain fully preserved in prata). 2018
+    scenarios standing in for Haddad before he was confirmed as candidate
+    (``_reconcile_haddad_2018_aliases``) are folded into his identity here too
+    — prata keeps the original, distinct labels.
+
+    ``temporal``, ``ultima``, ``media_movel`` and ``comparativo`` are scoped to
+    Datafolha only (``datafolha_base``), matching their original, documented
+    per-institute analytical purpose. ``media_mensal`` is the exception: it
+    draws from every institute in ``base`` so that a month missing from
+    Datafolha can still be covered by another institute's poll, guaranteeing no
+    gaps in the monthly time series used by charts.
     """
     base = prata[
         (prata["nome_candidato_normalizado"] != "")
         & (prata["percentual_numero"].notna())
         & (prata["data_referencia"] != "")
     ].copy()
+    base = _reconcile_haddad_2018_aliases(base)
 
-    temporal = base[GOLD_TEMPORAL_COLUMNS].sort_values(
+    datafolha_base = base[
+        base["instituto_pesquisa"].str.lower().str.contains(DATAFOLHA_INSTITUTO_FILTER)
+    ]
+
+    temporal = datafolha_base[GOLD_TEMPORAL_COLUMNS].sort_values(
         ["ano_eleicao", "nome_candidato_normalizado", "data_referencia", "instituto_pesquisa"]
     ).reset_index(drop=True)
 
@@ -334,10 +406,63 @@ def build_gold(prata: pd.DataFrame) -> dict:
     )
     daily["janela_media_movel"] = MEDIA_MOVEL_WINDOW
 
-    # Wide comparison: one row per scenario, one column per normalized candidate.
+    # Monthly aggregation dedicated to time-series charts: one row per
+    # (ano_eleicao, candidato, mês), pooling EVERY institute (not just
+    # Datafolha, unlike temporal/ultima/media_movel/comparativo above) so a
+    # month missing from Datafolha alone can still be covered by another
+    # institute's poll that month. Weighted by tamanho_amostra when parseable;
+    # falls back to a simple mean for a given month when no row in it has a
+    # usable sample size (never invents a weight). Mixing institutes trades
+    # gap-free months for exposure to each institute's own methodology/"house
+    # effect" — documented in docs/enquetes_pipeline.md.
     if not base.empty:
+        mensal_base = base.copy()
+        # pd.to_numeric coerces the mixed int/None result of parse_sample_size
+        # into a proper float64 column (NaN for None); without it the column
+        # stays object-dtype and a later 0/0 raises ZeroDivisionError instead
+        # of yielding NaN.
+        mensal_base["tamanho_amostra_numero"] = pd.to_numeric(
+            mensal_base["tamanho_amostra"].map(parse_sample_size), errors="coerce"
+        )
+        # Real calendar year-month, not the ano_eleicao cycle: the 2018 folder,
+        # for example, also carries hypothetical 2015-2017 rows, so grouping by
+        # ano_eleicao + mes_referencia name alone would merge e.g. "Setembro" of
+        # different calendar years into a single point.
+        mensal_base["ano_mes_referencia"] = mensal_base["data_referencia"].str.slice(0, 7)
+
+        group_cols = ["ano_eleicao", "nome_candidato_normalizado", "ano_mes_referencia"]
+
+        mensal_base["_peso"] = mensal_base["tamanho_amostra_numero"].fillna(0)
+        mensal_base["_produto"] = mensal_base["percentual_numero"] * mensal_base["_peso"]
+
+        agg = mensal_base.groupby(group_cols, as_index=False).agg(
+            _soma_produto=("_produto", "sum"),
+            _soma_peso=("_peso", "sum"),
+            _soma_percentual=("percentual_numero", "sum"),
+            _contagem=("percentual_numero", "count"),
+        )
+        # Weighted mean when the group has any usable sample size (soma_peso >
+        # 0); simple mean as fallback (0/0 -> NaN -> fillna) when no row in the
+        # month has a parseable tamanho_amostra.
+        agg["_percentual_ponderado"] = agg["_soma_produto"] / agg["_soma_peso"]
+        agg["_percentual_simples"] = agg["_soma_percentual"] / agg["_contagem"]
+        agg["percentual_agregado"] = agg["_percentual_ponderado"].fillna(agg["_percentual_simples"])
+
+        agg["data_referencia"] = agg["ano_mes_referencia"] + "-01"
+        agg["mes_referencia"] = agg["ano_mes_referencia"].str.slice(5, 7).astype(int).map(PT_MONTH_NAMES)
+
+        mensal = (
+            agg[GOLD_MEDIA_MENSAL_COLUMNS]
+            .sort_values(["ano_eleicao", "nome_candidato_normalizado", "data_referencia"])
+            .reset_index(drop=True)
+        )
+    else:
+        mensal = pd.DataFrame(columns=GOLD_MEDIA_MENSAL_COLUMNS)
+
+    # Wide comparison: one row per scenario, one column per normalized candidate.
+    if not datafolha_base.empty:
         comparativo = (
-            base.pivot_table(
+            datafolha_base.pivot_table(
                 index=[
                     "ano_eleicao",
                     "pesquisa_id",
@@ -361,5 +486,6 @@ def build_gold(prata: pd.DataFrame) -> dict:
         "temporal": temporal,
         "ultima": ultima,
         "media_movel": daily,
+        "media_mensal": mensal,
         "comparativo": comparativo,
     }

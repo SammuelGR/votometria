@@ -1,9 +1,13 @@
 from datetime import datetime
 
 import pandas as pd
+import pytest
 
 from transformers.google_trends import (
     BATCH_LONG_COLUMNS,
+    MONTHLY_COLUMNS,
+    build_monthly_interest,
+    filter_by_min_date,
     transform_batch_interest_over_time,
 )
 
@@ -79,4 +83,75 @@ def test_transform_batch_handles_empty_frame():
     )
 
     assert list(result.columns) == BATCH_LONG_COLUMNS
+    assert result.empty
+
+
+def _dated_frame():
+    return pd.DataFrame(
+        {
+            "date": ["2025-10-01", "2025-12-31", "2026-01-01", "2026-03-01"],
+            "term": ["Lula", "Lula", "Lula", "Lula"],
+        }
+    )
+
+
+def test_filter_by_min_date_drops_rows_before_threshold():
+    result = filter_by_min_date(_dated_frame(), "2026-01-01")
+
+    assert list(result["date"]) == ["2026-01-01", "2026-03-01"]
+
+
+def test_filter_by_min_date_returns_unchanged_when_min_date_is_none():
+    df = _dated_frame()
+
+    result = filter_by_min_date(df, None)
+
+    assert list(result["date"]) == list(df["date"])
+
+
+def test_filter_by_min_date_returns_unchanged_when_min_date_is_empty_string():
+    df = _dated_frame()
+
+    result = filter_by_min_date(df, "")
+
+    assert list(result["date"]) == list(df["date"])
+
+
+def _daily_interest_frame():
+    return pd.DataFrame(
+        {
+            "election_year": ["2026", "2026", "2026", "2026", "2026", "2022"],
+            "date": ["2026-06-01", "2026-06-15", "2026-06-30", "2026-07-01", "2026-07-15", "2026-06-01"],
+            "term": ["Lula", "Lula", "Lula", "Lula", "Lula", "Lula"],
+            "interest_raw": [40, 60, 50, 20, 30, 10],
+        }
+    )
+
+
+def test_build_monthly_interest_averages_within_each_month():
+    result = build_monthly_interest(_daily_interest_frame())
+
+    assert list(result.columns) == MONTHLY_COLUMNS
+
+    june_2026 = result[(result["election_year"] == "2026") & (result["date"] == "2026-06-01")].iloc[0]
+    assert june_2026["term"] == "Lula"
+    assert june_2026["interest_mean"] == pytest.approx(50.0)  # mean(40, 60, 50)
+
+    july_2026 = result[(result["election_year"] == "2026") & (result["date"] == "2026-07-01")].iloc[0]
+    assert july_2026["interest_mean"] == pytest.approx(25.0)  # mean(20, 30)
+
+
+def test_build_monthly_interest_keeps_election_years_separate():
+    result = build_monthly_interest(_daily_interest_frame())
+
+    june_2022 = result[(result["election_year"] == "2022") & (result["date"] == "2026-06-01")]
+    # 2022's June row must not be averaged together with 2026's June rows.
+    assert june_2022["interest_mean"].iloc[0] == pytest.approx(10.0)
+    assert len(result) == 3  # 2026-06, 2026-07, 2022-06
+
+
+def test_build_monthly_interest_handles_empty_frame():
+    result = build_monthly_interest(pd.DataFrame(columns=["election_year", "date", "term", "interest_raw"]))
+
+    assert list(result.columns) == MONTHLY_COLUMNS
     assert result.empty

@@ -79,6 +79,12 @@ GOOGLE_TRENDS_ELECTION_GROUPS = {
     },
     "current": {
         "timeframe": "today 12-m",
+        # "today 12-m" is a rolling trailing-12-months window, so it always
+        # includes several months of the prior year. The gold/silver tables for
+        # this cycle must only represent the 2026 election, so published rows
+        # are trimmed to this floor after collection (see filter_by_min_date in
+        # transformers/google_trends.py). Keep in sync with the actual cycle.
+        "min_date": "2026-01-01",
         "anchor_term": "Lula",
         # Search terms (not ballot names): party suffixes are intentionally
         # omitted because Google Trends matches search strings. "Lula" is used
