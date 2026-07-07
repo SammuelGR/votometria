@@ -2,7 +2,7 @@ import type { ElectionYear, TrendsRow } from '~/services/googleTrends';
 import type { PollMonthlyRow } from '~/services/pesquisasMensais';
 import type { WeeklyMarketExpectationPoint } from '~/fetchers/marketExpectations';
 import { candidatesMatchForElection } from '~/utils/candidateNormalization';
-import { isWithinRange, type DateRange } from '~/utils/trends';
+import type { DateRange } from '~/utils/trends';
 
 const DAY_IN_MS = 24 * 60 * 60 * 1000;
 
@@ -67,6 +67,10 @@ function latestPollingAtOrBefore(pollObservations: PollObservation[], date: stri
   return latest;
 }
 
+function displayStartForRange(range: DateRange): string | null {
+  return range.start ? startOfUtcWeek(range.start) : null;
+}
+
 /**
  * Crosses public attention (Google Trends) with poll percentage for a single
  * candidate. Attention comes from the Trends long table
@@ -79,10 +83,9 @@ function latestPollingAtOrBefore(pollObservations: PollObservation[], date: stri
  * bucket without changing their values. Polling is carried forward into those
  * same weekly buckets using the latest stored monthly value.
  *
- * - Attention: `interestRaw` of the Trends term matching `candidate`,
- *   clipped only to the selected date range, so every available public
- *   attention point in scope can be shown even when the poll table ends
- *   earlier.
+ * The selected window only defines the first displayed week. Source
+ * observations are kept available to seed carried-forward values and to show
+ * all subsequent public-attention points.
  *
  * Missing sides stay `null` (never 0 or interpolated), and the result is sorted
  * ascending by date so the time axis stays continuous.
@@ -107,10 +110,6 @@ export function buildElectoralPanoramaSeries(
       continue;
     }
 
-    if (!isWithinRange(row.date, range)) {
-      continue;
-    }
-
     pollObservations.push({ date: row.date, percent: row.percent });
   }
 
@@ -121,22 +120,17 @@ export function buildElectoralPanoramaSeries(
       continue;
     }
 
-    if (!isWithinRange(row.date, range)) {
-      continue;
-    }
-
     bucketFor(byDate, startOfUtcWeek(row.date), row.date).attention = row.interestRaw;
   }
 
   for (const row of weeklyMarketExpectationRows) {
-    if (!isWithinRange(row.date, range)) {
-      continue;
-    }
-
     bucketFor(byDate, startOfUtcWeek(row.date), row.date).marketExpectation = row.probability;
   }
 
+  const displayStart = displayStartForRange(range);
+
   return Array.from(byDate.entries())
+    .filter(([date]) => !displayStart || date >= displayStart)
     .map(([date, bucket]) => ({
       date,
       ts: Date.parse(date),
