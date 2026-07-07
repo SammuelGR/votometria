@@ -22,8 +22,8 @@ const POLLING_COLOR = '#2a3fc4'; // indigo — pesquisa eleitoral (Datafolha)
 const ATTENTION_LABEL = 'Atenção pública';
 const POLLING_LABEL = 'Pesquisa eleitoral';
 // Source-explicit names used in the legend so the two series are never confused.
-const ATTENTION_LEGEND = 'Atenção pública — Google Trends (índice 0–100)';
-const POLLING_LEGEND = 'Pesquisa eleitoral — Datafolha (% de intenção)';
+const ATTENTION_LEGEND = 'Atenção pública (índice 0–100)';
+const POLLING_LEGEND = 'Pesquisas eleitorais (% de intenção de voto)';
 const MONTHS_ABBR = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez'];
 
 function formatMonth(ts: number): string {

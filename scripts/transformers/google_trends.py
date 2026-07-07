@@ -154,6 +154,41 @@ def rescale_batches_by_anchor(
     return combined[PROCESSED_COLUMNS]
 
 
+# Dedicated month-granularity columns, one row per (election_year, term,
+# month) — for crossing with month-aggregated data from other sources (e.g.
+# electoral polls) without either side needing daily-level detail.
+MONTHLY_COLUMNS = ["election_year", "date", "term", "interest_mean"]
+
+
+def build_monthly_interest(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Aggregates the long daily/weekly interest table into one row per
+    (election_year, term, month), averaging ``interest_raw`` within each
+    month. Always uses the raw index (never ``interest_scaled``), consistent
+    with the rest of the app: raw is only ever averaged within a single
+    term's own series, never compared across terms, so the "same batch"
+    caveat for interest_raw does not apply here.
+    """
+    if df.empty:
+        return pd.DataFrame(columns=MONTHLY_COLUMNS)
+
+    work = df.copy()
+    work["year_month"] = work["date"].str.slice(0, 7)
+
+    monthly = (
+        work.groupby(["election_year", "term", "year_month"], as_index=False)["interest_raw"]
+        .mean()
+        .rename(columns={"interest_raw": "interest_mean"})
+    )
+    monthly["date"] = monthly["year_month"] + "-01"
+
+    return (
+        monthly[MONTHLY_COLUMNS]
+        .sort_values(["election_year", "term", "date"])
+        .reset_index(drop=True)
+    )
+
+
 def filter_by_min_date(df: pd.DataFrame, min_date: Optional[str]) -> pd.DataFrame:
     """
     Drops rows dated before ``min_date`` (inclusive lower bound), when given.

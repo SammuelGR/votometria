@@ -1,3 +1,5 @@
+import { normalizeCandidate } from '~/utils/candidateNormalization';
+
 /**
  * Categorical palette harmonized with the instrument theme (cool ground,
  * indigo = market, magenta = attention). Used to color candidate series.
@@ -31,6 +33,13 @@ const FIXED_COLORS: Record<string, string> = {
   'Simone Tebet': '#9c36b5',
 };
 
+// Keyed by normalizeCandidate(...) so a raw Google Trends term (e.g. "Lula")
+// and a poll's nome_candidato_normalizado (e.g. "lula") resolve to the same
+// color — the two charts style the same candidate consistently.
+const NORMALIZED_FIXED_COLORS: Record<string, string> = Object.fromEntries(
+  Object.entries(FIXED_COLORS).map(([name, color]) => [normalizeCandidate(name), color]),
+);
+
 function hashString(value: string): number {
   let hash = 0;
 
@@ -41,7 +50,9 @@ function hashString(value: string): number {
   return Math.abs(hash);
 }
 
-/** Returns a stable color for a candidate term. */
+/** Returns a stable color for a candidate term, raw or normalized. */
 export function candidateColor(term: string): string {
-  return FIXED_COLORS[term] ?? CANDIDATE_PALETTE[hashString(term) % CANDIDATE_PALETTE.length];
+  const normalized = normalizeCandidate(term);
+
+  return NORMALIZED_FIXED_COLORS[normalized] ?? CANDIDATE_PALETTE[hashString(normalized) % CANDIDATE_PALETTE.length];
 }

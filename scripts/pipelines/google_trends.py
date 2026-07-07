@@ -17,10 +17,12 @@ from extractors.google_trends import (
 )
 from loaders.google_trends import (
     save_processed_google_trends_all,
+    save_processed_google_trends_monthly,
     save_processed_google_trends_year,
     save_raw_google_trends_batch,
 )
 from transformers.google_trends import (
+    build_monthly_interest,
     filter_by_min_date,
     rescale_batches_by_anchor,
     transform_batch_interest_over_time,
@@ -166,6 +168,7 @@ def run_google_trends_pipeline() -> dict:
             year_dfs.append(year_df)
 
     all_processed_tab = None
+    all_processed_monthly_tab = None
     if year_dfs:
         all_df = pd.concat(year_dfs, ignore_index=True)
         # Loader output (consolidated) -> ouro (gold) layer; read by the frontend.
@@ -173,6 +176,15 @@ def run_google_trends_pipeline() -> dict:
         print(
             f"-> Consolidated all elections: {len(all_df)} rows -> "
             f"tab '{all_processed_tab}'"
+        )
+
+        # Month-aggregated companion table, dedicated to crossing with other
+        # month-granularity sources (e.g. electoral polls) -> ouro layer too.
+        monthly_df = build_monthly_interest(all_df)
+        all_processed_monthly_tab = save_processed_google_trends_monthly(layers["ouro"], monthly_df)
+        print(
+            f"-> Consolidated all elections (monthly): {len(monthly_df)} rows -> "
+            f"tab '{all_processed_monthly_tab}'"
         )
     else:
         print("Warning: no election group produced data; consolidated tab not written.")
@@ -182,4 +194,5 @@ def run_google_trends_pipeline() -> dict:
         "status": "success",
         "groups": groups_summary,
         "all_processed_tab": all_processed_tab,
+        "all_processed_monthly_tab": all_processed_monthly_tab,
     }

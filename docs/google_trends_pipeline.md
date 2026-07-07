@@ -22,6 +22,8 @@ Para cada grupo eleitoral (2018, 2022, current):
 
 Consolidar todos os anos:
   save_processed_google_trends_all(...)       [Load]     → aba proc_google_trends_all_elections_interest_long
+  build_monthly_interest(consolidado)        [Transform]→ média mensal de interest_raw por (ano, termo)
+  save_processed_google_trends_monthly(...)   [Load]     → aba proc_google_trends_all_elections_interest_monthly
 ```
 
 A função de orquestração é `run_google_trends_pipeline()` em
@@ -42,6 +44,7 @@ Retorno (estrutura; números ilustrativos):
         "current": {"terms_count": 0,  "batches_count": 0, "processed_rows": 0,   "processed_tab": None},
     },
     "all_processed_tab": "proc_google_trends_all_elections_interest_long",
+    "all_processed_monthly_tab": "proc_google_trends_all_elections_interest_monthly",
 }
 ```
 
@@ -54,6 +57,14 @@ lote são registradas e o pipeline continua com os demais.
 - Brutos: `raw_google_trends_{ano}_batch_{NN}`.
 - Processados por ano: `proc_google_trends_{ano}_interest_long`.
 - Consolidado: `proc_google_trends_all_elections_interest_long`.
+- Consolidado mensal: `proc_google_trends_all_elections_interest_monthly` — uma
+  linha por (`election_year`, `term`, mês), com `interest_mean` (média de
+  `interest_raw` dentro do mês; nunca usa `interest_scaled`). Dedicada a
+  cruzar com outras fontes já agregadas por mês (ex. pesquisas eleitorais,
+  `gold_pesquisas_media_mensal_candidato`) sem ruído diário. Como a média é
+  sempre dentro do próprio termo (nunca comparando termos entre si), a
+  ressalva de "não comparar `interest_raw` entre lotes diferentes" não se
+  aplica aqui.
 
 A cada execução cada aba é limpa e reescrita (cabeçalho + linhas, `RAW`). Esquema das
 colunas em `google_trends_dicionario_dados.md`. Detalhes de credenciais, `.env` e
@@ -122,5 +133,9 @@ a aba como CSV: ver `google_sheets_sync.md`):
 - **Nunca** comparar `interest_raw` entre lotes diferentes; **não** comparar
   `interest_scaled` entre anos diferentes sem sinalizar que as janelas são
   independentes (ver `google_trends_metodologia.md`).
+- O gráfico "Atenção pública × pesquisa eleitoral" consome
+  `proc_google_trends_all_elections_interest_monthly` (não o diário), cruzando
+  por mês com `gold_pesquisas_media_mensal_candidato` (enquetes) — ambos já
+  agregados por mês, então o eixo X do gráfico tem um tick por mês.
 - Metadados (`geo`, `timeframe`, `source`, `batch_id`, `anchor_term`, `collected_at`)
   permitem exibir contexto e data de atualização sem consultar o backend.

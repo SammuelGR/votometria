@@ -26,7 +26,7 @@ def _fake_fetch(terms, timeframe, geo, hl, tz):
 
 
 def _patch_pipeline(monkeypatch):
-    saved = {"raw": [], "year": [], "all": []}
+    saved = {"raw": [], "year": [], "all": [], "monthly": []}
 
     def fake_save_raw(spreadsheet, df, election_year, batch_id):
         saved["raw"].append((election_year, batch_id))
@@ -40,6 +40,10 @@ def _patch_pipeline(monkeypatch):
         saved["all"].append(len(df))
         return "proc_google_trends_all_elections_interest_long"
 
+    def fake_save_monthly(spreadsheet, df):
+        saved["monthly"].append(len(df))
+        return "proc_google_trends_all_elections_interest_monthly"
+
     monkeypatch.setattr(gt_pipeline, "GOOGLE_TRENDS_ELECTION_GROUPS", GROUPS)
     monkeypatch.setattr(gt_pipeline, "fetch_interest_over_time_batch", _fake_fetch)
     # The spreadsheet objects are opaque to the pipeline; sentinels are enough.
@@ -52,6 +56,7 @@ def _patch_pipeline(monkeypatch):
     monkeypatch.setattr(gt_pipeline, "save_raw_google_trends_batch", fake_save_raw)
     monkeypatch.setattr(gt_pipeline, "save_processed_google_trends_year", fake_save_year)
     monkeypatch.setattr(gt_pipeline, "save_processed_google_trends_all", fake_save_all)
+    monkeypatch.setattr(gt_pipeline, "save_processed_google_trends_monthly", fake_save_monthly)
     return saved
 
 
@@ -90,7 +95,9 @@ def test_pipeline_writes_consolidated_file(monkeypatch):
     result = gt_pipeline.run_google_trends_pipeline()
 
     assert result["all_processed_tab"] == "proc_google_trends_all_elections_interest_long"
+    assert result["all_processed_monthly_tab"] == "proc_google_trends_all_elections_interest_monthly"
     assert len(saved["all"]) == 1
+    assert len(saved["monthly"]) == 1
     # raw saved once per batch of the non-empty group
     assert saved["raw"] == [("2022", "batch_01"), ("2022", "batch_02")]
 
@@ -120,7 +127,7 @@ def _fake_fetch_spanning_years(terms, timeframe, geo, hl, tz):
 
 
 def test_pipeline_filters_current_group_rows_before_min_date(monkeypatch):
-    saved = {"raw": [], "year": [], "all": []}
+    saved = {"raw": [], "year": [], "all": [], "monthly": []}
 
     def fake_save_raw(spreadsheet, df, election_year, batch_id):
         saved["raw"].append((election_year, batch_id))
@@ -134,6 +141,10 @@ def test_pipeline_filters_current_group_rows_before_min_date(monkeypatch):
         saved["all"].append(len(df))
         return "proc_google_trends_all_elections_interest_long"
 
+    def fake_save_monthly(spreadsheet, df):
+        saved["monthly"].append(len(df))
+        return "proc_google_trends_all_elections_interest_monthly"
+
     monkeypatch.setattr(gt_pipeline, "GOOGLE_TRENDS_ELECTION_GROUPS", GROUPS_WITH_MIN_DATE)
     monkeypatch.setattr(gt_pipeline, "fetch_interest_over_time_batch", _fake_fetch_spanning_years)
     monkeypatch.setattr(
@@ -144,6 +155,7 @@ def test_pipeline_filters_current_group_rows_before_min_date(monkeypatch):
     monkeypatch.setattr(gt_pipeline, "save_raw_google_trends_batch", fake_save_raw)
     monkeypatch.setattr(gt_pipeline, "save_processed_google_trends_year", fake_save_year)
     monkeypatch.setattr(gt_pipeline, "save_processed_google_trends_all", fake_save_all)
+    monkeypatch.setattr(gt_pipeline, "save_processed_google_trends_monthly", fake_save_monthly)
 
     result = gt_pipeline.run_google_trends_pipeline()
 

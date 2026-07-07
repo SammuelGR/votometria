@@ -14,6 +14,7 @@ import pandas as pd
 from core.sheets import write_dataframe_to_tab
 
 ALL_ELECTIONS_BASE_NAME = "google_trends_all_elections_interest_long"
+ALL_ELECTIONS_MONTHLY_BASE_NAME = "google_trends_all_elections_interest_monthly"
 
 # Worksheet name prefixes that keep raw and processed data visibly separated.
 RAW_TAB_PREFIX = "raw_"
@@ -67,5 +68,19 @@ def save_processed_google_trends_all(spreadsheet, df: pd.DataFrame) -> str:
     Returns the worksheet title.
     """
     title = f"{PROCESSED_TAB_PREFIX}{ALL_ELECTIONS_BASE_NAME}"
+    write_dataframe_to_tab(spreadsheet, title, df)
+    return title
+
+
+def save_processed_google_trends_monthly(spreadsheet, df: pd.DataFrame) -> str:
+    """
+    Writes the month-aggregated long DataFrame across all election years to a
+    ``proc_*`` worksheet, dedicated to crossing with other month-granularity
+    sources (e.g. electoral polls) without daily-level noise.
+
+    Worksheet name: ``proc_google_trends_all_elections_interest_monthly``.
+    Returns the worksheet title.
+    """
+    title = f"{PROCESSED_TAB_PREFIX}{ALL_ELECTIONS_MONTHLY_BASE_NAME}"
     write_dataframe_to_tab(spreadsheet, title, df)
     return title

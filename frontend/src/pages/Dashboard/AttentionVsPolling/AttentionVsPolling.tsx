@@ -10,11 +10,16 @@ import {
   SourceBadge,
 } from '~/components/ui';
 import { activePresetKey, periodsForYear } from '~/data/electionPeriods';
-import { useGoogleTrends } from '~/fetchers/hooks/useGoogleTrends';
-import { usePesquisas } from '~/fetchers/hooks/usePesquisas';
-import type { ElectionYear, TrendsMetric } from '~/services/googleTrends';
-import { buildAttentionVsPollingSeries } from '~/utils/attentionVsPolling';
-import { filterByRange, filterByYear, termsByMean, type DateRange } from '~/utils/trends';
+import { useGoogleTrendsMonthly } from '~/fetchers/hooks/useGoogleTrendsMonthly';
+import { usePesquisasMensais } from '~/fetchers/hooks/usePesquisasMensais';
+import type { ElectionYear } from '~/services/googleTrends';
+import {
+  buildAttentionVsPollingMonthlySeries,
+  filterTrendsMonthlyByYear,
+  trendsTermsByMeanMonthly,
+} from '~/utils/attentionVsPolling';
+import { filterPollMonthlyByYear } from '~/utils/pesquisasMensais';
+import { type DateRange, isWithinRange } from '~/utils/trends';
 
 const yearOptions = [
   { label: '2018', value: '2018' },
@@ -23,11 +28,10 @@ const yearOptions = [
 ];
 
 const EMPTY_RANGE: DateRange = {};
-const METRIC: TrendsMetric = 'interestRaw';
 
 export default function AttentionVsPolling() {
-  const trends = useGoogleTrends();
-  const polls = usePesquisas();
+  const trends = useGoogleTrendsMonthly();
+  const polls = usePesquisasMensais();
 
   const [electionYear, setElectionYear] = useState<ElectionYear>('current');
   const [selection, setSelection] = useState<{ candidate: string | null; year: ElectionYear | null }>({
@@ -45,28 +49,32 @@ export default function AttentionVsPolling() {
   const presets = periodsForYear(electionYear);
   const range = rangeState.year === electionYear ? rangeState.range : EMPTY_RANGE;
 
-  const yearTrendsRows = useMemo(() => filterByYear(trends.data ?? [], electionYear), [trends.data, electionYear]);
-  const scopedTrendsRows = useMemo(() => filterByRange(yearTrendsRows, range), [yearTrendsRows, range]);
-  const orderedTerms = useMemo(() => termsByMean(scopedTrendsRows, METRIC), [scopedTrendsRows]);
+  const yearTrendsRows = useMemo(
+    () => filterTrendsMonthlyByYear(trends.data ?? [], electionYear),
+    [trends.data, electionYear],
+  );
+  const scopedTrendsRows = useMemo(
+    () => yearTrendsRows.filter((row) => isWithinRange(row.date, range)),
+    [yearTrendsRows, range],
+  );
+  const orderedTerms = useMemo(() => trendsTermsByMeanMonthly(scopedTrendsRows), [scopedTrendsRows]);
   const candidateOptions = orderedTerms.map((term) => ({ label: term, value: term }));
 
   const activeCandidate =
     selection.year === electionYear && selection.candidate ? selection.candidate : (orderedTerms[0] ?? null);
+
+  const yearPollRows = useMemo(
+    () => filterPollMonthlyByYear(polls.data ?? [], electionYear),
+    [polls.data, electionYear],
+  );
 
   const points = useMemo(() => {
     if (!activeCandidate) {
       return [];
     }
 
-    return buildAttentionVsPollingSeries(
-      trends.data ?? [],
-      polls.data ?? [],
-      activeCandidate,
-      electionYear,
-      METRIC,
-      range,
-    );
-  }, [trends.data, polls.data, activeCandidate, electionYear, range]);
+    return buildAttentionVsPollingMonthlySeries(yearTrendsRows, yearPollRows, activeCandidate, electionYear, range);
+  }, [yearTrendsRows, yearPollRows, activeCandidate, electionYear, range]);
 
   const hasData = points.some((point) => point.attention != null || point.polling != null);
   const hasPolls = points.some((point) => point.polling != null);
@@ -97,16 +105,11 @@ export default function AttentionVsPolling() {
             <>
               <SourceBadge label="Google Trends" tone="attention" />
 
-              <SourceBadge label="Datafolha" tone="market" />
+              <SourceBadge label="Pesquisas eleitorais" tone="positive" />
             </>
           }
           title="Atenção pública × pesquisa eleitoral"
         />
-
-        <p className="font-mono text-[11px] text-muted">
-          Compara o interesse de busca no Google Trends com o percentual do candidato nas pesquisas eleitorais
-          (Datafolha) ao longo do tempo.
-        </p>
 
         <div className="flex flex-wrap items-end gap-4">
           <SegmentedControl
@@ -147,17 +150,9 @@ export default function AttentionVsPolling() {
         )}
 
         <div className="flex flex-col gap-1">
-          <p className="font-mono text-[11px] text-muted">
-            Eixo único de 0 a 100%: índice relativo de atenção (Google Trends) e percentual de intenção nas pesquisas
-            (Datafolha). Para comparar o mesmo período, a linha de atenção é recortada à janela coberta pelas pesquisas
-            do candidato (da primeira à última data). Quando há mais de uma pesquisa na mesma data, usa-se a média do
-            percentual. Datas sem pesquisa não viram zero — a linha de pesquisa apenas não pontua ali. Nenhum valor é
-            reescalado ou interpolado.
-          </p>
-
           {!hasPolls && activeCandidate ? (
             <p className="font-mono text-[11px] text-muted">
-              Sem pesquisas Datafolha para “{activeCandidate}” neste recorte; apenas a atenção pública é exibida.
+              Sem pesquisas eleitorais para “{activeCandidate}” neste recorte; apenas a atenção pública é exibida.
             </p>
           ) : null}
         </div>
