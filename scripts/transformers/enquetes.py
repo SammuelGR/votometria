@@ -350,6 +350,108 @@ def _reconcile_haddad_2018_aliases(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+# ``gold_pesquisas_media_mensal_candidato`` is the table crossed against Google
+# Trends terms (``proc_google_trends_all_elections_interest_monthly``, terms
+# configured per cycle in ``GOOGLE_TRENDS_ELECTION_GROUPS`` in constants.py) to
+# build attention-vs-polling charts. Its ``nome_candidato_normalizado`` values
+# were the raw wikitext surname folded to lowercase (e.g. "alckmin",
+# "meirelles"), which never matches a Trends term like "Geraldo Alckmin" or
+# "Henrique Meirelles" — the chart would show polling with no attention line
+# (or vice-versa). This maps each (ano_eleicao, raw normalized name) pair to
+# the exact Trends term string for that candidate/cycle; a ``None`` target
+# means the name is not an actual candidate for that election (a placeholder
+# or another office entirely) and its rows are dropped from this table only.
+# Scoped to media_mensal alone: the other four gold tables (temporal, ultima,
+# media_movel, comparativo) keep the raw lowercase-folded form, and prata is
+# untouched (kept for audit).
+MEDIA_MENSAL_CANDIDATE_NAMES = {
+    2018: {
+        "alckmin": "Geraldo Alckmin",
+        "amoedo": "João Amoêdo",
+        "barbosa": None,  # Joaquim Barbosa was not a 2018 candidate
+        "bolsonaro": "Bolsonaro",
+        "dias": "Alvaro Dias",
+        "doria": None,
+        "gomes": "Ciro Gomes",
+        "haddad": "Haddad",
+        "lula": "Lula",
+        "meirelles": "Henrique Meirelles",
+        "silva": "Marina Silva",
+        "temer": None,
+        "wagner": None,
+    },
+    2022: {
+        "bivar": None,
+        "bolsonaro": "Bolsonaro",
+        "d'avila": "Felipe d'Avila",
+        "doria": None,
+        "eymael": "Eymael",
+        "gomes": "Ciro Gomes",
+        "janones": None,
+        "jefferson": None,
+        "kelmon": "Padre Kelmon",
+        "leite": None,
+        "lula": "Lula",
+        "manzano": "Sofia Manzano",
+        "marcal": None,
+        "moro": None,
+        "pacheco": None,
+        "pericles": "Léo Péricles",
+        "salgado": None,
+        "tebet": "Simone Tebet",
+        "thronicke": "Soraya Thronicke",
+        "vieira": None,
+    },
+    2026: {
+        "aecio": None,
+        "barbosa": None,
+        "bolsonaro": "Bolsonaro",
+        "caiado": "Ronaldo Caiado",
+        "costa": "Edmilson Costa",
+        "cury": "Augusto Cury",
+        "daciolo": "Cabo Daciolo",
+        "dias": "Hertz Dias",
+        "flavio": "Flávio Bolsonaro",
+        "gomes": None,
+        "haddad": None,
+        "leite": None,
+        "lula": "Lula",
+        "michelle": None,
+        "pimenta": "Rui Costa Pimenta",
+        "ratinho": None,
+        "rebelo": "Aldo Rebelo",
+        "renan": "Renan Santos",
+        "samara": "Samara Martins",
+        "tarcisio": None,
+        "zema": "Romeu Zema",
+    },
+}
+
+
+def _apply_media_mensal_candidate_names(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Renames/drops rows of ``df`` per ``MEDIA_MENSAL_CANDIDATE_NAMES``, keyed by
+    (``ano_eleicao``, ``nome_candidato_normalizado``). Names outside the map
+    are left untouched. Must run before any groupby that keys off
+    ``nome_candidato_normalizado`` — none of the per-year target names collide
+    with each other, so renaming ahead of the aggregation is equivalent to
+    renaming after it.
+    """
+    df = df.copy()
+    keep = pd.Series(True, index=df.index)
+
+    for ano, mapping in MEDIA_MENSAL_CANDIDATE_NAMES.items():
+        year_mask = df["ano_eleicao"] == ano
+        for original, target in mapping.items():
+            row_mask = year_mask & (df["nome_candidato_normalizado"] == original)
+            if target is None:
+                keep &= ~row_mask
+            else:
+                df.loc[row_mask, "nome_candidato_normalizado"] = target
+
+    return df[keep].reset_index(drop=True)
+
+
 def build_gold(prata: pd.DataFrame) -> dict:
     """
     Builds the gold analytical tables from the prata long table. Rows without a
@@ -416,7 +518,7 @@ def build_gold(prata: pd.DataFrame) -> dict:
     # gap-free months for exposure to each institute's own methodology/"house
     # effect" — documented in docs/enquetes_pipeline.md.
     if not base.empty:
-        mensal_base = base.copy()
+        mensal_base = _apply_media_mensal_candidate_names(base)
         # pd.to_numeric coerces the mixed int/None result of parse_sample_size
         # into a proper float64 column (NaN for None); without it the column
         # stays object-dtype and a later 0/0 raises ZeroDivisionError instead
