@@ -22,6 +22,15 @@ export type ElectionEvent = {
 export const ELECTION_EVENTS: ElectionEvent[] = [
   // --- 2018 ---
   {
+    date: '2018-01-24',
+    electionYear: '2018',
+    title: 'Condenação de Lula no TRF-4',
+    type: 'judicial',
+    relatedTerms: ['Lula', 'TRF-4', 'Lava Jato'],
+    description: 'O Tribunal Regional Federal da 4ª Região confirmou por unanimidade a condenação de Lula no caso do triplex e aumentou sua pena para 12 anos e 1 mês de prisão.',
+    impact: 'high',
+  },
+  {
     date: '2018-04-07',
     electionYear: '2018',
     title: 'Prisão de Lula',
@@ -134,6 +143,24 @@ export const ELECTION_EVENTS: ElectionEvent[] = [
 
   // --- current / 2026 (pré-campanha) ---
   {
+    date: '2026-02-15',
+    electionYear: 'current',
+    title: 'Lula acompanha desfile em sua homenagem na Sapucaí',
+    type: 'campanha',
+    relatedTerms: ['Lula', 'Carnaval', 'Acadêmicos de Niterói', 'Sapucaí'],
+    description: 'Lula assistiu ao desfile da Acadêmicos de Niterói, escola que homenageou sua trajetória política no Carnaval do Rio de Janeiro. O evento gerou ampla repercussão nacional e debates sobre possível promoção eleitoral em ano de eleição.',
+    impact: 'medium',
+  },
+  {
+    date: '2026-02-27',
+    electionYear: 'current',
+    title: 'Pesquisa eleitoral testa Flávio Bolsonaro contra Lula',
+    type: 'pesquisa',
+    relatedTerms: ['Lula', 'Flávio Bolsonaro', 'Paraná Pesquisas'],
+    description: 'Pesquisa eleitoral divulgada no fim de fevereiro mostrou Flávio Bolsonaro competitivo em cenários presidenciais de 2026, ampliando a cobertura sobre a sucessão presidencial.',
+    impact: 'medium',
+  },
+  {
     date: '2026-04-11',
     electionYear: 'current',
     title: 'Datafolha mostra empate técnico',
@@ -149,6 +176,24 @@ export const ELECTION_EVENTS: ElectionEvent[] = [
     type: 'judicial-politico',
     relatedTerms: ['Jair Bolsonaro', 'Flávio Bolsonaro', 'Lula'],
     description: 'Congresso aprovou redução de pena de Jair Bolsonaro após derrubar veto presidencial.',
+    impact: 'high',
+  },
+  {
+    date: '2026-05-06',
+    electionYear: 'current',
+    title: 'Pesquisas reforçam disputa entre Lula e Flávio Bolsonaro',
+    type: 'pesquisa',
+    relatedTerms: ['Lula', 'Flávio Bolsonaro', 'Pesquisa eleitoral'],
+    description: 'Levantamentos divulgados no início de maio indicaram uma disputa acirrada entre Lula e Flávio Bolsonaro, aumentando a repercussão da pré-campanha presidencial.',
+    impact: 'high',
+  },
+  {
+    date: '2026-05-28',
+    electionYear: 'current',
+    title: 'Nova pesquisa eleitoral amplia cobertura da disputa presidencial',
+    type: 'pesquisa',
+    relatedTerms: ['Flávio Bolsonaro', 'Lula', 'Meio/Ideia'],
+    description: 'Pesquisa divulgada no fim de maio mostrou mudanças nos cenários de intenção de voto entre Lula e Flávio Bolsonaro, gerando ampla repercussão política e na imprensa.',
     impact: 'high',
   },
   {
