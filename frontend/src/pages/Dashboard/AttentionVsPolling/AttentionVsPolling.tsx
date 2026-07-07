@@ -118,9 +118,11 @@ export default function AttentionVsPolling() {
               <SourceBadge label="Google Trends" tone="attention" />
 
               <SourceBadge label="Pesquisas eleitorais" tone="positive" />
+
+              <SourceBadge label="Polymarket" tone="market" />
             </>
           }
-          title="Atenção pública × pesquisa eleitoral"
+          title="Panorama eleitoral"
         />
 
         <div className="flex flex-wrap items-end gap-4">

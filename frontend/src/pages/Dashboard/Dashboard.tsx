@@ -8,11 +8,11 @@ import TseVotes from '~/pages/Dashboard/TseVotes/TseVotes';
 export default function Dashboard() {
   return (
     <section className="grid gap-5">
+      <AttentionVsPolling />
+
       <MarketExpectations />
 
       <PublicAttention />
-
-      <AttentionVsPolling />
 
       <PollsTimeline />
 

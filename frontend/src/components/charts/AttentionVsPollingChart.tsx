@@ -111,11 +111,10 @@ export default function AttentionVsPollingChart({ points, candidate, year }: Att
         />
 
         <YAxis
-          domain={[0, 100]}
+          domain={[0, 'auto']}
           stroke={AXIS_COLOR}
           tick={{ fill: AXIS_COLOR, fontFamily: 'monospace', fontSize: 11 }}
           tickFormatter={(value: number) => `${value}%`}
-          ticks={[0, 25, 50, 75, 100]}
           width={40}
         />
 
