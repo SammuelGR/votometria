@@ -31,22 +31,6 @@ def get_settings() -> Settings:
     )
 
 
-def get_ouro_sheet_id() -> str:
-    """
-    ID of the gold (ouro) spreadsheet that the API reads for market expectations.
-    """
-    load_dotenv(find_dotenv())
-    sheet_id = os.getenv("SHEET_ID_ouro")
-
-    if not sheet_id:
-        raise RuntimeError(
-            "SHEET_ID_ouro environment variable is not set. Add it to the '.env' "
-            "file with the ID of the gold spreadsheet."
-        )
-
-    return sheet_id
-
-
 def get_cors_origins() -> tuple[str, ...]:
     load_dotenv(find_dotenv())
 

@@ -1,6 +1,7 @@
 import {
   Bar,
   BarChart,
+  Cell,
   LabelList,
   ResponsiveContainer,
   Tooltip,
@@ -13,14 +14,19 @@ import ChartTooltip from '~/components/charts/ChartTooltip';
 import type { TseVoteRow } from '~/services/tseVotes';
 
 const AXIS_COLOR = '#5c6b7a';
-const BAR_COLOR = '#2a3fc4';
+const TOP_COLORS = ['#2a3fc4', '#db1873'];
+const REST_COLOR = '#9aa7b4';
+
+function barColor(index: number): string {
+  return TOP_COLORS[index] ?? REST_COLOR;
+}
 
 type TseVotesChartProps = {
   rows: TseVoteRow[];
 };
 
 export default function TseVotesChart({ rows }: TseVotesChartProps) {
-  // Excelente! O sort foi adicionado aqui para garantir a ordem visual
+  // sort adicionado para garantir a ordem visual
   const chartRows = [...rows].sort((left, right) => right.votes - left.votes);
   const height = Math.max(220, chartRows.length * 44);
 
@@ -35,12 +41,23 @@ export default function TseVotesChart({ rows }: TseVotesChartProps) {
       return null;
     }
 
+    const totalVotes = chartRows.reduce((sum, row) => sum + row.votes, 0);
+    const sharePercent = totalVotes === 0 ? 0 : (entry.votes / totalVotes) * 100;
+
     return (
       <ChartTooltip title={entry.candidate}>
         <div className="flex items-center justify-between gap-4">
           <span className="text-muted">votos</span>
 
           <span className="tabular-nums">{entry.votes.toLocaleString('pt-BR')}</span>
+        </div>
+
+        <div className="flex items-center justify-between gap-4">
+          <span className="text-muted">participação</span>
+
+          <span className="tabular-nums">
+            {sharePercent.toLocaleString('pt-BR', { minimumFractionDigits: 1, maximumFractionDigits: 1 })}%
+          </span>
         </div>
       </ChartTooltip>
     );
@@ -72,7 +89,11 @@ export default function TseVotesChart({ rows }: TseVotesChartProps) {
 
         <Tooltip content={renderTooltip} cursor={{ fill: 'rgba(21,33,46,0.04)' }} />
 
-        <Bar dataKey="votes" fill={BAR_COLOR} isAnimationActive={false} radius={[0, 2, 2, 0]}>
+        <Bar dataKey="votes" isAnimationActive={false} radius={[0, 2, 2, 0]}>
+          {chartRows.map((entry, index) => (
+            <Cell fill={barColor(index)} key={entry.candidate} />
+          ))}
+
           <LabelList
             dataKey="votes"
             formatter={(value) => {

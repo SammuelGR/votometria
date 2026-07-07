@@ -1,6 +1,6 @@
 # TSE Data Integration
 
-This document explains the configuration, source files, execution strategy, local output layout, and processing logic used to generate historical election CSV files from Tribunal Superior Eleitoral data.
+This document is intended as a practical reference for developers and coding agents working on the TSE ingestion flow. It explains the configuration, source files, execution strategy, local output layout, and processing logic used to generate historical election data for the dashboard.
 
 ---
 
@@ -132,8 +132,8 @@ The TSE integration follows the project ETL layout:
 - `scripts/constants_tse.py`: Defines TSE source URLs, target filenames, selected columns, encoding, separator, and local output directories.
 - `scripts/extractors/tse.py`: Downloads TSE ZIP archives and extracts target raw CSV files into `scripts/data/raw`.
 - `scripts/transformers/tse.py`: Loads raw CSV files, selects relevant columns, cleans records, and writes parsed CSV files into `scripts/data/parsed_tse`.
-- `scripts/loaders/tse.py`: Reads parsed presidency files and writes final aggregated analysis tables into `scripts/data/tables`.
-- `scripts/pipelines/tse.py`: Orchestrates extraction, transformation, and table generation.
+- `scripts/loaders/tse_sheets.py`: Publishes the parsed election data and derived vote tables to Google Sheets for frontend use.
+- `scripts/pipelines/tse.py`: Orchestrates extraction, transformation, and Google Sheets publication.
 - `scripts/main.py`: Runs the integrated scripts entrypoint.
 
 ---
@@ -144,4 +144,5 @@ The TSE integration follows the project ETL layout:
 - The extractor currently prints start and completion messages, but does not show download progress.
 - If a download is interrupted, remove the incomplete raw file before running the pipeline again.
 - If direct browser download is more reliable in a local environment, place the extracted target CSV file in `scripts/data/raw` using the expected filename.
+- The Google Sheets publication step is the main integration point for the dashboard, so changes in worksheet names or column structure should be reflected in the frontend parser as well.
 - The generated CSV tables are intentionally local artifacts and should not be committed.

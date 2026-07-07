@@ -1,7 +1,9 @@
 from datetime import datetime
 
-from fastapi import APIRouter, HTTPException, Query
+from fastapi import APIRouter, Depends, HTTPException, Query
+from sqlalchemy.orm import Session
 
+from app.core.database import get_db
 from app.schemas.market_expectation_options import MarketExpectationOptionsResponse
 from app.schemas.market_expectations import MarketExpectationInterval, MarketExpectationsResponse
 from app.services.market_expectation_options import get_market_expectation_options
@@ -23,6 +25,7 @@ def read_market_expectations(
         default=None,
         alias="candidateCatalogIds",
     ),
+    db: Session = Depends(get_db),
 ):
     if from_date and to_date and from_date > to_date:
         raise HTTPException(
@@ -30,8 +33,8 @@ def read_market_expectations(
             detail="fromDate must be earlier than or equal to toDate.",
         )
 
-    # Data source is the gold (ouro) spreadsheet — no database session needed.
     return get_market_expectations(
+        db,
         from_date=from_date,
         to_date=to_date,
         interval=interval,
@@ -43,5 +46,5 @@ def read_market_expectations(
     "/market-expectations/options",
     response_model=MarketExpectationOptionsResponse,
 )
-def read_market_expectation_options():
-    return get_market_expectation_options()
+def read_market_expectation_options(db: Session = Depends(get_db)):
+    return get_market_expectation_options(db)

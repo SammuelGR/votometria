@@ -44,6 +44,8 @@ class MarketExpectationLargestChange(ApiModel):
     display_name: str = Field(alias="displayName")
     value: float
     absolute_value: float = Field(alias="absoluteValue")
+    from_timestamp: datetime = Field(alias="fromTimestamp")
+    to_timestamp: datetime = Field(alias="toTimestamp")
 
 
 class MarketExpectationsSummary(ApiModel):
