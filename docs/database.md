@@ -72,5 +72,3 @@ To support the other data modules outlined in the project blueprint (`AGENTS.md`
 ### A. Cross-Source Candidate Linking
 
 The current `candidate_catalog` stores source-specific candidate entries. Future cross-source analyses may introduce a canonical candidate entity or linking field to relate entries that represent the same person across TSE, Polymarket, and Google Trends.
-
-This should be added only where cross-source modules require it, such as Public Attention vs Market Expectations.

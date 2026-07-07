@@ -19,7 +19,6 @@ Modules in the dashboard:
 - Market Expectations
 - Public Attention
 - Share of Search
-- Public Attention vs Market Expectations
 
 Visual hierarchy:
 
@@ -29,13 +28,9 @@ Visual hierarchy:
 [ Public Attention ]
 
 [ Share of Search ]
-
-[ Public Attention vs Market Expectations ]
 ```
 
 Market Expectations is the main highlighted module.
-
-Public Attention vs Market Expectations works as the synthesis module of the dashboard.
 
 ## Module composition
 
@@ -153,44 +148,6 @@ The selected date range is controlled inside the module.
 ### Source
 
 - Google Trends
-
-## Public Attention vs Market Expectations
-
-Public Attention vs Market Expectations compares public attention and market probability for the candidates.
-
-This module helps identify alignment and divergence between public interest and prediction market expectations.
-
-### Main visualization
-
-Scatterplot.
-
-- X axis: Share of Search
-- Y axis: market probability
-- Point: one candidate in the selected period
-
-### Controls
-
-- Candidates
-
-### Interaction
-
-The selected date range should come from the dashboard or related chart context when implemented.
-
-The tooltip shows:
-
-- Candidate
-- Share of Search
-- Market probability
-- Difference in percentage points
-
-### Explanation text
-
-Each point represents a candidate in the selected period. The horizontal axis shows the candidate's Share of Search, while the vertical axis shows the candidate's market probability on Polymarket. The difference between these values helps identify alignments and divergences between public interest and market expectations.
-
-### Sources
-
-- Google Trends
-- Polymarket
 
 ## Candidate Totals
 

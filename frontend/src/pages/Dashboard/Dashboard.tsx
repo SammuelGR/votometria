@@ -1,4 +1,3 @@
-import AttentionMarketComparison from '~/pages/Dashboard/AttentionMarketComparison/AttentionMarketComparison';
 import AttentionVsPolling from '~/pages/Dashboard/AttentionVsPolling/AttentionVsPolling';
 import MarketExpectations from '~/pages/Dashboard/MarketExpectations/MarketExpectations';
 import PollsTimeline from '~/pages/Dashboard/PollsTimeline/PollsTimeline';
@@ -20,8 +19,6 @@ export default function Dashboard() {
       <ShareOfSearch />
 
       <TseVotes />
-
-      <AttentionMarketComparison />
     </section>
   );
 }

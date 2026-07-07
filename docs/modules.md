@@ -19,7 +19,6 @@ Modules in this dashboard:
 - Market Expectations
 - Public Attention
 - Share of Search
-- Public Attention vs Market Expectations
 
 ## Contextual events
 
@@ -84,24 +83,6 @@ It supports analysis of:
 Related sources:
 
 - Google Trends
-
-### Public Attention vs Market Expectations
-
-The Public Attention vs Market Expectations module compares public attention and market expectations for the candidates in the current election.
-
-This module helps identify alignment and divergence between interest from the public and probability in the prediction market.
-
-It supports analysis of:
-
-- candidates with high public attention and high market probability
-- candidates with high public attention and lower market probability
-- candidates with lower public attention and higher market probability
-- divergence between attention and market expectations
-
-Related sources:
-
-- Google Trends
-- Polymarket
 
 ### Candidate Totals
 
