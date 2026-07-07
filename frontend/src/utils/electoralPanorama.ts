@@ -1,6 +1,6 @@
 import type { ElectionYear, TrendsRow } from '~/services/googleTrends';
 import type { PollMonthlyRow } from '~/services/pesquisasMensais';
-import type { MonthlyMarketExpectationPoint } from '~/fetchers/marketExpectations';
+import type { WeeklyMarketExpectationPoint } from '~/fetchers/marketExpectations';
 import { candidatesMatchForElection } from '~/utils/candidateNormalization';
 import { isWithinRange, type DateRange } from '~/utils/trends';
 
@@ -36,7 +36,8 @@ function bucketFor(byDate: Map<string, Bucket>, date: string): Bucket {
  * (`proc_google_trends_all_elections_interest_long`, `interest_raw`, one row
  * per collection date — weekly cadence, not aligned to month boundaries)
  * while polling comes from the month-aggregated gold table
- * (`gold_pesquisas_media_mensal_candidato`, one row per month's first day).
+ * (`gold_pesquisas_media_mensal_candidato`, one row per month's first day)
+ * and market expectations come from weekly Polymarket closing points.
  * The two are merged by exact date into the same series, so most months a
  * poll point sits on its own date alongside — not on top of — the nearest
  * attention points; each keeps its own line on the chart's shared time axis.
@@ -56,7 +57,7 @@ export function buildElectoralPanoramaSeries(
   candidate: string,
   year: ElectionYear,
   range: DateRange = {},
-  monthlyMarketExpectationRows: MonthlyMarketExpectationPoint[] = [],
+  weeklyMarketExpectationRows: WeeklyMarketExpectationPoint[] = [],
 ): ElectoralPanoramaPoint[] {
   const byDate = new Map<string, Bucket>();
 
@@ -95,7 +96,7 @@ export function buildElectoralPanoramaSeries(
     bucketFor(byDate, row.date).attention = row.interestRaw;
   }
 
-  for (const row of monthlyMarketExpectationRows) {
+  for (const row of weeklyMarketExpectationRows) {
     if (!isWithinRange(row.date, range)) {
       continue;
     }

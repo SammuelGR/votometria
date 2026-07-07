@@ -6,10 +6,10 @@ from sqlalchemy.orm import Session
 from app.core.database import get_db
 from app.schemas.market_expectation_options import MarketExpectationOptionsResponse
 from app.schemas.market_expectations import MarketExpectationInterval, MarketExpectationsResponse
-from app.schemas.monthly_market_expectations import MonthlyMarketExpectationsResponse
+from app.schemas.weekly_market_expectations import WeeklyMarketExpectationsResponse
 from app.services.market_expectation_options import get_market_expectation_options
 from app.services.market_expectations import get_market_expectations
-from app.services.monthly_market_expectations import get_monthly_market_expectations
+from app.services.weekly_market_expectations import get_weekly_market_expectations
 
 
 router = APIRouter()
@@ -45,14 +45,14 @@ def read_market_expectations(
 
 
 @router.get(
-    "/monthly-market-expectations",
-    response_model=MonthlyMarketExpectationsResponse,
+    "/weekly-market-expectations",
+    response_model=WeeklyMarketExpectationsResponse,
 )
-def read_monthly_market_expectations(
+def read_weekly_market_expectations(
     candidate: str = Query(default=""),
     db: Session = Depends(get_db),
 ):
-    return get_monthly_market_expectations(db, candidate=candidate)
+    return get_weekly_market_expectations(db, candidate=candidate)
 
 
 @router.get(

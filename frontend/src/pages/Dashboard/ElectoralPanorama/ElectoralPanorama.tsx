@@ -11,7 +11,7 @@ import {
 } from '~/components/ui';
 import { activePresetKey, periodsForYear } from '~/data/electionPeriods';
 import { useGoogleTrends } from '~/fetchers/hooks/useGoogleTrends';
-import { useMonthlyMarketExpectations } from '~/fetchers/hooks/useMonthlyMarketExpectations';
+import { useWeeklyMarketExpectations } from '~/fetchers/hooks/useWeeklyMarketExpectations';
 import { usePesquisasMensais } from '~/fetchers/hooks/usePesquisasMensais';
 import type { ElectionYear, TrendsMetric } from '~/services/googleTrends';
 import { buildElectoralPanoramaSeries } from '~/utils/electoralPanorama';
@@ -58,7 +58,7 @@ export default function ElectoralPanorama() {
   const activeCandidate =
     selection.year === electionYear && selection.candidate ? selection.candidate : (orderedTerms[0] ?? null);
 
-  const marketExpectations = useMonthlyMarketExpectations(activeCandidate, {
+  const marketExpectations = useWeeklyMarketExpectations(activeCandidate, {
     enabled: electionYear === 'current' && Boolean(activeCandidate),
   });
 
