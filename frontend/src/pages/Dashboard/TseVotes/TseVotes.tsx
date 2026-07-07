@@ -156,20 +156,10 @@ export default function TseVotes() {
 
           {firstComparison ? (
             <MetricCard
+              text={firstComparison.candidate}
               title="Variação 1º → 2º turno"
-              text={
-                <div className="space-y-4">
-                  <div>
-                    <p className="font-semibold text-foreground">{firstComparison.candidate}</p>
-                    <p className="text-sm text-emerald-600">
-                      {firstComparison.deltaVotes >= 0 ? '+' : ''}
-                      {firstComparison.deltaVotes.toLocaleString('pt-BR')} votos (
-                      {firstComparison.deltaPercent >= 0 ? '+' : ''}
-                      {firstComparison.deltaPercent.toLocaleString('pt-BR', { maximumFractionDigits: 1 })}% )
-                    </p>
-                  </div>
-                </div>
-              }
+              value={`${firstComparison.deltaVotes >= 0 ? '+' : ''}${firstComparison.deltaVotes.toLocaleString('pt-BR')} votos (${firstComparison.deltaPercent >= 0 ? '+' : ''}${firstComparison.deltaPercent.toLocaleString('pt-BR', { maximumFractionDigits: 1 })}%)`}
+              variant="positive"
             />
           ) : (
             <MetricCard title="Variação 1º → 2º turno" value="Sem comparação disponível" />
@@ -177,20 +167,10 @@ export default function TseVotes() {
 
           {secondComparison ? (
             <MetricCard
+              text={secondComparison.candidate}
               title="Variação 1º → 2º turno"
-              text={
-                <div className="space-y-4">
-                  <div>
-                    <p className="font-semibold text-foreground">{secondComparison.candidate}</p>
-                    <p className="text-sm text-emerald-600">
-                      {secondComparison.deltaVotes >= 0 ? '+' : ''}
-                      {secondComparison.deltaVotes.toLocaleString('pt-BR')} votos (
-                      {secondComparison.deltaPercent >= 0 ? '+' : ''}
-                      {secondComparison.deltaPercent.toLocaleString('pt-BR', { maximumFractionDigits: 1 })}% )
-                    </p>
-                  </div>
-                </div>
-              }
+              value={`${secondComparison.deltaVotes >= 0 ? '+' : ''}${secondComparison.deltaVotes.toLocaleString('pt-BR')} votos (${secondComparison.deltaPercent >= 0 ? '+' : ''}${secondComparison.deltaPercent.toLocaleString('pt-BR', { maximumFractionDigits: 1 })}%)`}
+              variant="positive"
             />
           ) : null}
         </div>
