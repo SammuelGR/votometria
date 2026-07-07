@@ -86,13 +86,13 @@ Probability values are returned in their stored analytical range from `0.0` to `
 
 For aggregated intervals, the backend returns the latest real record inside each time bucket. It does not create synthetic points or interpolate missing data.
 
-### Current Election: Monthly Market Expectations
+### Current Election: Weekly Market Expectations
 
 ```text
-GET /api/current-election/monthly-market-expectations
+GET /api/current-election/weekly-market-expectations
 ```
 
-Returns a monthly Polymarket series for one candidate label.
+Returns a weekly Polymarket series for one candidate label.
 
 Supported query parameters:
 
@@ -104,13 +104,13 @@ The endpoint only considers Polymarket records from `2026-01-01` onward.
 
 The response includes:
 
-- `points`: monthly market expectation points for the selected catalog candidate.
-- `points[].date`: canonical month date in `YYYY-MM-01` format.
-- `points[].probability`: latest real Polymarket probability available inside that month, returned as a percentage from `0.0` to `100.0`.
+- `points`: weekly market expectation points for the selected catalog candidate.
+- `points[].date`: date of the latest real Polymarket record inside the week, in `YYYY-MM-DD` format.
+- `points[].probability`: latest real Polymarket probability available inside that week, returned as a percentage from `0.0` to `100.0`.
 
-Monthly values are calculated from the last available Polymarket record inside each month.
+Weekly values are calculated from the last available Polymarket record inside each ISO week.
 
-If no candidate or records match, the endpoint returns an empty `points` list. It does not create synthetic points or interpolate missing months.
+If no candidate or records match, the endpoint returns an empty `points` list. It does not create synthetic points or interpolate missing weeks.
 
 ### Current Election: Market Expectation Options
 

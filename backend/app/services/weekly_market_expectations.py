@@ -6,24 +6,24 @@ from itertools import groupby
 from sqlalchemy.orm import Session
 
 from app.models import CandidateCatalog, PolymarketProbability
-from app.schemas.monthly_market_expectations import (
-    MonthlyMarketExpectationPoint,
-    MonthlyMarketExpectationsResponse,
+from app.schemas.weekly_market_expectations import (
+    WeeklyMarketExpectationPoint,
+    WeeklyMarketExpectationsResponse,
 )
 
 
 CURRENT_ELECTION_START = datetime(2026, 1, 1)
 
 
-def get_monthly_market_expectations(
+def get_weekly_market_expectations(
     db: Session,
     *,
     candidate: str,
-) -> MonthlyMarketExpectationsResponse:
+) -> WeeklyMarketExpectationsResponse:
     normalized_candidate = _normalize_candidate(candidate)
 
     if not normalized_candidate:
-        return MonthlyMarketExpectationsResponse(points=[])
+        return WeeklyMarketExpectationsResponse(points=[])
 
     records = (
         db.query(PolymarketProbability)
@@ -39,7 +39,7 @@ def get_monthly_market_expectations(
     )
 
     if not records:
-        return MonthlyMarketExpectationsResponse(points=[])
+        return WeeklyMarketExpectationsResponse(points=[])
 
     selected_candidate_id = _select_candidate_catalog_id(records)
     selected_records = [
@@ -48,8 +48,8 @@ def get_monthly_market_expectations(
         if record.candidate_catalog_id == selected_candidate_id
     ]
 
-    return MonthlyMarketExpectationsResponse(
-        points=_build_monthly_closing_points(selected_records)
+    return WeeklyMarketExpectationsResponse(
+        points=_build_weekly_closing_points(selected_records)
     )
 
 
@@ -81,17 +81,23 @@ def _select_candidate_catalog_id(records: list[PolymarketProbability]) -> int:
     return selected_record.candidate_catalog_id
 
 
-def _build_monthly_closing_points(
+def _week_key(record: PolymarketProbability) -> tuple[int, int]:
+    iso_year, iso_week, _ = record.timestamp.isocalendar()
+
+    return iso_year, iso_week
+
+
+def _build_weekly_closing_points(
     records: list[PolymarketProbability],
-) -> list[MonthlyMarketExpectationPoint]:
+) -> list[WeeklyMarketExpectationPoint]:
     return [
-        MonthlyMarketExpectationPoint(
-            date=f"{year}-{month:02d}-01",
+        WeeklyMarketExpectationPoint(
+            date=latest_record.timestamp.date().isoformat(),
             probability=latest_record.probability * 100,
         )
-        for (year, month), month_records in groupby(
+        for _, week_records in groupby(
             records,
-            key=lambda record: (record.timestamp.year, record.timestamp.month),
+            key=_week_key,
         )
-        for latest_record in [max(month_records, key=lambda record: record.timestamp)]
+        for latest_record in [max(week_records, key=lambda record: record.timestamp)]
     ]

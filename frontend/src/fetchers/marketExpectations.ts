@@ -33,17 +33,17 @@ export function getMarketExpectations(params?: MarketExpectationsParams) {
   });
 }
 
-export type MonthlyMarketExpectationPoint = {
+export type WeeklyMarketExpectationPoint = {
   date: string;
   probability: number;
 };
 
-type MonthlyMarketExpectationsResponse = {
-  points: MonthlyMarketExpectationPoint[];
+type WeeklyMarketExpectationsResponse = {
+  points: WeeklyMarketExpectationPoint[];
 };
 
-export function getMonthlyMarketExpectations(candidate: string) {
-  return fetcher<MonthlyMarketExpectationsResponse>('current-election/monthly-market-expectations', {
+export function getWeeklyMarketExpectations(candidate: string) {
+  return fetcher<WeeklyMarketExpectationsResponse>('current-election/weekly-market-expectations', {
     queryParams: { candidate },
   });
 }

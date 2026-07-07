@@ -156,6 +156,20 @@ deliberadamente multi-institucional:
     independentemente — mesmo efeito que `gold_pesquisas_media_movel_candidato`
     já tem via média simples por cenário; não é uma distorção nova desta
     tabela.
+  - **Alinhamento com Google Trends (só nesta tabela)**: como
+    `gold_pesquisas_media_mensal_candidato` é a tabela cruzada com
+    `proc_google_trends_all_elections_interest_long` nos gráficos de
+    atenção vs. intenção de voto, `nome_candidato_normalizado` aqui é
+    reescrito, dentro de `build_gold()` (`_apply_media_mensal_candidate_names`
+    em `transformers/enquetes.py`), para o mesmo texto usado como termo de
+    busca em `GOOGLE_TRENDS_ELECTION_GROUPS` (`constants.py`) do respectivo
+    `ano_eleicao` — ex. `alckmin` → `Geraldo Alckmin`, `meirelles` →
+    `Henrique Meirelles`. Nomes que não correspondem a um candidato real do
+    ciclo (ex. `barbosa`/2018, `doria`/2018 e 2022, `tarcisio`/2026) são
+    removidos só desta tabela. As outras quatro tabelas ouro
+    (`temporal`, `ultima_por_candidato`, `media_movel_candidato`,
+    `comparativo_candidatos`) e a prata mantêm a forma bruta
+    minúscula/sem-acento, sem esse recorte.
 
 ## Como executar
 

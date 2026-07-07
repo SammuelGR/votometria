@@ -391,7 +391,11 @@ def test_build_gold_haddad_alias_reconciliation_feeds_media_mensal():
     gold = _build_gold_from_rows(rows, ano_eleicao=2018)
     mensal = gold["media_mensal"]
 
-    haddad_mensal = mensal[mensal["nome_candidato_normalizado"] == "haddad"]
+    # media_mensal renames 2018 "haddad" to the Google Trends term "Haddad"
+    # (see test_media_mensal_renames_candidate_to_trends_term_by_year below);
+    # the other gold tables (checked in the sibling temporal-focused test)
+    # keep the raw lowercase-folded "haddad".
+    haddad_mensal = mensal[mensal["nome_candidato_normalizado"] == "Haddad"]
     assert len(haddad_mensal) == 1
     assert haddad_mensal["data_referencia"].iloc[0] == "2018-06-01"
     # both rows share the same tamanho_amostra (2 009), so the weighted mean
@@ -413,3 +417,50 @@ def test_build_gold_does_not_apply_haddad_2018_alias_outside_2018():
     temporal = gold["temporal"]
 
     assert temporal["nome_candidato_normalizado"].tolist() == ["algum candidato apoiado por lula"]
+
+
+def test_media_mensal_renames_candidate_to_trends_term_by_year():
+    # "Alckmin"/2018 -> "Geraldo Alckmin" (matches the Google Trends term in
+    # GOOGLE_TRENDS_ELECTION_GROUPS["2018"], so attention-vs-polling charts
+    # can cross the two series).
+    rows = [_poll_row(ano="2018", nome_candidato="Alckmin", percentual="15%")]
+    gold = _build_gold_from_rows(rows, ano_eleicao=2018)
+    mensal = gold["media_mensal"]
+
+    assert mensal["nome_candidato_normalizado"].tolist() == ["Geraldo Alckmin"]
+
+
+def test_media_mensal_rename_is_scoped_to_media_mensal_only():
+    # The other gold tables must keep the raw lowercase-folded form; only
+    # media_mensal is rewritten to the Trends term.
+    rows = [_poll_row(ano="2018", nome_candidato="Alckmin", percentual="15%")]
+    gold = _build_gold_from_rows(rows, ano_eleicao=2018)
+
+    assert gold["temporal"]["nome_candidato_normalizado"].tolist() == ["alckmin"]
+
+
+def test_media_mensal_drops_non_candidate_names_by_year():
+    # "Doria" never ran in 2018 or 2022; its media_mensal rows are dropped for
+    # both years without affecting a real candidate's aggregate for that month.
+    rows = [
+        _poll_row(cenario_id="cenario_1", ano="2018", nome_candidato="Doria", percentual="15%"),
+        _poll_row(cenario_id="cenario_2", ano="2018", nome_candidato="Lula", percentual="40%"),
+    ]
+    gold = _build_gold_from_rows(rows, ano_eleicao=2018)
+    mensal = gold["media_mensal"]
+
+    assert mensal["nome_candidato_normalizado"].tolist() == ["Lula"]
+
+
+def test_media_mensal_rename_disambiguates_bolsonaro_family_in_2026():
+    # 2026: "Bolsonaro" (the family/brand term) and "Flávio" (Datafolha's label
+    # for Flávio Bolsonaro) must resolve to two distinct Trends terms,
+    # "Bolsonaro" and "Flávio Bolsonaro" respectively.
+    rows = [
+        _poll_row(cenario_id="cenario_1", nome_candidato="Bolsonaro", percentual="30%"),
+        _poll_row(cenario_id="cenario_2", nome_candidato="Flávio", percentual="10%"),
+    ]
+    gold = _build_gold_from_rows(rows, ano_eleicao=2026)
+    mensal = gold["media_mensal"]
+
+    assert sorted(mensal["nome_candidato_normalizado"].tolist()) == ["Bolsonaro", "Flávio Bolsonaro"]

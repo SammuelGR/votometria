@@ -134,8 +134,12 @@ a aba como CSV: ver `google_sheets_sync.md`):
   `interest_scaled` entre anos diferentes sem sinalizar que as janelas são
   independentes (ver `google_trends_metodologia.md`).
 - O gráfico "Panorama eleitoral" consome
-  `proc_google_trends_all_elections_interest_monthly` (não o diário), cruzando
-  por mês com `gold_pesquisas_media_mensal_candidato` (enquetes) — ambos já
-  agregados por mês, então o eixo X do gráfico tem um tick por mês.
+  `proc_google_trends_all_elections_interest_long` (`interest_raw`, uma linha
+  por data de coleta — cadência semanal, sem agregação mensal), cruzando por
+  data exata com `gold_pesquisas_media_mensal_candidato` (enquetes, mensal) —
+  a linha de atenção fica granular por semana, recortada à janela coberta
+  pelas pesquisas do candidato, enquanto a de pesquisa mantém um ponto por
+  mês. O eixo X mostra rótulos dia/mês (não mês/ano) para não repetir o
+  mesmo rótulo em ticks vizinhos.
 - Metadados (`geo`, `timeframe`, `source`, `batch_id`, `anchor_term`, `collected_at`)
   permitem exibir contexto e data de atualização sem consultar o backend.

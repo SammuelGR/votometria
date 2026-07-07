@@ -10,17 +10,13 @@ import {
   SourceBadge,
 } from '~/components/ui';
 import { activePresetKey, periodsForYear } from '~/data/electionPeriods';
-import { useGoogleTrendsMonthly } from '~/fetchers/hooks/useGoogleTrendsMonthly';
-import { useMonthlyMarketExpectations } from '~/fetchers/hooks/useMonthlyMarketExpectations';
+import { useGoogleTrends } from '~/fetchers/hooks/useGoogleTrends';
+import { useWeeklyMarketExpectations } from '~/fetchers/hooks/useWeeklyMarketExpectations';
 import { usePesquisasMensais } from '~/fetchers/hooks/usePesquisasMensais';
-import type { ElectionYear } from '~/services/googleTrends';
-import {
-  buildElectoralPanoramaMonthlySeries,
-  filterTrendsMonthlyByYear,
-  trendsTermsByMeanMonthly,
-} from '~/utils/electoralPanorama';
+import type { ElectionYear, TrendsMetric } from '~/services/googleTrends';
+import { buildElectoralPanoramaSeries } from '~/utils/electoralPanorama';
 import { filterPollMonthlyByYear } from '~/utils/pesquisasMensais';
-import { type DateRange, isWithinRange } from '~/utils/trends';
+import { filterByYear, isWithinRange, termsByMean, type DateRange } from '~/utils/trends';
 
 const yearOptions = [
   { label: '2018', value: '2018' },
@@ -29,9 +25,10 @@ const yearOptions = [
 ];
 
 const EMPTY_RANGE: DateRange = {};
+const METRIC: TrendsMetric = 'interestRaw';
 
 export default function ElectoralPanorama() {
-  const trends = useGoogleTrendsMonthly();
+  const trends = useGoogleTrends();
   const polls = usePesquisasMensais();
 
   const [electionYear, setElectionYear] = useState<ElectionYear>('current');
@@ -50,21 +47,18 @@ export default function ElectoralPanorama() {
   const presets = periodsForYear(electionYear);
   const range = rangeState.year === electionYear ? rangeState.range : EMPTY_RANGE;
 
-  const yearTrendsRows = useMemo(
-    () => filterTrendsMonthlyByYear(trends.data ?? [], electionYear),
-    [trends.data, electionYear],
-  );
+  const yearTrendsRows = useMemo(() => filterByYear(trends.data ?? [], electionYear), [trends.data, electionYear]);
   const scopedTrendsRows = useMemo(
     () => yearTrendsRows.filter((row) => isWithinRange(row.date, range)),
     [yearTrendsRows, range],
   );
-  const orderedTerms = useMemo(() => trendsTermsByMeanMonthly(scopedTrendsRows), [scopedTrendsRows]);
+  const orderedTerms = useMemo(() => termsByMean(scopedTrendsRows, METRIC), [scopedTrendsRows]);
   const candidateOptions = orderedTerms.map((term) => ({ label: term, value: term }));
 
   const activeCandidate =
     selection.year === electionYear && selection.candidate ? selection.candidate : (orderedTerms[0] ?? null);
 
-  const marketExpectations = useMonthlyMarketExpectations(activeCandidate, {
+  const marketExpectations = useWeeklyMarketExpectations(activeCandidate, {
     enabled: electionYear === 'current' && Boolean(activeCandidate),
   });
 
@@ -78,7 +72,7 @@ export default function ElectoralPanorama() {
       return [];
     }
 
-    return buildElectoralPanoramaMonthlySeries(
+    return buildElectoralPanoramaSeries(
       yearTrendsRows,
       yearPollRows,
       activeCandidate,
